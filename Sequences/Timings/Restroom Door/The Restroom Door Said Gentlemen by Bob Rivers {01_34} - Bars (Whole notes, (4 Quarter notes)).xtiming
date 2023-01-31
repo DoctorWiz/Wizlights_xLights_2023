@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Bars (Whole notes, (4 Quarter notes))" SourceVersion="2019.32">
+  <EffectLayer>
+    <Effect label="1" starttime="175" endtime="1450" />
+    <Effect label="2" starttime="1450" endtime="2975" />
+    <Effect label="3" starttime="2975" endtime="4525" />
+    <Effect label="4" starttime="4525" endtime="6075" />
+    <Effect label="5" starttime="6075" endtime="7600" />
+    <Effect label="6" starttime="7600" endtime="9125" />
+    <Effect label="7" starttime="9125" endtime="10675" />
+    <Effect label="8" starttime="10675" endtime="12250" />
+    <Effect label="9" starttime="12250" endtime="13800" />
+    <Effect label="10" starttime="13800" endtime="15325" />
+    <Effect label="11" starttime="15325" endtime="16850" />
+    <Effect label="12" starttime="16850" endtime="18400" />
+    <Effect label="13" starttime="18400" endtime="19925" />
+    <Effect label="14" starttime="19925" endtime="21450" />
+    <Effect label="15" starttime="21450" endtime="22975" />
+    <Effect label="16" starttime="22975" endtime="24525" />
+    <Effect label="17" starttime="24525" endtime="26075" />
+    <Effect label="18" starttime="26075" endtime="27600" />
+    <Effect label="19" starttime="27600" endtime="29150" />
+    <Effect label="20" starttime="29150" endtime="30675" />
+    <Effect label="21" starttime="30675" endtime="32175" />
+    <Effect label="22" starttime="32175" endtime="33700" />
+    <Effect label="23" starttime="33700" endtime="35250" />
+    <Effect label="24" starttime="35250" endtime="36775" />
+    <Effect label="25" starttime="36775" endtime="38325" />
+    <Effect label="26" starttime="38325" endtime="39875" />
+    <Effect label="27" starttime="39875" endtime="41425" />
+    <Effect label="28" starttime="41425" endtime="42950" />
+    <Effect label="29" starttime="42950" endtime="44525" />
+    <Effect label="30" starttime="44525" endtime="46025" />
+    <Effect label="31" starttime="46025" endtime="47550" />
+    <Effect label="32" starttime="47550" endtime="49125" />
+    <Effect label="33" starttime="49125" endtime="50650" />
+    <Effect label="34" starttime="50650" endtime="52175" />
+    <Effect label="35" starttime="52175" endtime="53700" />
+    <Effect label="36" starttime="53700" endtime="55275" />
+    <Effect label="37" starttime="55275" endtime="56775" />
+    <Effect label="38" starttime="56775" endtime="58300" />
+    <Effect label="39" starttime="58300" endtime="59850" />
+    <Effect label="40" starttime="59850" endtime="61400" />
+    <Effect label="41" starttime="61400" endtime="62925" />
+    <Effect label="42" starttime="62925" endtime="64450" />
+    <Effect label="43" starttime="64450" endtime="66000" />
+    <Effect label="44" starttime="66000" endtime="67550" />
+    <Effect label="45" starttime="67550" endtime="69050" />
+    <Effect label="46" starttime="69050" endtime="70600" />
+    <Effect label="47" starttime="70600" endtime="72150" />
+    <Effect label="48" starttime="72150" endtime="73700" />
+    <Effect label="49" starttime="73700" endtime="75225" />
+    <Effect label="50" starttime="75225" endtime="76775" />
+    <Effect label="51" starttime="76775" endtime="78300" />
+    <Effect label="52" starttime="78300" endtime="79875" />
+    <Effect label="53" starttime="79875" endtime="81425" />
+    <Effect label="54" starttime="81425" endtime="82900" />
+    <Effect label="55" starttime="82900" endtime="84425" />
+    <Effect label="56" starttime="84425" endtime="86000" />
+    <Effect label="57" starttime="86000" endtime="87525" />
+    <Effect label="58" starttime="87525" endtime="89350" />
+    <Effect label="59" starttime="89350" endtime="91175" />
+    <Effect label="60" starttime="91175" endtime="93050" />
+  </EffectLayer>
+</timing>

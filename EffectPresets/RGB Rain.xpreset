@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset SourceVersion="2022.22" >
+<effect name="RGB Rain" settings="CopyFormat1&#9;0&#9;1&#9;8&#9;0&#9;117&#9;PASTE_BY_CELL&#10;Meteors&#9;E_CHECKBOX_Meteors_UseMusic=0,E_CHOICE_Meteors_Effect=Down,E_CHOICE_Meteors_Type=Palette,E_SLIDER_Meteors_Count=20,E_SLIDER_Meteors_Length=25,E_SLIDER_Meteors_Speed=10,E_SLIDER_Meteors_Swirl_Intensity=4&#9;C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1&#9;56850&#9;72250&#9;15&#9;-1000&#9;117&#9;148&#9;20&#9;100&#10;" version="0007" xLightsVersion="2022.22" />
+</preset>

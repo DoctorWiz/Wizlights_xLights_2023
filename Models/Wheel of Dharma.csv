@@ -1,0 +1,65 @@
+Model Name,Description,Display As,String Type,String Count,Node Count,Light Count,Est Current (Amps),Channels Per Node, Channel Count,Start Channel,Start Channel No,End Channel No,Default Buffer W x H,Preview,Controller Connection,Controller Type,Controller Description,Output,IP,Baud,Universe/Id,Controller Channel,Inactive
+"Matrix","","Matrix","RGB Nodes",32,5440,5440,326.40,3,16320,#4:1,1221,17540,170 x 32,Default,,E131,"APix16 Out #01 Eave Pixels 1 {L} Horiz",4,10.3.7.188,,4-5,1,FALSE
+"Wheel of Dharma","Wheel of Dharma","Custom","RGB Nodes",1,128,128,7.68,3,384,>Matrix:1,17541,17924,48 x 48,Default,,E131,"APix16 Out #16",19,10.3.7.188,,34-35,961,FALSE
+
+"Model Count",2
+"First Used Channel",1221
+"Last Used Channel",17924
+"Actual Used Channel",16704
+"Bulbs",5568
+
+
+Output Number,Start Absolute,End Absolute,Type,IP,Multicast,Universe/Id,Comm Port,Baud Rate,Description,Channels,Active,Suppress Duplicates,Auto Size,FPP Proxy,Keep Channel Numbers,Channels Per Packet,Port,Dont Configure,Priority,Vendor,Model,Supports Virtual Strings,Supports Smart Remotes
+1,1,200,E131,10.3.7.188,N,1,,,APix16 RS-485 #1,200,N,N,,,,,,,100,,,,
+2,201,710,E131,10.3.7.188,N,2,,,APix16 RS-485 #2,510,N,Y,,,,,,,100,,,,
+3,711,1220,E131,10.3.7.188,N,3,,,APix16 RS-485 #3,510,N,Y,,,,,,,100,,,,
+4,1221,1732,E131,10.3.7.188,N,4,,,APix16 Out #01 Eave Pixels 1 {L} Horiz,512,Y,Y,,,,,,,100,,,,
+4,1733,2244,E131,10.3.7.188,N,5,,,APix16 Out #01 Eave Pixels 1 {L} Horiz,512,Y,Y,,,,,,,100,,,,
+5,2245,2756,E131,10.3.7.188,N,6,,,APix16 Out #02 Eave Pixels 2 {L} Diag,512,Y,N,,,,,,,100,,,,
+5,2757,3268,E131,10.3.7.188,N,7,,,APix16 Out #02 Eave Pixels 2 {L} Diag,512,Y,N,,,,,,,100,,,,
+6,3269,3780,E131,10.3.7.188,N,8,,,APix16 Out #03 Eave Pixels 3 {R} Diag,512,Y,N,,,,,,,100,,,,
+6,3781,4292,E131,10.3.7.188,N,9,,,APix16 Out #03 Eave Pixels 3 {R} Diag,512,Y,N,,,,,,,100,,,,
+7,4293,4804,E131,10.3.7.188,N,10,,,APix16 Out #04 Eave Pixels 4 {R} Horiz,512,Y,N,,,,,,,100,,,,
+7,4805,5316,E131,10.3.7.188,N,11,,,APix16 Out #04 Eave Pixels 4 {R} Horiz,512,Y,N,,,,,,,100,,,,
+8,5317,5828,E131,10.3.7.188,N,12,,,APix16 Out #05 Big Pixel Tree,512,Y,N,,,,,,,100,,,,
+8,5829,6340,E131,10.3.7.188,N,13,,,APix16 Out #05 Big Pixel Tree,512,Y,N,,,,,,,100,,,,
+9,6341,6852,E131,10.3.7.188,N,14,,,APix16 Out #06,512,Y,N,,,,,,,100,,,,
+9,6853,7364,E131,10.3.7.188,N,15,,,APix16 Out #06,512,Y,N,,,,,,,100,,,,
+10,7365,7876,E131,10.3.7.188,N,16,,,APix16 Out #07,512,Y,N,,,,,,,100,,,,
+10,7877,8388,E131,10.3.7.188,N,17,,,APix16 Out #07,512,Y,N,,,,,,,100,,,,
+11,8389,8900,E131,10.3.7.188,N,18,,,APix16 Out #08,512,Y,N,,,,,,,100,,,,
+11,8901,9412,E131,10.3.7.188,N,19,,,APix16 Out #08,512,Y,N,,,,,,,100,,,,
+12,9413,9924,E131,10.3.7.188,N,20,,,APix16 Out #09,512,Y,N,,,,,,,100,,,,
+12,9925,10436,E131,10.3.7.188,N,21,,,APix16 Out #09,512,Y,N,,,,,,,100,,,,
+13,10437,10948,E131,10.3.7.188,N,22,,,APix16 Out #10,512,Y,Y,,,,,,,100,,,,
+13,10949,11460,E131,10.3.7.188,N,23,,,APix16 Out #10,512,Y,Y,,,,,,,100,,,,
+14,11461,11972,E131,10.3.7.188,N,24,,,APix16 Out #11,512,Y,Y,,,,,,,100,,,,
+14,11973,12484,E131,10.3.7.188,N,25,,,APix16 Out #11,512,Y,Y,,,,,,,100,,,,
+15,12485,12996,E131,10.3.7.188,N,26,,,APix16 Out #12,512,Y,Y,,,,,,,100,,,,
+15,12997,13508,E131,10.3.7.188,N,27,,,APix16 Out #12,512,Y,Y,,,,,,,100,,,,
+16,13509,14020,E131,10.3.7.188,N,28,,,APix16 Out #13,512,Y,Y,,,,,,,100,,,,
+16,14021,14532,E131,10.3.7.188,N,29,,,APix16 Out #13,512,Y,Y,,,,,,,100,,,,
+17,14533,15044,E131,10.3.7.188,N,30,,,APix16 Out #14,512,Y,Y,,,,,,,100,,,,
+17,15045,15556,E131,10.3.7.188,N,31,,,APix16 Out #14,512,Y,Y,,,,,,,100,,,,
+18,15557,16068,E131,10.3.3.188,N,32,,,APix16 Out #15,512,Y,N,,,,,,,100,,,,
+18,16069,16580,E131,10.3.3.188,N,33,,,APix16 Out #15,512,Y,N,,,,,,,100,,,,
+19,16581,17092,E131,10.3.7.188,N,34,,,APix16 Out #16,512,Y,Y,,,,,,,100,,,,
+19,17093,17604,E131,10.3.7.188,N,35,,,APix16 Out #16,512,Y,Y,,,,,,,100,,,,
+20,17605,18116,E131,10.3.3.189,N,37,,,APix4 Out #1 Pixel Fence,512,Y,Y,,,,,,,100,,,,
+20,18117,18628,E131,10.3.3.189,N,38,,,APix4 Out #1 Pixel Fence,512,Y,Y,,,,,,,100,,,,
+20,18629,19140,E131,10.3.3.189,N,39,,,APix4 Out #1 Pixel Fence,512,Y,Y,,,,,,,100,,,,
+20,19141,19652,E131,10.3.3.189,N,40,,,APix4 Out #1 Pixel Fence,512,Y,Y,,,,,,,100,,,,
+21,19653,20164,E131,10.3.3.189,N,41,,,APix4 Out #2,512,Y,N,,,,,,,100,,,,
+21,20165,20676,E131,10.3.3.189,N,42,,,APix4 Out #2,512,Y,N,,,,,,,100,,,,
+21,20677,21188,E131,10.3.3.189,N,43,,,APix4 Out #2,512,Y,N,,,,,,,100,,,,
+21,21189,21700,E131,10.3.3.189,N,44,,,APix4 Out #2,512,Y,N,,,,,,,100,,,,
+22,21701,22212,E131,10.3.3.189,N,45,,,APix4 Out #3,512,Y,N,,,,,,,100,,,,
+22,22213,22724,E131,10.3.3.189,N,46,,,APix4 Out #3,512,Y,N,,,,,,,100,,,,
+22,22725,23236,E131,10.3.3.189,N,47,,,APix4 Out #3,512,Y,N,,,,,,,100,,,,
+22,23237,23748,E131,10.3.3.189,N,48,,,APix4 Out #3,512,Y,N,,,,,,,100,,,,
+23,23749,24258,E131,10.3.3.189,N,49,,,APix4 Out #4,510,Y,N,,,,,,,100,,,,
+23,24259,24768,E131,10.3.3.189,N,50,,,APix4 Out #4,510,Y,N,,,,,,,100,,,,
+23,24769,25278,E131,10.3.3.189,N,51,,,APix4 Out #4,510,Y,N,,,,,,,100,,,,
+23,25279,25788,E131,10.3.3.189,N,52,,,APix4 Out #4,510,Y,N,,,,,,,100,,,,
+24,25789,25804,LOR Optimised,,,1,/dev/ttyUSB0,115200,LOR Regular Network 1,16,N,N,,,,,,,,,,,
+25,25805,25908,LOR Optimised,,,7,/dev/ttyUSB1,512000,LOR Enhanced 2-7,104,N,N,,,,,,,,,,,

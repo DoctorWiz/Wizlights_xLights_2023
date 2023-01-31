@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Elvis Singing" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="550" endtime="850" />
+    <Effect label="" starttime="850" endtime="6250" />
+    <Effect label="" starttime="6250" endtime="6500" />
+    <Effect label="" starttime="7350" endtime="7500" />
+    <Effect label="" starttime="7500" endtime="9500" />
+    <Effect label="" starttime="9500" endtime="9790" />
+    <Effect label="" starttime="11350" endtime="11600" />
+    <Effect label="" starttime="11600" endtime="19800" />
+    <Effect label="" starttime="19800" endtime="20200" />
+    <Effect label="" starttime="22650" endtime="22850" />
+    <Effect label="" starttime="22850" endtime="31450" />
+    <Effect label="" starttime="31450" endtime="31650" />
+    <Effect label="" starttime="34100" endtime="34350" />
+    <Effect label="" starttime="34350" endtime="41700" />
+    <Effect label="" starttime="41700" endtime="41900" />
+    <Effect label="" starttime="42200" endtime="42750" />
+    <Effect label="" starttime="42750" endtime="50900" />
+    <Effect label="" starttime="50900" endtime="51300" />
+    <Effect label="" starttime="52450" endtime="52700" />
+    <Effect label="" starttime="52700" endtime="60350" />
+    <Effect label="" starttime="60350" endtime="60850" />
+    <Effect label="" starttime="63350" endtime="63600" />
+    <Effect label="" starttime="63600" endtime="72650" />
+    <Effect label="" starttime="72650" endtime="72850" />
+    <Effect label="" starttime="74050" endtime="74250" />
+    <Effect label="" starttime="74250" endtime="81170" />
+    <Effect label="" starttime="81170" endtime="81260" />
+    <Effect label="" starttime="103500" endtime="103540" />
+    <Effect label="" starttime="103540" endtime="107410" />
+    <Effect label="" starttime="107410" endtime="107640" />
+    <Effect label="" starttime="108780" endtime="108860" />
+    <Effect label="" starttime="108860" endtime="113010" />
+    <Effect label="" starttime="113010" endtime="113470" />
+    <Effect label="" starttime="114110" endtime="114190" />
+    <Effect label="" starttime="114190" endtime="121120" />
+    <Effect label="" starttime="121120" endtime="121640" />
+  </EffectLayer>
+</timing>

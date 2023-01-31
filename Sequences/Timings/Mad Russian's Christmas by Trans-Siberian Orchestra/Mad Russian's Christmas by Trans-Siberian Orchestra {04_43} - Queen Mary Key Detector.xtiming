@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Queen Mary Key Detector" SourceVersion="2019.32">
+  <EffectLayer>
+    <Effect label="E minor" starttime="0" endtime="62415" />
+    <Effect label="C major" starttime="62415" endtime="70589" />
+    <Effect label="G major" starttime="70589" endtime="72818" />
+    <Effect label="E minor" starttime="72818" endtime="80248" />
+    <Effect label="C minor" starttime="80248" endtime="81734" />
+    <Effect label="G major" starttime="81734" endtime="111456" />
+    <Effect label="F♯ minor" starttime="111456" endtime="140434" />
+    <Effect label="G minor" starttime="140434" endtime="145636" />
+    <Effect label="G major" starttime="145636" endtime="146379" />
+    <Effect label="D major" starttime="146379" endtime="153066" />
+    <Effect label="F♯ minor" starttime="153066" endtime="190218" />
+    <Effect label="G major" starttime="190218" endtime="193190" />
+    <Effect label="B minor" starttime="193190" endtime="215481" />
+    <Effect label="A major" starttime="215481" endtime="222912" />
+    <Effect label="G major" starttime="222912" endtime="242974" />
+    <Effect label="D major" starttime="242974" endtime="258577" />
+    <Effect label="G major" starttime="258577" endtime="283278" />
+  </EffectLayer>
+</timing>

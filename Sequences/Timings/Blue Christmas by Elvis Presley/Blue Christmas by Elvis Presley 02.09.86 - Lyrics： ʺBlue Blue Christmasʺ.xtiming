@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Lyrics: &quot;Blue Blue Christmas&quot;" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="550" endtime="850" />
+    <Effect label="" starttime="850" endtime="2660" />
+    <Effect label="" starttime="2660" endtime="5210" />
+    <Effect label="" starttime="5210" endtime="6250" />
+    <Effect label="" starttime="6250" endtime="6500" />
+    <Effect label="" starttime="11350" endtime="11600" />
+    <Effect label="" starttime="11600" endtime="12960" />
+    <Effect label="" starttime="12960" endtime="15660" />
+    <Effect label="" starttime="42200" endtime="42700" />
+    <Effect label="" starttime="42700" endtime="44250" />
+    <Effect label="" starttime="44250" endtime="46750" />
+    <Effect label="" starttime="46750" endtime="48400" />
+    <Effect label="" starttime="52500" endtime="52700" />
+    <Effect label="" starttime="52700" endtime="54400" />
+    <Effect label="" starttime="54400" endtime="56800" />
+    <Effect label="" starttime="74050" endtime="74250" />
+    <Effect label="" starttime="74250" endtime="77000" />
+    <Effect label="" starttime="77000" endtime="77750" />
+    <Effect label="" starttime="77750" endtime="78510" />
+    <Effect label="" starttime="78510" endtime="78730" />
+    <Effect label="" starttime="78730" endtime="78900" />
+    <Effect label="" starttime="78900" endtime="79110" />
+    <Effect label="" starttime="79110" endtime="79350" />
+    <Effect label="" starttime="79350" endtime="79550" />
+    <Effect label="" starttime="79550" endtime="81170" />
+    <Effect label="" starttime="81170" endtime="81260" />
+    <Effect label="" starttime="114110" endtime="114190" />
+    <Effect label="" starttime="114190" endtime="116960" />
+    <Effect label="" starttime="116960" endtime="117750" />
+    <Effect label="" starttime="117750" endtime="117910" />
+    <Effect label="" starttime="117910" endtime="118110" />
+    <Effect label="" starttime="118110" endtime="118270" />
+    <Effect label="" starttime="118270" endtime="118430" />
+    <Effect label="" starttime="118430" endtime="118660" />
+    <Effect label="" starttime="118660" endtime="118930" />
+    <Effect label="" starttime="118930" endtime="119000" />
+    <Effect label="" starttime="119000" endtime="119390" />
+    <Effect label="" starttime="119390" endtime="121120" />
+    <Effect label="" starttime="121120" endtime="121640" />
+  </EffectLayer>
+</timing>

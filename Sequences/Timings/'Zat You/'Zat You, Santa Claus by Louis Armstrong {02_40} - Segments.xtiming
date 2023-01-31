@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Segments" SourceVersion="2019.32">
+  <EffectLayer>
+    <Effect label="N1" starttime="0" endtime="43386" />
+    <Effect label="A" starttime="43386" endtime="56959" />
+    <Effect label="N2" starttime="56959" endtime="105570" />
+    <Effect label="A" starttime="105570" endtime="119153" />
+    <Effect label="N3" starttime="119153" endtime="160798" />
+  </EffectLayer>
+</timing>

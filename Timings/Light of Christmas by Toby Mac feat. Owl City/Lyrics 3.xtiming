@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Lyrics 3" SourceVersion="2022.22">
+   <EffectLayer>
+      <Effect label="Oh, oh, oh, oh, oh" starttime="160975" endtime="162800" />
+      <Effect label="Oh, oh" starttime="162900" endtime="163875" />
+      <Effect label="For the people that don&apos;t have it so good" starttime="211275" endtime="213575" />
+   </EffectLayer>
+   <EffectLayer>
+      <Effect label="Oh" starttime="160975" endtime="161225" />
+      <Effect label="oh" starttime="161450" endtime="161700" />
+      <Effect label="oh" starttime="161950" endtime="162125" />
+      <Effect label="oh" starttime="162175" endtime="162325" />
+      <Effect label="oh" starttime="162375" endtime="162800" />
+      <Effect label="Oh" starttime="162900" endtime="163175" />
+      <Effect label="oh" starttime="163400" endtime="163650" />
+      <Effect label="For" starttime="211275" endtime="211400" />
+      <Effect label="the" starttime="211400" endtime="211525" />
+      <Effect label="people" starttime="211525" endtime="211775" />
+      <Effect label="that" starttime="211775" endtime="212000" />
+      <Effect label="don&apos;t" starttime="212000" endtime="212225" />
+      <Effect label="have" starttime="212225" endtime="212450" />
+      <Effect label="it" starttime="212450" endtime="212725" />
+      <Effect label="so" starttime="212725" endtime="212975" />
+      <Effect label="good" starttime="212975" endtime="213575" />
+   </EffectLayer>
+   <EffectLayer>
+      <Effect label="O" starttime="87400" endtime="87675" />
+      <Effect label="O" starttime="87850" endtime="88125" />
+      <Effect label="O" starttime="88375" endtime="88525" />
+      <Effect label="O" starttime="88600" endtime="88750" />
+      <Effect label="O" starttime="88825" endtime="89100" />
+      <Effect label="O" starttime="89325" endtime="89600" />
+      <Effect label="O" starttime="89825" endtime="90075" />
+      <Effect label="O" starttime="91300" endtime="91575" />
+      <Effect label="O" starttime="91750" endtime="92025" />
+      <Effect label="O" starttime="92275" endtime="92425" />
+      <Effect label="O" starttime="92500" endtime="92650" />
+      <Effect label="O" starttime="92725" endtime="93000" />
+      <Effect label="O" starttime="93225" endtime="93500" />
+      <Effect label="O" starttime="93725" endtime="93975" />
+      <Effect label="O" starttime="108700" endtime="108975" />
+      <Effect label="O" starttime="109150" endtime="109425" />
+      <Effect label="O" starttime="109675" endtime="109825" />
+      <Effect label="O" starttime="109900" endtime="110050" />
+      <Effect label="O" starttime="110125" endtime="110400" />
+      <Effect label="O" starttime="110625" endtime="110900" />
+      <Effect label="O" starttime="111125" endtime="111375" />
+      <Effect label="O" starttime="157125" endtime="157400" />
+      <Effect label="O" starttime="157575" endtime="157850" />
+      <Effect label="O" starttime="158100" endtime="158250" />
+      <Effect label="O" starttime="158325" endtime="158475" />
+      <Effect label="O" starttime="158550" endtime="158825" />
+      <Effect label="O" starttime="159050" endtime="159325" />
+      <Effect label="O" starttime="159550" endtime="159800" />
+      <Effect label="O" starttime="160975" endtime="161250" />
+      <Effect label="O" starttime="161425" endtime="161700" />
+      <Effect label="O" starttime="161950" endtime="162100" />
+      <Effect label="O" starttime="162175" endtime="162325" />
+      <Effect label="O" starttime="162400" endtime="162675" />
+      <Effect label="O" starttime="162900" endtime="163175" />
+      <Effect label="O" starttime="163400" endtime="163650" />
+      <Effect label="O" starttime="164825" endtime="165100" />
+      <Effect label="O" starttime="165275" endtime="165550" />
+      <Effect label="O" starttime="165800" endtime="165950" />
+      <Effect label="O" starttime="166025" endtime="166175" />
+      <Effect label="O" starttime="166250" endtime="166525" />
+      <Effect label="O" starttime="166750" endtime="167025" />
+      <Effect label="O" starttime="167250" endtime="167500" />
+      <Effect label="O" starttime="168725" endtime="169000" />
+      <Effect label="O" starttime="169175" endtime="169450" />
+      <Effect label="O" starttime="169700" endtime="169850" />
+      <Effect label="O" starttime="169925" endtime="170075" />
+      <Effect label="O" starttime="170150" endtime="170425" />
+      <Effect label="O" starttime="170650" endtime="170925" />
+      <Effect label="O" starttime="171150" endtime="171400" />
+      <Effect label="FV" starttime="211275" endtime="211325" />
+      <Effect label="O" starttime="211325" endtime="211375" />
+      <Effect label="etc" starttime="211375" endtime="211400" />
+      <Effect label="etc" starttime="211400" endtime="211450" />
+      <Effect label="AI" starttime="211450" endtime="211525" />
+      <Effect label="MBP" starttime="211525" endtime="211575" />
+      <Effect label="E" starttime="211575" endtime="211625" />
+      <Effect label="MBP" starttime="211625" endtime="211675" />
+      <Effect label="AI" starttime="211675" endtime="211725" />
+      <Effect label="L" starttime="211725" endtime="211775" />
+      <Effect label="etc" starttime="211775" endtime="211825" />
+      <Effect label="AI" starttime="211825" endtime="211950" />
+      <Effect label="etc" starttime="211950" endtime="212000" />
+      <Effect label="etc" starttime="212000" endtime="212050" />
+      <Effect label="O" starttime="212050" endtime="212175" />
+      <Effect label="etc" starttime="212175" endtime="212225" />
+      <Effect label="etc" starttime="212225" endtime="212275" />
+      <Effect label="AI" starttime="212275" endtime="212350" />
+      <Effect label="FV" starttime="212350" endtime="212450" />
+      <Effect label="AI" starttime="212450" endtime="212675" />
+      <Effect label="etc" starttime="212675" endtime="212725" />
+      <Effect label="etc" starttime="212725" endtime="212775" />
+      <Effect label="O" starttime="212775" endtime="212975" />
+      <Effect label="etc" starttime="212975" endtime="213025" />
+      <Effect label="U" starttime="213025" endtime="213525" />
+      <Effect label="etc" starttime="213525" endtime="213575" />
+   </EffectLayer>
+</timing>

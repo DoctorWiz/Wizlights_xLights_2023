@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Lyrics - First Third" SourceVersion="2021.20">
+   <EffectLayer>
+      <Effect label="Look, Toto! There it is! The mall!" starttime="3200" endtime="6925" />
+      <Effect label="Yap, yap, yap!" starttime="6925" endtime="7300" />
+      <Effect label="Gee, it&apos;s a lot bigger than the stores back home." starttime="7300" endtime="11600" />
+      <Effect label="I bet they waste a lot of electricity with all those decorations." starttime="11600" endtime="16025" />
+      <Effect label="I sure hope Santa&apos;s there." starttime="16025" endtime="18025" />
+      <Effect label="(Knocking)" starttime="18025" endtime="20875" />
+      <Effect label="Who are you? !" starttime="20875" endtime="22175" />
+      <Effect label="I&apos;m Dorothy, and I&apos;m trying to find Santa&apos;s workshop" starttime="22175" endtime="26225" />
+      <Effect label="The mall is closed! Now, go away!" starttime="26225" endtime="28975" />
+      <Effect label="" starttime="28975" endtime="32525" />
+      <Effect label="But we&apos;ve come so far on the yellow snow road." starttime="32525" endtime="36475" />
+      <Effect label="My shoes got wrecked and I brought Auntie Em&apos;s gold card with me." starttime="36475" endtime="42525" />
+      <Effect label="It&apos;s got a $10, 000 limit" starttime="42525" endtime="45950" />
+      <Effect label="" starttime="45950" endtime="47300" />
+      <Effect label="Now, now, calm down little girl." starttime="47300" endtime="49600" />
+      <Effect label="You got a gold card?" starttime="49600" endtime="50900" />
+      <Effect label="Yap, Yap" starttime="50900" endtime="51475" />
+      <Effect label="Why didn&apos;t ya&apos; say so?" starttime="51475" endtime="53175" />
+      <Effect label="That&apos;s a card of a different color." starttime="53175" endtime="54925" />
+      <Effect label="Come on in" starttime="54925" endtime="56025" />
+      <Effect label="(Panting)" starttime="56025" endtime="63250" />
+      <Effect label="Ho ho ho!" starttime="63250" endtime="66250" />
+      <Effect label="I am the overweight and wonderful Claus." starttime="66250" endtime="71750" />
+      <Effect label="Who dares disturb my long winter&apos;s nap?" starttime="71750" endtime="77575" />
+      <Effect label="I-if you please, sir, Mr. Claus, I-I&apos;m Dorothy and I want. . ." starttime="77575" endtime="82525" />
+      <Effect label="Silence! The great Claus knows why you are here." starttime="82525" endtime="87475" />
+   </EffectLayer>
+</timing>

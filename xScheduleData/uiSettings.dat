@@ -1,0 +1,1 @@
+{"webName":"xLights Scheduler","webColor":"#004800","notificationLevel":"1","pages":[{"page":"home","values":[true,false]},{"page":"playlists","values":[true,true]},{"page":"settings","values":[true,true]}],"navbuttons":[{"random":true,"steplooping":false,"playlistlooping":true,"volumeMute":true,"brightnessLevel":false,"outputtolights":true,"toggleMute":false}]}

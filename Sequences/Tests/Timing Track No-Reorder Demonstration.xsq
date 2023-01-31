@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2022.22</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes/>
+  <EffectDB/>
+  <DataLayers>
+    <DataLayer lor_params="5701752" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="500ms Metronome" visible="1" views="All Timings" active="0"/>
+    <Element collapsed="0" type="timing" name="100ms Metronome" visible="1" views="All Timings" active="0"/>
+    <Element collapsed="0" type="timing" name="300ms Metronome" visible="1" views="All Timings" active="1"/>
+    <Element collapsed="0" type="timing" name="200ms Metronome" visible="1" views="All Timings" active="0"/>
+    <Element collapsed="0" type="timing" name="400ms Metronome" visible="1" views="All Timings" active="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="500ms Metronome" fixed="500">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="100ms Metronome" fixed="100">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="300ms Metronome" fixed="300">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="200ms Metronome" fixed="200">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="400ms Metronome" fixed="400">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>7</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Chorus &quot;ahhhhh&quot;" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="23750" endtime="23900" />
+    <Effect label="" starttime="23900" endtime="30950" />
+    <Effect label="" starttime="30950" endtime="31450" />
+    <Effect label="" starttime="31960" endtime="32040" />
+    <Effect label="" starttime="32040" endtime="32440" />
+    <Effect label="" starttime="32440" endtime="32450" />
+    <Effect label="" starttime="32450" endtime="32480" />
+    <Effect label="" starttime="32480" endtime="32610" />
+    <Effect label="" starttime="32610" endtime="32700" />
+    <Effect label="" starttime="32700" endtime="33120" />
+    <Effect label="" starttime="33120" endtime="33290" />
+    <Effect label="" starttime="33290" endtime="33380" />
+    <Effect label="" starttime="33380" endtime="33670" />
+    <Effect label="" starttime="33670" endtime="33890" />
+    <Effect label="" starttime="33890" endtime="33970" />
+    <Effect label="" starttime="33970" endtime="34350" />
+    <Effect label="" starttime="34350" endtime="34560" />
+    <Effect label="" starttime="64630" endtime="64740" />
+    <Effect label="" starttime="64740" endtime="72180" />
+    <Effect label="" starttime="72180" endtime="74060" />
+    <Effect label="" starttime="82870" endtime="82950" />
+    <Effect label="" starttime="82950" endtime="83070" />
+    <Effect label="" starttime="83070" endtime="83330" />
+    <Effect label="" starttime="83460" endtime="83540" />
+    <Effect label="" starttime="83540" endtime="83650" />
+    <Effect label="" starttime="83650" endtime="83850" />
+    <Effect label="" starttime="84120" endtime="84200" />
+    <Effect label="" starttime="84200" endtime="84710" />
+    <Effect label="" starttime="84710" endtime="84870" />
+    <Effect label="" starttime="84870" endtime="84950" />
+    <Effect label="" starttime="84950" endtime="87710" />
+    <Effect label="" starttime="87710" endtime="87900" />
+    <Effect label="" starttime="87940" endtime="88020" />
+    <Effect label="" starttime="88020" endtime="88940" />
+    <Effect label="" starttime="88940" endtime="89120" />
+    <Effect label="" starttime="89160" endtime="89240" />
+    <Effect label="" starttime="89240" endtime="91820" />
+    <Effect label="" starttime="91820" endtime="92760" />
+    <Effect label="" starttime="92880" endtime="92960" />
+    <Effect label="" starttime="92960" endtime="93300" />
+    <Effect label="" starttime="93300" endtime="93450" />
+    <Effect label="" starttime="93520" endtime="93600" />
+    <Effect label="" starttime="93600" endtime="93950" />
+    <Effect label="" starttime="93950" endtime="94100" />
+    <Effect label="" starttime="94140" endtime="94220" />
+    <Effect label="" starttime="94220" endtime="94570" />
+    <Effect label="" starttime="94570" endtime="94720" />
+    <Effect label="" starttime="94760" endtime="94840" />
+    <Effect label="" starttime="94840" endtime="102030" />
+    <Effect label="" starttime="102030" endtime="102220" />
+  </EffectLayer>
+</timing>

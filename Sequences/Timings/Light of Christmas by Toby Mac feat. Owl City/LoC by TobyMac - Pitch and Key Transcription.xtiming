@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Pitch and Key Transcription" SourceVersion="2022.1">
+   <EffectLayer>
+      <Effect label="G# minor" starttime="0" endtime="9325" />
+      <Effect label="G# major" starttime="9325" endtime="137025" />
+      <Effect label="C# major" starttime="137025" endtime="167975" />
+      <Effect label="G# major" starttime="167975" endtime="208625" />
+      <Effect label="C# major" starttime="208625" endtime="220275" />
+      <Effect label="A0" starttime="220275" endtime="223738" />
+   </EffectLayer>
+</timing>

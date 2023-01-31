@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Key B Major" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="740" endtime="12630" />
+    <Effect label="" starttime="17960" endtime="18000" />
+    <Effect label="" starttime="41610" endtime="45320" />
+  </EffectLayer>
+</timing>

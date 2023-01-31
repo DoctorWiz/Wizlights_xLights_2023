@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Christ-" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="40160" endtime="40320" />
+    <Effect label="" starttime="40320" endtime="40400" />
+    <Effect label="" starttime="42560" endtime="42720" />
+    <Effect label="" starttime="42720" endtime="42800" />
+    <Effect label="" starttime="78760" endtime="78920" />
+    <Effect label="" starttime="78920" endtime="79000" />
+    <Effect label="" starttime="80960" endtime="81120" />
+    <Effect label="" starttime="81120" endtime="81200" />
+    <Effect label="" starttime="117160" endtime="117320" />
+    <Effect label="" starttime="117320" endtime="117400" />
+    <Effect label="" starttime="119360" endtime="119520" />
+    <Effect label="" starttime="119520" endtime="119600" />
+  </EffectLayer>
+</timing>

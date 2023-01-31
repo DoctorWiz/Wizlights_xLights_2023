@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Tempo Changes" SourceVersion="2021.17">
+  <EffectLayer>
+    <Effect label="98" starttime="0" endtime="2750" />
+    <Effect label="99" starttime="2750" endtime="5250" />
+    <Effect label="94" starttime="5250" endtime="12850" />
+    <Effect label="98" starttime="12850" endtime="15500" />
+    <Effect label="99" starttime="15500" endtime="20500" />
+    <Effect label="96" starttime="20500" endtime="25450" />
+    <Effect label="99" starttime="25450" endtime="27950" />
+    <Effect label="98" starttime="27950" endtime="30450" />
+    <Effect label="101" starttime="30450" endtime="35250" />
+    <Effect label="99" starttime="35250" endtime="42550" />
+    <Effect label="98" starttime="42550" endtime="45050" />
+    <Effect label="101" starttime="45050" endtime="54600" />
+    <Effect label="101" starttime="54600" endtime="59350" />
+    <Effect label="98" starttime="59350" endtime="61800" />
+    <Effect label="96" starttime="61800" endtime="64250" />
+    <Effect label="101" starttime="64250" endtime="66500" />
+    <Effect label="103" starttime="66500" endtime="70450" />
+    <Effect label="136" starttime="70450" endtime="97200" />
+    <Effect label="140" starttime="97200" endtime="102450" />
+    <Effect label="144" starttime="102450" endtime="104150" />
+    <Effect label="140" starttime="104150" endtime="105900" />
+    <Effect label="144" starttime="105900" endtime="126550" />
+    <Effect label="140" starttime="126550" endtime="128250" />
+    <Effect label="144" starttime="128250" endtime="135150" />
+    <Effect label="140" starttime="135150" endtime="140300" />
+    <Effect label="144" starttime="140300" endtime="155800" />
+    <Effect label="140" starttime="155800" endtime="157550" />
+    <Effect label="144" starttime="157550" endtime="174750" />
+    <Effect label="140" starttime="174750" endtime="192000" />
+    <Effect label="136" starttime="192000" endtime="202700" />
+    <Effect label="126" starttime="202700" endtime="206400" />
+    <Effect label="115" starttime="206400" endtime="208650" />
+    <Effect label="98" starttime="208650" endtime="211100" />
+    <Effect label="108" starttime="211100" endtime="213150" />
+    <Effect label="133" starttime="213150" endtime="282778" />
+  </EffectLayer>
+</timing>

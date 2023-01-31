@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Tinkly Bells Background" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="150" endtime="7150" />
+  </EffectLayer>
+</timing>

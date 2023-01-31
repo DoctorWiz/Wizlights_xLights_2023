@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Networks computer="ROTHARIN" GlobalFPPProxy="">
+  <suppressframes frames="20"/>
+  <Controller Id="1" Name="Wasatch1" Description="" Type="Ethernet" Vendor="" Model="" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.11" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE">
+    <network ComPort="10.3.12.11" BaudRate="110" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.11" BaudRate="111" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.11" BaudRate="112" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.11" BaudRate="113" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.11" BaudRate="114" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.11" BaudRate="115" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.11" BaudRate="116" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.11" BaudRate="117" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.11" BaudRate="118" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.11" BaudRate="119" NetworkType="E131" MaxChannels="510"/>
+  </Controller>
+  <Controller Id="1" Name="Wasatch2" Description="" Type="Ethernet" Vendor="" Model="" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.12" BaudRate="120" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.12" BaudRate="121" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.12" BaudRate="122" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.12" BaudRate="123" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.12" BaudRate="124" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.12" BaudRate="125" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.12" BaudRate="126" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.12" BaudRate="127" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.12" BaudRate="128" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.12" BaudRate="129" NetworkType="E131" MaxChannels="510"/>
+  </Controller>
+  <Controller Id="1" Name="Wasatch3" Description="" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Quad" Variant="ESP32" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.13" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE">
+    <network ComPort="10.3.12.13" BaudRate="130" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.13" BaudRate="131" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.13" BaudRate="132" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.13" BaudRate="133" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.13" BaudRate="134" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.13" BaudRate="135" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.13" BaudRate="136" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.13" BaudRate="137" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.13" BaudRate="138" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="10.3.12.13" BaudRate="139" NetworkType="E131" MaxChannels="510"/>
+  </Controller>
+  <testpreset name="LOR AND RGB DUMB">
+    <channelr start="1" end="528"/>
+  </testpreset>
+  <testpreset name="test all">
+    <channelr start="0" end="10090"/>
+  </testpreset>
+  <testpreset name="test">
+    <channelr start="0" end="10090"/>
+  </testpreset>
+  <testpreset name="test2"/>
+  <testpreset name="Test Tree1">
+    <channelr start="2550" end="2849"/>
+  </testpreset>
+  <testpreset name="Testall">
+    <channelr start="0" end="14279"/>
+  </testpreset>
+  <testpreset name="TestTree1">
+    <channelr start="2838" end="3737"/>
+  </testpreset>
+  <testpreset name="Tree1&amp;amp;2">
+    <channelr start="2838" end="3737"/>
+    <channelr start="3750" end="4937"/>
+  </testpreset>
+  <testpreset name="SingTree123">
+    <channelr start="2838" end="3737"/>
+    <channelr start="3750" end="4937"/>
+    <channelr start="4950" end="6137"/>
+  </testpreset>
+  <testpreset name="SingTree1Test">
+    <channelr start="2550" end="3737"/>
+  </testpreset>
+  <testpreset name="Tree8Test">
+    <channelr start="10950" end="12137"/>
+  </testpreset>
+  <testpreset name="Tree7">
+    <channelr start="9750" end="10937"/>
+  </testpreset>
+  <testpreset name="Tree6">
+    <channelr start="8550" end="9737"/>
+  </testpreset>
+  <testpreset name="Tree5">
+    <channelr start="7350" end="8537"/>
+  </testpreset>
+  <testpreset name="Tree4">
+    <channelr start="6150" end="7337"/>
+  </testpreset>
+  <testpreset name="Tree9">
+    <channelr start="12150" end="13337"/>
+  </testpreset>
+  <testpreset name="test97113">
+    <channelr start="48739" end="48741"/>
+    <channelr start="48787" end="48789"/>
+  </testpreset>
+  <testpreset name="props">
+    <channelr start="349" end="510"/>
+    <channelr start="6001" end="6576"/>
+    <channelr start="11731" end="12030"/>
+    <channelr start="12243" end="12542"/>
+  </testpreset>
+  <testpreset name="AlphaPix 16">
+    <channelr start="1" end="2400"/>
+  </testpreset>
+  <testpreset name="spiral tree">
+    <channel id="35"/>
+    <channelr start="40" end="47"/>
+  </testpreset>
+  <testpreset name="Christmas2015"/>
+  <testpreset name="2015 house"/>
+  <testpreset name="Tree 1">
+    <channelr start="0" end="5399"/>
+  </testpreset>
+  <testpreset name="lor tree">
+    <channelr start="10800" end="14399"/>
+  </testpreset>
+  <testpreset name="LOR units">
+    <channelr start="459" end="500"/>
+    <channelr start="507" end="521"/>
+  </testpreset>
+  <testpreset name="Mega Tree 1600">
+    <channelr start="4656" end="9455"/>
+  </testpreset>
+  <testpreset name="Snowman Line">
+    <channelr start="429" end="443"/>
+  </testpreset>
+  <testpreset name="Mega Arch">
+    <channelr start="393" end="428"/>
+  </testpreset>
+  <testpreset name="Pixel radio sign">
+    <channelr start="3360" end="3491"/>
+  </testpreset>
+  <testpreset name="pixel tree">
+    <channelr start="1530" end="1829"/>
+  </testpreset>
+  <testpreset name="candy canes">
+    <channelr start="1020" end="1109"/>
+  </testpreset>
+  <testpreset name="Pixel star">
+    <channelr start="510" end="689"/>
+    <channelr start="1020" end="1109"/>
+  </testpreset>
+  <testpreset name="Arches">
+    <channelr start="0" end="59"/>
+  </testpreset>
+  <testpreset name="Arch good">
+    <channelr start="0" end="59"/>
+  </testpreset>
+  <testpreset name="Star Good">
+    <channelr start="510" end="689"/>
+  </testpreset>
+  <testpreset name="RGB TEST">
+    <channelr start="1" end="16320"/>
+  </testpreset>
+  <testpreset name="TEST">
+    <channelr start="1" end="16320"/>
+  </testpreset>
+  <testpreset name="EVERYTHING">
+    <channelr start="1" end="307200"/>
+  </testpreset>
+  <testpreset name="aaaa">
+    <channelr start="1" end="3072"/>
+  </testpreset>
+  <testpreset name="Taylors Right Window">
+    <channelr start="1" end="1536"/>
+  </testpreset>
+  <testpreset name="Taylors Left Window">
+    <channelr start="1537" end="3072"/>
+  </testpreset>
+  <testpreset name="Balcony Left Window">
+    <channelr start="6145" end="9216"/>
+  </testpreset>
+  <testpreset name="Balcony Right Window">
+    <channelr start="3073" end="6144"/>
+  </testpreset>
+  <testpreset name="Garage Left Windows">
+    <channelr start="13313" end="16384"/>
+  </testpreset>
+  <testpreset name="Garage Right Window">
+    <channelr start="10241" end="13312"/>
+  </testpreset>
+  <testpreset name="Braden Left Window">
+    <channelr start="19457" end="22528"/>
+  </testpreset>
+  <testpreset name="Braden Right Window">
+    <channelr start="16385" end="19456"/>
+  </testpreset>
+  <testpreset name="Pixel Matrix">
+    <channelr start="22529" end="28672"/>
+  </testpreset>
+  <testpreset name="Left Arches">
+    <channelr start="30721" end="32768"/>
+  </testpreset>
+  <testpreset name="Right Arches">
+    <channelr start="28673" end="30720"/>
+  </testpreset>
+  <testpreset name="LEFT WINDOW Matrix full on test 1">
+    <channelr start="5029" end="6864"/>
+  </testpreset>
+  <testpreset name="LEFT WINDOWN (6) STRING TWIN 50">
+    <channelr start="5029" end="7068"/>
+  </testpreset>
+  <testpreset name="LEFT WINDOW MATRIX FULL WHITE (6) TEST">
+    <channelr start="5029" end="7068"/>
+  </testpreset>
+  <testpreset name="WHITE TEST ON CENTER WINDOW MATRIX">
+    <channelr start="4429" end="9108"/>
+  </testpreset>
+  <testpreset name="All Channels On!!!! July 2016">
+    <channelr start="1" end="14208"/>
+  </testpreset>
+  <testpreset name="2 pink">
+    <channelr start="1" end="14208"/>
+  </testpreset>
+  <testpreset name="CENTER/LEFT WINDOW MATRIX EVEN TEST">
+    <channelr start="4081" end="4590"/>
+    <channelr start="5101" end="5610"/>
+    <channelr start="6121" end="6630"/>
+    <channelr start="7141" end="7650"/>
+    <channelr start="8161" end="8670"/>
+    <channelr start="9181" end="9690"/>
+    <channelr start="12241" end="12750"/>
+    <channelr start="13261" end="13770"/>
+  </testpreset>
+  <testpreset name="CENTER/LEFT WINDOW MATRIX ODD TEST">
+    <channelr start="3571" end="4080"/>
+    <channelr start="4591" end="5100"/>
+    <channelr start="5611" end="6120"/>
+    <channelr start="6631" end="7140"/>
+    <channelr start="7651" end="8160"/>
+    <channelr start="8671" end="9180"/>
+    <channelr start="11731" end="12240"/>
+    <channelr start="12751" end="13260"/>
+  </testpreset>
+  <testpreset name="L-Ring all">
+    <channelr start="31663" end="31677"/>
+  </testpreset>
+  <testpreset name="Test RGB Columns-Arches">
+    <channelr start="49" end="1038"/>
+  </testpreset>
+</Networks>

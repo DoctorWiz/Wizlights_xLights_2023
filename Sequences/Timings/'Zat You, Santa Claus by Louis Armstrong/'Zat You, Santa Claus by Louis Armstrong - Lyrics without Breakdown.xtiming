@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Lyrics" SourceVersion="2021.20">
+   <EffectLayer>
+      <Effect label="" starttime="4500" endtime="9000" />
+      <Effect label="Zat You, Santa Claus?" starttime="9000" endtime="11275" />
+      <Effect label="" starttime="11275" endtime="19150" />
+      <Effect label="Gifts I&apos;m preparing" starttime="19150" endtime="20950" />
+      <Effect label="" starttime="20950" endtime="21125" />
+      <Effect label="For some Christmas sharing" starttime="21125" endtime="22850" />
+      <Effect label="" starttime="22850" endtime="23075" />
+      <Effect label="But I pause because" starttime="23075" endtime="26500" />
+      <Effect label="" starttime="26500" endtime="27175" />
+      <Effect label="Hanging my stocking" starttime="27175" endtime="28800" />
+      <Effect label="" starttime="28800" endtime="29000" />
+      <Effect label="I can hear a knocking" starttime="29000" endtime="30625" />
+      <Effect label="(Knocking Drum)" starttime="30625" endtime="31275" />
+      <Effect label="&apos;Zat you, Santa Claus?" starttime="31275" endtime="33775" />
+      <Effect label="" starttime="33775" endtime="34825" />
+      <Effect label="Sure is dark out" starttime="34825" endtime="36250" />
+      <Effect label="" starttime="36250" endtime="36775" />
+      <Effect label="Ain&apos;t the slightest spark out" starttime="36775" endtime="38650" />
+      <Effect label="" starttime="38650" endtime="38875" />
+      <Effect label="&apos;Pon my slackened jaw!" starttime="38875" endtime="42000" />
+      <Effect label="" starttime="42000" endtime="42675" />
+      <Effect label="Who&apos;s there? Who is it, uh" starttime="42675" endtime="44750" />
+      <Effect label="Stopping for a visit?" starttime="44750" endtime="46075" />
+      <Effect label="(Knocking Drums)" starttime="46075" endtime="47075" />
+      <Effect label="&apos;Zat you, Santa Claus?" starttime="47075" endtime="49175" />
+      <Effect label="" starttime="49175" endtime="50375" />
+      <Effect label="Are you bringing a present for me" starttime="50375" endtime="53675" />
+      <Effect label="" starttime="53675" endtime="54400" />
+      <Effect label="Something pleasantly pleasant for me?" starttime="54400" endtime="57675" />
+      <Effect label="" starttime="57675" endtime="58425" />
+      <Effect label="Then it&apos;s just what I&apos;ve been waiting for" starttime="58425" endtime="61475" />
+      <Effect label="" starttime="61475" endtime="62100" />
+      <Effect label="Would you mind slipping it under the door?" starttime="62100" endtime="65450" />
+      <Effect label="" starttime="65450" endtime="66075" />
+      <Effect label="Cold winds are howling" starttime="66075" endtime="67725" />
+      <Effect label="" starttime="67725" endtime="67975" />
+      <Effect label="Or could that be growling?" starttime="67975" endtime="69950" />
+      <Effect label="My legs feel like straws" starttime="69950" endtime="73150" />
+      <Effect label="" starttime="73150" endtime="73250" />
+      <Effect label="Eh, My my oh me my" starttime="73250" endtime="75350" />
+      <Effect label="" starttime="75350" endtime="75825" />
+      <Effect label="Kindly would you reply?" starttime="75825" endtime="77175" />
+      <Effect label="(Knocking Drums)" starttime="77175" endtime="77700" />
+      <Effect label="&apos;Zat you, Santa Claus?" starttime="77700" endtime="80075" />
+      <Effect label="" starttime="80075" endtime="88600" />
+      <Effect label="Yes, Hanging the stocking" starttime="88600" endtime="91250" />
+      <Effect label="I can hear a knocking" starttime="91250" endtime="93250" />
+      <Effect label="&apos;Zat you" starttime="93250" endtime="93725" />
+      <Effect label="" starttime="93725" endtime="94250" />
+      <Effect label="Santa Claus?" starttime="94250" endtime="95475" />
+      <Effect label="" starttime="95475" endtime="103650" />
+      <Effect label="I say, who&apos;s there, who is it? Uh uh, Are you stopping for a visit?" starttime="103650" endtime="108300" />
+      <Effect label="Is &apos;Zat you, Santa Claus?" starttime="108300" endtime="111075" />
+      <Effect label="" starttime="111075" endtime="112350" />
+      <Effect label="Oh there, Santa, you gave me a scare" starttime="112350" endtime="115750" />
+      <Effect label="" starttime="115750" endtime="116200" />
+      <Effect label="Now stop teasing cause I know you&apos;re there" starttime="116200" endtime="120075" />
+      <Effect label="We don&apos;t believe in no goblins today" starttime="120075" endtime="124000" />
+      <Effect label="But I can&apos;t explain why I&apos;m shaking that way" starttime="124000" endtime="127425" />
+      <Effect label="" starttime="127425" endtime="127925" />
+      <Effect label="Bet I can see ole Santa in the keyhole" starttime="127925" endtime="131525" />
+      <Effect label="I&apos;ll get to the cause" starttime="131525" endtime="134925" />
+      <Effect label="One peek and I&apos;ll try there; oh oh, there&apos;s an eye there!" starttime="134925" endtime="140000" />
+      <Effect label="&apos;Zat you, Santa Claus?" starttime="140000" endtime="142850" />
+      <Effect label="" starttime="142850" endtime="147050" />
+      <Effect label="Please, uh please, a pity my knees!" starttime="147050" endtime="150875" />
+      <Effect label="Say that&apos;s you, Santa" starttime="150875" endtime="154925" />
+      <Effect label="Claus" starttime="154925" endtime="160150" />
+      <Effect label="" starttime="160150" endtime="160775" />
+      <Effect label="Zat&apos;s him alright!" starttime="160775" endtime="161800" />
+   </EffectLayer>
+</timing>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Queen Mary Key Detector" SourceVersion="2019.32">
+  <EffectLayer>
+    <Effect label="C♯ major" starttime="0" endtime="1486" />
+    <Effect label="A♯ minor" starttime="1486" endtime="8173" />
+    <Effect label="G♯ major" starttime="8173" endtime="9660" />
+    <Effect label="C♯ major" starttime="9660" endtime="10403" />
+    <Effect label="G♯ major" starttime="10403" endtime="20805" />
+    <Effect label="C♯ major" starttime="20805" endtime="27492" />
+    <Effect label="F♯ major" starttime="27492" endtime="42353" />
+    <Effect label="C♯ major" starttime="42353" endtime="54242" />
+    <Effect label="F♯ major" starttime="54242" endtime="61672" />
+    <Effect label="F major" starttime="61672" endtime="74304" />
+    <Effect label="G♯ major" starttime="74304" endtime="83220" />
+    <Effect label="C♯ minor" starttime="83220" endtime="84706" />
+    <Effect label="G♯ minor" starttime="84706" endtime="89165" />
+    <Effect label="A♯ minor" starttime="89165" endtime="94366" />
+    <Effect label="F♯ major" starttime="94366" endtime="95109" />
+    <Effect label="C♯ major" starttime="95109" endtime="133747" />
+    <Effect label="G♯ major" starttime="133747" endtime="137462" />
+    <Effect label="D♯ minor" starttime="137462" endtime="138205" />
+    <Effect label="A♯ minor" starttime="138205" endtime="139691" />
+    <Effect label="D♯ minor" starttime="139691" endtime="140434" />
+    <Effect label="G♯ major" starttime="140434" endtime="144149" />
+    <Effect label="C♯ major" starttime="144149" endtime="156038" />
+    <Effect label="F major" starttime="156038" endtime="163468" />
+    <Effect label="D♯ major" starttime="163468" endtime="176100" />
+    <Effect label="G♯ major" starttime="176100" endtime="182787" />
+    <Effect label="C♯ minor" starttime="182787" endtime="186503" />
+    <Effect label="G♯ major" starttime="186503" endtime="187989" />
+    <Effect label="E major" starttime="187989" endtime="189475" />
+    <Effect label="C♯ major" starttime="189475" endtime="203996" />
+  </EffectLayer>
+</timing>

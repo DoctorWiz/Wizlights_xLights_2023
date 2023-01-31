@@ -1,0 +1,1219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.37</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#b2b2b2,C_BUTTON_Palette2=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=0</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FF8000,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#80FF80,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FF8000,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FF8000,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FF8000,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#00FF00,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#80FF80,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#80FF80,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#80FF80,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#FF8000,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#80FF80,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#80FF80,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#80FF80,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF00FF,C_BUTTON_Palette2=#00FF00,C_BUTTON_Palette3=#FFFF00,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#80FF80,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#00FF00,C_BUTTON_Palette3=#00FFFF,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#80FF80,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#00FF00,C_BUTTON_Palette3=#00FFFF,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#8000FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#80FF80,C_CHECKBOX_Palette3=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_TEXTCTRL_Eff_On_End=70,E_TEXTCTRL_Eff_On_Start=70</Effect>
+    <Effect></Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=3,E_SLIDER_Pinwheel_Thickness=100,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Horizontal Per Model,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=10.5</Effect>
+    <Effect>B_CHOICE_BufferStyle=Vertical Stack,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=3,E_TEXTCTRL_Bars_Cycles=10.5</Effect>
+    <Effect>E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=164,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=465,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=0</Effect>
+    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=28,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=66</Effect>
+    <Effect>E_CHECKBOX_Circles_Bounce=1,E_CHECKBOX_Circles_Bubbles=0,E_CHECKBOX_Circles_Collide=0,E_CHECKBOX_Circles_Linear_Fade=0,E_CHECKBOX_Circles_Plasma=0,E_CHECKBOX_Circles_Radial=1,E_CHECKBOX_Circles_Radial_3D=0,E_CHECKBOX_Circles_Random_m=0,E_SLIDER_Circles_Count=3,E_SLIDER_Circles_Size=15,E_SLIDER_Circles_Speed=10</Effect>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=1.0</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="571" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="19596" num_frames="1200" data="X:\2021\xLights\wizLights\Wizlights 2021- Photo Opportunity All On 0.30.00 wl21e.iseq" source="X:\2021\Light-O-Rama\Wizlights\Sequences\Tests\Wizlights 2021- Photo Opportunity All On 0.30.00 wl21e.las" name="Wizlights 2021- Photo Opportunity All On 0.30.00 wl21e"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Conventional in Logical Order,Singing,Basics,By Controller,Pixel Props" active="1"/>
+    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="Pixel Props" active="1"/>
+    <Element collapsed="0" type="model" name="Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="Religious Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies Spinny Group (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Snow Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Right Yard Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Dumb RGB Items Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Power Items" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 1 {S} Rainbow (ROGBV)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 2 {L} (MWO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 3 {C} (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 4 {D} (PW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 5 {R} RGBW Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 5 {R} (RGBWVM)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 2.1 {L} (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 2.2 {L} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 2.3 {L} Low (O)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 3.1 {C} (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 3.2 {C} (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 3.3 {C} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 3.4 {C} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 4.1 {D} (P)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 4.2 {D} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 5.2 {R} (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 5.3 {R} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 5.1 {R} (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 5.4 {R} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 5.5 {R} (V)" visible="0"/>
+    <Element collapsed="0" type="model" name="Bushes 5.6 {R} (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1.1 (L} (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1.2 (L} (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1.3 (L} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1.4 {L} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2.1 (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2.2 (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2.3 (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2.4 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3.1 (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3.2 (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3.3 (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3.4 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4.1 {CL} (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4.2 {CL} (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4.3 {CL} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4.4 {CL} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5.1 {CR} (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5.2 {CR} (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5.3 {CR} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5.4 {CR} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6.1 (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6.2 (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6.3 (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6.4 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7.1 (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7.2 (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7.3 (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7.4 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8.1 {R} (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8.2 {R} (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8.3 {R} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8.4 {R} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B1.1 {L} (V)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B1.2 {L} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B2.1 (V)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B2.2 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B3.1 (V)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B3.2 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B4.1 {CL} (V)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B4.2 {CL} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B5.1 {CR} (V)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B5.2 {CR} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B6.1 (V)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B6.2 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B7.1 (V)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B7.2 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B8.1 {R} (V)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B8.2 {R} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 4 {B} (WV)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 2 {F} (WG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 1 {L} (WR)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 3 {R} (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tinsel 1 {L} (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tinsel 2 {R} (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Big AC 1 (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Small {L} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Willow (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Rainbow Inflatible" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Rainbow (ROYGBV)" visible="0"/>
+    <Element collapsed="0" type="model" name="Presents (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eaves Chase 1 (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eaves Chase 2 (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eaves Chase 3 (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eaves Chase 4 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Festivus Pole Flood (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Manger Flood 1 {L} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Manger Flood 2 {R} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof Ridgeline 1 {L} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof Ridgeline 2 {R} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="CandyCane01-R1" visible="0"/>
+    <Element collapsed="0" type="model" name="CandyCane02-G2" visible="0"/>
+    <Element collapsed="0" type="model" name="CandyCane03-R3" visible="0"/>
+    <Element collapsed="0" type="model" name="CandyCane04-G4" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowfall Projectors (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Lasers- House Front (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Disco Balls (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Big Nick Inside (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Big Nick Fire (RO)" visible="0"/>
+    <Element collapsed="0" type="model" name="UFOs 1 {L} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="UFOs 2 {CT} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="UFOs 3 {R} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Wreath Leaves (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Wreath Berries (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Candy Canes {L} (RG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Pine (GO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Driveway (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Lasers- Driveway (RG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Street (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Lasers- Street (RG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Oak (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Nativity Characters" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Manger Stars (RWB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Rotating Beacons {R} (RGBO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Menorah (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Yule Log (O)" visible="0"/>
+    <Element collapsed="0" type="model" name="Coexist Flag (MRGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Flying Spaghetti Monster (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Peace Sign (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Laser- Streetlight (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Rotating Beacons {L} (RGBO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Snow Lake (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowman (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Penguins" visible="0"/>
+    <Element collapsed="0" type="model" name="Mailboxes (Y)" visible="0"/>
+    <Element collapsed="0" type="model" name="Countdown Timer (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Lamp Posts (Y)" visible="0"/>
+    <Element collapsed="0" type="model" name="Lamp Post Directions (O)" visible="0"/>
+    <Element collapsed="0" type="model" name="Strobes- C9- Bushes {BLC} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Strobes- C9- Roof Bushes Trees {R} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Strobes- C9- Trees {FC} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Strobes- 5mm- Bushes {BLC} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Work Together 1 (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Work Together 2 (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Work Together 3 (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Work Together 4 Swirly Stars (RWB)" visible="0"/>
+    <Element collapsed="0" type="model" name="On The Air (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Amplifier 12V" visible="0"/>
+    <Element collapsed="0" type="model" name="Transmitter 12V" visible="0"/>
+    <Element collapsed="0" type="model" name="Candy Canes 1 (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes Seq Group (RGRG)" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes 2 (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Candy Canes 3 (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Candy Canes 4 (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Strobes- 5mm- Bushes {L} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Strobes- C9- Bushes {L} (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Manger-Nativity Group" visible="0"/>
+    <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
+    <Element collapsed="0" type="model" name="Big Festive Wreath (RG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies Projectors" visible="0"/>
+    <Element collapsed="0" type="model" name="Lasers Group" visible="0"/>
+    <Element collapsed="0" type="model" name="UFOs (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Rotating Beacons {LCR} (RGBO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes {L} (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes {R} (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="HappyHolidays" visible="0"/>
+    <Element collapsed="0" type="model" name="Strobes" visible="0"/>
+    <Element collapsed="0" type="model" name="Work Together Sign (RWB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels- All" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags- All 01-21" visible="1"/>
+    <Element collapsed="0" type="model" name="Mega Triangle" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix- Text- Big (72X16=1152)" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix- Text- Small Donations (64X8=512)" visible="1"/>
+    <Element collapsed="0" type="model" name="Major Award (158)" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflakes Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Sorcerers Apprentice (150)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Big Pixel" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="1000ms Metronome" fixed="1000">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Religious Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies Spinny Group (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snow Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Right Yard Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Dumb RGB Items Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Oddballs Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Power Items">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 1 {S} Rainbow (ROGBV)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 2 {L} (MWO)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 3 {C} (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 4 {D} (PW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 5 {R} RGBW Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 5 {R} (RGBWVM)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 2.1 {L} (M)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 2.2 {L} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 2.3 {L} Low (O)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 3.1 {C} (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 3.2 {C} (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 3.3 {C} (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 3.4 {C} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 4.1 {D} (P)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 4.2 {D} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 5.2 {R} (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 5.3 {R} (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 5.1 {R} (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 5.4 {R} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 5.5 {R} (V)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes 5.6 {R} (M)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1.1 (L} (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1.2 (L} (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1.3 (L} (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1.4 {L} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2.1 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2.2 (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2.3 (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2.4 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3.1 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3.2 (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3.3 (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3.4 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4.1 {CL} (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4.2 {CL} (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4.3 {CL} (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4.4 {CL} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5.1 {CR} (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5.2 {CR} (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5.3 {CR} (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5.4 {CR} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6.1 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6.2 (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6.3 (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6.4 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7.1 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7.2 (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7.3 (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7.4 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8.1 {R} (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8.2 {R} (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8.3 {R} (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8.4 {R} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B1.1 {L} (V)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B1.2 {L} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B2.1 (V)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B2.2 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B3.1 (V)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B3.2 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B4.1 {CL} (V)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B4.2 {CL} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B5.1 {CR} (V)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B5.2 {CR} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B6.1 (V)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B6.2 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B7.1 (V)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B7.2 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B8.1 {R} (V)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato B8.2 {R} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Spiral 4 {B} (WV)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Spiral 2 {F} (WG)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Spiral 1 {L} (WR)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Spiral 3 {R} (WB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tinsel 1 {L} (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tinsel 2 {R} (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Big AC 1 (M)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Small {L} (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Trees- Willow (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Rainbow Inflatible">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Trees- Rainbow (ROYGBV)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Presents (M)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Eaves Chase 1 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Eaves Chase 2 (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Eaves Chase 3 (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Eaves Chase 4 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Festivus Pole Flood (RGB)">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Manger Flood 1 {L} (RGB)">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Manger Flood 2 {R} (RGB)">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof Ridgeline 1 {L} (RGB)">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Roof Ridgeline 2 {R} (RGB)">
+      <EffectLayer>
+        <Effect ref="1" name="On" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="1" name="On" id="1" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="CandyCane01-R1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane02-G2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane03-R3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane04-G4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowfall Projectors (WB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes (WB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Lasers- House Front (RGB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Disco Balls (M)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Big Nick Inside (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Big Nick Fire (RO)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="UFOs 1 {L} (RGB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="UFOs 2 {CT} (RGB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="UFOs 3 {R} (RGB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Wreath Leaves (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Wreath Berries (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Swirlies- Candy Canes {L} (RG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Pine (GO)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Swirlies- Driveway (RGB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Lasers- Driveway (RG)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Swirlies- Street (M)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Lasers- Street (RG)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Swirlies- Oak (RGB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Nativity Characters">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Swirlies- Manger Stars (RWB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rotating Beacons {R} (RGBO)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Menorah (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Yule Log (O)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Coexist Flag (MRGB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Flying Spaghetti Monster (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Peace Sign (RGB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Laser- Streetlight (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Rotating Beacons {L} (RGBO)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Snow Lake (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Snowman (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Penguins">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Mailboxes (Y)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Countdown Timer (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Lamp Posts (Y)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Lamp Post Directions (O)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Strobes- C9- Bushes {BLC} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Strobes- C9- Roof Bushes Trees {R} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Strobes- C9- Trees {FC} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Strobes- 5mm- Bushes {BLC} (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Work Together 1 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Work Together 2 (W)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Work Together 3 (B)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Work Together 4 Swirly Stars (RWB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="On The Air (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Amplifier 12V">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Transmitter 12V">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Candy Canes 1 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Candy Canes Seq Group (RGRG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes 2 (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Candy Canes 3 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Candy Canes 4 (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="30000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Strobes- 5mm- Bushes {L} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Strobes- C9- Bushes {L} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Manger-Nativity Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wheel of Dharma">
+      <EffectLayer>
+        <Effect ref="2" name="Pinwheel" startTime="0" endTime="30000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Big Festive Wreath (RG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies Projectors">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Lasers Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rotating Beacons {LCR} (RGBO)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes {L} (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes {R} (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="HappyHolidays">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Strobes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Work Together Sign (RWB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels- All">
+      <EffectLayer>
+        <Effect ref="3" name="Bars" startTime="0" endTime="30000" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Fence Swags- All 01-21">
+      <EffectLayer>
+        <Effect ref="4" name="Bars" startTime="0" endTime="30000" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Mega Triangle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix- Text- Big (72X16=1152)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix- Text- Small Donations (64X8=512)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Major Award (158)">
+      <EffectLayer>
+        <Effect ref="5" name="Fan" startTime="0" endTime="30000" palette="3"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Snowflakes Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Sorcerers Apprentice (150)">
+      <EffectLayer>
+        <Effect ref="6" name="Marquee" startTime="0" endTime="30000" palette="4"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Big Pixel">
+      <EffectLayer>
+        <Effect ref="7" name="Circles" startTime="0" endTime="30000" palette="5"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Singing Female {L}">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Tree Outline">
+        <Effect ref="8" name="Bars" selected="1" startTime="0" endTime="29950" palette="6"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Mouth - rest">
+        <Effect ref="8" name="Bars" startTime="0" endTime="30000" palette="7"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyes - Open">
+        <Effect ref="8" name="Bars" startTime="0" endTime="30000" palette="8"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyeballs">
+        <Effect ref="8" name="Bars" startTime="0" endTime="30025" palette="8"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Singing Male {R}">
+      <EffectLayer/>
+      <SubModelEffectLayer name="Tree Outline">
+        <Effect ref="8" name="Bars" startTime="0" endTime="30050" palette="9"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Mouth - rest">
+        <Effect ref="8" name="Bars" startTime="0" endTime="30025" palette="10"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyes - Open">
+        <Effect ref="8" name="Bars" startTime="0" endTime="30000" palette="11"/>
+      </SubModelEffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>5</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

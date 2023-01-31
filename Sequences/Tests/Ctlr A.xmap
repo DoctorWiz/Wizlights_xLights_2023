@@ -1,0 +1,66 @@
+false
+32
+U01.Ch001 Tree- Tomato A1.1 (L} (R)
+U01.Ch002 Tree- Tomato A1.2 (L} (G)
+U01.Ch003 Tree- Tomato A1.3 (L} (B)
+U01.Ch004 Tree- Tomato A1.4 {L} (W)
+U01.Ch005 Tree- Tomato A2.1 (R)
+U01.Ch006 Tree- Tomato A2.2 (G)
+U01.Ch007 Tree- Tomato A2.3 (B)
+U01.Ch008 Tree- Tomato A2.4 (W)
+U01.Ch009 Tree- Tomato A3.1 (R)
+Tree- Tomato A3.2 (G)
+Tree- Tomato A3.3 (B)
+Tree- Tomato A3.4 (W)
+Tree- Tomato A4.1 {CL} (R)
+Tree- Tomato A4.2 {CL} (G)
+Tree- Tomato A4.3 {CL} (B)
+Tree- Tomato A4.4 {CL} (W)
+Tree- Tomato A5.1 {CR} (R)
+Tree- Tomato A5.2 {CR} (G)
+Tree- Tomato A5.3 {CR} (B)
+Tree- Tomato A5.4 {CR} (W)
+Tree- Tomato A6.1 (R)
+Tree- Tomato A6.2 (G)
+Tree- Tomato A6.3 (B)
+Tree- Tomato A6.4 (W)
+Tree- Tomato A7.1 (R)
+Tree- Tomato A7.2 (G)
+Tree- Tomato A7.3 (B)
+Tree- Tomato A7.4 (W)
+Tree- Tomato A8.1 {R} (R)
+U01.Ch030 Tree- Tomato A8.2 {R} (G)
+U01.Ch031 Tree- Tomato A8.3 {R} (B)
+U01.Ch032 Tree- Tomato A8.4 {R} (W)
+U01.Ch001 Tree- Tomato A1.1 (L} (R)			Tree- Tomato A1.1 (L} (R)	white
+U01.Ch002 Tree- Tomato A1.2 (L} (G)			Tree- Tomato A1.2 (L} (G)	white
+U01.Ch003 Tree- Tomato A1.3 (L} (B)			Tree- Tomato A1.3 (L} (B)	white
+U01.Ch004 Tree- Tomato A1.4 {L} (W)			Tree- Tomato A1.4 {L} (W)	white
+U01.Ch005 Tree- Tomato A2.1 (R)			Tree- Tomato A2.1 (R)	white
+U01.Ch006 Tree- Tomato A2.2 (G)			Tree- Tomato A2.2 (G)	white
+U01.Ch007 Tree- Tomato A2.3 (B)			Tree- Tomato A2.3 (B)	white
+U01.Ch008 Tree- Tomato A2.4 (W)			Tree- Tomato A2.4 (W)	white
+U01.Ch009 Tree- Tomato A3.1 (R)			Tree- Tomato A3.1 (R)	white
+Tree- Tomato A3.2 (G)			Tree- Tomato A3.3 (B)	white
+Tree- Tomato A3.3 (B)			Tree- Tomato A3.2 (G)	white
+Tree- Tomato A3.4 (W)			Tree- Tomato A3.4 (W)	white
+Tree- Tomato A4.1 {CL} (R)			Tree- Tomato A4.1 {CL} (R)	white
+Tree- Tomato A4.2 {CL} (G)			Tree- Tomato A4.2 {CL} (G)	white
+Tree- Tomato A4.3 {CL} (B)			Tree- Tomato A4.3 {CL} (B)	white
+Tree- Tomato A4.4 {CL} (W)			Tree- Tomato A4.4 {CL} (W)	white
+Tree- Tomato A5.1 {CR} (R)			Tree- Tomato A5.1 {CR} (R)	white
+Tree- Tomato A5.2 {CR} (G)			Tree- Tomato A5.2 {CR} (G)	white
+Tree- Tomato A5.3 {CR} (B)			Tree- Tomato A5.3 {CR} (B)	white
+Tree- Tomato A5.4 {CR} (W)			Tree- Tomato A5.4 {CR} (W)	white
+Tree- Tomato A6.1 (R)			Tree- Tomato A6.1 (R)	white
+Tree- Tomato A6.2 (G)			Tree- Tomato A6.2 (G)	white
+Tree- Tomato A6.3 (B)			Tree- Tomato A6.3 (B)	white
+Tree- Tomato A6.4 (W)			Tree- Tomato A6.4 (W)	white
+Tree- Tomato A7.1 (R)			Tree- Tomato A7.1 (R)	white
+Tree- Tomato A7.2 (G)			Tree- Tomato A7.2 (G)	white
+Tree- Tomato A7.3 (B)			Tree- Tomato A7.3 (B)	white
+Tree- Tomato A7.4 (W)			Tree- Tomato A7.4 (W)	white
+Tree- Tomato A8.1 {R} (R)			Tree- Tomato A8.1 {R} (R)	white
+U01.Ch030 Tree- Tomato A8.2 {R} (G)			Tree- Tomato A8.2 {R} (G)	white
+U01.Ch031 Tree- Tomato A8.3 {R} (B)			Tree- Tomato A8.3 {R} (B)	white
+U01.Ch032 Tree- Tomato A8.4 {R} (W)			Tree- Tomato A8.4 {R} (W)	white

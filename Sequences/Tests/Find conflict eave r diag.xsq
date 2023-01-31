@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2022.22</version>
+    <author>Doctor Wizard aka Merlin Q. Potter</author>
+    <author-email>wizard@wizlights.com</author-email>
+    <author-website>https://wizlights.com</author-website>
+    <song>Test</song>
+    <artist>Test</artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette6=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_MusicSparkles=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#FF8000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#004202,C_BUTTON_Palette3=#540E0E,C_BUTTON_Palette4=#875C21,C_BUTTON_Palette5=#197A71,C_BUTTON_Palette6=#A40206,C_BUTTON_Palette7=#B9A275,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF00FF,C_BUTTON_Palette3=#FF8040,C_BUTTON_Palette4=#80FF80,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_MusicSparkles=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#80FFFF,C_BUTTON_Palette4=#008000,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_MusicSparkles=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=44,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0,T_TEXTCTRL_Fadein=.2,T_TEXTCTRL_Fadeout=.2</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=44,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0,T_TEXTCTRL_Fadein=.2,T_TEXTCTRL_Fadeout=.2</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Options,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=20,E_SLIDER_Shockwave_End_Width=30,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=10</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce to Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=63,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect></Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=68,E_SLIDER_Shockwave_End_Width=150,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=53,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=1</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=1,E_NOTEBOOK_Fan=Options,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=53,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=1</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=0,E_NOTEBOOK_Fan=Options,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=90,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=53,E_SLIDER_Fan_Num_Blades=3,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=720,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=1</Effect>
+    <Effect>E_CHOICE_VUMeter_TimingTrack=1 Full Beats (Quarter notes),E_CHOICE_VUMeter_Type=Timing Event Color,E_SLIDER_VUMeter_Sensitivity=70</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=50,E_SLIDER_Shockwave_End_Width=80,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_Start=0</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Stacked X Horizontally,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=20,E_SLIDER_Number_Chases=5,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=From Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=20,E_SLIDER_Number_Chases=5,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2,T_TEXTCTRL_Fadeout=.5</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_Shockwave_Blend_Edges=1,E_NOTEBOOK_Shockwave=Position,E_SLIDER_Shockwave_Accel=0,E_SLIDER_Shockwave_CenterX=50,E_SLIDER_Shockwave_CenterY=50,E_SLIDER_Shockwave_End_Radius=60,E_SLIDER_Shockwave_End_Width=60,E_SLIDER_Shockwave_Start_Radius=1,E_SLIDER_Shockwave_Start_Width=5</Effect>
+    <Effect>T_TEXTCTRL_Fadeout=.5</Effect>
+    <Effect>T_TEXTCTRL_Fadein=.5,T_TEXTCTRL_Fadeout=.5</Effect>
+    <Effect>E_CHOICE_Falling=Driving,E_SLIDER_Snowflakes_Count=25,E_SLIDER_Snowflakes_Speed=10,E_SLIDER_Snowflakes_Type=1,T_CHOICE_Out_Transition_Type=Blinds,T_SLIDER_Out_Transition_Adjust=50,T_TEXTCTRL_Fadein=.5,T_TEXTCTRL_Fadeout=.5</Effect>
+    <Effect>E_CHECKBOX_Twinkle_ReRandom=0,E_CHECKBOX_Twinkle_Strobe=0,E_CHOICE_Twinkle_Style=New Render Method,E_SLIDER_Twinkle_Count=3,E_SLIDER_Twinkle_Steps=30,T_TEXTCTRL_Fadeout=.5</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=1,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=1,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=20,E_SLIDER_Spirals_Thickness=0,E_TEXTCTRL_Spirals_Movement=1.0,T_CHOICE_Out_Transition_Type=Blinds,T_SLIDER_Out_Transition_Adjust=60,T_TEXTCTRL_Fadeout=.5</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=1,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=1,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=-20,E_SLIDER_Spirals_Thickness=25,E_TEXTCTRL_Spirals_Movement=-1.0,T_CHOICE_In_Transition_Type=Blinds,T_SLIDER_In_Transition_Adjust=60,T_TEXTCTRL_Fadein=.25,T_TEXTCTRL_Fadeout=.5</Effect>
+    <Effect>E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=1,E_NOTEBOOK_Morph=End,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=66,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=10,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=0,E_SLIDER_Morph_End_Y2=0,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=100,E_SLIDER_Morph_Start_Y2=100,T_TEXTCTRL_Fadeout=.2</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=40,E_SLIDER_Spirals_Thickness=10,E_TEXTCTRL_Spirals_Movement=1.0,T_TEXTCTRL_Fadeout=.2</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=50,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=50,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Single Line,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Middle,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=20,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHECKBOX_Faces_SuppressWhenNotSinging=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Boscoyo Singing Tree,E_CHOICE_Faces_TimingTrack=,T_TEXTCTRL_Fadein=2</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="Pixel Props" active="1"/>
+    <Element collapsed="0" type="model" name="Pixels- ALL" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels House Front" visible="1"/>
+    <Element collapsed="0" type="model" name="Eave Pixels- All" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflakes Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Major Award" visible="1"/>
+    <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
+    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Big Pixel 1 Left Center" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Star 1- Big Pixel 1 Outside" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Star 1- Big Pixel 1 Tree Star Center" visible="1"/>
+    <Element collapsed="0" type="model" name="Sorcerers Apprentice" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags- All 01-21" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags- Odd 1357..." visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags- Even 2468..." visible="1"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 1 {L} Horiz (216)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 2 {L} Diag (188)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 3 {R} Diag (184)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 4 {R} Horiz (250)" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 01 {LB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 02 {L}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 03 {L}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 04 {L}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 05 {LF}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 06 {FL}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 07 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 08 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 09 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 10 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 11 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 12 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 13 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 14 {F}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 15 {FR}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 16 {DFL}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 17 {DFL}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 18 {DC}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 19 {DRB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 20 {RF}" visible="0"/>
+    <Element collapsed="0" type="model" name="Fence Swags 21 {RB}" visible="0"/>
+    <Element collapsed="0" type="model" name="xCtlr A Tomato Trees Row A" visible="1"/>
+    <Element collapsed="0" type="model" name="xCtlr B- Tomato Trees Row B" visible="1"/>
+    <Element collapsed="0" type="model" name="xCtlr C- Other Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="xCtlr D- Left Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="xCtlr E- Center Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="xCtlr G- 12 Volts Chinese" visible="1"/>
+    <Element collapsed="0" type="model" name="xCtlr I- House Front and Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="xCtlr J- Right Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflake Arrow" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake Diamond" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake Three-Prong" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake Two-Prong" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="1000ms Metronome" fixed="1000">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels- ALL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels House Front">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels- All">
+      <EffectLayer>
+        <Effect ref="0" name="SingleStrand" startTime="600" endTime="3200" palette="0"/>
+        <Effect ref="1" name="SingleStrand" id="1" startTime="3200" endTime="5750" palette="1"/>
+        <Effect ref="1" name="SingleStrand" id="2" startTime="5750" endTime="8350" palette="2"/>
+        <Effect ref="1" name="SingleStrand" id="3" startTime="8350" endTime="10900" palette="0"/>
+        <Effect ref="1" name="SingleStrand" id="4" startTime="10900" endTime="13500" palette="1"/>
+        <Effect ref="1" name="SingleStrand" id="5" startTime="13500" endTime="16100" palette="2"/>
+        <Effect ref="2" name="Shockwave" id="6" startTime="16100" endTime="17050" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="7" startTime="17050" endTime="17400" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="8" startTime="17400" endTime="17750" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="9" startTime="17750" endTime="18300" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="10" startTime="18300" endTime="18500" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="11" startTime="18500" endTime="18850" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="12" startTime="18850" endTime="19050" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="13" startTime="19050" endTime="19650" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="14" startTime="19650" endTime="20000" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="15" startTime="20000" endTime="20350" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="16" startTime="20350" endTime="20900" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="17" startTime="20900" endTime="21100" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="18" startTime="21100" endTime="21450" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="19" startTime="21450" endTime="21650" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="20" startTime="21650" endTime="22300" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="21" startTime="22300" endTime="22650" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="22" startTime="22650" endTime="23000" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="23" startTime="23000" endTime="23500" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="24" startTime="23500" endTime="23750" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="25" startTime="23750" endTime="24100" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="26" startTime="24100" endTime="24250" palette="3"/>
+        <Effect ref="2" name="Shockwave" id="27" startTime="24250" endTime="24900" palette="3"/>
+        <Effect ref="3" name="SingleStrand" id="28" startTime="27100" endTime="29650" palette="4"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="4" name="Off" startTime="16100" endTime="18700" palette="5"/>
+        <Effect ref="4" name="Off" id="1" startTime="18700" endTime="21250" palette="6"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Snowflakes Group">
+      <EffectLayer>
+        <Effect ref="5" name="Shockwave" startTime="600" endTime="1900" palette="7"/>
+        <Effect ref="5" name="Shockwave" id="1" startTime="3150" endTime="4450" palette="7"/>
+        <Effect ref="5" name="Shockwave" id="2" startTime="5750" endTime="7050" palette="7"/>
+        <Effect ref="5" name="Shockwave" id="3" startTime="8350" endTime="9650" palette="7"/>
+        <Effect ref="5" name="Shockwave" id="4" startTime="10900" endTime="12200" palette="7"/>
+        <Effect ref="5" name="Shockwave" id="5" startTime="13500" endTime="14800" palette="7"/>
+        <Effect ref="5" name="Shockwave" id="6" startTime="16100" endTime="17400" palette="7"/>
+        <Effect ref="5" name="Shockwave" id="7" startTime="18650" endTime="19950" palette="7"/>
+        <Effect ref="5" name="Shockwave" id="8" startTime="21250" endTime="22500" palette="7"/>
+        <Effect ref="5" name="Shockwave" id="9" startTime="23850" endTime="25100" palette="7"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="6" name="Fan" startTime="1250" endTime="1900" palette="8"/>
+        <Effect ref="7" name="Fan" id="1" startTime="3800" endTime="4450" palette="8"/>
+        <Effect ref="6" name="Fan" id="2" startTime="6400" endTime="7050" palette="8"/>
+        <Effect ref="7" name="Fan" id="3" startTime="8950" endTime="9650" palette="8"/>
+        <Effect ref="8" name="Fan" id="4" startTime="11550" endTime="12200" palette="8"/>
+        <Effect ref="7" name="Fan" id="5" startTime="14150" endTime="14800" palette="8"/>
+        <Effect ref="6" name="Fan" id="6" startTime="16700" endTime="17400" palette="8"/>
+        <Effect ref="7" name="Fan" id="7" startTime="19300" endTime="19950" palette="8"/>
+        <Effect ref="8" name="Fan" id="8" startTime="21900" endTime="22500" palette="8"/>
+        <Effect ref="7" name="Fan" id="9" startTime="24450" endTime="25100" palette="8"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="9" name="VU Meter" startTime="600" endTime="23850" palette="9"/>
+      </EffectLayer>
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Major Award">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wheel of Dharma">
+      <EffectLayer>
+        <Effect ref="10" name="Shockwave" startTime="24450" endTime="25100" palette="10"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="11" name="On" startTime="600" endTime="950" palette="7"/>
+        <Effect ref="12" name="On" id="1" startTime="950" endTime="1250" palette="7"/>
+        <Effect ref="11" name="On" id="2" startTime="3150" endTime="3500" palette="7"/>
+        <Effect ref="12" name="On" id="3" startTime="3500" endTime="3800" palette="7"/>
+        <Effect ref="11" name="On" id="4" startTime="5750" endTime="6100" palette="7"/>
+        <Effect ref="12" name="On" id="5" startTime="6100" endTime="6400" palette="7"/>
+        <Effect ref="11" name="On" id="6" startTime="8350" endTime="8650" palette="7"/>
+        <Effect ref="12" name="On" id="7" startTime="8650" endTime="8950" palette="7"/>
+        <Effect ref="11" name="On" id="8" startTime="10900" endTime="11250" palette="7"/>
+        <Effect ref="12" name="On" id="9" startTime="11250" endTime="11550" palette="7"/>
+        <Effect ref="11" name="On" id="10" startTime="13500" endTime="13850" palette="7"/>
+        <Effect ref="12" name="On" id="11" startTime="13850" endTime="14150" palette="7"/>
+        <Effect ref="11" name="On" id="12" startTime="16100" endTime="16400" palette="7"/>
+        <Effect ref="12" name="On" id="13" startTime="16400" endTime="16700" palette="7"/>
+        <Effect ref="11" name="On" id="14" startTime="18650" endTime="19000" palette="7"/>
+        <Effect ref="12" name="On" id="15" startTime="19000" endTime="19300" palette="7"/>
+        <Effect ref="11" name="On" id="16" startTime="21250" endTime="21600" palette="7"/>
+        <Effect ref="12" name="On" id="17" startTime="21600" endTime="21900" palette="7"/>
+        <Effect ref="11" name="On" id="18" startTime="23850" endTime="24150" palette="7"/>
+        <Effect ref="12" name="On" id="19" startTime="24150" endTime="24450" palette="7"/>
+        <Effect ref="11" name="On" id="20" startTime="26400" endTime="26750" palette="7"/>
+        <Effect ref="12" name="On" id="21" startTime="26750" endTime="27050" palette="7"/>
+        <Effect ref="11" name="On" id="22" startTime="28950" endTime="29300" palette="7"/>
+        <Effect ref="12" name="On" id="23" startTime="29300" endTime="29600" palette="7"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="9" name="VU Meter" startTime="600" endTime="23850" palette="9"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="13" name="SingleStrand" startTime="13900" endTime="16350" palette="8"/>
+        <Effect ref="14" name="SingleStrand" id="1" startTime="16350" endTime="17150" palette="8"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Star of Bethlehem">
+      <EffectLayer>
+        <Effect ref="15" name="Shockwave" startTime="1250" endTime="1900" palette="10"/>
+        <Effect ref="16" name="Off" id="1" startTime="4850" endTime="10950" palette="11"/>
+        <Effect ref="17" name="Off" id="2" startTime="11350" endTime="14550" palette="12"/>
+        <Effect ref="15" name="Shockwave" id="3" startTime="16750" endTime="17350" palette="10"/>
+        <Effect ref="16" name="Off" id="4" startTime="19850" endTime="25950" palette="11"/>
+        <Effect ref="17" name="Off" id="5" startTime="26350" endTime="29550" palette="12"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="9" name="VU Meter" startTime="0" endTime="650" palette="9"/>
+        <Effect ref="9" name="VU Meter" id="1" startTime="650" endTime="20600" palette="9"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Big Pixel 1 Left Center">
+      <EffectLayer/>
+      <EffectLayer>
+        <Effect ref="18" name="Snowflakes" startTime="650" endTime="5750" palette="8"/>
+        <Effect ref="19" name="Twinkle" id="1" startTime="5750" endTime="10950" palette="11"/>
+        <Effect ref="20" name="Spirals" id="2" startTime="11350" endTime="13750" palette="12"/>
+        <Effect ref="21" name="Spirals" id="3" startTime="13750" endTime="14550" palette="12"/>
+        <Effect ref="18" name="Snowflakes" id="4" startTime="15650" endTime="20750" palette="8"/>
+        <Effect ref="19" name="Twinkle" id="5" startTime="20750" endTime="25950" palette="11"/>
+        <Effect ref="20" name="Spirals" id="6" startTime="26350" endTime="28750" palette="12"/>
+        <Effect ref="21" name="Spirals" id="7" startTime="28750" endTime="29550" palette="12"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="22" name="Morph" startTime="4850" endTime="5450" palette="13"/>
+        <Effect ref="22" name="Morph" id="1" startTime="5450" endTime="6100" palette="5"/>
+        <Effect ref="22" name="Morph" id="2" startTime="6100" endTime="6750" palette="14"/>
+        <Effect ref="22" name="Morph" id="3" startTime="19850" endTime="20450" palette="13"/>
+        <Effect ref="22" name="Morph" id="4" startTime="20450" endTime="21100" palette="5"/>
+        <Effect ref="22" name="Morph" id="5" startTime="21100" endTime="21750" palette="14"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="23" name="Spirals" startTime="4850" endTime="5450" palette="15"/>
+        <Effect ref="23" name="Spirals" id="1" startTime="5450" endTime="6100" palette="16"/>
+        <Effect ref="23" name="Spirals" id="2" startTime="6100" endTime="6750" palette="17"/>
+        <Effect ref="23" name="Spirals" id="3" startTime="19850" endTime="20450" palette="15"/>
+        <Effect ref="23" name="Spirals" id="4" startTime="20450" endTime="21100" palette="16"/>
+        <Effect ref="23" name="Spirals" id="5" startTime="21100" endTime="21750" palette="17"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree Star 1- Big Pixel 1 Outside">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Star 1- Big Pixel 1 Tree Star Center">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Sorcerers Apprentice">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags- All 01-21">
+      <EffectLayer>
+        <Effect ref="24" name="SingleStrand" startTime="600" endTime="3200" palette="18"/>
+        <Effect ref="25" name="SingleStrand" id="1" startTime="3200" endTime="5750" palette="19"/>
+        <Effect ref="25" name="SingleStrand" id="2" startTime="5750" endTime="8350" palette="20"/>
+        <Effect ref="25" name="SingleStrand" id="3" startTime="8350" endTime="10900" palette="18"/>
+        <Effect ref="25" name="SingleStrand" id="4" startTime="10900" endTime="13500" palette="19"/>
+        <Effect ref="25" name="SingleStrand" id="5" startTime="13500" endTime="16100" palette="20"/>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="26" name="SingleStrand" startTime="0" endTime="600" palette="7"/>
+        <Effect ref="4" name="Off" id="1" startTime="600" endTime="3200" palette="18"/>
+        <Effect ref="4" name="Off" id="2" startTime="3200" endTime="5750" palette="18"/>
+        <Effect ref="4" name="Off" id="3" startTime="5750" endTime="8350" palette="18"/>
+        <Effect ref="4" name="Off" id="4" startTime="8350" endTime="10900" palette="18"/>
+        <Effect ref="4" name="Off" id="5" startTime="10900" endTime="13500" palette="18"/>
+        <Effect ref="4" name="Off" id="6" startTime="13500" endTime="16100" palette="18"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Fence Swags- Odd 1357...">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags- Even 2468...">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 1 {L} Horiz (216)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 2 {L} Diag (188)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 3 {R} Diag (184)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 4 {R} Horiz (250)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 01 {LB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 02 {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 03 {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 04 {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 05 {LF}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 06 {FL}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 07 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 08 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 09 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 10 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 11 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 12 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 13 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 14 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 15 {FR}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 16 {DFL}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 17 {DFL}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 18 {DC}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 19 {DRB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 20 {RF}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 21 {RB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xCtlr A Tomato Trees Row A">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xCtlr B- Tomato Trees Row B">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xCtlr C- Other Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xCtlr D- Left Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xCtlr E- Center Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xCtlr G- 12 Volts Chinese">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xCtlr I- House Front and Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xCtlr J- Right Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Arrow">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Diamond">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Three-Prong">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Two-Prong">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Singing Female {L}">
+      <EffectLayer>
+        <Effect ref="27" name="Faces" startTime="0" endTime="156350" palette="21"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Singing Male {R}">
+      <EffectLayer>
+        <Effect ref="27" name="Faces" selected="1" startTime="0" endTime="156350" palette="22"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>5</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

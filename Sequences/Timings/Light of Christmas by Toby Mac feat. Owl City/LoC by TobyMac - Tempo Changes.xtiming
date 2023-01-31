@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Tempo Changes" SourceVersion="2022.1">
+   <EffectLayer>
+      <Effect label="126" starttime="0" endtime="142825" />
+      <Effect label="129" starttime="142825" endtime="144750" />
+      <Effect label="126" starttime="144750" endtime="216375" />
+      <Effect label="123" starttime="216375" endtime="223738" />
+   </EffectLayer>
+</timing>

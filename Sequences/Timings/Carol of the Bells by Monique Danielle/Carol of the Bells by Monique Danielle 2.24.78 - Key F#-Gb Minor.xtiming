@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Key F#-Gb Minor" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="0" endtime="740" />
+    <Effect label="" starttime="17960" endtime="18000" />
+    <Effect label="" starttime="20060" endtime="34920" />
+  </EffectLayer>
+</timing>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Mer- 1" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="38560" endtime="38720" />
+    <Effect label="" starttime="38720" endtime="38800" />
+    <Effect label="" starttime="40960" endtime="41120" />
+    <Effect label="" starttime="41120" endtime="41200" />
+    <Effect label="" starttime="77160" endtime="77320" />
+    <Effect label="" starttime="77320" endtime="77400" />
+    <Effect label="" starttime="79360" endtime="79520" />
+    <Effect label="" starttime="79520" endtime="79600" />
+    <Effect label="" starttime="115560" endtime="115720" />
+    <Effect label="" starttime="115720" endtime="115800" />
+    <Effect label="" starttime="117760" endtime="117920" />
+    <Effect label="" starttime="117920" endtime="118000" />
+  </EffectLayer>
+</timing>

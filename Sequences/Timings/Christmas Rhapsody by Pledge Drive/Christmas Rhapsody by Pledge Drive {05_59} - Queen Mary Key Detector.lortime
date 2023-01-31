@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LORTiming version="1">
+  <TimingGrids>
+    <TimingGridFree name="Queen Mary Key Detector">
+    <timing centisecond="0" />
+    <timing centisecond="222" />
+    <timing centisecond="520" />
+    <timing centisecond="1857" />
+    <timing centisecond="2897" />
+    <timing centisecond="3863" />
+    <timing centisecond="4161" />
+    <timing centisecond="4606" />
+    <timing centisecond="4681" />
+    <timing centisecond="4978" />
+    <timing centisecond="8247" />
+    <timing centisecond="9882" />
+    <timing centisecond="11888" />
+    <timing centisecond="12780" />
+    <timing centisecond="14043" />
+    <timing centisecond="14637" />
+    <timing centisecond="15826" />
+    <timing centisecond="16644" />
+    <timing centisecond="17089" />
+    <timing centisecond="17832" />
+    <timing centisecond="18055" />
+    <timing centisecond="18873" />
+    <timing centisecond="19913" />
+    <timing centisecond="20210" />
+    <timing centisecond="20582" />
+    <timing centisecond="20953" />
+    <timing centisecond="21102" />
+    <timing centisecond="21250" />
+    <timing centisecond="22662" />
+    <timing centisecond="23554" />
+    <timing centisecond="23628" />
+    <timing centisecond="24446" />
+    <timing centisecond="24520" />
+    <timing centisecond="24594" />
+    <timing centisecond="24891" />
+    <timing centisecond="26006" />
+    <timing centisecond="26526" />
+    <timing centisecond="27789" />
+    <timing centisecond="29275" />
+    <timing centisecond="29647" />
+    <timing centisecond="29870" />
+    <timing centisecond="31579" />
+    <timing centisecond="32619" />
+    <timing centisecond="34254" />
+    <timing centisecond="34328" />
+    </TimingGridFree>
+  </TimingGrids>
+  <BeatChannels />
+</LORTiming>

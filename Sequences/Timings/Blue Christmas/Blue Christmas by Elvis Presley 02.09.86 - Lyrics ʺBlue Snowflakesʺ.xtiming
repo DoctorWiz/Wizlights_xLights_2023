@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Lyrics &quot;Blue Snowflakes&quot;" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="42200" endtime="42750" />
+    <Effect label="" starttime="42750" endtime="46800" />
+    <Effect label="" starttime="46800" endtime="48400" />
+    <Effect label="" starttime="48400" endtime="50900" />
+    <Effect label="" starttime="50900" endtime="51250" />
+  </EffectLayer>
+</timing>

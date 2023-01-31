@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LORTiming version="1">
+  <TimingGrids>
+    <TimingGridFree name="Queen Mary Key Detector">
+    <timing centisecond="0" />
+    <timing centisecond="222" />
+    <timing centisecond="2897" />
+    <timing centisecond="4086" />
+    <timing centisecond="4161" />
+    <timing centisecond="4309" />
+    <timing centisecond="4829" />
+    <timing centisecond="5498" />
+    <timing centisecond="5572" />
+    <timing centisecond="5721" />
+    <timing centisecond="6538" />
+    <timing centisecond="7058" />
+    <timing centisecond="7133" />
+    <timing centisecond="8990" />
+    <timing centisecond="10848" />
+    <timing centisecond="11591" />
+    <timing centisecond="12780" />
+    <timing centisecond="13003" />
+    <timing centisecond="14414" />
+    <timing centisecond="17758" />
+    <timing centisecond="19319" />
+    </TimingGridFree>
+  </TimingGrids>
+  <BeatChannels />
+</LORTiming>

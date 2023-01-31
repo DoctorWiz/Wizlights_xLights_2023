@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Chorus 1st Part" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="33760" endtime="38520" />
+    <Effect label="" starttime="72160" endtime="76960" />
+    <Effect label="" starttime="110560" endtime="115360" />
+  </EffectLayer>
+</timing>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Pitch and Key Transcription" SourceVersion="2021.17">
+  <EffectLayer>
+    <Effect label="C major" starttime="0" endtime="5000" />
+    <Effect label="B major" starttime="5000" endtime="20550" />
+    <Effect label="D# minor" starttime="20550" endtime="30900" />
+    <Effect label="E major" starttime="30900" endtime="38600" />
+    <Effect label="C# minor" starttime="38600" endtime="43800" />
+    <Effect label="F# minor" starttime="43800" endtime="48900" />
+    <Effect label="E major" starttime="48900" endtime="59150" />
+    <Effect label="B major" starttime="59150" endtime="71700" />
+    <Effect label="E major" starttime="71700" endtime="81800" />
+    <Effect label="B major" starttime="81800" endtime="89300" />
+    <Effect label="E major" starttime="89300" endtime="99300" />
+    <Effect label="B major" starttime="99300" endtime="104250" />
+    <Effect label="F0" starttime="104250" endtime="126742" />
+  </EffectLayer>
+</timing>

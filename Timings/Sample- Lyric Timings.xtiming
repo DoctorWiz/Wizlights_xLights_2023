@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Lyrics" SourceVersion="2021.20">
+  <EffectLayer>
+    <Effect label="The restroom door said gentleman so I just walked inside" starttime="300" endtime="6425" />
+    <Effect label="I took two steps and realized I&apos;ve been taken for a ride" starttime="6425" endtime="12575" />
+    <Effect label="I heard high voices, turned and found the place was occupied" starttime="12575" endtime="18350" />
+  </EffectLayer>
+  <EffectLayer>
+    <Effect label="The" starttime="300" endtime="575" />
+    <Effect label="restroom" starttime="575" endtime="1400" />
+    <Effect label="door" starttime="1400" endtime="1700" />
+  </EffectLayer>
+  <EffectLayer>
+    <Effect label="etc" starttime="300" endtime="350" />
+    <Effect label="AI" starttime="350" endtime="575" />
+    <Effect label="etc" starttime="575" endtime="625" />
+  </EffectLayer>
+</timing>

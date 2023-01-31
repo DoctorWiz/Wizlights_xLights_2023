@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="SONG BREAK DOWN" SourceVersion="2022.22">
+   <EffectLayer>
+      <Effect label="INTRO" starttime="0" endtime="9025" />
+      <Effect label="VERSE 1" starttime="9025" endtime="39850" />
+      <Effect label="VERSE 2" starttime="39850" endtime="72125" />
+      <Effect label="CHORUS OWL CITY" starttime="72125" endtime="87175" />
+      <Effect label="BRIDGE 1" starttime="87175" endtime="93975" />
+      <Effect label="VERSE 3" starttime="93975" endtime="108450" />
+      <Effect label="BRIDGE 2" starttime="108450" endtime="110375" />
+      <Effect label="CHORUS TOBY" starttime="110375" endtime="126175" />
+      <Effect label="CHORUS OWL CITY" starttime="126175" endtime="140925" />
+      <Effect label="BRIDGE 3" starttime="140925" endtime="166700" />
+      <Effect label="PRE-CHROUS" starttime="166700" endtime="172350" />
+      <Effect label="CHORUS OWL CITY" starttime="172350" endtime="186925" />
+      <Effect label="CHORUS TOBY" starttime="186925" endtime="203700" />
+      <Effect label="CHORUS OWL CITY" starttime="203700" endtime="211275" />
+      <Effect label="CHORUS TOBY" starttime="211275" endtime="213575" />
+      <Effect label="OUTRO" starttime="213575" endtime="220400" />
+   </EffectLayer>
+</timing>

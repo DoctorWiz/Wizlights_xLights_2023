@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Segments" SourceVersion="2021.17">
+  <EffectLayer>
+    <Effect label="A" starttime="0" endtime="10450" />
+    <Effect label="B" starttime="10450" endtime="23800" />
+    <Effect label="C" starttime="23800" endtime="29150" />
+    <Effect label="D" starttime="29150" endtime="37150" />
+    <Effect label="E" starttime="37150" endtime="42450" />
+    <Effect label="F" starttime="42450" endtime="63800" />
+    <Effect label="B" starttime="63800" endtime="77150" />
+    <Effect label="C" starttime="77150" endtime="82450" />
+    <Effect label="D" starttime="82450" endtime="90500" />
+    <Effect label="E" starttime="90500" endtime="95800" />
+    <Effect label="G" starttime="95800" endtime="117150" />
+    <Effect label="H" starttime="117150" endtime="141150" />
+    <Effect label="G" starttime="141150" endtime="162450" />
+    <Effect label="I" starttime="162450" endtime="181150" />
+    <Effect label="A" starttime="183800" endtime="210965" />
+  </EffectLayer>
+</timing>

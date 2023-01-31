@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="-ry 2" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="39080" endtime="39160" />
+    <Effect label="" starttime="39160" endtime="39320" />
+    <Effect label="" starttime="41480" endtime="41560" />
+    <Effect label="" starttime="41560" endtime="41720" />
+    <Effect label="" starttime="77680" endtime="77760" />
+    <Effect label="" starttime="77760" endtime="77920" />
+    <Effect label="" starttime="79880" endtime="79960" />
+    <Effect label="" starttime="79960" endtime="80120" />
+    <Effect label="" starttime="116080" endtime="116160" />
+    <Effect label="" starttime="116160" endtime="116320" />
+    <Effect label="" starttime="118280" endtime="118360" />
+    <Effect label="" starttime="118360" endtime="118520" />
+  </EffectLayer>
+</timing>

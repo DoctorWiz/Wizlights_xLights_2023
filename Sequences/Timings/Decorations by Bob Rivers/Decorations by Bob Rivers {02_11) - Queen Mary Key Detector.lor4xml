@@ -1,0 +1,21 @@
+    <timingGrid saveID="X" name="Queen Mary Key Detector" type="freeform">
+    <timing centisecond="0" />
+    <timing centisecond="148" />
+    <timing centisecond="222" />
+    <timing centisecond="297" />
+    <timing centisecond="520" />
+    <timing centisecond="2823" />
+    <timing centisecond="2972" />
+    <timing centisecond="4606" />
+    <timing centisecond="5647" />
+    <timing centisecond="5795" />
+    <timing centisecond="5870" />
+    <timing centisecond="6390" />
+    <timing centisecond="8767" />
+    <timing centisecond="9288" />
+    <timing centisecond="10253" />
+    <timing centisecond="10997" />
+    <timing centisecond="11517" />
+    <timing centisecond="11740" />
+    <timing centisecond="12185" />
+    </timingGrid>

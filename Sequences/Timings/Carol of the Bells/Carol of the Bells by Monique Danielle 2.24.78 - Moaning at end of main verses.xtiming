@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Moaning at end of main verses" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="67600" endtime="72160" />
+    <Effect label="" starttime="105760" endtime="110560" />
+  </EffectLayer>
+</timing>

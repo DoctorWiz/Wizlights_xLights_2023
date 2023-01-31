@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LORTiming version="1">
+  <TimingGrids>
+    <TimingGridFree name="Bars (Whole notes, (4 Quarter notes))">
+    <timing centisecond="20" />
+    <timing centisecond="195" />
+    <timing centisecond="382" />
+    <timing centisecond="570" />
+    <timing centisecond="750" />
+    <timing centisecond="927" />
+    <timing centisecond="1105" />
+    <timing centisecond="1287" />
+    <timing centisecond="1470" />
+    <timing centisecond="1660" />
+    <timing centisecond="1827" />
+    <timing centisecond="1972" />
+    <timing centisecond="2087" />
+    <timing centisecond="2207" />
+    <timing centisecond="2325" />
+    <timing centisecond="2437" />
+    <timing centisecond="2555" />
+    <timing centisecond="2677" />
+    <timing centisecond="2797" />
+    <timing centisecond="2937" />
+    <timing centisecond="3077" />
+    <timing centisecond="3222" />
+    <timing centisecond="3385" />
+    <timing centisecond="3555" />
+    <timing centisecond="3722" />
+    <timing centisecond="3892" />
+    <timing centisecond="4060" />
+    <timing centisecond="4230" />
+    <timing centisecond="4400" />
+    <timing centisecond="4565" />
+    <timing centisecond="4735" />
+    <timing centisecond="4905" />
+    <timing centisecond="5072" />
+    <timing centisecond="5240" />
+    <timing centisecond="5410" />
+    <timing centisecond="5580" />
+    <timing centisecond="5750" />
+    <timing centisecond="5917" />
+    <timing centisecond="6085" />
+    <timing centisecond="6255" />
+    <timing centisecond="6425" />
+    <timing centisecond="6592" />
+    <timing centisecond="6762" />
+    <timing centisecond="6930" />
+    <timing centisecond="7100" />
+    <timing centisecond="7270" />
+    <timing centisecond="7437" />
+    <timing centisecond="7607" />
+    <timing centisecond="7777" />
+    <timing centisecond="7945" />
+    <timing centisecond="8115" />
+    <timing centisecond="8282" />
+    <timing centisecond="8452" />
+    <timing centisecond="8622" />
+    <timing centisecond="8790" />
+    </TimingGridFree>
+  </TimingGrids>
+  <BeatChannels />
+</LORTiming>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Tempo Changes" SourceVersion="2021.17">
+  <EffectLayer>
+    <Effect label="92" starttime="0" endtime="2500" />
+    <Effect label="91" starttime="2500" endtime="117150" />
+    <Effect label="89" starttime="117150" endtime="119850" />
+    <Effect label="96" starttime="119850" endtime="122350" />
+    <Effect label="123" starttime="122350" endtime="124450" />
+    <Effect label="103" starttime="124450" endtime="126750" />
+    <Effect label="110" starttime="126750" endtime="129000" />
+    <Effect label="110" starttime="129000" endtime="131150" />
+    <Effect label="112" starttime="131150" endtime="133250" />
+    <Effect label="92" starttime="133250" endtime="135900" />
+    <Effect label="91" starttime="135900" endtime="210965" />
+  </EffectLayer>
+</timing>

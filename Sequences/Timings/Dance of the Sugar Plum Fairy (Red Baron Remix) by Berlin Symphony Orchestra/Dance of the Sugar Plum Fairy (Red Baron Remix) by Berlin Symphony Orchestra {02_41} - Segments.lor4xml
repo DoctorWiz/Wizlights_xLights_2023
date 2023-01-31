@@ -1,0 +1,8 @@
+    <timingGrid saveID="X" name="Segments" type="freeform">
+    <timing centisecond="0" />
+    <timing centisecond="1149" />
+    <timing centisecond="3984" />
+    <timing centisecond="9003" />
+    <timing centisecond="12385" />
+    <timing centisecond="15220" />
+    </timingGrid>

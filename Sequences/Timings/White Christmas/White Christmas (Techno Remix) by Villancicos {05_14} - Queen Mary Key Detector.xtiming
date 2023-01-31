@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Queen Mary Key Detector" SourceVersion="2019.32">
+  <EffectLayer>
+    <Effect label="F major" starttime="0" endtime="1486" />
+    <Effect label="G minor" starttime="1486" endtime="5201" />
+    <Effect label="A major" starttime="5201" endtime="13375" />
+    <Effect label="F major" starttime="13375" endtime="14118" />
+    <Effect label="A major" starttime="14118" endtime="20062" />
+    <Effect label="D minor" starttime="20062" endtime="25263" />
+    <Effect label="D major" starttime="25263" endtime="29722" />
+    <Effect label="A major" starttime="29722" endtime="34180" />
+    <Effect label="D minor" starttime="34180" endtime="37152" />
+    <Effect label="A major" starttime="37152" endtime="39381" />
+    <Effect label="D major" starttime="39381" endtime="60929" />
+    <Effect label="D minor" starttime="60929" endtime="69846" />
+    <Effect label="D major" starttime="69846" endtime="74304" />
+    <Effect label="D minor" starttime="74304" endtime="81734" />
+    <Effect label="A major" starttime="81734" endtime="85449" />
+    <Effect label="D major" starttime="85449" endtime="132261" />
+    <Effect label="C♯ minor" starttime="132261" endtime="137462" />
+    <Effect label="D major" starttime="137462" endtime="161239" />
+    <Effect label="A major" starttime="161239" endtime="166441" />
+    <Effect label="D minor" starttime="166441" endtime="178329" />
+    <Effect label="D major" starttime="178329" endtime="197648" />
+    <Effect label="F♯ major" starttime="197648" endtime="199134" />
+    <Effect label="D minor" starttime="199134" endtime="206565" />
+    <Effect label="F♯ major" starttime="206565" endtime="207308" />
+    <Effect label="C♯ major" starttime="207308" endtime="213252" />
+    <Effect label="B major" starttime="213252" endtime="222912" />
+    <Effect label="F minor" starttime="222912" endtime="229599" />
+    <Effect label="C♯ major" starttime="229599" endtime="241488" />
+    <Effect label="G♯ major" starttime="241488" endtime="254862" />
+    <Effect label="F minor" starttime="254862" endtime="263779" />
+    <Effect label="A♯ minor" starttime="263779" endtime="268237" />
+    <Effect label="G♯ major" starttime="268237" endtime="271209" />
+    <Effect label="C♯ major" starttime="271209" endtime="281612" />
+    <Effect label="D♯ major" starttime="281612" endtime="294986" />
+    <Effect label="G♯ major" starttime="294986" endtime="313954" />
+  </EffectLayer>
+</timing>

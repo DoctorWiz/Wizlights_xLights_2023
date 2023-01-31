@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LORTiming version="1">
+  <TimingGrids>
+    <TimingGridFree name="Bars (Whole notes, (4 Quarter notes))">
+    <timing centisecond="50" />
+    <timing centisecond="265" />
+    <timing centisecond="505" />
+    <timing centisecond="747" />
+    <timing centisecond="987" />
+    <timing centisecond="1230" />
+    <timing centisecond="1472" />
+    <timing centisecond="1707" />
+    <timing centisecond="1947" />
+    <timing centisecond="2185" />
+    <timing centisecond="2427" />
+    <timing centisecond="2657" />
+    <timing centisecond="2895" />
+    <timing centisecond="3130" />
+    <timing centisecond="3357" />
+    <timing centisecond="3587" />
+    <timing centisecond="3815" />
+    <timing centisecond="4047" />
+    <timing centisecond="4277" />
+    <timing centisecond="4512" />
+    <timing centisecond="4750" />
+    <timing centisecond="4987" />
+    <timing centisecond="5220" />
+    <timing centisecond="5452" />
+    <timing centisecond="5690" />
+    <timing centisecond="5925" />
+    <timing centisecond="6152" />
+    <timing centisecond="6387" />
+    <timing centisecond="6620" />
+    <timing centisecond="6855" />
+    <timing centisecond="7085" />
+    <timing centisecond="7317" />
+    <timing centisecond="7550" />
+    <timing centisecond="7785" />
+    <timing centisecond="8020" />
+    <timing centisecond="8250" />
+    <timing centisecond="8487" />
+    <timing centisecond="8717" />
+    <timing centisecond="8952" />
+    <timing centisecond="9182" />
+    </TimingGridFree>
+  </TimingGrids>
+  <BeatChannels />
+</LORTiming>

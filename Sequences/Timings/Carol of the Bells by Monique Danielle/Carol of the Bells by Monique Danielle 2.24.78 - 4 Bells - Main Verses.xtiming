@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="4 Bells - Main Verses" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="4960" endtime="33760" />
+    <Effect label="" starttime="43360" endtime="72160" />
+    <Effect label="" starttime="81760" endtime="110560" />
+    <Effect label="" starttime="120160" endtime="129600" />
+  </EffectLayer>
+</timing>

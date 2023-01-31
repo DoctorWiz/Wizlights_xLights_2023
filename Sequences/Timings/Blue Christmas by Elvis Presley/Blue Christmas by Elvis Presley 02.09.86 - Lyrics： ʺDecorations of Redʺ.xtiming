@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Lyrics: &quot;Decorations of Red&quot;" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="22650" endtime="22850" />
+    <Effect label="" starttime="22850" endtime="25750" />
+    <Effect label="" starttime="25750" endtime="27100" />
+  </EffectLayer>
+</timing>

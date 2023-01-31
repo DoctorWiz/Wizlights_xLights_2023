@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Lyrics: &quot;Green Christmas Tree&quot;" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="27050" endtime="29000" />
+    <Effect label="" starttime="29000" endtime="30370" />
+    <Effect label="" starttime="30370" endtime="31450" />
+    <Effect label="" starttime="31450" endtime="31650" />
+  </EffectLayer>
+</timing>

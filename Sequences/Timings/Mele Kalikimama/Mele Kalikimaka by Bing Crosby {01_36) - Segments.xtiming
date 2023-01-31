@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Segments" SourceVersion="2019.32">
+  <EffectLayer>
+    <Effect label="A" starttime="0" endtime="96045" />
+  </EffectLayer>
+</timing>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+<timings>
+	<timing name="Elvis Singing" SourceVersion="2021.17">
+		<EffectLayer>
+			<Effect label="" starttime="55" endtime="85" />
+			<Effect label="" starttime="85" endtime="625" />
+			<Effect label="" starttime="625" endtime="650" />
+		</EffectLayer>
+	</timing>
+	<timing name="Chorus &quot;dooweedoo&quot;" SourceVersion="2021.17">
+		<EffectLayer>
+			<Effect label="" starttime="325" endtime="345" />
+			<Effect label="" starttime="345" endtime="505" />
+			<Effect label="" starttime="505" endtime="525" />
+		</EffectLayer>
+	</timing>
+	<timing name="Chorus &quot;ahhhhh&quot;" SourceVersion="2021.17">
+		<EffectLayer>
+			<Effect label="" starttime="2375" endtime="2390" />
+			<Effect label="" starttime="2390" endtime="3095" />
+			<Effect label="" starttime="3095" endtime="3145" />
+		</EffectLayer>
+	</timing>
+		<timing name="Lyrics: &quot;Blue Blue Christmas&quot;" SourceVersion="2021.17">
+			<EffectLayer>
+			<Effect label="" starttime="55" endtime="85" />
+			<Effect label="" starttime="85" endtime="266" />
+			<Effect label="" starttime="266" endtime="521" />
+		</EffectLayer>
+	</timing>
+</timings>

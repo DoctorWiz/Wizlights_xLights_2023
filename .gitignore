@@ -1,0 +1,42 @@
+Backups
+*.bak
+*.xbkp
+Backup/*
+./Backup/*
+*.zip
+*.exe
+*.foo
+*.7z
+
+# Audio Files
+*.mp3
+*.wav
+*.flac
+*.mp4
+*.m4a
+Audio/*
+./Audio/*
+Music/*
+./Music/*
+*/Audio/*
+*/Music/*
+
+# Compiled Sequences
+*.fseq
+
+# Desktop.ini and Customized Folder Icons
+# desktop.ini
+# */desktop.ini
+# */folder.ico
+
+# Folders
+Downloads/*
+./Downloads/*
+Imports/*
+./Import/*
+RenderCache/*
+./RenderCache/*
+PreviewVids/*
+./PreviewVids/*
+Videos/*
+./Videos/*

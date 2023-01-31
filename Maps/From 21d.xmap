@@ -1,0 +1,246 @@
+false
+122
+Eaves Chase 1 (R)
+Eaves Chase 2 (G)
+Eaves Chase 3 (B)
+Eaves Chase 4 (W)
+Snowfall Projectors (WB)
+Swirlies- Snowflakes (WB)
+Lasers- House Front (RGB)
+Roof Ridgeline 1 {L} (RGB)
+Roof Ridgeline 2 {R} (RGB)
+Disco Balls (M)
+Big Nick Inside (W)
+Swirlies- Big Nick Fire (RO)
+UFOs 1 {L} (RGB)
+UFOs 2 {CT} (RGB)
+UFOs 3 {R} (RGB)
+Bushes 1 {S} Rainbow (ROGBV)
+Bushes 2.1 {L} (M)
+Bushes 2.2 {L} (W)
+Bushes 2.3 {L} Low (O)
+Bushes 3.1 {C} (R)
+Bushes 3.2 {C} (G)
+Bushes 3.3 {C} (B)
+Bushes 3.4 {C} (W)
+Bushes 4.1 {D} (P)
+Bushes 4.2 {D} (W)
+Bushes 5.2 {R} (G)
+Bushes 5.3 {R} (B)
+Bushes 5.1 {R} (R)
+Bushes 5.4 {R} (W)
+Bushes 5.5 {R} (V)
+Bushes 5.6 {R} (M)
+Tree- Tomato A1.1 (L} (R)
+Tree- Tomato A1.2 (L} (G)
+Tree- Tomato A1.3 (L} (B)
+Tree- Tomato A1.4 {L} (W)
+Tree- Tomato A2.1 (R)
+Tree- Tomato A2.2 (G)
+Tree- Tomato A2.3 (B)
+Tree- Tomato A2.4 (W)
+Tree- Tomato A3.1 (R)
+Tree- Tomato A3.2 (G)
+Tree- Tomato A3.3 (B)
+Tree- Tomato A3.4 (W)
+Tree- Tomato A4.1 {CL} (R)
+Tree- Tomato A4.2 {CL} (G)
+Tree- Tomato A4.3 {CL} (B)
+Tree- Tomato A4.4 {CL} (W)
+Tree- Tomato A5.1 {CR} (R)
+Tree- Tomato A5.2 {CR} (G)
+Tree- Tomato A5.3 {CR} (B)
+Tree- Tomato A5.4 {CR} (W)
+Tree- Tomato A6.1 (R)
+Tree- Tomato A6.2 (G)
+Tree- Tomato A6.3 (B)
+Tree- Tomato A6.4 (W)
+Tree- Tomato A7.1 (R)
+Tree- Tomato A7.2 (G)
+Tree- Tomato A7.3 (B)
+Tree- Tomato A7.4 (W)
+Tree- Tomato A8.1 {R} (R)
+Tree- Tomato A8.2 {R} (G)
+Tree- Tomato A8.3 {R} (B)
+Tree- Tomato A8.4 {R} (W)
+Tree- Tomato B1.1 {L} (V)
+Tree- Tomato B1.2 {L} (W)
+Tree- Tomato B2.1 (V)
+Tree- Tomato B2.2 (W)
+Tree- Tomato B3.1 (V)
+Tree- Tomato B3.2 (W)
+Tree- Tomato B4.1 {CL} (V)
+Tree- Tomato B4.2 {CL} (W)
+Tree- Tomato B5.1 {CR} (V)
+Tree- Tomato B5.2 {CR} (W)
+Tree- Tomato B6.1 (V)
+Tree- Tomato B6.2 (W)
+Tree- Tomato B7.1 (V)
+Tree- Tomato B7.2 (W)
+Tree- Tomato B8.1 {R} (V)
+Tree- Tomato B8.2 {R} (W)
+Tree- Spiral 4 {B} (WV)
+Tree- Spiral 2 {F} (WG)
+Tree- Spiral 1 {L} (WR)
+Tree- Spiral 3 {R} (WB)
+Tree- Tinsel 1 {L} (R)
+Tree- Tinsel 2 {R} (R)
+Tree- Big AC 1 (M)
+Tree- Small {L} (B)
+Trees- Willow (W)
+Trees- Rainbow (ROYGBV)
+Presents (M)
+CandyCane01-R1
+CandyCane02-G2
+CandyCane03-R3
+CandyCane04-G4
+Nativity Characters
+Manger Flood 1 {L} (RGB)
+Manger Flood 2 {R} (RGB)
+Swirlies- Manger Stars (RWB)
+Menorah (B)
+Yule Log (O)
+Coexist Flag (MRGB)
+Flying Spaghetti Monster (W)
+Festivus Pole Flood (RGB)
+Peace Sign (RGB)
+Wreath Leaves (G)
+Wreath Berries (R)
+Swirlies- Driveway (RGB)
+Swirlies- Oak (RGB)
+Swirlies- Pine (GO)
+Swirlies- Street (M)
+Lasers- Driveway (RG)
+Lasers- Street (RG)
+Laser- Streetlight (R)
+Rotating Beacons {L} (RGBO)
+Rotating Beacons {R} (RGBO)
+Snow Lake (W)
+Snowman (W)
+Penguins
+Mailboxes (Y)
+Countdown Timer (B)
+Lamp Posts (Y)
+Lamp Post Directions (O)
+Eaves Chase 1 (R)			Eaves Chase 1 (R)	red
+Eaves Chase 2 (G)			Eaves Chase 2 (G)	green
+Eaves Chase 3 (B)			Eaves Chase 3 (B)	blue
+Eaves Chase 4 (W)			Eaves Chase 4 (W)	white
+Snowfall Projectors (WB)			Snowfall Projectors (WB)	rgb(128, 255, 255)
+Swirlies- Snowflakes (WB)			Swirlies- Snowflakes (WB)	rgb(128, 255, 255)
+Lasers- House Front (RGB)			Lasers- House Front (RGB)	rgb(64, 0, 0)
+Roof Ridgeline 1 {L} (RGB)			Roof Ridgeline 1 {L}	rgb(64, 0, 0)
+Roof Ridgeline 2 {R} (RGB)			Roof Ridgeline 2 {R}	rgb(64, 0, 0)
+Disco Balls (M)			Disco Balls (M)	rgb(128, 64, 64)
+Big Nick Inside (W)			Big Nick Inside (W)	white
+Swirlies- Big Nick Fire (RO)			Swirlies- Big Nick Fire (RO)	rgb(255, 64, 0)
+UFOs 1 {L} (RGB)			UFOs 1 {L} (RGB)	rgb(64, 0, 0)
+UFOs 2 {CT} (RGB)			UFOs 2 {CT} (RGB)	rgb(64, 0, 0)
+UFOs 3 {R} (RGB)			UFOs 3 {R} (RGB)	rgb(64, 0, 0)
+Bushes 1 {S} Rainbow (ROGBV)			Bushes 1 {S} Rainbow (ROGBV)	white
+Bushes 2.1 {L} (M)			Bushes 2.1 {L} (M)	rgb(128, 64, 64)
+Bushes 2.2 {L} (W)			Bushes 2.2 {L} (W)	white
+Bushes 2.3 {L} Low (O)			Bushes 2.3 {L} Low (O)	rgb(255, 128, 0)
+Bushes 3.1 {C} (R)			Bushes 3.1 {C} (R)	red
+Bushes 3.2 {C} (G)			Bushes 3.2 {C} (G)	green
+Bushes 3.3 {C} (B)			Bushes 3.3 {C} (B)	blue
+Bushes 3.4 {C} (W)			Bushes 3.4 {C} (W)	white
+Bushes 4.1 {D} (P)			Bushes 4.1 {D} (P)	magenta
+Bushes 4.2 {D} (W)			Bushes 4.2 {D} (W)	white
+Bushes 5.2 {R} (G)			Bushes 5.2 {R} (G)	green
+Bushes 5.3 {R} (B)			Bushes 5.3 {R} (B)	blue
+Bushes 5.1 {R} (R)			Bushes 5.1 {R} (R)	red
+Bushes 5.4 {R} (W)			Bushes 5.4 {R} (W)	white
+Bushes 5.5 {R} (V)			Bushes 5.5 {R} (V)	rgb(128, 0, 255)
+Bushes 5.6 {R} (M)			Bushes 5.6 {R} (M)	rgb(128, 64, 64)
+Tree- Tomato A1.1 (L} (R)			Tree- Tomato A1.1 (L} (R)	red
+Tree- Tomato A1.2 (L} (G)			Tree- Tomato A1.2 (L} (G)	green
+Tree- Tomato A1.3 (L} (B)			Tree- Tomato A1.3 (L} (B)	blue
+Tree- Tomato A1.4 {L} (W)			Tree- Tomato A1.4 {L} (W)	white
+Tree- Tomato A2.1 (R)			Tree- Tomato A2.1 (R)	red
+Tree- Tomato A2.2 (G)			Tree- Tomato A2.2 (G)	green
+Tree- Tomato A2.3 (B)			Tree- Tomato A2.3 (B)	blue
+Tree- Tomato A2.4 (W)			Tree- Tomato A2.4 (W)	white
+Tree- Tomato A3.1 (R)			Tree- Tomato A3.1 (R)	red
+Tree- Tomato A3.2 (G)			Tree- Tomato A3.2 (G)	green
+Tree- Tomato A3.3 (B)			Tree- Tomato A3.3 (B)	blue
+Tree- Tomato A3.4 (W)			Tree- Tomato A3.4 (W)	white
+Tree- Tomato A4.1 {CL} (R)			Tree- Tomato A4.1 {CL} (R)	red
+Tree- Tomato A4.2 {CL} (G)			Tree- Tomato A4.2 {CL} (G)	green
+Tree- Tomato A4.3 {CL} (B)			Tree- Tomato A4.3 {CL} (B)	blue
+Tree- Tomato A4.4 {CL} (W)			Tree- Tomato A4.4 {CL} (W)	white
+Tree- Tomato A5.1 {CR} (R)			Tree- Tomato A5.1 {CR} (R)	red
+Tree- Tomato A5.2 {CR} (G)			Tree- Tomato A5.2 {CR} (G)	green
+Tree- Tomato A5.3 {CR} (B)			Tree- Tomato A5.3 {CR} (B)	blue
+Tree- Tomato A5.4 {CR} (W)			Tree- Tomato A5.4 {CR} (W)	white
+Tree- Tomato A6.1 (R)			Tree- Tomato A6.1 (R)	red
+Tree- Tomato A6.2 (G)			Tree- Tomato A6.2 (G)	green
+Tree- Tomato A6.3 (B)			Tree- Tomato A6.3 (B)	blue
+Tree- Tomato A6.4 (W)			Tree- Tomato A6.4 (W)	white
+Tree- Tomato A7.1 (R)			Tree- Tomato A7.1 (R)	red
+Tree- Tomato A7.2 (G)			Tree- Tomato A7.2 (G)	green
+Tree- Tomato A7.3 (B)			Tree- Tomato A7.3 (B)	blue
+Tree- Tomato A7.4 (W)			Tree- Tomato A7.4 (W)	white
+Tree- Tomato A8.1 {R} (R)			Tree- Tomato A8.1 {R} (R)	red
+Tree- Tomato A8.2 {R} (G)			Tree- Tomato A8.2 {R} (G)	green
+Tree- Tomato A8.3 {R} (B)			Tree- Tomato A8.3 {R} (B)	blue
+Tree- Tomato A8.4 {R} (W)			Tree- Tomato A8.4 {R} (W)	white
+Tree- Tomato B1.1 {L} (V)			Tree- Tomato B1.1 {L} (V)	rgb(128, 0, 255)
+Tree- Tomato B1.2 {L} (W)			Tree- Tomato B1.2 {L} (W)	white
+Tree- Tomato B2.1 (V)			Tree- Tomato B2.1 (V)	rgb(128, 0, 255)
+Tree- Tomato B2.2 (W)			Tree- Tomato B2.2 (W)	white
+Tree- Tomato B3.1 (V)			Tree- Tomato B3.1 (V)	rgb(128, 0, 255)
+Tree- Tomato B3.2 (W)			Tree- Tomato B3.2 (W)	white
+Tree- Tomato B4.1 {CL} (V)			Tree- Tomato B4.1 {CL} (V)	rgb(128, 0, 255)
+Tree- Tomato B4.2 {CL} (W)			Tree- Tomato B4.2 {CL} (W)	white
+Tree- Tomato B5.1 {CR} (V)			Tree- Tomato B5.1 {CR} (V)	rgb(128, 0, 255)
+Tree- Tomato B5.2 {CR} (W)			Tree- Tomato B5.2 {CR} (W)	white
+Tree- Tomato B6.1 (V)			Tree- Tomato B6.1 (V)	rgb(128, 0, 255)
+Tree- Tomato B6.2 (W)			Tree- Tomato B6.2 (W)	white
+Tree- Tomato B7.1 (V)			Tree- Tomato B7.1 (V)	rgb(128, 0, 255)
+Tree- Tomato B7.2 (W)			Tree- Tomato B7.2 (W)	white
+Tree- Tomato B8.1 {R} (V)			Tree- Tomato B8.1 {R} (V)	rgb(128, 0, 255)
+Tree- Tomato B8.2 {R} (W)			Tree- Tomato B8.2 {R} (W)	white
+Tree- Spiral 4 {B} (WV)			Tree- Spiral 4 {B} (WV)	rgb(128, 0, 255)
+Tree- Spiral 2 {F} (WG)			Tree- Spiral 2 {F} (WG)	green
+Tree- Spiral 1 {L} (WR)			Tree- Spiral 1 {L} (WR)	red
+Tree- Spiral 3 {R} (WB)			Tree- Spiral 3 {R} (WB)	blue
+Tree- Tinsel 1 {L} (R)			Tree- Tinsel 1 {L} (R)	red
+Tree- Tinsel 2 {R} (R)			Tree- Tinsel 2 {R} (R)	red
+Tree- Big AC 1 (M)			Tree- Big AC 1 (M)	rgb(128, 64, 64)
+Tree- Small {L} (B)			Tree- Small {L} (B)	blue
+Trees- Willow (W)			Trees- Willow and Palm (GW)	white
+Trees- Rainbow (ROYGBV)			Trees- Rainbow (ROYGBV)	white
+Presents (M)			Presents (M)	rgb(128, 64, 64)
+CandyCane01-R1			Candy Canes 1 (R)	red
+CandyCane02-G2			Candy Canes 2 (G)	green
+CandyCane03-R3			Candy Canes 3 (R)	red
+CandyCane04-G4			Candy Canes 4 (G)	green
+Nativity Characters			Nativity Characters	white
+Manger Flood 1 {L} (RGB)			Manger Flood 1 {L}	rgb(64, 0, 0)
+Manger Flood 2 {R} (RGB)			Manger Flood 2 {R}	rgb(64, 0, 0)
+Swirlies- Manger Stars (RWB)			Swirlies- Manger Stars (RWB)	red
+Menorah (B)			Menorah (B)	blue
+Yule Log (O)			Yule Log (O)	rgb(255, 128, 0)
+Coexist Flag (MRGB)			Coexist Flag (MRGB)	rgb(64, 0, 0)
+Flying Spaghetti Monster (W)			Flying Spaghetti Monster (W)	white
+Festivus Pole Flood (RGB)			Festivus Pole Flood	rgb(64, 0, 0)
+Peace Sign (RGB)			Peace Sign (RGB)	rgb(64, 0, 0)
+Wreath Leaves (G)			Wreath Leaves (G)	green
+Wreath Berries (R)			Wreath Berries (R)	red
+Swirlies- Driveway (RGB)			Swirlies- Driveway (RGB)	rgb(64, 0, 0)
+Swirlies- Oak (RGB)			Swirlies- Oak (RGB)	rgb(64, 0, 0)
+Swirlies- Pine (GO)			Swirlies- Pine (GO)	green
+Swirlies- Street (M)			Swirlies- Street (M)	rgb(128, 64, 64)
+Lasers- Driveway (RG)			Lasers- Driveway (RG)	red
+Lasers- Street (RG)			Lasers- Street (RG)	green
+Laser- Streetlight (R)			Laser- Streetlight (R)	rgb(192, 0, 0)
+Rotating Beacons {L} (RGBO)			Rotating Beacons {L} (RGBO)	rgb(128, 64, 64)
+Rotating Beacons {R} (RGBO)			Rotating Beacons {R} (RGBO)	rgb(128, 64, 64)
+Snow Lake (W)			Snow Lake (W)	white
+Snowman (W)			Snowman (W)	white
+Penguins			Penguins	white
+Mailboxes (Y)			Mailboxes (O)	rgb(255, 128, 0)
+Countdown Timer (B)			Countdown Timer (B)	blue
+Lamp Posts (Y)			Lamp Posts (Y)	yellow
+Lamp Post Directions (O)			Lamp Post Directions (O)	rgb(255, 128, 0)

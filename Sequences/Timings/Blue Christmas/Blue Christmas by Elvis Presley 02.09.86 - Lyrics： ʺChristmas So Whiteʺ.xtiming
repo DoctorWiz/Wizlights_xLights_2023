@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Lyrics: &quot;Christmas So White&quot;" SourceVersion="">
+  <EffectLayer>
+    <Effect label="" starttime="68650" endtime="68900" />
+    <Effect label="" starttime="68900" endtime="71950" />
+    <Effect label="" starttime="71950" endtime="72850" />
+    <Effect label="" starttime="108820" endtime="108900" />
+    <Effect label="" starttime="108900" endtime="112060" />
+    <Effect label="" starttime="112060" endtime="113510" />
+  </EffectLayer>
+</timing>

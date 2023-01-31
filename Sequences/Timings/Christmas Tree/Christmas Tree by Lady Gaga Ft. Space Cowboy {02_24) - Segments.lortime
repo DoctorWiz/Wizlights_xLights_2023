@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LORTiming version="1">
+  <TimingGrids>
+    <TimingGridFree name="Segments">
+    <timing centisecond="0" />
+    <timing centisecond="4404" />
+    <timing centisecond="6607" />
+    <timing centisecond="7487" />
+    <timing centisecond="9687" />
+    <timing centisecond="10569" />
+    <timing centisecond="12771" />
+    </TimingGridFree>
+  </TimingGrids>
+  <BeatChannels />
+</LORTiming>

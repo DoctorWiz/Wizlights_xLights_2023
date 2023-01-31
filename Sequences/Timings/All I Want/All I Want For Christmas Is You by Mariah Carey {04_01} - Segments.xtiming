@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Segments" SourceVersion="2019.32">
+  <EffectLayer>
+    <Effect label="N1" starttime="0" endtime="11680" />
+    <Effect label="A" starttime="11680" endtime="23859" />
+    <Effect label="N2" starttime="23859" endtime="58549" />
+    <Effect label="A" starttime="58549" endtime="71332" />
+    <Effect label="A" starttime="71332" endtime="82524" />
+    <Effect label="B" starttime="82524" endtime="96897" />
+    <Effect label="N4" starttime="96897" endtime="103306" />
+    <Effect label="A" starttime="103306" endtime="116077" />
+    <Effect label="A" starttime="116077" endtime="127269" />
+    <Effect label="B" starttime="127269" endtime="141653" />
+    <Effect label="N6" starttime="141653" endtime="173627" />
+    <Effect label="A" starttime="173627" endtime="184796" />
+    <Effect label="B" starttime="184796" endtime="199192" />
+    <Effect label="N7" starttime="199192" endtime="205589" />
+    <Effect label="C" starttime="205589" endtime="218372" />
+    <Effect label="C" starttime="218372" endtime="231166" />
+    <Effect label="N8" starttime="231166" endtime="241995" />
+  </EffectLayer>
+</timing>

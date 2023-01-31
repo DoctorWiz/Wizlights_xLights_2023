@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Tempo Changes" SourceVersion="2021.17">
+  <EffectLayer>
+    <Effect label="157" starttime="0" endtime="3100" />
+    <Effect label="152" starttime="3100" endtime="9650" />
+    <Effect label="123" starttime="9650" endtime="15350" />
+    <Effect label="157" starttime="15350" endtime="16900" />
+    <Effect label="152" starttime="16900" endtime="20050" />
+    <Effect label="157" starttime="20050" endtime="21650" />
+    <Effect label="152" starttime="21650" endtime="24800" />
+    <Effect label="148" starttime="24800" endtime="26400" />
+    <Effect label="152" starttime="26400" endtime="28000" />
+    <Effect label="148" starttime="28000" endtime="29650" />
+    <Effect label="152" starttime="29650" endtime="31250" />
+    <Effect label="148" starttime="31250" endtime="32900" />
+    <Effect label="152" starttime="32900" endtime="45800" />
+    <Effect label="157" starttime="45800" endtime="48950" />
+    <Effect label="136" starttime="48950" endtime="50650" />
+    <Effect label="144" starttime="50650" endtime="55700" />
+    <Effect label="148" starttime="55700" endtime="64750" />
+    <Effect label="136" starttime="64750" endtime="90000" />
+    <Effect label="152" starttime="90000" endtime="96600" />
+    <Effect label="148" starttime="96600" endtime="98200" />
+    <Effect label="152" starttime="98200" endtime="107800" />
+    <Effect label="148" starttime="107800" endtime="111050" />
+    <Effect label="144" starttime="111050" endtime="114350" />
+    <Effect label="140" starttime="114350" endtime="117800" />
+    <Effect label="144" starttime="117800" endtime="122950" />
+    <Effect label="152" starttime="122950" endtime="134350" />
+    <Effect label="148" starttime="134350" endtime="135950" />
+    <Effect label="157" starttime="135950" endtime="139200" />
+    <Effect label="152" starttime="139200" endtime="145715" />
+  </EffectLayer>
+</timing>

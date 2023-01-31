@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Beats-Full (Quarter notes)" SourceVersion="2021.17">
+  <EffectLayer>
+    <Effect label="" starttime="25" endtime="350" />
+    <Effect label="" starttime="350" endtime="1075" />
+    <Effect label="" starttime="1075" endtime="1700" />
+  </EffectLayer>
+</timing>

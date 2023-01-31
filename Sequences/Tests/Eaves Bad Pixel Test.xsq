@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.37</version>
+    <author/>
+    <author-email/>
+    <author-website/>
+    <song/>
+    <artist/>
+    <album/>
+    <MusicURL/>
+    <comment/>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile/>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#000000,C_BUTTON_Palette3=#FF0000,C_BUTTON_Palette4=#000000,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FF00,C_BUTTON_Palette8=#000000,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1,C_SLIDER_SparkleFrequency=137</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#FF8000,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#00FF00,C_BUTTON_Palette6=#0000FF,C_BUTTON_Palette7=#8000FF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>B_CHOICE_BufferStyle=Single Line,B_SLIDER_Blur=3,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=1,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=Right,E_SLIDER_Bars_BarCount=5,E_TEXTCTRL_Bars_Cycles=19.5</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=6,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=10,E_SLIDER_Pinwheel_Thickness=90,E_SLIDER_Pinwheel_Twist=134</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="1" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,Conventional in Logical Order" active="0"/>
+    <Element collapsed="0" type="timing" name="100ms" visible="1" views="Conventional in Logical Order" active="0"/>
+    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="Conventional in Logical Order" active="1"/>
+    <Element collapsed="0" type="model" name="Pixels- ALL" visible="1"/>
+    <Element collapsed="0" type="model" name="House Front Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes Groups Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- ALL Groups Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Canes + Fence Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Religious Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies Spinny Group (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Snow Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Right Yard Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Dumb RGB Items Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Eaves Chase Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="EavePixels Group" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowfall Projectors (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflakes Group" visible="0"/>
+    <Element collapsed="0" type="model" name="Lasers- House Front (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Ridgeline Group" visible="0"/>
+    <Element collapsed="0" type="model" name="Disco Balls (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Major Award" visible="0"/>
+    <Element collapsed="0" type="model" name="Big Nick Inside (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Big Nick Fire (RO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Santa in the Window" visible="0"/>
+    <Element collapsed="0" type="model" name="UFOs All Group (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 1 {L} Horiz" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 2 {L} Diag" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 3 {R} Diag" visible="0"/>
+    <Element collapsed="0" type="model" name="Eave Pixels 4 {R} Horiz" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato All Groups Group (RGBWVW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Spiral Group (WWWG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tinsel Group (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Others Group" visible="0"/>
+    <Element collapsed="0" type="model" name="Presents (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Big Pixel" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Big AC 1 (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Small {L} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Willow (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Rainbow (ROYGBV)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="100ms" fixed="100">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="1000ms Metronome" fixed="1000">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels- ALL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="House Front Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes Groups Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- ALL Groups Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Canes + Fence Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Religious Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies Spinny Group (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snow Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Right Yard Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Dumb RGB Items Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Oddballs Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eaves Chase Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="EavePixels Group">
+      <EffectLayer>
+        <Effect ref="0" name="Bars" startTime="0" endTime="30050" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Snowfall Projectors (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflakes Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Lasers- House Front (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Ridgeline Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Disco Balls (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Major Award">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Big Nick Inside (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Big Nick Fire (RO)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Santa in the Window">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs All Group (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 1 {L} Horiz">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 2 {L} Diag">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 3 {R} Diag">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels 4 {R} Horiz">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato All Groups Group (RGBWVW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Spiral Group (WWWG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tinsel Group (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Others Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Presents (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Big Pixel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Big AC 1 (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Small {L} (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Willow (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Rainbow (ROYGBV)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Singing Female {L}">
+      <EffectLayer>
+        <Effect ref="1" name="Pinwheel" selected="1" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Singing Male {R}">
+      <EffectLayer>
+        <Effect ref="1" name="Pinwheel" startTime="0" endTime="30000" palette="1"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>1</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
