@@ -10,7 +10,7 @@
   <keybinding keycode="o" alt="FALSE" control="TRUE" shift="FALSE" type="OPEN_SEQUENCE"/>
   <keybinding keycode="w" alt="FALSE" control="TRUE" shift="FALSE" type="CLOSE_SEQUENCE"/>
   <keybinding keycode="n" alt="FALSE" control="TRUE" shift="FALSE" type="NEW_SEQUENCE"/>
-  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="RENDER_ALL"/>
+  <keybinding keycode="F13" alt="FALSE" control="FALSE" shift="FALSE" type="RENDER_ALL"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="PASTE_BY_CELL"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="PASTE_BY_TIME"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="SEQUENCE_SETTINGS"/>
@@ -113,4 +113,11 @@
   <keybinding keycode="SPACE" alt="FALSE" control="FALSE" shift="FALSE" type="TOGGLE_PLAY"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FLIP_HORIZ"/>
   <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FLIP_VERT"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_ALIGN_BACKS"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_ALIGN_FRONTS"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_ALIGN_GROUND"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_SUBMODELS"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_FACES"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_STATES"/>
+  <keybinding keycode="" alt="FALSE" control="FALSE" shift="FALSE" type="MODEL_MODELDATA"/>
 </keybindings>
