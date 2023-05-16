@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xrgb>
   <models>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Y-Coord Zero.png" Controller="No Controller" name="{Y-Coord Zero {RB}}" WorldPosX="459.6892" WorldPosY="13.0851" WorldPosZ="-0.1622" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35913">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Y-Coord Zero.png" name="{Y-Coord Zero {LB}}" WorldPosX="-489.4546" WorldPosY="10.4055" WorldPosZ="-0.1622" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35912">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" name="{X-Coord Zero {CT}}" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\X-Coord Zero.png" WorldPosX="-0.3704" WorldPosY="368.3179" WorldPosZ="-0.1622" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35908">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" name="{X-Coord +528 {RT}}" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\X-Coord +528.png" WorldPosX="528.2032" WorldPosY="358.8109" WorldPosZ="-0.1622" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35903">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Y-Coord +384.png" Controller="No Controller" name="{Y-Coord +384 {RT}}" WorldPosX="503.2586" WorldPosY="383.6492" WorldPosZ="-0.1622" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35911">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Y-Coord +384.png" Controller="No Controller" name="{Y-Coord +384 {CT}}" WorldPosX="-25.4508" WorldPosY="386.3035" WorldPosZ="-0.1622" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35909">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Y-Coord +384.png" name="{Y-Coord +384 {LT}}" WorldPosX="-505.5536" WorldPosY="385.4376" WorldPosZ="-0.1622" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35910">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\X-Coord -528.png" Controller="No Controller" name="{X-Coord -528 {LT}}" WorldPosX="-528.9769" WorldPosY="362.9133" WorldPosZ="-0.1622" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35906">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\X-Coord +528.png" Controller="No Controller" name="{X-Coord +528 {RB}}" WorldPosX="528.0872" WorldPosY="1.2929" WorldPosZ="18.1182" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35901">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\X-Coord -528.png" Controller="No Controller" name="{X-Coord -528 {LB}}" WorldPosX="-525.5715" WorldPosY="3.0485" WorldPosZ="27.2687" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35904">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Z-Coord Zero.png" Controller="No Controller" name="{Z-Coord +Zero {R}}" WorldPosX="506.2988" WorldPosY="2.1226" WorldPosZ="0.9005" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35918">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Z-Coord Zero.png" name="{Z-Coord +Zero {LB}}" WorldPosX="-511.6416" WorldPosY="2.8162" WorldPosZ="0.9005" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35917">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Z-Coord +576.png" Controller="No Controller" name="{Z-Coord +576 {CF}}" WorldPosX="26.1869" WorldPosY="-9.3649" WorldPosZ="578.7119" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35914">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\X-Coord Zero.png" name="{X-Coord Zero {CF}}" WorldPosX="0.5551" WorldPosY="-11.5485" WorldPosZ="554.6909" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35907">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Z-Coord +576.png" name="{Z-Coord +576 {RF}}" WorldPosX="505.1776" WorldPosY="-11.4313" WorldPosZ="575.2960" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35916">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\X-Coord +528.png" name="{X-Coord +528 {RF}}" WorldPosX="527.9580" WorldPosY="-11.5405" WorldPosZ="550.5043" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35902">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Z-Coord +576.png" name="{Z-Coord +576 {LF}}" WorldPosX="-500.6577" WorldPosY="-11.7307" WorldPosZ="578.7119" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35915">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\X-Coord -528.png" name="{X-Coord -528 {LF}}" WorldPosX="-526.8293" WorldPosY="-11.5131" WorldPosZ="543.6851" ScaleX="20.0000" ScaleY="20.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="180.00000000" RotateZ="180.00000000" versionNumber="5" StartChannel="35905">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Y-Axis Arrow (Green).png" name="{Axis-Y Arrow}" WorldPosX="-22.1939" WorldPosY="7.0000" WorldPosZ="581.5167" ScaleX="40.0000" ScaleY="40.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35898">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" LayoutGroup="Default" Controller="No Controller" name="{Axis-Z Arrow}" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Z-Axis Arrow 2 (Blue).png" WorldPosX="-45.4097" WorldPosY="-12.0985" WorldPosZ="600.0000" ScaleX="40.0000" ScaleY="40.0000" ScaleZ="0.0100" RotateX="90.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="35899">
+      <ControllerConnection/>
+    </model>
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" Controller="No Controller" LayoutGroup="Default" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\X-Axis Arrow (Red).png" name="{Axis-X Arrow}" WorldPosX="0.0000" WorldPosY="-12.7750" WorldPosZ="600.0000" ScaleX="40.0000" ScaleY="40.0000" ScaleZ="0.0100" RotateX="-90.00000000" RotateY="-90.00000000" RotateZ="0.00000000" versionNumber="5" StartChannel="35897">
+      <ControllerConnection/>
+    </model>
     <model StringType="RGB Nodes" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" StartSide="T" DisplayAs="Horiz Matrix" Controller="No Controller" LayoutGroup="Default" name="Dreidel Matrix" parm1="10" parm2="10" TagColour="rgb(128, 0, 0)" WorldPosX="-299.5000" WorldPosY="301.5000" WorldPosZ="-230.0000" ScaleX="1.1000" ScaleY="1.1000" ScaleZ="0.1000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="23172">
       <ControllerConnection Protocol="ws2811"/>
     </model>
@@ -20,9 +83,6 @@
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" Controller="No Controller" LayoutGroup="Default" DisplayAs="Tree 180" TreeRotation="0.000000" TreeBottomTopRatio="1.000000" parm1="128" parm2="8" name="x Scrolling Text Matrix for Donations" TagColour="rgb(128, 0, 0)" WorldPosX="-738.3943" WorldPosY="60.4921" WorldPosZ="505.5881" ScaleX="5.7731" ScaleY="0.3496" ScaleZ="5.7731" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="32177">
-      <ControllerConnection Protocol="ws2811"/>
-    </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="zSpare Falcon Output 8" parm2="1" TagColour="rgb(190, 125, 255)" WorldPosX="1000.0000" WorldPosY="1000.0000" WorldPosZ="1000.0000" X2="0.000000" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="!Falcon F16v3 Output 08:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="70" Active="1" name="Nativity Shephards" CustomColor="#0080c0" StringType="Single Color Custom" TagColour="rgb(0, 128, 192)" WorldPosX="413.0049" WorldPosY="16.1523" WorldPosZ="369.9205" X2="0.000000" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="228">
@@ -100,7 +160,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" Active="1" PixelSize="50" name="zBAD TRIAC D09-U1.73" CustomColor="#808080" StringType="Single Color Custom" TagColour="grey" WorldPosX="-59.9800" WorldPosY="460.0200" WorldPosZ="-250.0000" X2="282.321106" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="73">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" Active="1" PixelSize="50" CustomColor="#808080" StringType="Single Color Custom" TagColour="grey" name="}BAD TRIAC D09-U1.73{" WorldPosX="-59.9800" WorldPosY="460.0200" WorldPosZ="-250.0000" X2="282.321106" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="73">
       <ControllerConnection/>
     </model>
     <model DisplayAs="Circle" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm2="50" parm3="50" InsideOut="0" LayoutGroup="Default" name="Work Together 3 (B)" StringType="Single Color Blue" TagColour="blue" WorldPosX="-475.0000" WorldPosY="32.0000" WorldPosZ="350.0000" ScaleX="0.7500" ScaleY="0.7500" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="4.80000019" Locked="1" versionNumber="5" StartChannel="&gt;Work Together 2 (W):1">
@@ -362,7 +422,7 @@
         <ControllerConnection/>
       </subModel>
     </model>
-    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" name="aGround" OffBrightness="20" CustomColor="#000000" StringType="Single Color Custom" Transparency="40" Active="1" Image="X:\2023\xLights\Wizlights\Images\Betty'sHouseOverheadCropped.png" TagColour="rgb(64, 0, 64)" WorldPosX="46.5000" WorldPosY="-1.0000" WorldPosZ="90.5000" ScaleX="2000.0000" ScaleY="1800.0000" ScaleZ="1.0000" RotateX="-88.50000000" RotateY="0.69999999" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="@Amplifier 12V:1">
+    <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" OffBrightness="20" CustomColor="#000000" StringType="Single Color Custom" Transparency="40" Active="1" Image="X:\2023\xLights\Wizlights\Images\Betty'sHouseOverheadCropped.png" TagColour="rgb(64, 0, 64)" name="{Ground (Grass)}" WorldPosX="46.5000" WorldPosY="-1.0000" WorldPosZ="90.5000" ScaleX="2000.0000" ScaleY="1800.0000" ScaleZ="1.0000" RotateX="-88.50000000" RotateY="0.69999999" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="@Amplifier 12V:1">
       <ControllerConnection/>
     </model>
     <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" OffBrightness="0" name="Swirlies- Driveway (RGB)" LayoutGroup="Default" Active="1" Image="X:\2023\xLights\Wizlights\Images\SwirlyColoredDots2.png" TagColour="rgb(128, 0, 0)" WorldPosX="202.3153" WorldPosY="-10.4438" WorldPosZ="491.3566" ScaleX="100.0000" ScaleY="100.0000" ScaleZ="0.0000" RotateX="91.50000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="236">
@@ -572,7 +632,7 @@
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" TreeRotation="0.000000" TreeBottomTopRatio="0.000000" parm1="1" DisplayAs="Tree 1" parm2="300" TreeSpiralRotations="20.000000" name="Bushes 2.1 {L} (M)" LayoutGroup="Default" Active="1" SuperStringColour0="#ff0000" SuperStringColour1="#ff8000" SuperStringColour2="#ffff00" SuperStringColour3="#00ff00" SuperStringColour4="#0000ff" SuperStringColour5="#8000ff" CustomColor="#804040" StringType="Single Color Custom" TagColour="rgb(128, 0, 0)" WorldPosX="-260.0000" WorldPosY="20.0000" WorldPosZ="40.0000" ScaleX="0.0700" ScaleY="0.1700" ScaleZ="0.0700" RotateX="0.00000000" RotateY="-0.00000000" RotateZ="90.00000000" Locked="1" versionNumber="5" StartChannel="66">
       <ControllerConnection Protocol="dmx"/>
     </model>
-    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" TreeRotation="90.000000" parm1="1" DisplayAs="Tree 360" CustomColor="#ffd500" StringType="Single Color Custom" parm2="300" TreeSpiralRotations="14.000000" LayoutGroup="Default" name="Tree- Big AC 1 (M)" Active="1" TagColour="rgb(128, 0, 0)" WorldPosX="-240.0000" WorldPosY="30.0000" WorldPosZ="361.6800" ScaleX="0.0700" ScaleY="0.0600" ScaleZ="0.0700" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="53">
+    <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" TreeRotation="90.000000" parm1="1" DisplayAs="Tree 360" CustomColor="#ffd500" parm2="300" TreeSpiralRotations="14.000000" LayoutGroup="Default" name="Tree- Big AC 1 (M)" Active="1" TagColour="white" StringType="Single Color White" WorldPosX="-240.0000" WorldPosY="30.0000" WorldPosZ="361.6800" ScaleX="0.0700" ScaleY="0.0600" ScaleZ="0.0700" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="53">
       <ControllerConnection/>
     </model>
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" TreeRotation="90.000000" parm1="1" DisplayAs="Tree 360" CustomColor="#ff00ff" StringType="Single Color Red" parm2="100" TreeSpiralRotations="8.000000" name="Tree- Tinsel 2 {R} (R)" LayoutGroup="Default" Active="1" TagColour="red" WorldPosX="-40.5600" WorldPosY="15.7599" WorldPosZ="313.6800" ScaleX="0.0700" ScaleY="0.0700" ScaleZ="0.0700" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="&gt;Tree- Tinsel 1 {L} (R):1">
@@ -833,10 +893,10 @@
     <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" parm3="1" parm1="1" parm2="1" LayoutGroup="Default" name="Swirlies- Big Nick Fire (RO)" Transparency="50" Active="1" Image="X:\2023\xLights\Wizlights\Images\SwirlyColoredDots3.png" TagColour="rgb(255, 96, 0)" CustomColor="#ff6000" StringType="Single Color Custom" WorldPosX="0.0000" WorldPosY="292.0955" WorldPosZ="0.0000" ScaleX="30.0000" ScaleY="96.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="133">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="xyz House Front" Active="0" parm2="1" CustomColor="#d0d0d0" StringType="Single Color Custom" TagColour="rgb(208, 208, 208)" WorldPosX="0.0000" WorldPosY="48.0000" WorldPosZ="0.0000" X2="0.000000" Y2="-96.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="!zNull or Retired Placeholder:2">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" CustomColor="#d0d0d0" StringType="Single Color Custom" TagColour="rgb(208, 208, 208)" name="{Origin Point- House Front Center}" Active="1" WorldPosX="0.0000" WorldPosY="48.0000" WorldPosZ="0.0000" X2="0.000000" Y2="-96.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="!zNull or Retired Placeholder:2">
       <ControllerConnection Protocol="ws2811"/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" parm1="1" parm3="1" LayoutGroup="Default" TagColour="rgb(128, 128, 255)" PixelSize="12" CustomColor="#c488ff" StringType="Single Color Custom" Antialias="2" Transparency="50" BlackTransparency="50" parm2="300" Active="1" name="xyz Yard Front Left Origin Point" WorldPosX="-528.0000" WorldPosY="36.0000" WorldPosZ="576.0000" X2="0.000000" Y2="-96.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="!zNull or Retired Placeholder:3">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" parm1="1" parm3="1" LayoutGroup="Default" TagColour="rgb(128, 128, 255)" PixelSize="12" CustomColor="#c488ff" StringType="Single Color Custom" Antialias="2" Transparency="50" BlackTransparency="50" parm2="300" Active="1" name="{Origin Point- Yard Left Front}" WorldPosX="-528.0000" WorldPosY="36.0000" WorldPosZ="576.0000" X2="0.000000" Y2="-96.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="!zNull or Retired Placeholder:3">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model DisplayAs="Arches" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" Transparency="0" parm3="1" parm2="16" PixelSize="5" Arc="120" LayoutGroup="Default" parm1="1" arc="100" name="Fence Swags 21 {RB}" Active="1" TagColour="rgb(128, 0, 0)" WorldPosX="115.0000" WorldPosY="50.9900" WorldPosZ="330.5634" X2="1.000000" Y2="-1.150002" Z2="51.951538" RotateX="0.00000000" Height="1.000000" Angle="180" Locked="1" versionNumber="5" StartChannel="!Falcon F16v3 Output 14:1">
@@ -1050,7 +1110,7 @@
     <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" PixelSize="70" Active="1" name="On The Air (R)" CustomColor="#8000ff" StringType="Single Color Red" TagColour="red" WorldPosX="0.0000" WorldPosY="500.0000" WorldPosZ="-250.0000" X2="0.000000" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="129">
       <ControllerConnection/>
     </model>
-    <model StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" LayoutGroup="Default" name="Mega Triangle" DisplayAs="Tree Flat" parm2="100" parm1="16" TagColour="rgb(128, 0, 0)" WorldPosX="0.0000" WorldPosY="122.0000" WorldPosZ="32.0000" ScaleX="2.4032" ScaleY="0.8400" ScaleZ="1.2615" RotateX="-10.19999981" RotateY="0.27800000" RotateZ="-0.01300000" Locked="1" versionNumber="5" StartChannel="!Falcon F16v3 Remote 2 Output 21:1">
+    <model StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm3="1" LayoutGroup="Default" name="Mega Triangle" DisplayAs="Tree Flat" parm2="100" parm1="16" TagColour="rgb(128, 0, 0)" PixelSize="1" Antialias="2" WorldPosX="0.0000" WorldPosY="122.0000" WorldPosZ="32.0000" ScaleX="2.4032" ScaleY="0.8400" ScaleZ="1.2615" RotateX="-10.19999981" RotateY="0.27800000" RotateZ="-0.01300000" Locked="1" versionNumber="5" StartChannel="!Falcon F16v3 Remote 2 Output 21:1">
       <ControllerConnection Protocol="ws2811"/>
     </model>
     <model StringType="RGB Nodes" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" StartSide="T" DisplayAs="Horiz Matrix" parm1="16" LayoutGroup="Default" name="Matrix- Text- Big (72X16=1152)" parm2="72" TagColour="rgb(128, 0, 0)" WorldPosX="-226.0000" WorldPosY="123.0000" WorldPosZ="0.0000" ScaleX="1.3000" ScaleY="1.3000" ScaleZ="0.6901" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="!WLED Eth01 #1 Output 1:1">
@@ -1068,13 +1128,10 @@
     <model StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" TreeRotation="270.000000" parm1="1" DisplayAs="Tree 360" parm2="100" TreeSpiralRotations="8.000000" LayoutGroup="Default" Active="1" name="Tree- Purple- Dark (V)" CustomColor="#8000ff" StringType="Single Color Custom" TagColour="rgb(128, 0, 255)" WorldPosX="-553.9800" WorldPosY="-12.9800" WorldPosZ="398.0400" ScaleX="0.0960" ScaleY="0.1830" ScaleZ="0.0960" RotateX="-0.00000000" RotateY="-0.00000000" RotateZ="2.00000000" Locked="1" versionNumber="5" StartChannel="63">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" Active="1" PixelSize="50" name="zBAD TRIAC E12-U1.92" TagColour="grey" CustomColor="#808080" StringType="Single Color Custom" WorldPosX="-18.9800" WorldPosY="420.0200" WorldPosZ="-250.0000" X2="282.321106" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="92">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" Active="1" PixelSize="50" TagColour="grey" CustomColor="#808080" StringType="Single Color Custom" name="}BAD TRIAC E12-U1.92{" WorldPosX="-18.9800" WorldPosY="420.0200" WorldPosZ="-250.0000" X2="282.321106" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="92">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" Active="1" PixelSize="50" name="zBAD TRIAC Q01-U2.81" CustomColor="#808080" StringType="Single Color Custom" TagColour="grey" WorldPosX="-18.9800" WorldPosY="420.0200" WorldPosZ="-250.0000" X2="282.321106" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="209">
-      <ControllerConnection/>
-    </model>
-    <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" name="zSpare Falcon Output 11" TagColour="rgb(190, 125, 255)" WorldPosX="1001.0000" WorldPosY="1001.0000" WorldPosZ="1001.0000" X2="0.000000" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="!Falcon F16v3 Output 11:1">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" parm2="1" Antialias="3" Active="1" PixelSize="50" CustomColor="#808080" StringType="Single Color Custom" TagColour="grey" name="}BAD TRIAC Q01-U2.81{" WorldPosX="-18.9800" WorldPosY="420.0200" WorldPosZ="-250.0000" X2="282.321106" Y2="0.000000" Z2="0.000000" Locked="1" versionNumber="5" StartChannel="209">
       <ControllerConnection/>
     </model>
     <model DisplayAs="Single Line" StringType="RGB Nodes" StartSide="B" Dir="L" Transparency="0" parm1="1" parm3="1" LayoutGroup="Default" name="zRBLs and Stars (Reserved)" parm2="140" PixelSize="1" Antialias="0" TagColour="rgb(190, 125, 255)" WorldPosX="1005.0000" WorldPosY="1005.0000" WorldPosZ="1005.0000" X2="140.000000" Y2="140.000000" Z2="140.000000" Locked="1" versionNumber="5" StartChannel="!Falcon F16v3 Output 15:1">
@@ -2470,15 +2527,17 @@
     <model DisplayAs="Image" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm3="1" parm1="1" parm2="1" StringType="Single Color White" Controller="No Controller" LayoutGroup="Default" name="Calvin Pic" Image="X:\2023\xLights\Wizlights\Media\Resource\Images\Calvin.png" TagColour="rgb(128, 0, 0)" WorldPosX="-80.0000" WorldPosY="350.0000" WorldPosZ="-230.0000" ScaleX="30.0000" ScaleY="35.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5" StartChannel="22985">
       <ControllerConnection/>
     </model>
-    <model DisplayAs="Single Line" StartSide="B" Dir="L" parm1="1" parm3="1" LayoutGroup="Default" TagColour="rgb(128, 128, 255)" CustomColor="#c488ff" StringType="Single Color Custom" BlackTransparency="50" parm2="300" Active="1" Controller="No Controller" name="xyz Trees- Origin Point" PixelSize="3" Transparency="0" Antialias="3" WorldPosX="-240.0000" WorldPosY="20.0000" WorldPosZ="590.3000" X2="0.000000" Y2="-30.000000" Z2="0.000012" Locked="1" versionNumber="5" StartChannel="35897">
+    <model DisplayAs="Single Line" StartSide="B" Dir="L" parm1="1" parm3="1" LayoutGroup="Default" TagColour="rgb(128, 128, 255)" CustomColor="#c488ff" StringType="Single Color Custom" BlackTransparency="50" parm2="300" Active="1" Controller="No Controller" PixelSize="3" Transparency="0" Antialias="3" name="{Origin Point- Trees}" WorldPosX="-240.0000" WorldPosY="20.0000" WorldPosZ="590.3000" X2="0.000000" Y2="-30.000000" Z2="0.000012" Locked="1" versionNumber="5" StartChannel="35900">
       <ControllerConnection/>
     </model>
   </models>
   <view_objects>
+    <view_object DisplayAs="Mesh" LayoutGroup="Default" name="Origin Marker" ObjFile="X:\2023\xLights\Wizlights\3D\XYZ_Origin_Arrows.obj" WorldPosX="0.0000" WorldPosY="-12.2393" WorldPosZ="629.4127" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5"/>
     <view_object DisplayAs="Ruler" LayoutGroup="Default" Units="5" Active="1" Length="707.000000" name="Ruler- House Width" WorldPosX="368.0792" WorldPosY="48.0000" WorldPosZ="0.5420" X2="-706.597900" Y2="0.000000" Z2="-0.518462" versionNumber="5"/>
-    <view_object DisplayAs="Gridlines" LayoutGroup="Default" GridLineSpacing="48" name="Horizontal Gridlines" GridHeight="1152" GridWidth="1056" GridAxis="1" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="91.50000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" GridLineSpacing="48" GridHeight="1152" GridWidth="1056" GridAxis="1" Active="1" name="Grass Horizontal Gridlines" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="0.0100" RotateX="91.50000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5"/>
     <view_object DisplayAs="Mesh" LayoutGroup="Unassigned" Diffuse="1" name="Bettys House" Brightness="40" Active="1" ObjFile="X:\2023\xLights\Wizlights\3D\Betty'sHouseDark.obj" WorldPosX="-153.5000" WorldPosY="-4.0000" WorldPosZ="-81.3000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-0.00000000" RotateY="-89.65000153" RotateZ="0.00000000" versionNumber="5"/>
-    <view_object DisplayAs="Gridlines" LayoutGroup="Default" GridColor="#800000" GridWidth="8" GridHeight="28" GridLineSpacing="1" name="Grid- Prop Height Measuring" WorldPosX="-720.0000" WorldPosY="48.0000" WorldPosZ="480.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5"/>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" GridColor="#800000" GridWidth="8" GridHeight="28" GridLineSpacing="1" name="Grid- Prop Height Measuring" WorldPosX="-816.0000" WorldPosY="48.0000" WorldPosZ="480.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5"/>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" GridLineSpacing="48" GridAxis="1" Active="1" name="House Vertical Gridlines" GridHeight="768" GridWidth="1056" GridColor="#000040" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="0.0100" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="5"/>
   </view_objects>
   <effects version="0007">
     <effectGroup name="Doctor Wizard's"/>
@@ -3078,9 +3137,10 @@
     <backupDir value="X:\2023\xLights\Wizlights"/>
     <fseqDir value="X:\2023\xLights\Wizlights"/>
     <renderCacheDir value="X:\2023\xLights\Wizlights"/>
-    <backgroundImage value="X:\2023\xLights\Wizlights\Images\Starlight Mint.png"/>
     <previewWidth value="1152"/>
-    <previewHeight value="720"/>
+    <previewHeight value="48"/>
+    <backgroundImage value=""/>
+    <Display2DCenter0 value="1"/>
   </settings>
   <colors>
     <EffectDefault Red="192" Green="192" Blue="192"/>
@@ -3112,13 +3172,6 @@
     <Words Red="255" Green="218" Blue="145"/>
   </colors>
   <Viewpoints>
-    <Camera name="Good front view of everything" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="8.000000" angleY="6.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.700274" panx="-111.058304" pany="31.800001" panz="-20.026226" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
-    <Camera name="Overhead" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="84.000000" angleY="359.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.605413" panx="-115.440140" pany="31.800001" panz="-139.729950" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
-    <Camera name="Visitor View Ground Level" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="350.000000" angleY="5.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.611528" panx="96.652809" pany="-192.056000" panz="50.202415" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
-    <Camera name="Big Pixel Tree from above" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="94.000000" angleY="227.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.061444" panx="235.867249" pany="31.800001" panz="-426.177673" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
-    <Camera name="Singing Tree View" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="21.000000" angleY="1.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.192838" panx="238.758087" pany="56.338032" panz="-341.494995" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
-    <Camera name="Good View #1 showing everything (from SE slightly elevated)" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="13.000000" angleY="27.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.633315" panx="-75.162811" pany="-35.389229" panz="-13.813874" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
-    <Camera name="Straight down over Tomato Trees Origin" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="92.000000" angleY="0.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.348210" panx="255.891342" pany="80.316063" panz="-598.019897" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
     <DefaultCamera2D name="DEFAULT2D" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="20.000000" angleY="5.000000" angleZ="0.000000" distance="-2000.000000" zoom="1.000000" panx="0.000000" pany="0.000000" panz="0.000000" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="0"/>
     <DefaultCamera3D name="DEFAULT3D" posX="0.000000" posY="0.000000" posZ="0.000000" angleX="8.000000" angleY="6.000000" angleZ="0.000000" distance="-2000.000000" zoom="0.700274" panx="-111.058304" pany="31.800001" panz="-20.026226" zoom_corrx="0.000000" zoom_corry="0.000000" is_3d="1"/>
   </Viewpoints>
