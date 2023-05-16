@@ -11,69 +11,28 @@
     <OSC MasterPath="/Timecode/%STEPNAME%" RemotePath="/Timecode/%STEPNAME%" IP="255.255.255.255" Time="Seconds (float)" Frame="Default (int)" ServerPort="9000" ClientPort="9000" TimeBased="True"/>
     <Test Mode="Alternate" Level1="255" Level2="0" Interval="500"/>
   </Options>
-  <PlayList Name="Wizlights Animations Only">
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Animations 1.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+  <PlayList Name="Saint Patricks">
+    <PlayListStep Name="St. Pats">
+      <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- St. Patrick's.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name="" Priority="1"/>
     </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Animations 2.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Animations 3.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <Schedule Name="Wizlights Animations Only" DOW="MonTueWedThuFriSatSun" StartDate="2022-11-19" EndDate="2022-11-30" StartTime="sunset" EndTime="13:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0"/>
+    <Schedule Name="St. Patrick's Day" DOW="MonTueWedThuFriSatSun" StartDate="2017-03-01" EndDate="2099-03-18" StartTime="19:00:00" EndTime="23:55:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" EveryYear="TRUE"/>
   </PlayList>
-  <PlayList Name="Wizlights 2022- Musical">
+  <PlayList Name="Free Ukraine">
     <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Bumper- Welcome and Donate by Doctor Elf {01.22.55}.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+      <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Ukraine Flag.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
     </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Wizards in Winter by Trans-Siberian Orchestra {3.06.07} .fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Commercial- Manger Six by Tom Bodett {0.42.37}.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- You Make It Feel Like Christmas by Gwen Stefani feat. Blake Shelton {2.36.81}.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Soundbite- Jesus Let His Hair Down (Edit) by Karen Walker (From Will &amp; Grace) {0.12.82}.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Carol of the Bells by Monique Danielle {02.24.82}.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Blue Christmas by Elvis Presley {02.06.72}.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <Schedule Name="Wizlights 2022" DOW="MonTueWedThuFriSatSun" StartDate="2022-12-01" EndDate="2023-01-06" StartTime="17:30:00" EndTime="22:00:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE"/>
+    <Schedule Name="Free Ukraine" DOW="MonTueWedThuFriSatSun" StartDate="2023-01-07" EndDate="2099-11-30" StartTime="sunset" EndTime="23:59:00" Priority="3" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE"/>
   </PlayList>
-  <PlayList Name="Wizlights 2022- Non-Musical after hours">
+  <PlayList Name="Easter">
     <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\Wizlights 2022- Non-Musical Most Stuff On #1 {5.00).fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+      <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Easter.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name="" Priority="1"/>
     </PlayListStep>
-    <Schedule Name="Wizlights 2022- Non-Musical after hours" DOW="MonTueWedThuFriSatSun" StartDate="2022-12-01" EndDate="2023-01-06" StartTime="22:00:00" EndTime="23:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE"/>
+    <Schedule Name="Easter" DOW="MonTueWedThuFriSatSun" StartDate="2023-03-19" EndDate="2023-04-09" StartTime="sunset" EndTime="23:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE"/>
   </PlayList>
-  <PlayList Name="2022 Show with Start Tones">
+  <PlayList Name="Fourth of July">
     <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\With Start Tones\Wizlights 2022- Bumper- Welcome and Donate with Start Tones {01.28.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+      <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Patriotic.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
     </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\With Start Tones\Wizlights 2022- Blue Christmas with Start Tones {02.12.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\With Start Tones\Wizlights 2022- Commercial- Manger Six with Start Tones {0.48.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\With Start Tones\Wizlights 2022- Carol of the Bells with Start Tones {02.30.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\With Start Tones\Wizlights 2022- Wizards in Winter with Start Tones {3.12.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\With Start Tones\Wizlights 2022- Soundbite- Jesus Let His Hair Down with Start Tones {0.18.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
-    <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2022\xLights\WizLights\Fseq\With Start Tones\Wizlights 2022- You Make It Feel Like Christmas with Start Tones {2.42.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
-    </PlayListStep>
+    <Schedule Name="Fourth of July" DOW="MonTueWedThuFriSatSun" StartDate="2023-06-23" EndDate="2099-07-04" StartTime="sunset" EndTime="23:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" GracefullyInterrupt="TRUE"/>
   </PlayList>
 </xSchedule>

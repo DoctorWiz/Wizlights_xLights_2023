@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2022.22</version>
+    <author>Doctor Wizard - Wizlights</author>
+    <author-email>wizard@wizlights.com</author-email>
+    <author-website>http:://wizlights.com; https://facebook.com/wizlights</author-website>
+    <song>The Magical Kingdom of Claus</song>
+    <artist>Bob Rivers</artist>
+    <album>I Am Santa Claus</album>
+    <MusicURL>https://www.amazon.com/The-Magical-Kingdon-Of-Claus/dp/B00122RDRS</MusicURL>
+    <comment>Doctor Wizard&amp;apos;s Giant Musical Holiday Light Show</comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>X:\2022\xLights\Wizlights\Audio\Skit- The Magical Kingdom of Claus by Bob Rivers {5.55.24}.mp3</mediaFile>
+    <sequenceDuration>355.172</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#000000,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#8000FF,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#8000FF,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette6=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#000000,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#000000,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#0000FF,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#8000FF,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#80FFFF,C_BUTTON_Palette5=#8000FF,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#8000FF,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF80FF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#0000FF,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette6=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Boscoyo Singing Tree,E_CHOICE_Faces_Phoneme=AI</Effect>
+    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=1,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=0,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="6553705" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Lyrics - Everyone" visible="1" views="Master View,Forest,Oddballs,Singers,Bushes,House Front,Swirly-Twirlies,Pixels,Master Power,zAll AC,By Controller,Timez,Conventional in Logical Order,Election" active="0"/>
+    <Element collapsed="0" type="timing" name="Dorothy" visible="1" views="Forest" active="0"/>
+    <Element collapsed="0" type="timing" name="Elf Elves" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Santa (Lion)" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1 Group (RGBW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato A 1 Red Group (R)" visible="1"/>
+    <Element collapsed="0" type="timing" name="Japanese Guy" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="timing" name="Good Witch" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato A 2 Grn Group (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato A 3 Blu Group (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato A 4 Wht Group (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2 Group (RGBW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3 Group (RGBW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4 Group (RGBW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5 Group (RGBW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6 Group (RGBW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7 Group (RGBW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8 Group (RGBW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato B Wht Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato B Vio Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B1 Group (VW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B3 Group (VW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B4 Group (VW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B5 Group (VW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B6 Group (VW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B7 Group (VW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B8 Group (VW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato A+B Wht Indiv Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato All Groups Group (RGBWVW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B2 Group (VW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Spiral Group (WWWG)" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Tinsel Group (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath Leaves (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath Berries (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Rainbow Arch Group (RYOGBV)" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes (WB)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 5 {R} RGBW Group (RGBW)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 1 {S} Rainbow (ROGBV)" visible="1"/>
+    <Element collapsed="0" type="model" name="Religious Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes 1 (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes 2 (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes 3 (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes 4 (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Snow Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Mailboxes (Y)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs 1 {L} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs 2 {CT} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs 3 {R} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="Disco Balls (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Others Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Lasers Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels Eaves Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes Seq Group (RGRG)" visible="1"/>
+    <Element collapsed="0" type="model" name="Snow Lake with Deer (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Mega Triangle" visible="1"/>
+    <Element collapsed="0" type="model" name="Yule Log Candles (O)" visible="1"/>
+    <Element collapsed="0" type="model" name="Menorah Bulb 0 (B) {C}" visible="1"/>
+    <Element collapsed="0" type="model" name="Menorah Bulbs 5-8 (B) {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Menorah Bulbs 1-4 (B) {R}" visible="1"/>
+    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflake Two-Prong" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflake Diamond" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflake Arrow" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflake Three-Prong" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 16 {DFL}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 17 {DFL}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 15 {FR}" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
+    <Element collapsed="0" type="model" name="aGround" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies- Driveway (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies- Pine (GO)" visible="1"/>
+    <Element collapsed="0" type="model" name="Mailbox- Real (O)" visible="1"/>
+    <Element collapsed="0" type="model" name="Lamp Posts (Y)" visible="1"/>
+    <Element collapsed="0" type="model" name="Mailbox- MiniWicker (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Mailbox- Graphic" visible="1"/>
+    <Element collapsed="0" type="model" name="Santa in the Window" visible="1"/>
+    <Element collapsed="0" type="model" name="Snow Lake (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 1 {S} Rainbow 1 (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 1 {S} Rainbow 2 (O)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 1 {S} Rainbow 3 (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 1 {S} Rainbow 4 (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 1 {S} Rainbow 5 (V)" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane22-G2" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane21-R1" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane18-G2" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane17-R1" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane16-G4" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane15-R3" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane14-G2" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane13-R1" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane12-G4" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane11-R3" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane10-G2" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane09-R1" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane08-G4" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane07-R3" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane06-G2" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane05-R1" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane04-G4" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane03-R3" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane02-G2" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes {L} (WB)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath 6 Leaves (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath 5 Berries (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath 4 Leaves (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath 3 Leaves (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath 2 Berries (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath 1 Leaves (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Menorah (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Yule Log (O)" visible="1"/>
+    <Element collapsed="0" type="model" name="Festivus Pole Flood (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="HappyHolidays" visible="1"/>
+    <Element collapsed="0" type="model" name="Deer 2" visible="1"/>
+    <Element collapsed="0" type="model" name="Countdown Timer (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Presents (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Deer 1" visible="1"/>
+    <Element collapsed="0" type="model" name="Lasers- Street (RG)" visible="1"/>
+    <Element collapsed="0" type="model" name="Disco Balls {R} (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Disco Balls {L} (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies- Oak (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs 3 {R}{R} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs 3 {R}{L} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs 1 {L}{R} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs 1 {L}{L} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs 2 {CT}{R} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs 2 {CT}{L} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 4.2 {D} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 2.1 {L} (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tinsel 2 {R} (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Small {L} (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tinsel 1 {L} (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes 2.2 {L} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B8.2 {R} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B7.2 (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B6.2 (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B5.2 {CR} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B4.2 {CL} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B3.2 (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B2.2 (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B8.1 {R} (V)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B7.1 (V)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B6.1 (V)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B5.1 {CR} (V)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B4.1 {CL} (V)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B3.1 (V)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B2.1 (V)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4.4 {CL} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4.3 {CL} (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4.2 {CL} (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4.1 {CL} (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B1.1 {L} (V)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato B1.2 {L} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8.4 {R} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7.4 (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6.4 (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5.4 {CR} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3.4 (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3.1 (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6.3 (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5.3 {CR} (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3.3 (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7.3 (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8.3 {R} (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3.2 (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5.2 {CR} (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6.2 (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7.2 (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8.2 {R} (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5.1 {CR} (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6.1 (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7.1 (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8.1 {R} (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane01-R1" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1.1 (L} (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2.1 (R)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2.2 (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2.3 (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2.4 (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1.4 {L} (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1.3 (L} (B)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1.2 (L} (G)" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes {R} (WB)" visible="1"/>
+    <Element collapsed="0" type="model" name="Peace Sign (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies- Street (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Flying Spaghetti Monster (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Rainbow (ROYGBV)" visible="1"/>
+    <Element collapsed="0" type="model" name="xyz House Front" visible="1"/>
+    <Element collapsed="0" type="model" name="xyz Trees Origin Point" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 21 {RB}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 20 {RF}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 19 {DRB}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 18 {DC}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 14 {F}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 13 {F}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 12 {F}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 11 {F}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 10 {F}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 09 {F}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 08 {F}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 07 {F}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 05 {LF}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 04 {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 03 {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 02 {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 01 {LB}" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags 06 {FL}" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane19-R3" visible="1"/>
+    <Element collapsed="0" type="model" name="CandyCane20-G4" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="1"/>
+    <Element collapsed="0" type="timing" name="Toto" visible="1" views="Forest" active="1"/>
+    <Element collapsed="0" type="timing" name="Music + Sound Effects" visible="1" views="Forest" active="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Lyrics - Everyone">
+      <EffectLayer>
+        <Effect label="Look, Toto! There it is! The mall!" startTime="3200" endTime="6925"></Effect>
+        <Effect label="Yap, yap, yap!" startTime="6925" endTime="7300"></Effect>
+        <Effect label="Gee, it's a lot bigger than the stores back home." startTime="7300" endTime="11600"></Effect>
+        <Effect label="I bet they waste a lot of electricity with all those decorations." startTime="11600" endTime="16025"></Effect>
+        <Effect label="I sure hope Santa's there." startTime="16025" endTime="18025"></Effect>
+        <Effect label="(Knocking)" startTime="18025" endTime="20875"></Effect>
+        <Effect label="Who are you? !" startTime="20875" endTime="22175"></Effect>
+        <Effect label="I'm Dorothy, and I'm trying to find Santa's workshop" startTime="22175" endTime="26225"></Effect>
+        <Effect label="The mall is closed! Now, go away!" startTime="26225" endTime="28975"></Effect>
+        <Effect label="" startTime="28975" endTime="32525"></Effect>
+        <Effect label="But we've come so far on the yellow snow road." startTime="32525" endTime="36475"></Effect>
+        <Effect label="My shoes got wrecked and I brought Auntie Em's gold card with me." startTime="36475" endTime="42525"></Effect>
+        <Effect label="It's got a $10, 000 limit" startTime="42525" endTime="45950"></Effect>
+        <Effect label="" startTime="45950" endTime="47300"></Effect>
+        <Effect label="Now, now, calm down little girl." startTime="47300" endTime="49600"></Effect>
+        <Effect label="You got a gold card?" startTime="49600" endTime="50900"></Effect>
+        <Effect label="Yap, Yap" startTime="50900" endTime="51475"></Effect>
+        <Effect label="Why didn't ya' say so?" startTime="51475" endTime="53175"></Effect>
+        <Effect label="That's a card of a different color." startTime="53175" endTime="54925"></Effect>
+        <Effect label="Come on in" startTime="54925" endTime="56025"></Effect>
+        <Effect label="(Panting)" startTime="56025" endTime="63250"></Effect>
+        <Effect label="Ho ho ho!" startTime="63250" endTime="66250"></Effect>
+        <Effect label="I am the overweight and wonderful Claus." startTime="66250" endTime="71750"></Effect>
+        <Effect label="Who dares disturb my long winter's nap?" startTime="71750" endTime="77575"></Effect>
+        <Effect label="I-if you please, sir, Mr. Claus, I-I'm Dorothy and I want. . ." startTime="77575" endTime="82525"></Effect>
+        <Effect label="Silence! The great Claus knows why you are here." startTime="82525" endTime="87475"></Effect>
+        <Effect label="Look, it's been a long day. My lap is tired and I'm out of film." startTime="87475" endTime="93625"></Effect>
+        <Effect label="Besides, I have to feed my reindeer." startTime="93625" endTime="96750"></Effect>
+        <Effect label="" startTime="96750" endTime="99225"></Effect>
+        <Effect label="Hey, who's that?" startTime="99225" endTime="101100"></Effect>
+        <Effect label="Pay no attention to that skinny guy behind the escalator." startTime="101100" endTime="105300"></Effect>
+        <Effect label="The one with the pillow tied behind his waist." startTime="105300" endTime="108300"></Effect>
+        <Effect label="I am the overweight and wonderful--" startTime="108300" endTime="112150"></Effect>
+        <Effect label="--Claus." startTime="112150" endTime="113550"></Effect>
+        <Effect label="Oh, man, am I starving. Ah, ya' got a sandwich on ya" startTime="113550" endTime="117275"></Effect>
+        <Effect label="Why, you're not Santa Claus at all" startTime="117275" endTime="119725"></Effect>
+        <Effect label="Well, I'm afraid I am." startTime="119725" endTime="121625"></Effect>
+        <Effect label="You see, Mrs. Claus put me on the Slim Fast diet." startTime="121625" endTime="124825"></Effect>
+        <Effect label="Ah, I'm supposed to have a belly that shakes like a bowl full of jelly." startTime="124825" endTime="128825"></Effect>
+        <Effect label="Now all I have is shakes." startTime="128825" endTime="130425"></Effect>
+        <Effect label="One for breakfast, one for lunch and a sensible cookie and skim milk for" startTime="130425" endTime="135225"></Effect>
+        <Effect label="dinner." startTime="135225" endTime="135625"></Effect>
+        <Effect label="I hate it" startTime="135625" endTime="136675"></Effect>
+        <Effect label="But Santa, How come you're not making toys up at the North Pole?" startTime="136675" endTime="140350"></Effect>
+        <Effect label="It's almost Christmas" startTime="140350" endTime="142300"></Effect>
+        <Effect label="Oh, I'm out of the manufacturing business, Dorothy." startTime="142300" endTime="145175"></Effect>
+        <Effect label="I'm just a middleman now" startTime="145175" endTime="146825"></Effect>
+        <Effect label="But don't you still deliver the toys?" startTime="146825" endTime="148700"></Effect>
+        <Effect label="Oh, yeah. Guaranteed overnight delivery." startTime="148700" endTime="151025"></Effect>
+        <Effect label="Absolutely, positively by 2 A. M." startTime="151025" endTime="153225"></Effect>
+        <Effect label="Well, where do you get the presents?" startTime="153225" endTime="154650"></Effect>
+        <Effect label="(sound of doorbell ringing)" startTime="154650" endTime="156100"></Effect>
+        <Effect label="Oh, uh, hang on a second" startTime="156100" endTime="157850"></Effect>
+        <Effect label="(Gong)" startTime="157850" endTime="158925"></Effect>
+        <Effect label="Delivery for Mr. Kringle." startTime="158925" endTime="161275"></Effect>
+        <Effect label="Ah, thank you, please." startTime="161275" endTime="162975"></Effect>
+        <Effect label="(Sound of pen signing)" startTime="162975" endTime="164400"></Effect>
+        <Effect label="Oh, zank you very much" startTime="164400" endTime="165925"></Effect>
+        <Effect label="" startTime="165925" endTime="166525"></Effect>
+        <Effect label="Oh no, just put them over there by the, uh, VCRs, okay?" startTime="166525" endTime="169150"></Effect>
+        <Effect label="Thanks a lot, guys." startTime="169150" endTime="170175"></Effect>
+        <Effect label="(Music Starting)" startTime="170175" endTime="172100"></Effect>
+        <Effect label="Gee, what happened to Santa's workshop?" startTime="172100" endTime="174275"></Effect>
+        <Effect label="" startTime="174275" endTime="175775"></Effect>
+        <Effect label="You know, looking back, I should have seen it coming" startTime="175775" endTime="179300"></Effect>
+        <Effect label="" startTime="179300" endTime="179625"></Effect>
+        <Effect label="Boy, I was the king of the North Pole." startTime="179625" endTime="182025"></Effect>
+        <Effect label="I wasn't afraid of nobody." startTime="182025" endTime="184300"></Effect>
+        <Effect label="I could build anything" startTime="184300" endTime="186625"></Effect>
+        <Effect label="But then the kids got into go-bots" startTime="186625" endTime="189400"></Effect>
+        <Effect label="Nintendo games and robots" startTime="189400" endTime="191550"></Effect>
+        <Effect label="It wasn't quite the same" startTime="191550" endTime="193850"></Effect>
+        <Effect label="" startTime="193850" endTime="195350"></Effect>
+        <Effect label="I could make one thousand scooters" startTime="195350" endTime="197900"></Effect>
+        <Effect label="But I never learned computers" startTime="197900" endTime="199925"></Effect>
+        <Effect label="So the shop went down the drain" startTime="199925" endTime="202425"></Effect>
+        <Effect label="" startTime="202425" endTime="203925"></Effect>
+        <Effect label="We were busy building wagons" startTime="203925" endTime="206375"></Effect>
+        <Effect label="Till orders started draggin'" startTime="206375" endTime="208375"></Effect>
+        <Effect label="It really was a shame" startTime="208375" endTime="211375"></Effect>
+        <Effect label="" startTime="211375" endTime="212325"></Effect>
+        <Effect label="The Japanese were on a mission" startTime="212325" endTime="214475"></Effect>
+        <Effect label="We were blind to competition" startTime="214475" endTime="216600"></Effect>
+        <Effect label="We was busy making trains" startTime="216600" endTime="220400"></Effect>
+        <Effect label="We thought we made it all" startTime="220400" endTime="224875"></Effect>
+        <Effect label="From Barbie dolls to rubber balls" startTime="224875" endTime="229150"></Effect>
+        <Effect label="But Betsy Wetsy took a fall" startTime="229150" endTime="233275"></Effect>
+        <Effect label="They marked her down" startTime="233275" endTime="234675"></Effect>
+        <Effect label="" startTime="234675" endTime="235500"></Effect>
+        <Effect label="She's at the mall" startTime="235500" endTime="237300"></Effect>
+        <Effect label="Oh the games are complicated" startTime="237300" endTime="241225"></Effect>
+        <Effect label="That joystick's over-rated" startTime="241225" endTime="243350"></Effect>
+        <Effect label="It really rots your brain" startTime="243350" endTime="245800"></Effect>
+        <Effect label="" startTime="245800" endTime="247350"></Effect>
+        <Effect label="All the kids would be in heaven" startTime="247350" endTime="249575"></Effect>
+        <Effect label="Instead of playing at seven eleven" startTime="249575" endTime="252375"></Effect>
+        <Effect label="If they only had a train" startTime="252375" endTime="256275"></Effect>
+        <Effect label="Ho oh oh oh oh" startTime="256275" endTime="257875"></Effect>
+        <Effect label="(Music, and Crying)" startTime="257875" endTime="264275"></Effect>
+        <Effect label="I guess Santa's workshop is gone forever." startTime="264275" endTime="267125"></Effect>
+        <Effect label="" startTime="267125" endTime="268150"></Effect>
+        <Effect label="Oh, I'm sorry, Dorothy." startTime="268150" endTime="269950"></Effect>
+        <Effect label="I wish there was something I could do to help." startTime="269950" endTime="272300"></Effect>
+        <Effect label="But I gotta get busy." startTime="272300" endTime="273600"></Effect>
+        <Effect label="It's almost Christmas, and I gotta put batteries in all these Game Boys." startTime="273600" endTime="277450"></Effect>
+        <Effect label="" startTime="277450" endTime="278050"></Effect>
+        <Effect label="Rook, Here comes somebody who can help." startTime="278050" endTime="281550"></Effect>
+        <Effect label="Oh, how does she do that?" startTime="281550" endTime="283875"></Effect>
+        <Effect label="Oh, very easy." startTime="283875" endTime="285500"></Effect>
+        <Effect label="Horographic projections." startTime="285500" endTime="286975"></Effect>
+        <Effect label="Ratest technology" startTime="286975" endTime="288850"></Effect>
+        <Effect label="" startTime="288850" endTime="291825"></Effect>
+        <Effect label="Oh, can you help?" startTime="291825" endTime="293875"></Effect>
+        <Effect label="Santa never needed any help." startTime="293875" endTime="296175"></Effect>
+        <Effect label="He's had the power to work out of the North Pole all along." startTime="296175" endTime="300025"></Effect>
+        <Effect label="I do? I mean, I did? I do?" startTime="300025" endTime="302975"></Effect>
+        <Effect label="So what should we do? Click our heels together?" startTime="302975" endTime="305950"></Effect>
+        <Effect label="Oh, no. That only works in the movies." startTime="305950" endTime="308725"></Effect>
+        <Effect label="All he has to do is just hook these up" startTime="308725" endTime="311750"></Effect>
+        <Effect label="Why, it's a fax machine" startTime="311750" endTime="314075"></Effect>
+        <Effect label="And a cellular phone with voice messaging." startTime="314075" endTime="316375"></Effect>
+        <Effect label="And, look, a pager! I'm back in business." startTime="316375" endTime="319425"></Effect>
+        <Effect label="Ho, ho, ho!" startTime="319425" endTime="320900"></Effect>
+        <Effect label="Can it be true? Will the elves be making toys again?" startTime="320900" endTime="324925"></Effect>
+        <Effect label="They will if they move to Mexico." startTime="324925" endTime="326775"></Effect>
+        <Effect label="I can save a bundle if I do my manufacturing south of the border." startTime="326775" endTime="330050"></Effect>
+        <Effect label="And with these gizmos, I can keep track of who's naughty and who's nice from" startTime="330050" endTime="334075"></Effect>
+        <Effect label="anywhere!" startTime="334075" endTime="334750"></Effect>
+        <Effect label="Jiminy Christmas! Oh no!" startTime="334750" endTime="337550"></Effect>
+        <Effect label="(Finale Music)" startTime="337550" endTime="350350"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="Dorothy">
+      <EffectLayer>
+        <Effect label="Look, Toto! There it is! The mall!" startTime="3200" endTime="6925"></Effect>
+        <Effect label="Gee, it's a lot bigger than the stores back home." startTime="7300" endTime="11600"></Effect>
+        <Effect label="I bet they waste a lot of electricity with all those decorations." startTime="11600" endTime="16025"></Effect>
+        <Effect label="I sure hope Santa's there." startTime="16025" endTime="18025"></Effect>
+        <Effect label="I'm Dorothy, and I'm trying to find Santa's workshop" startTime="22175" endTime="26225"></Effect>
+        <Effect label="" startTime="28975" endTime="32525"></Effect>
+        <Effect label="But we've come so far on the yellow snow road." startTime="32525" endTime="36475"></Effect>
+        <Effect label="My shoes got wrecked and I brought Auntie Em's gold card with me." startTime="36475" endTime="42525"></Effect>
+        <Effect label="It's got a $10, 000 limit" startTime="42525" endTime="45950"></Effect>
+        <Effect label="I-if you please, sir, Mr. Claus, I-I'm Dorothy and I want. . ." startTime="77575" endTime="82525"></Effect>
+        <Effect label="Hey, who's that?" startTime="99225" endTime="101100"></Effect>
+        <Effect label="Why, you're not Santa Claus at all" startTime="117275" endTime="119725"></Effect>
+        <Effect label="But Santa, How come you're not making toys up at the North Pole?" startTime="136675" endTime="140350"></Effect>
+        <Effect label="It's almost Christmas" startTime="140350" endTime="142300"></Effect>
+        <Effect label="But don't you still deliver the toys?" startTime="146825" endTime="148700"></Effect>
+        <Effect label="Well, where do you get the presents?" startTime="153225" endTime="154650"></Effect>
+        <Effect label="Gee, what happened to Santa's workshop?" startTime="172100" endTime="174275"></Effect>
+        <Effect label="(Crying)" startTime="258850" endTime="264275"></Effect>
+        <Effect label="I guess Santa's workshop is gone forever." startTime="264275" endTime="267125"></Effect>
+        <Effect label="Oh, can you help?" startTime="291825" endTime="293875"></Effect>
+        <Effect label="So what should we do? Click our heels together?" startTime="302975" endTime="305950"></Effect>
+        <Effect label="Why, it's a fax machine" startTime="311750" endTime="314075"></Effect>
+        <Effect label="Can it be true? Will the elves be making toys again?" startTime="320900" endTime="324925"></Effect>
+        <Effect label="Jiminy Christmas! Oh no!" startTime="334750" endTime="337550"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="Look" startTime="3200" endTime="3725"></Effect>
+        <Effect label="Toto" startTime="3725" endTime="4275"></Effect>
+        <Effect label="There" startTime="4525" endTime="5075"></Effect>
+        <Effect label="it" startTime="5075" endTime="5175"></Effect>
+        <Effect label="is" startTime="5175" endTime="5850"></Effect>
+        <Effect label="The" startTime="5850" endTime="6050"></Effect>
+        <Effect label="mall" startTime="6050" endTime="6925"></Effect>
+        <Effect label="Gee" startTime="7300" endTime="7725"></Effect>
+        <Effect label="it's" startTime="7725" endTime="8150"></Effect>
+        <Effect label="a" startTime="8150" endTime="8600"></Effect>
+        <Effect label="lot" startTime="8600" endTime="9025"></Effect>
+        <Effect label="bigger" startTime="9025" endTime="9450"></Effect>
+        <Effect label="than" startTime="9450" endTime="9875"></Effect>
+        <Effect label="the" startTime="9875" endTime="10300"></Effect>
+        <Effect label="stores" startTime="10300" endTime="10750"></Effect>
+        <Effect label="back" startTime="10750" endTime="11175"></Effect>
+        <Effect label="home" startTime="11175" endTime="11600"></Effect>
+        <Effect label="I" startTime="11600" endTime="11975"></Effect>
+        <Effect label="bet" startTime="11975" endTime="12325"></Effect>
+        <Effect label="they" startTime="12325" endTime="12700"></Effect>
+        <Effect label="waste" startTime="12700" endTime="13075"></Effect>
+        <Effect label="a" startTime="13075" endTime="13450"></Effect>
+        <Effect label="lot" startTime="13450" endTime="13800"></Effect>
+        <Effect label="of" startTime="13800" endTime="14175"></Effect>
+        <Effect label="electricity" startTime="14175" endTime="14550"></Effect>
+        <Effect label="with" startTime="14550" endTime="14900"></Effect>
+        <Effect label="all" startTime="14900" endTime="15275"></Effect>
+        <Effect label="those" startTime="15275" endTime="15650"></Effect>
+        <Effect label="decorations" startTime="15650" endTime="16025"></Effect>
+        <Effect label="I" startTime="16025" endTime="16425"></Effect>
+        <Effect label="sure" startTime="16425" endTime="16825"></Effect>
+        <Effect label="hope" startTime="16825" endTime="17225"></Effect>
+        <Effect label="Santa's" startTime="17225" endTime="17625"></Effect>
+        <Effect label="there" startTime="17625" endTime="18025"></Effect>
+        <Effect label="I'm" startTime="22175" endTime="22625"></Effect>
+        <Effect label="Dorothy" startTime="22625" endTime="23075"></Effect>
+        <Effect label="and" startTime="23075" endTime="23525"></Effect>
+        <Effect label="I'm" startTime="23525" endTime="23975"></Effect>
+        <Effect label="trying" startTime="23975" endTime="24425"></Effect>
+        <Effect label="to" startTime="24425" endTime="24875"></Effect>
+        <Effect label="find" startTime="24875" endTime="25325"></Effect>
+        <Effect label="Santa's" startTime="25325" endTime="25775"></Effect>
+        <Effect label="workshop" startTime="25775" endTime="26225"></Effect>
+        <Effect label="But" startTime="32525" endTime="32925"></Effect>
+        <Effect label="we've" startTime="32925" endTime="33325"></Effect>
+        <Effect label="come" startTime="33325" endTime="33700"></Effect>
+        <Effect label="so" startTime="33700" endTime="34100"></Effect>
+        <Effect label="far" startTime="34100" endTime="34500"></Effect>
+        <Effect label="on" startTime="34500" endTime="34900"></Effect>
+        <Effect label="the" startTime="34900" endTime="35300"></Effect>
+        <Effect label="yellow" startTime="35300" endTime="35675"></Effect>
+        <Effect label="snow" startTime="35675" endTime="36075"></Effect>
+        <Effect label="road" startTime="36075" endTime="36475"></Effect>
+        <Effect label="My" startTime="36475" endTime="36950"></Effect>
+        <Effect label="shoes" startTime="36950" endTime="37400"></Effect>
+        <Effect label="got" startTime="37400" endTime="37875"></Effect>
+        <Effect label="wrecked" startTime="37875" endTime="38325"></Effect>
+        <Effect label="and" startTime="38325" endTime="38800"></Effect>
+        <Effect label="I" startTime="38800" endTime="39275"></Effect>
+        <Effect label="brought" startTime="39275" endTime="39725"></Effect>
+        <Effect label="Auntie" startTime="39725" endTime="40200"></Effect>
+        <Effect label="Em's" startTime="40200" endTime="40650"></Effect>
+        <Effect label="gold" startTime="40650" endTime="41125"></Effect>
+        <Effect label="card" startTime="41125" endTime="41600"></Effect>
+        <Effect label="with" startTime="41600" endTime="42050"></Effect>
+        <Effect label="me" startTime="42050" endTime="42525"></Effect>
+        <Effect label="It's" startTime="42525" endTime="43100"></Effect>
+        <Effect label="got" startTime="43100" endTime="43675"></Effect>
+        <Effect label="a" startTime="43675" endTime="44225"></Effect>
+        <Effect label="$10" startTime="44225" endTime="44800"></Effect>
+        <Effect label="000" startTime="44800" endTime="45375"></Effect>
+        <Effect label="limit" startTime="45375" endTime="45950"></Effect>
+        <Effect label="I" startTime="77575" endTime="77950"></Effect>
+        <Effect label="if" startTime="77950" endTime="78325"></Effect>
+        <Effect label="you" startTime="78325" endTime="78725"></Effect>
+        <Effect label="please" startTime="78725" endTime="79100"></Effect>
+        <Effect label="sir" startTime="79100" endTime="79475"></Effect>
+        <Effect label="Mr" startTime="79475" endTime="79850"></Effect>
+        <Effect label="Claus" startTime="79850" endTime="80225"></Effect>
+        <Effect label="I" startTime="80225" endTime="80625"></Effect>
+        <Effect label="I'm" startTime="80625" endTime="81000"></Effect>
+        <Effect label="Dorothy" startTime="81000" endTime="81375"></Effect>
+        <Effect label="and" startTime="81375" endTime="81750"></Effect>
+        <Effect label="I" startTime="81750" endTime="82125"></Effect>
+        <Effect label="want" startTime="82125" endTime="82525"></Effect>
+        <Effect label="Hey" startTime="99225" endTime="99850"></Effect>
+        <Effect label="who's" startTime="99850" endTime="100475"></Effect>
+        <Effect label="that" startTime="100475" endTime="101100"></Effect>
+        <Effect label="Why" startTime="117275" endTime="117625"></Effect>
+        <Effect label="you're" startTime="117625" endTime="117975"></Effect>
+        <Effect label="not" startTime="117975" endTime="118325"></Effect>
+        <Effect label="Santa" startTime="118325" endTime="118675"></Effect>
+        <Effect label="Claus" startTime="118675" endTime="119025"></Effect>
+        <Effect label="at" startTime="119025" endTime="119375"></Effect>
+        <Effect label="all" startTime="119375" endTime="119725"></Effect>
+        <Effect label="But" startTime="136675" endTime="136950"></Effect>
+        <Effect label="Santa" startTime="136950" endTime="137250"></Effect>
+        <Effect label="How" startTime="137250" endTime="137525"></Effect>
+        <Effect label="come" startTime="137525" endTime="137800"></Effect>
+        <Effect label="you're" startTime="137800" endTime="138075"></Effect>
+        <Effect label="not" startTime="138075" endTime="138375"></Effect>
+        <Effect label="making" startTime="138375" endTime="138650"></Effect>
+        <Effect label="toys" startTime="138650" endTime="138925"></Effect>
+        <Effect label="up" startTime="138925" endTime="139225"></Effect>
+        <Effect label="at" startTime="139225" endTime="139500"></Effect>
+        <Effect label="the" startTime="139500" endTime="139775"></Effect>
+        <Effect label="North" startTime="139775" endTime="140050"></Effect>
+        <Effect label="Pole" startTime="140050" endTime="140350"></Effect>
+        <Effect label="It's" startTime="140350" endTime="141000"></Effect>
+        <Effect label="almost" startTime="141000" endTime="141650"></Effect>
+        <Effect label="Christmas" startTime="141650" endTime="142300"></Effect>
+        <Effect label="But" startTime="146825" endTime="147100"></Effect>
+        <Effect label="don't" startTime="147100" endTime="147350"></Effect>
+        <Effect label="you" startTime="147350" endTime="147625"></Effect>
+        <Effect label="still" startTime="147625" endTime="147900"></Effect>
+        <Effect label="deliver" startTime="147900" endTime="148150"></Effect>
+        <Effect label="the" startTime="148150" endTime="148425"></Effect>
+        <Effect label="toys" startTime="148425" endTime="148700"></Effect>
+        <Effect label="Well" startTime="153225" endTime="153425"></Effect>
+        <Effect label="where" startTime="153425" endTime="153625"></Effect>
+        <Effect label="do" startTime="153625" endTime="153825"></Effect>
+        <Effect label="you" startTime="153825" endTime="154025"></Effect>
+        <Effect label="get" startTime="154025" endTime="154250"></Effect>
+        <Effect label="the" startTime="154250" endTime="154450"></Effect>
+        <Effect label="presents" startTime="154450" endTime="154650"></Effect>
+        <Effect label="Gee" startTime="172100" endTime="172450"></Effect>
+        <Effect label="what" startTime="172450" endTime="172825"></Effect>
+        <Effect label="happened" startTime="172825" endTime="173175"></Effect>
+        <Effect label="to" startTime="173175" endTime="173550"></Effect>
+        <Effect label="Santa's" startTime="173550" endTime="173900"></Effect>
+        <Effect label="workshop" startTime="173900" endTime="174275"></Effect>
+        <Effect label="Crying" startTime="258850" endTime="264275"></Effect>
+        <Effect label="I" startTime="264275" endTime="264675"></Effect>
+        <Effect label="guess" startTime="264675" endTime="265100"></Effect>
+        <Effect label="Santa's" startTime="265100" endTime="265500"></Effect>
+        <Effect label="workshop" startTime="265500" endTime="265900"></Effect>
+        <Effect label="is" startTime="265900" endTime="266300"></Effect>
+        <Effect label="gone" startTime="266300" endTime="266725"></Effect>
+        <Effect label="forever" startTime="266725" endTime="267125"></Effect>
+        <Effect label="Oh" startTime="291825" endTime="292325"></Effect>
+        <Effect label="can" startTime="292325" endTime="292850"></Effect>
+        <Effect label="you" startTime="292850" endTime="293350"></Effect>
+        <Effect label="help" startTime="293350" endTime="293875"></Effect>
+        <Effect label="So" startTime="302975" endTime="303300"></Effect>
+        <Effect label="what" startTime="303300" endTime="303625"></Effect>
+        <Effect label="should" startTime="303625" endTime="303975"></Effect>
+        <Effect label="we" startTime="303975" endTime="304300"></Effect>
+        <Effect label="do" startTime="304300" endTime="304625"></Effect>
+        <Effect label="Click" startTime="304625" endTime="304950"></Effect>
+        <Effect label="our" startTime="304950" endTime="305275"></Effect>
+        <Effect label="heels" startTime="305275" endTime="305625"></Effect>
+        <Effect label="together" startTime="305625" endTime="305950"></Effect>
+        <Effect label="Why" startTime="311750" endTime="312225"></Effect>
+        <Effect label="it's" startTime="312225" endTime="312675"></Effect>
+        <Effect label="a" startTime="312675" endTime="313150"></Effect>
+        <Effect label="fax" startTime="313150" endTime="313600"></Effect>
+        <Effect label="machine" startTime="313600" endTime="314075"></Effect>
+        <Effect label="Can" startTime="320900" endTime="321275"></Effect>
+        <Effect label="it" startTime="321275" endTime="321625"></Effect>
+        <Effect label="be" startTime="321625" endTime="322000"></Effect>
+        <Effect label="true" startTime="322000" endTime="322350"></Effect>
+        <Effect label="Will" startTime="322350" endTime="322725"></Effect>
+        <Effect label="the" startTime="322725" endTime="323100"></Effect>
+        <Effect label="elves" startTime="323100" endTime="323450"></Effect>
+        <Effect label="be" startTime="323450" endTime="323825"></Effect>
+        <Effect label="making" startTime="323825" endTime="324175"></Effect>
+        <Effect label="toys" startTime="324175" endTime="324550"></Effect>
+        <Effect label="again" startTime="324550" endTime="324925"></Effect>
+        <Effect label="Jiminy" startTime="334750" endTime="335450"></Effect>
+        <Effect label="Christmas" startTime="335450" endTime="336150"></Effect>
+        <Effect label="Oh" startTime="336150" endTime="336850"></Effect>
+        <Effect label="no" startTime="336850" endTime="337550"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="Elf Elves">
+      <EffectLayer>
+        <Effect label="Who are you? !" startTime="20875" endTime="22175"></Effect>
+        <Effect label="The mall is closed! Now, go away!" startTime="26225" endTime="28975"></Effect>
+        <Effect label="Now, now, calm down little girl." startTime="47300" endTime="49600"></Effect>
+        <Effect label="You got a gold card?" startTime="49600" endTime="50900"></Effect>
+        <Effect label="Why didn't ya' say so?" startTime="51475" endTime="53175"></Effect>
+        <Effect label="That's a card of a different color." startTime="53175" endTime="54925"></Effect>
+        <Effect label="Come on in" startTime="54925" endTime="56025"></Effect>
+        <Effect label="We were busy building wagons" startTime="203925" endTime="206375"></Effect>
+        <Effect label="Till orders started draggin'" startTime="206375" endTime="208375"></Effect>
+        <Effect label="The Japanese were on a mission" startTime="212325" endTime="214475"></Effect>
+        <Effect label="We were blind to competition" startTime="214475" endTime="216600"></Effect>
+        <Effect label="We thought we made it all" startTime="220400" endTime="224875"></Effect>
+        <Effect label="From Barbie dolls to rubber balls" startTime="224875" endTime="229150"></Effect>
+        <Effect label="But Betsy Wetsy took a fall" startTime="229150" endTime="233275"></Effect>
+        <Effect label="She's at the mall" startTime="235500" endTime="237300"></Effect>
+        <Effect label="All the kids would be in heaven" startTime="247350" endTime="249575"></Effect>
+        <Effect label="Instead of playing at seven eleven" startTime="249575" endTime="252375"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="Who" startTime="20875" endTime="21300"></Effect>
+        <Effect label="are" startTime="21300" endTime="21750"></Effect>
+        <Effect label="you" startTime="21750" endTime="22175"></Effect>
+        <Effect label="The" startTime="26225" endTime="26625"></Effect>
+        <Effect label="mall" startTime="26625" endTime="27000"></Effect>
+        <Effect label="is" startTime="27000" endTime="27400"></Effect>
+        <Effect label="closed" startTime="27400" endTime="27800"></Effect>
+        <Effect label="Now" startTime="27800" endTime="28175"></Effect>
+        <Effect label="go" startTime="28175" endTime="28575"></Effect>
+        <Effect label="away" startTime="28575" endTime="28975"></Effect>
+        <Effect label="Now" startTime="47300" endTime="47675"></Effect>
+        <Effect label="now" startTime="47675" endTime="48075"></Effect>
+        <Effect label="calm" startTime="48075" endTime="48450"></Effect>
+        <Effect label="down" startTime="48450" endTime="48825"></Effect>
+        <Effect label="little" startTime="48825" endTime="49225"></Effect>
+        <Effect label="girl" startTime="49225" endTime="49600"></Effect>
+        <Effect label="You" startTime="49600" endTime="49850"></Effect>
+        <Effect label="got" startTime="49850" endTime="50125"></Effect>
+        <Effect label="a" startTime="50125" endTime="50375"></Effect>
+        <Effect label="gold" startTime="50375" endTime="50650"></Effect>
+        <Effect label="card" startTime="50650" endTime="50900"></Effect>
+        <Effect label="Why" startTime="51475" endTime="51825"></Effect>
+        <Effect label="didn't" startTime="51825" endTime="52150"></Effect>
+        <Effect label="ya'" startTime="52150" endTime="52500"></Effect>
+        <Effect label="say" startTime="52500" endTime="52825"></Effect>
+        <Effect label="so" startTime="52825" endTime="53175"></Effect>
+        <Effect label="That's" startTime="53175" endTime="53425"></Effect>
+        <Effect label="a" startTime="53425" endTime="53675"></Effect>
+        <Effect label="card" startTime="53675" endTime="53925"></Effect>
+        <Effect label="of" startTime="53925" endTime="54175"></Effect>
+        <Effect label="a" startTime="54175" endTime="54425"></Effect>
+        <Effect label="different" startTime="54425" endTime="54675"></Effect>
+        <Effect label="color" startTime="54675" endTime="54925"></Effect>
+        <Effect label="Come" startTime="54925" endTime="55300"></Effect>
+        <Effect label="on" startTime="55300" endTime="55650"></Effect>
+        <Effect label="in" startTime="55650" endTime="56025"></Effect>
+        <Effect label="We" startTime="203925" endTime="204425"></Effect>
+        <Effect label="were" startTime="204425" endTime="204900"></Effect>
+        <Effect label="busy" startTime="204900" endTime="205400"></Effect>
+        <Effect label="building" startTime="205400" endTime="205875"></Effect>
+        <Effect label="wagons" startTime="205875" endTime="206375"></Effect>
+        <Effect label="Till" startTime="206375" endTime="206875"></Effect>
+        <Effect label="orders" startTime="206875" endTime="207375"></Effect>
+        <Effect label="started" startTime="207375" endTime="207875"></Effect>
+        <Effect label="draggin'" startTime="207875" endTime="208375"></Effect>
+        <Effect label="The" startTime="212325" endTime="212675"></Effect>
+        <Effect label="Japanese" startTime="212675" endTime="213050"></Effect>
+        <Effect label="were" startTime="213050" endTime="213400"></Effect>
+        <Effect label="on" startTime="213400" endTime="213750"></Effect>
+        <Effect label="a" startTime="213750" endTime="214125"></Effect>
+        <Effect label="mission" startTime="214125" endTime="214475"></Effect>
+        <Effect label="We" startTime="214475" endTime="214900"></Effect>
+        <Effect label="were" startTime="214900" endTime="215325"></Effect>
+        <Effect label="blind" startTime="215325" endTime="215750"></Effect>
+        <Effect label="to" startTime="215750" endTime="216175"></Effect>
+        <Effect label="competition" startTime="216175" endTime="216600"></Effect>
+        <Effect label="We" startTime="220400" endTime="221150"></Effect>
+        <Effect label="thought" startTime="221150" endTime="221900"></Effect>
+        <Effect label="we" startTime="221900" endTime="222625"></Effect>
+        <Effect label="made" startTime="222625" endTime="223375"></Effect>
+        <Effect label="it" startTime="223375" endTime="224125"></Effect>
+        <Effect label="all" startTime="224125" endTime="224875"></Effect>
+        <Effect label="From" startTime="224875" endTime="225575"></Effect>
+        <Effect label="Barbie" startTime="225575" endTime="226300"></Effect>
+        <Effect label="dolls" startTime="226300" endTime="227000"></Effect>
+        <Effect label="to" startTime="227000" endTime="227725"></Effect>
+        <Effect label="rubber" startTime="227725" endTime="228425"></Effect>
+        <Effect label="balls" startTime="228425" endTime="229150"></Effect>
+        <Effect label="But" startTime="229150" endTime="229825"></Effect>
+        <Effect label="Betsy" startTime="229825" endTime="230525"></Effect>
+        <Effect label="Wetsy" startTime="230525" endTime="231200"></Effect>
+        <Effect label="took" startTime="231200" endTime="231900"></Effect>
+        <Effect label="a" startTime="231900" endTime="232575"></Effect>
+        <Effect label="fall" startTime="232575" endTime="233275"></Effect>
+        <Effect label="She's" startTime="235500" endTime="235950"></Effect>
+        <Effect label="at" startTime="235950" endTime="236400"></Effect>
+        <Effect label="the" startTime="236400" endTime="236850"></Effect>
+        <Effect label="mall" startTime="236850" endTime="237300"></Effect>
+        <Effect label="All" startTime="247350" endTime="247675"></Effect>
+        <Effect label="the" startTime="247675" endTime="247975"></Effect>
+        <Effect label="kids" startTime="247975" endTime="248300"></Effect>
+        <Effect label="would" startTime="248300" endTime="248625"></Effect>
+        <Effect label="be" startTime="248625" endTime="248925"></Effect>
+        <Effect label="in" startTime="248925" endTime="249250"></Effect>
+        <Effect label="heaven" startTime="249250" endTime="249575"></Effect>
+        <Effect label="Instead" startTime="249575" endTime="250050"></Effect>
+        <Effect label="of" startTime="250050" endTime="250500"></Effect>
+        <Effect label="playing" startTime="250500" endTime="250975"></Effect>
+        <Effect label="at" startTime="250975" endTime="251450"></Effect>
+        <Effect label="seven" startTime="251450" endTime="251900"></Effect>
+        <Effect label="eleven" startTime="251900" endTime="252375"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="Santa (Lion)">
+      <EffectLayer>
+        <Effect label="Ho ho ho!" startTime="63250" endTime="66250"></Effect>
+        <Effect label="I am the overweight and wonderful Claus." startTime="66250" endTime="71750"></Effect>
+        <Effect label="Who dares disturb my long winter's nap?" startTime="71750" endTime="77575"></Effect>
+        <Effect label="Silence! The great Claus knows why you are here." startTime="82525" endTime="87475"></Effect>
+        <Effect label="Look, it's been a long day. My lap is tired and I'm out of film." startTime="87475" endTime="93625"></Effect>
+        <Effect label="Besides, I have to feed my reindeer." startTime="93625" endTime="96750"></Effect>
+        <Effect label="Pay no attention to that skinny guy behind the escalator." startTime="101100" endTime="105300"></Effect>
+        <Effect label="The one with the pillow tied behind his waist." startTime="105300" endTime="108300"></Effect>
+        <Effect label="I am the overweight and wonderful--" startTime="108300" endTime="112150"></Effect>
+        <Effect label="--Claus." startTime="112150" endTime="113550"></Effect>
+        <Effect label="Oh, man, am I starving. Ah, ya' got a sandwich on ya" startTime="113550" endTime="117275"></Effect>
+        <Effect label="Well, I'm afraid I am." startTime="119725" endTime="121625"></Effect>
+        <Effect label="You see, Mrs. Claus put me on the Slim Fast diet." startTime="121625" endTime="124825"></Effect>
+        <Effect label="Ah, I'm supposed to have a belly that shakes like a bowl full of jelly." startTime="124825" endTime="128825"></Effect>
+        <Effect label="Now all I have is shakes." startTime="128825" endTime="130425"></Effect>
+        <Effect label="One for breakfast, one for lunch and a sensible cookie and skim milk for" startTime="130425" endTime="135225"></Effect>
+        <Effect label="dinner." startTime="135225" endTime="135625"></Effect>
+        <Effect label="I hate it" startTime="135625" endTime="136675"></Effect>
+        <Effect label="It's almost Christmas" startTime="140350" endTime="142300"></Effect>
+        <Effect label="Oh, I'm out of the manufacturing business, Dorothy." startTime="142300" endTime="145175"></Effect>
+        <Effect label="I'm just a middleman now" startTime="145175" endTime="146825"></Effect>
+        <Effect label="Oh, yeah. Guaranteed overnight delivery." startTime="148700" endTime="151025"></Effect>
+        <Effect label="Absolutely, positively by 2 A. M." startTime="151025" endTime="153225"></Effect>
+        <Effect label="Oh, uh, hang on a second" startTime="156100" endTime="157850"></Effect>
+        <Effect label="Oh no, just put them over there by the, uh, VCRs, okay?" startTime="166525" endTime="169150"></Effect>
+        <Effect label="Thanks a lot, guys." startTime="169150" endTime="170175"></Effect>
+        <Effect label="You know, looking back, I should have seen it coming" startTime="175775" endTime="179300"></Effect>
+        <Effect label="Boy, I was the king of the North Pole." startTime="179625" endTime="182025"></Effect>
+        <Effect label="I wasn't afraid of nobody." startTime="182025" endTime="184300"></Effect>
+        <Effect label="I could build anything" startTime="184300" endTime="186625"></Effect>
+        <Effect label="But then the kids got into go-bots" startTime="186625" endTime="189400"></Effect>
+        <Effect label="Nintendo games and robots" startTime="189400" endTime="191550"></Effect>
+        <Effect label="It wasn't quite the same" startTime="191550" endTime="193850"></Effect>
+        <Effect label="I could make one thousand scooters" startTime="195350" endTime="197900"></Effect>
+        <Effect label="But I never learned computers" startTime="197900" endTime="199925"></Effect>
+        <Effect label="So the shop went down the drain" startTime="199925" endTime="202425"></Effect>
+        <Effect label="It really was a shame" startTime="208375" endTime="211375"></Effect>
+        <Effect label="We was busy making trains" startTime="216600" endTime="220400"></Effect>
+        <Effect label="They marked her down" startTime="233275" endTime="234675"></Effect>
+        <Effect label="Oh the games are complicated" startTime="237300" endTime="241225"></Effect>
+        <Effect label="That joystick's over-rated" startTime="241225" endTime="243350"></Effect>
+        <Effect label="It really rots your brain" startTime="243350" endTime="245800"></Effect>
+        <Effect label="If they only had a train" startTime="252375" endTime="256275"></Effect>
+        <Effect label="Ho oh oh oh oh" startTime="256275" endTime="257875"></Effect>
+        <Effect label="Oh, I'm sorry, Dorothy." startTime="268150" endTime="269950"></Effect>
+        <Effect label="I wish there was something I could do to help." startTime="269950" endTime="272300"></Effect>
+        <Effect label="But I gotta get busy." startTime="272300" endTime="273600"></Effect>
+        <Effect label="It's almost Christmas, and I gotta put batteries in all these Game Boys." startTime="273600" endTime="277450"></Effect>
+        <Effect label="Oh, how does she do that?" startTime="281550" endTime="283875"></Effect>
+        <Effect label="I do? I mean, I did? I do?" startTime="300025" endTime="302975"></Effect>
+        <Effect label="And a cellular phone with voice messaging." startTime="314075" endTime="316375"></Effect>
+        <Effect label="And, look, a pager! I'm back in business." startTime="316375" endTime="319425"></Effect>
+        <Effect label="Ho, ho, ho!" startTime="319425" endTime="320900"></Effect>
+        <Effect label="They will if they move to Mexico." startTime="324925" endTime="326775"></Effect>
+        <Effect label="I can save a bundle if I do my manufacturing south of the border." startTime="326775" endTime="330050"></Effect>
+        <Effect label="And with these gizmos, I can keep track of who's naughty and who's nice from" startTime="330050" endTime="334075"></Effect>
+        <Effect label="anywhere!" startTime="334075" endTime="334750"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="Ho" startTime="63250" endTime="64250"></Effect>
+        <Effect label="ho" startTime="64250" endTime="65250"></Effect>
+        <Effect label="ho" startTime="65250" endTime="66250"></Effect>
+        <Effect label="I" startTime="66250" endTime="67025"></Effect>
+        <Effect label="am" startTime="67025" endTime="67825"></Effect>
+        <Effect label="the" startTime="67825" endTime="68600"></Effect>
+        <Effect label="overweight" startTime="68600" endTime="69400"></Effect>
+        <Effect label="and" startTime="69400" endTime="70175"></Effect>
+        <Effect label="wonderful" startTime="70175" endTime="70950"></Effect>
+        <Effect label="Claus" startTime="70950" endTime="71750"></Effect>
+        <Effect label="Who" startTime="71750" endTime="72575"></Effect>
+        <Effect label="dares" startTime="72575" endTime="73425"></Effect>
+        <Effect label="disturb" startTime="73425" endTime="74250"></Effect>
+        <Effect label="my" startTime="74250" endTime="75075"></Effect>
+        <Effect label="long" startTime="75075" endTime="75900"></Effect>
+        <Effect label="winter's" startTime="75900" endTime="76750"></Effect>
+        <Effect label="nap" startTime="76750" endTime="77575"></Effect>
+        <Effect label="Silence" startTime="82525" endTime="83075"></Effect>
+        <Effect label="The" startTime="83075" endTime="83625"></Effect>
+        <Effect label="great" startTime="83625" endTime="84175"></Effect>
+        <Effect label="Claus" startTime="84175" endTime="84725"></Effect>
+        <Effect label="knows" startTime="84725" endTime="85275"></Effect>
+        <Effect label="why" startTime="85275" endTime="85825"></Effect>
+        <Effect label="you" startTime="85825" endTime="86375"></Effect>
+        <Effect label="are" startTime="86375" endTime="86925"></Effect>
+        <Effect label="here" startTime="86925" endTime="87475"></Effect>
+        <Effect label="Look" startTime="87475" endTime="87875"></Effect>
+        <Effect label="it's" startTime="87875" endTime="88300"></Effect>
+        <Effect label="been" startTime="88300" endTime="88700"></Effect>
+        <Effect label="a" startTime="88700" endTime="89125"></Effect>
+        <Effect label="long" startTime="89125" endTime="89525"></Effect>
+        <Effect label="day" startTime="89525" endTime="89925"></Effect>
+        <Effect label="My" startTime="89925" endTime="90350"></Effect>
+        <Effect label="lap" startTime="90350" endTime="90750"></Effect>
+        <Effect label="is" startTime="90750" endTime="91175"></Effect>
+        <Effect label="tired" startTime="91175" endTime="91575"></Effect>
+        <Effect label="and" startTime="91575" endTime="91975"></Effect>
+        <Effect label="I'm" startTime="91975" endTime="92400"></Effect>
+        <Effect label="out" startTime="92400" endTime="92800"></Effect>
+        <Effect label="of" startTime="92800" endTime="93225"></Effect>
+        <Effect label="film" startTime="93225" endTime="93625"></Effect>
+        <Effect label="Besides" startTime="93625" endTime="94075"></Effect>
+        <Effect label="I" startTime="94075" endTime="94525"></Effect>
+        <Effect label="have" startTime="94525" endTime="94975"></Effect>
+        <Effect label="to" startTime="94975" endTime="95400"></Effect>
+        <Effect label="feed" startTime="95400" endTime="95850"></Effect>
+        <Effect label="my" startTime="95850" endTime="96300"></Effect>
+        <Effect label="reindeer" startTime="96300" endTime="96750"></Effect>
+        <Effect label="Pay" startTime="101100" endTime="101525"></Effect>
+        <Effect label="no" startTime="101525" endTime="101950"></Effect>
+        <Effect label="attention" startTime="101950" endTime="102350"></Effect>
+        <Effect label="to" startTime="102350" endTime="102775"></Effect>
+        <Effect label="that" startTime="102775" endTime="103200"></Effect>
+        <Effect label="skinny" startTime="103200" endTime="103625"></Effect>
+        <Effect label="guy" startTime="103625" endTime="104050"></Effect>
+        <Effect label="behind" startTime="104050" endTime="104450"></Effect>
+        <Effect label="the" startTime="104450" endTime="104875"></Effect>
+        <Effect label="escalator" startTime="104875" endTime="105300"></Effect>
+        <Effect label="The" startTime="105300" endTime="105625"></Effect>
+        <Effect label="one" startTime="105625" endTime="105975"></Effect>
+        <Effect label="with" startTime="105975" endTime="106300"></Effect>
+        <Effect label="the" startTime="106300" endTime="106625"></Effect>
+        <Effect label="pillow" startTime="106625" endTime="106975"></Effect>
+        <Effect label="tied" startTime="106975" endTime="107300"></Effect>
+        <Effect label="behind" startTime="107300" endTime="107625"></Effect>
+        <Effect label="his" startTime="107625" endTime="107975"></Effect>
+        <Effect label="waist" startTime="107975" endTime="108300"></Effect>
+        <Effect label="I" startTime="108300" endTime="108950"></Effect>
+        <Effect label="am" startTime="108950" endTime="109575"></Effect>
+        <Effect label="the" startTime="109575" endTime="110225"></Effect>
+        <Effect label="overweight" startTime="110225" endTime="110875"></Effect>
+        <Effect label="and" startTime="110875" endTime="111500"></Effect>
+        <Effect label="wonderful" startTime="111500" endTime="112150"></Effect>
+        <Effect label="Claus" startTime="112150" endTime="113550"></Effect>
+        <Effect label="Oh" startTime="113550" endTime="113850"></Effect>
+        <Effect label="man" startTime="113850" endTime="114175"></Effect>
+        <Effect label="am" startTime="114175" endTime="114475"></Effect>
+        <Effect label="I" startTime="114475" endTime="114800"></Effect>
+        <Effect label="starving" startTime="114800" endTime="115100"></Effect>
+        <Effect label="Ah" startTime="115100" endTime="115400"></Effect>
+        <Effect label="ya'" startTime="115400" endTime="115725"></Effect>
+        <Effect label="got" startTime="115725" endTime="116025"></Effect>
+        <Effect label="a" startTime="116025" endTime="116350"></Effect>
+        <Effect label="sandwich" startTime="116350" endTime="116650"></Effect>
+        <Effect label="on" startTime="116650" endTime="116950"></Effect>
+        <Effect label="ya" startTime="116950" endTime="117275"></Effect>
+        <Effect label="Well" startTime="119725" endTime="120100"></Effect>
+        <Effect label="I'm" startTime="120100" endTime="120475"></Effect>
+        <Effect label="afraid" startTime="120475" endTime="120875"></Effect>
+        <Effect label="I" startTime="120875" endTime="121250"></Effect>
+        <Effect label="am" startTime="121250" endTime="121625"></Effect>
+        <Effect label="You" startTime="121625" endTime="121925"></Effect>
+        <Effect label="see" startTime="121925" endTime="122200"></Effect>
+        <Effect label="Mrs" startTime="122200" endTime="122500"></Effect>
+        <Effect label="Claus" startTime="122500" endTime="122775"></Effect>
+        <Effect label="put" startTime="122775" endTime="123075"></Effect>
+        <Effect label="me" startTime="123075" endTime="123375"></Effect>
+        <Effect label="on" startTime="123375" endTime="123650"></Effect>
+        <Effect label="the" startTime="123650" endTime="123950"></Effect>
+        <Effect label="Slim" startTime="123950" endTime="124225"></Effect>
+        <Effect label="Fast" startTime="124225" endTime="124525"></Effect>
+        <Effect label="diet" startTime="124525" endTime="124825"></Effect>
+        <Effect label="Ah" startTime="124825" endTime="125100"></Effect>
+        <Effect label="I'm" startTime="125100" endTime="125350"></Effect>
+        <Effect label="supposed" startTime="125350" endTime="125625"></Effect>
+        <Effect label="to" startTime="125625" endTime="125900"></Effect>
+        <Effect label="have" startTime="125900" endTime="126150"></Effect>
+        <Effect label="a" startTime="126150" endTime="126425"></Effect>
+        <Effect label="belly" startTime="126425" endTime="126675"></Effect>
+        <Effect label="that" startTime="126675" endTime="126950"></Effect>
+        <Effect label="shakes" startTime="126950" endTime="127225"></Effect>
+        <Effect label="like" startTime="127225" endTime="127475"></Effect>
+        <Effect label="a" startTime="127475" endTime="127750"></Effect>
+        <Effect label="bowl" startTime="127750" endTime="128025"></Effect>
+        <Effect label="full" startTime="128025" endTime="128275"></Effect>
+        <Effect label="of" startTime="128275" endTime="128550"></Effect>
+        <Effect label="jelly" startTime="128550" endTime="128825"></Effect>
+        <Effect label="Now" startTime="128825" endTime="129100"></Effect>
+        <Effect label="all" startTime="129100" endTime="129350"></Effect>
+        <Effect label="I" startTime="129350" endTime="129625"></Effect>
+        <Effect label="have" startTime="129625" endTime="129900"></Effect>
+        <Effect label="is" startTime="129900" endTime="130150"></Effect>
+        <Effect label="shakes" startTime="130150" endTime="130425"></Effect>
+        <Effect label="One" startTime="130425" endTime="130775"></Effect>
+        <Effect label="for" startTime="130775" endTime="131100"></Effect>
+        <Effect label="breakfast" startTime="131100" endTime="131450"></Effect>
+        <Effect label="one" startTime="131450" endTime="131800"></Effect>
+        <Effect label="for" startTime="131800" endTime="132125"></Effect>
+        <Effect label="lunch" startTime="132125" endTime="132475"></Effect>
+        <Effect label="and" startTime="132475" endTime="132825"></Effect>
+        <Effect label="a" startTime="132825" endTime="133150"></Effect>
+        <Effect label="sensible" startTime="133150" endTime="133500"></Effect>
+        <Effect label="cookie" startTime="133500" endTime="133850"></Effect>
+        <Effect label="and" startTime="133850" endTime="134175"></Effect>
+        <Effect label="skim" startTime="134175" endTime="134525"></Effect>
+        <Effect label="milk" startTime="134525" endTime="134875"></Effect>
+        <Effect label="for" startTime="134875" endTime="135225"></Effect>
+        <Effect label="dinner" startTime="135225" endTime="135625"></Effect>
+        <Effect label="I" startTime="135625" endTime="135975"></Effect>
+        <Effect label="hate" startTime="135975" endTime="136325"></Effect>
+        <Effect label="it" startTime="136325" endTime="136675"></Effect>
+        <Effect label="It's" startTime="140350" endTime="141000"></Effect>
+        <Effect label="almost" startTime="141000" endTime="141650"></Effect>
+        <Effect label="Christmas" startTime="141650" endTime="142300"></Effect>
+        <Effect label="Oh" startTime="142300" endTime="142650"></Effect>
+        <Effect label="I'm" startTime="142650" endTime="143025"></Effect>
+        <Effect label="out" startTime="143025" endTime="143375"></Effect>
+        <Effect label="of" startTime="143375" endTime="143725"></Effect>
+        <Effect label="the" startTime="143725" endTime="144100"></Effect>
+        <Effect label="manufacturing" startTime="144100" endTime="144450"></Effect>
+        <Effect label="business" startTime="144450" endTime="144825"></Effect>
+        <Effect label="Dorothy" startTime="144825" endTime="145175"></Effect>
+        <Effect label="I'm" startTime="145175" endTime="145500"></Effect>
+        <Effect label="just" startTime="145500" endTime="145825"></Effect>
+        <Effect label="a" startTime="145825" endTime="146175"></Effect>
+        <Effect label="middleman" startTime="146175" endTime="146500"></Effect>
+        <Effect label="now" startTime="146500" endTime="146825"></Effect>
+        <Effect label="Oh" startTime="148700" endTime="149175"></Effect>
+        <Effect label="yeah" startTime="149175" endTime="149625"></Effect>
+        <Effect label="Guaranteed" startTime="149625" endTime="150100"></Effect>
+        <Effect label="overnight" startTime="150100" endTime="150550"></Effect>
+        <Effect label="delivery" startTime="150550" endTime="151025"></Effect>
+        <Effect label="Absolutely" startTime="151025" endTime="151400"></Effect>
+        <Effect label="positively" startTime="151400" endTime="151750"></Effect>
+        <Effect label="by" startTime="151750" endTime="152125"></Effect>
+        <Effect label="2" startTime="152125" endTime="152500"></Effect>
+        <Effect label="A" startTime="152500" endTime="152850"></Effect>
+        <Effect label="M" startTime="152850" endTime="153225"></Effect>
+        <Effect label="Oh" startTime="156100" endTime="156400"></Effect>
+        <Effect label="uh" startTime="156400" endTime="156675"></Effect>
+        <Effect label="hang" startTime="156675" endTime="156975"></Effect>
+        <Effect label="on" startTime="156975" endTime="157275"></Effect>
+        <Effect label="a" startTime="157275" endTime="157550"></Effect>
+        <Effect label="second" startTime="157550" endTime="157850"></Effect>
+        <Effect label="Oh" startTime="166525" endTime="166750"></Effect>
+        <Effect label="no" startTime="166750" endTime="166950"></Effect>
+        <Effect label="just" startTime="166950" endTime="167175"></Effect>
+        <Effect label="put" startTime="167175" endTime="167400"></Effect>
+        <Effect label="them" startTime="167400" endTime="167625"></Effect>
+        <Effect label="over" startTime="167625" endTime="167825"></Effect>
+        <Effect label="there" startTime="167825" endTime="168050"></Effect>
+        <Effect label="by" startTime="168050" endTime="168275"></Effect>
+        <Effect label="the" startTime="168275" endTime="168475"></Effect>
+        <Effect label="uh" startTime="168475" endTime="168700"></Effect>
+        <Effect label="VCRs" startTime="168700" endTime="168925"></Effect>
+        <Effect label="okay" startTime="168925" endTime="169150"></Effect>
+        <Effect label="Thanks" startTime="169150" endTime="169400"></Effect>
+        <Effect label="a" startTime="169400" endTime="169650"></Effect>
+        <Effect label="lot" startTime="169650" endTime="169925"></Effect>
+        <Effect label="guys" startTime="169925" endTime="170175"></Effect>
+        <Effect label="You" startTime="175775" endTime="176125"></Effect>
+        <Effect label="know" startTime="176125" endTime="176475"></Effect>
+        <Effect label="looking" startTime="176475" endTime="176825"></Effect>
+        <Effect label="back" startTime="176825" endTime="177175"></Effect>
+        <Effect label="I" startTime="177175" endTime="177525"></Effect>
+        <Effect label="should" startTime="177525" endTime="177875"></Effect>
+        <Effect label="have" startTime="177875" endTime="178250"></Effect>
+        <Effect label="seen" startTime="178250" endTime="178600"></Effect>
+        <Effect label="it" startTime="178600" endTime="178950"></Effect>
+        <Effect label="coming" startTime="178950" endTime="179300"></Effect>
+        <Effect label="Boy" startTime="179625" endTime="179900"></Effect>
+        <Effect label="I" startTime="179900" endTime="180150"></Effect>
+        <Effect label="was" startTime="180150" endTime="180425"></Effect>
+        <Effect label="the" startTime="180425" endTime="180700"></Effect>
+        <Effect label="king" startTime="180700" endTime="180950"></Effect>
+        <Effect label="of" startTime="180950" endTime="181225"></Effect>
+        <Effect label="the" startTime="181225" endTime="181475"></Effect>
+        <Effect label="North" startTime="181475" endTime="181750"></Effect>
+        <Effect label="Pole" startTime="181750" endTime="182025"></Effect>
+        <Effect label="I" startTime="182025" endTime="182475"></Effect>
+        <Effect label="wasn't" startTime="182475" endTime="182925"></Effect>
+        <Effect label="afraid" startTime="182925" endTime="183400"></Effect>
+        <Effect label="of" startTime="183400" endTime="183850"></Effect>
+        <Effect label="nobody" startTime="183850" endTime="184300"></Effect>
+        <Effect label="I" startTime="184300" endTime="184875"></Effect>
+        <Effect label="could" startTime="184875" endTime="185450"></Effect>
+        <Effect label="build" startTime="185450" endTime="186050"></Effect>
+        <Effect label="anything" startTime="186050" endTime="186625"></Effect>
+        <Effect label="But" startTime="186625" endTime="186975"></Effect>
+        <Effect label="then" startTime="186975" endTime="187325"></Effect>
+        <Effect label="the" startTime="187325" endTime="187675"></Effect>
+        <Effect label="kids" startTime="187675" endTime="188000"></Effect>
+        <Effect label="got" startTime="188000" endTime="188350"></Effect>
+        <Effect label="into" startTime="188350" endTime="188700"></Effect>
+        <Effect label="go" startTime="188700" endTime="189050"></Effect>
+        <Effect label="bots" startTime="189050" endTime="189400"></Effect>
+        <Effect label="Nintendo" startTime="189400" endTime="189925"></Effect>
+        <Effect label="games" startTime="189925" endTime="190475"></Effect>
+        <Effect label="and" startTime="190475" endTime="191000"></Effect>
+        <Effect label="robots" startTime="191000" endTime="191550"></Effect>
+        <Effect label="It" startTime="191550" endTime="192000"></Effect>
+        <Effect label="wasn't" startTime="192000" endTime="192475"></Effect>
+        <Effect label="quite" startTime="192475" endTime="192925"></Effect>
+        <Effect label="the" startTime="192925" endTime="193400"></Effect>
+        <Effect label="same" startTime="193400" endTime="193850"></Effect>
+        <Effect label="I" startTime="195350" endTime="195775"></Effect>
+        <Effect label="could" startTime="195775" endTime="196200"></Effect>
+        <Effect label="make" startTime="196200" endTime="196625"></Effect>
+        <Effect label="one" startTime="196625" endTime="197050"></Effect>
+        <Effect label="thousand" startTime="197050" endTime="197475"></Effect>
+        <Effect label="scooters" startTime="197475" endTime="197900"></Effect>
+        <Effect label="But" startTime="197900" endTime="198300"></Effect>
+        <Effect label="I" startTime="198300" endTime="198700"></Effect>
+        <Effect label="never" startTime="198700" endTime="199125"></Effect>
+        <Effect label="learned" startTime="199125" endTime="199525"></Effect>
+        <Effect label="computers" startTime="199525" endTime="199925"></Effect>
+        <Effect label="So" startTime="199925" endTime="200275"></Effect>
+        <Effect label="the" startTime="200275" endTime="200650"></Effect>
+        <Effect label="shop" startTime="200650" endTime="201000"></Effect>
+        <Effect label="went" startTime="201000" endTime="201350"></Effect>
+        <Effect label="down" startTime="201350" endTime="201700"></Effect>
+        <Effect label="the" startTime="201700" endTime="202075"></Effect>
+        <Effect label="drain" startTime="202075" endTime="202425"></Effect>
+        <Effect label="It" startTime="208375" endTime="208975"></Effect>
+        <Effect label="really" startTime="208975" endTime="209575"></Effect>
+        <Effect label="was" startTime="209575" endTime="210175"></Effect>
+        <Effect label="a" startTime="210175" endTime="210775"></Effect>
+        <Effect label="shame" startTime="210775" endTime="211375"></Effect>
+        <Effect label="We" startTime="216600" endTime="217350"></Effect>
+        <Effect label="was" startTime="217350" endTime="218125"></Effect>
+        <Effect label="busy" startTime="218125" endTime="218875"></Effect>
+        <Effect label="making" startTime="218875" endTime="219650"></Effect>
+        <Effect label="trains" startTime="219650" endTime="220400"></Effect>
+        <Effect label="They" startTime="233275" endTime="233625"></Effect>
+        <Effect label="marked" startTime="233625" endTime="233975"></Effect>
+        <Effect label="her" startTime="233975" endTime="234325"></Effect>
+        <Effect label="down" startTime="234325" endTime="234675"></Effect>
+        <Effect label="Oh" startTime="237300" endTime="238075"></Effect>
+        <Effect label="the" startTime="238075" endTime="238875"></Effect>
+        <Effect label="games" startTime="238875" endTime="239650"></Effect>
+        <Effect label="are" startTime="239650" endTime="240450"></Effect>
+        <Effect label="complicated" startTime="240450" endTime="241225"></Effect>
+        <Effect label="That" startTime="241225" endTime="241750"></Effect>
+        <Effect label="joystick's" startTime="241750" endTime="242275"></Effect>
+        <Effect label="over" startTime="242275" endTime="242825"></Effect>
+        <Effect label="rated" startTime="242825" endTime="243350"></Effect>
+        <Effect label="It" startTime="243350" endTime="243850"></Effect>
+        <Effect label="really" startTime="243850" endTime="244325"></Effect>
+        <Effect label="rots" startTime="244325" endTime="244825"></Effect>
+        <Effect label="your" startTime="244825" endTime="245300"></Effect>
+        <Effect label="brain" startTime="245300" endTime="245800"></Effect>
+        <Effect label="If" startTime="252375" endTime="253025"></Effect>
+        <Effect label="they" startTime="253025" endTime="253675"></Effect>
+        <Effect label="only" startTime="253675" endTime="254325"></Effect>
+        <Effect label="had" startTime="254325" endTime="254975"></Effect>
+        <Effect label="a" startTime="254975" endTime="255625"></Effect>
+        <Effect label="train" startTime="255625" endTime="256275"></Effect>
+        <Effect label="Ho" startTime="256275" endTime="256600"></Effect>
+        <Effect label="oh" startTime="256600" endTime="256925"></Effect>
+        <Effect label="oh" startTime="256925" endTime="257225"></Effect>
+        <Effect label="oh" startTime="257225" endTime="257550"></Effect>
+        <Effect label="oh" startTime="257550" endTime="257875"></Effect>
+        <Effect label="Oh" startTime="268150" endTime="268600"></Effect>
+        <Effect label="I'm" startTime="268600" endTime="269050"></Effect>
+        <Effect label="sorry" startTime="269050" endTime="269500"></Effect>
+        <Effect label="Dorothy" startTime="269500" endTime="269950"></Effect>
+        <Effect label="I" startTime="269950" endTime="270175"></Effect>
+        <Effect label="wish" startTime="270175" endTime="270425"></Effect>
+        <Effect label="there" startTime="270425" endTime="270650"></Effect>
+        <Effect label="was" startTime="270650" endTime="270900"></Effect>
+        <Effect label="something" startTime="270900" endTime="271125"></Effect>
+        <Effect label="I" startTime="271125" endTime="271350"></Effect>
+        <Effect label="could" startTime="271350" endTime="271600"></Effect>
+        <Effect label="do" startTime="271600" endTime="271825"></Effect>
+        <Effect label="to" startTime="271825" endTime="272075"></Effect>
+        <Effect label="help" startTime="272075" endTime="272300"></Effect>
+        <Effect label="But" startTime="272300" endTime="272550"></Effect>
+        <Effect label="I" startTime="272550" endTime="272825"></Effect>
+        <Effect label="gotta" startTime="272825" endTime="273075"></Effect>
+        <Effect label="get" startTime="273075" endTime="273350"></Effect>
+        <Effect label="busy" startTime="273350" endTime="273600"></Effect>
+        <Effect label="It's" startTime="273600" endTime="273900"></Effect>
+        <Effect label="almost" startTime="273900" endTime="274200"></Effect>
+        <Effect label="Christmas" startTime="274200" endTime="274500"></Effect>
+        <Effect label="and" startTime="274500" endTime="274775"></Effect>
+        <Effect label="I" startTime="274775" endTime="275075"></Effect>
+        <Effect label="gotta" startTime="275075" endTime="275375"></Effect>
+        <Effect label="put" startTime="275375" endTime="275675"></Effect>
+        <Effect label="batteries" startTime="275675" endTime="275975"></Effect>
+        <Effect label="in" startTime="275975" endTime="276275"></Effect>
+        <Effect label="all" startTime="276275" endTime="276550"></Effect>
+        <Effect label="these" startTime="276550" endTime="276850"></Effect>
+        <Effect label="Game" startTime="276850" endTime="277150"></Effect>
+        <Effect label="Boys" startTime="277150" endTime="277450"></Effect>
+        <Effect label="Oh" startTime="281550" endTime="281925"></Effect>
+        <Effect label="how" startTime="281925" endTime="282325"></Effect>
+        <Effect label="does" startTime="282325" endTime="282700"></Effect>
+        <Effect label="she" startTime="282700" endTime="283100"></Effect>
+        <Effect label="do" startTime="283100" endTime="283475"></Effect>
+        <Effect label="that" startTime="283475" endTime="283875"></Effect>
+        <Effect label="I" startTime="300025" endTime="300400"></Effect>
+        <Effect label="do" startTime="300400" endTime="300750"></Effect>
+        <Effect label="I" startTime="300750" endTime="301125"></Effect>
+        <Effect label="mean" startTime="301125" endTime="301500"></Effect>
+        <Effect label="I" startTime="301500" endTime="301875"></Effect>
+        <Effect label="did" startTime="301875" endTime="302225"></Effect>
+        <Effect label="I" startTime="302225" endTime="302600"></Effect>
+        <Effect label="do" startTime="302600" endTime="302975"></Effect>
+        <Effect label="And" startTime="314075" endTime="314400"></Effect>
+        <Effect label="a" startTime="314400" endTime="314725"></Effect>
+        <Effect label="cellular" startTime="314725" endTime="315050"></Effect>
+        <Effect label="phone" startTime="315050" endTime="315375"></Effect>
+        <Effect label="with" startTime="315375" endTime="315725"></Effect>
+        <Effect label="voice" startTime="315725" endTime="316050"></Effect>
+        <Effect label="messaging" startTime="316050" endTime="316375"></Effect>
+        <Effect label="And" startTime="316375" endTime="316750"></Effect>
+        <Effect label="look" startTime="316750" endTime="317125"></Effect>
+        <Effect label="a" startTime="317125" endTime="317525"></Effect>
+        <Effect label="pager" startTime="317525" endTime="317900"></Effect>
+        <Effect label="I'm" startTime="317900" endTime="318275"></Effect>
+        <Effect label="back" startTime="318275" endTime="318650"></Effect>
+        <Effect label="in" startTime="318650" endTime="319050"></Effect>
+        <Effect label="business" startTime="319050" endTime="319425"></Effect>
+        <Effect label="Ho" startTime="319425" endTime="319925"></Effect>
+        <Effect label="ho" startTime="319925" endTime="320400"></Effect>
+        <Effect label="ho" startTime="320400" endTime="320900"></Effect>
+        <Effect label="They" startTime="324925" endTime="325200"></Effect>
+        <Effect label="will" startTime="325200" endTime="325450"></Effect>
+        <Effect label="if" startTime="325450" endTime="325725"></Effect>
+        <Effect label="they" startTime="325725" endTime="325975"></Effect>
+        <Effect label="move" startTime="325975" endTime="326250"></Effect>
+        <Effect label="to" startTime="326250" endTime="326500"></Effect>
+        <Effect label="Mexico" startTime="326500" endTime="326775"></Effect>
+        <Effect label="I" startTime="326775" endTime="327000"></Effect>
+        <Effect label="can" startTime="327000" endTime="327250"></Effect>
+        <Effect label="save" startTime="327250" endTime="327475"></Effect>
+        <Effect label="a" startTime="327475" endTime="327700"></Effect>
+        <Effect label="bundle" startTime="327700" endTime="327950"></Effect>
+        <Effect label="if" startTime="327950" endTime="328175"></Effect>
+        <Effect label="I" startTime="328175" endTime="328400"></Effect>
+        <Effect label="do" startTime="328400" endTime="328650"></Effect>
+        <Effect label="my" startTime="328650" endTime="328875"></Effect>
+        <Effect label="manufacturing" startTime="328875" endTime="329100"></Effect>
+        <Effect label="south" startTime="329100" endTime="329350"></Effect>
+        <Effect label="of" startTime="329350" endTime="329575"></Effect>
+        <Effect label="the" startTime="329575" endTime="329800"></Effect>
+        <Effect label="border" startTime="329800" endTime="330050"></Effect>
+        <Effect label="And" startTime="330050" endTime="330325"></Effect>
+        <Effect label="with" startTime="330325" endTime="330575"></Effect>
+        <Effect label="these" startTime="330575" endTime="330850"></Effect>
+        <Effect label="gizmos" startTime="330850" endTime="331125"></Effect>
+        <Effect label="I" startTime="331125" endTime="331400"></Effect>
+        <Effect label="can" startTime="331400" endTime="331650"></Effect>
+        <Effect label="keep" startTime="331650" endTime="331925"></Effect>
+        <Effect label="track" startTime="331925" endTime="332200"></Effect>
+        <Effect label="of" startTime="332200" endTime="332450"></Effect>
+        <Effect label="who's" startTime="332450" endTime="332725"></Effect>
+        <Effect label="naughty" startTime="332725" endTime="333000"></Effect>
+        <Effect label="and" startTime="333000" endTime="333275"></Effect>
+        <Effect label="who's" startTime="333275" endTime="333525"></Effect>
+        <Effect label="nice" startTime="333525" endTime="333800"></Effect>
+        <Effect label="from" startTime="333800" endTime="334075"></Effect>
+        <Effect label="anywhere" startTime="334075" endTime="334750"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato A 1 Red Group (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="Japanese Guy">
+      <EffectLayer>
+        <Effect label="Delivery for Mr. Kringle." startTime="158925" endTime="161275"></Effect>
+        <Effect label="Ah, thank you, please." startTime="161275" endTime="162975"></Effect>
+        <Effect label="Oh, zank you very much" startTime="164400" endTime="165925"></Effect>
+        <Effect label="Rook, Here comes somebody who can help." startTime="278050" endTime="281550"></Effect>
+        <Effect label="Oh, very easy." startTime="283875" endTime="285500"></Effect>
+        <Effect label="Horographic projections." startTime="285500" endTime="286975"></Effect>
+        <Effect label="Ratest technology" startTime="286975" endTime="288850"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="Delivery" startTime="158925" endTime="159500"></Effect>
+        <Effect label="for" startTime="159500" endTime="160100"></Effect>
+        <Effect label="Mr" startTime="160100" endTime="160675"></Effect>
+        <Effect label="Kringle" startTime="160675" endTime="161275"></Effect>
+        <Effect label="Ah" startTime="161275" endTime="161700"></Effect>
+        <Effect label="thank" startTime="161700" endTime="162125"></Effect>
+        <Effect label="you" startTime="162125" endTime="162550"></Effect>
+        <Effect label="please" startTime="162550" endTime="162975"></Effect>
+        <Effect label="Oh" startTime="164400" endTime="164700"></Effect>
+        <Effect label="zank" startTime="164700" endTime="165000"></Effect>
+        <Effect label="you" startTime="165000" endTime="165325"></Effect>
+        <Effect label="very" startTime="165325" endTime="165625"></Effect>
+        <Effect label="much" startTime="165625" endTime="165925"></Effect>
+        <Effect label="Rook" startTime="278050" endTime="278550"></Effect>
+        <Effect label="Here" startTime="278550" endTime="279050"></Effect>
+        <Effect label="comes" startTime="279050" endTime="279550"></Effect>
+        <Effect label="somebody" startTime="279550" endTime="280050"></Effect>
+        <Effect label="who" startTime="280050" endTime="280550"></Effect>
+        <Effect label="can" startTime="280550" endTime="281050"></Effect>
+        <Effect label="help" startTime="281050" endTime="281550"></Effect>
+        <Effect label="Oh" startTime="283875" endTime="284425"></Effect>
+        <Effect label="very" startTime="284425" endTime="284950"></Effect>
+        <Effect label="easy" startTime="284950" endTime="285500"></Effect>
+        <Effect label="Horographic" startTime="285500" endTime="286225"></Effect>
+        <Effect label="projections" startTime="286225" endTime="286975"></Effect>
+        <Effect label="Ratest" startTime="286975" endTime="287900"></Effect>
+        <Effect label="technology" startTime="287900" endTime="288850"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="Good Witch">
+      <EffectLayer>
+        <Effect label="Santa never needed any help." startTime="293875" endTime="296175"></Effect>
+        <Effect label="He's had the power to work out of the North Pole all along." startTime="296175" endTime="300025"></Effect>
+        <Effect label="Oh, no. That only works in the movies." startTime="305950" endTime="308725"></Effect>
+        <Effect label="All he has to do is just hook these up" startTime="308725" endTime="311750"></Effect>
+      </EffectLayer>
+      <EffectLayer>
+        <Effect label="Santa" startTime="293875" endTime="294325"></Effect>
+        <Effect label="never" startTime="294325" endTime="294800"></Effect>
+        <Effect label="needed" startTime="294800" endTime="295250"></Effect>
+        <Effect label="any" startTime="295250" endTime="295725"></Effect>
+        <Effect label="help" startTime="295725" endTime="296175"></Effect>
+        <Effect label="He's" startTime="296175" endTime="296475"></Effect>
+        <Effect label="had" startTime="296475" endTime="296775"></Effect>
+        <Effect label="the" startTime="296775" endTime="297075"></Effect>
+        <Effect label="power" startTime="297075" endTime="297350"></Effect>
+        <Effect label="to" startTime="297350" endTime="297650"></Effect>
+        <Effect label="work" startTime="297650" endTime="297950"></Effect>
+        <Effect label="out" startTime="297950" endTime="298250"></Effect>
+        <Effect label="of" startTime="298250" endTime="298550"></Effect>
+        <Effect label="the" startTime="298550" endTime="298850"></Effect>
+        <Effect label="North" startTime="298850" endTime="299125"></Effect>
+        <Effect label="Pole" startTime="299125" endTime="299425"></Effect>
+        <Effect label="all" startTime="299425" endTime="299725"></Effect>
+        <Effect label="along" startTime="299725" endTime="300025"></Effect>
+        <Effect label="Oh" startTime="305950" endTime="306300"></Effect>
+        <Effect label="no" startTime="306300" endTime="306650"></Effect>
+        <Effect label="That" startTime="306650" endTime="307000"></Effect>
+        <Effect label="only" startTime="307000" endTime="307325"></Effect>
+        <Effect label="works" startTime="307325" endTime="307675"></Effect>
+        <Effect label="in" startTime="307675" endTime="308025"></Effect>
+        <Effect label="the" startTime="308025" endTime="308375"></Effect>
+        <Effect label="movies" startTime="308375" endTime="308725"></Effect>
+        <Effect label="All" startTime="308725" endTime="309025"></Effect>
+        <Effect label="he" startTime="309025" endTime="309325"></Effect>
+        <Effect label="has" startTime="309325" endTime="309625"></Effect>
+        <Effect label="to" startTime="309625" endTime="309925"></Effect>
+        <Effect label="do" startTime="309925" endTime="310225"></Effect>
+        <Effect label="is" startTime="310225" endTime="310525"></Effect>
+        <Effect label="just" startTime="310525" endTime="310850"></Effect>
+        <Effect label="hook" startTime="310850" endTime="311150"></Effect>
+        <Effect label="these" startTime="311150" endTime="311450"></Effect>
+        <Effect label="up" startTime="311450" endTime="311750"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Trees- Tomato A 2 Grn Group (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato A 3 Blu Group (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato A 4 Wht Group (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato B Wht Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato B Vio Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B1 Group (VW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B3 Group (VW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B4 Group (VW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B5 Group (VW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B6 Group (VW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B7 Group (VW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B8 Group (VW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato A+B Wht Indiv Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato All Groups Group (RGBWVW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B2 Group (VW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Spiral Group (WWWG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tinsel Group (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath Leaves (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath Berries (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rainbow Arch Group (RYOGBV)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 5 {R} RGBW Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 1 {S} Rainbow (ROGBV)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Religious Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes 1 (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes 2 (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes 3 (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes 4 (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snow Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Mailboxes (Y)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs 1 {L} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs 2 {CT} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs 3 {R} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Disco Balls (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Others Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Oddballs Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Lasers Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels Eaves Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes Seq Group (RGRG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snow Lake with Deer (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Mega Triangle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Yule Log Candles (O)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Menorah Bulb 0 (B) {C}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Menorah Bulbs 5-8 (B) {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Menorah Bulbs 1-4 (B) {R}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star of Bethlehem">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Two-Prong">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Diamond">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Arrow">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake Three-Prong">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 16 {DFL}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 17 {DFL}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 15 {FR}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Singing Female {L}">
+      <EffectLayer>
+        <Effect ref="0" name="Faces" startTime="3200" endTime="6925" palette="0"/>
+        <Effect ref="0" name="Faces" id="1" startTime="7300" endTime="18025" palette="0"/>
+        <Effect ref="0" name="Faces" id="2" startTime="22175" endTime="26225" palette="0"/>
+        <Effect ref="0" name="Faces" id="3" startTime="32525" endTime="45950" palette="0"/>
+        <Effect ref="0" name="Faces" id="4" startTime="77575" endTime="82525" palette="0"/>
+      </EffectLayer>
+      <SubModelEffectLayer name="Tree Outline">
+        <Effect ref="1" name="Marquee" startTime="0" endTime="825" palette="1"/>
+        <Effect ref="2" name="Color Wash" id="1" startTime="825" endTime="3200" palette="2"/>
+        <Effect ref="2" name="On" id="2" startTime="3200" endTime="196350" palette="3"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Mouth - rest">
+        <Effect ref="2" name="On" startTime="6925" endTime="7300" palette="4"/>
+        <Effect ref="2" name="On" id="1" startTime="18025" endTime="22175" palette="4"/>
+        <Effect ref="2" name="On" id="2" startTime="53175" endTime="71750" palette="4"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyes - Open">
+        <Effect ref="2" name="On" startTime="6925" endTime="7300" palette="5"/>
+        <Effect ref="2" name="On" id="1" startTime="18025" endTime="22175" palette="5"/>
+        <Effect ref="2" name="On" id="2" startTime="26225" endTime="32525" palette="5"/>
+        <Effect ref="2" name="On" id="3" startTime="45950" endTime="77575" palette="5"/>
+        <Effect ref="2" name="On" id="4" startTime="82525" endTime="87500" palette="5"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="Wheel of Dharma">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="aGround">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Driveway (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Pine (GO)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Mailbox- Real (O)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Lamp Posts (Y)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Mailbox- MiniWicker (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Mailbox- Graphic">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Santa in the Window">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snow Lake (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 1 {S} Rainbow 1 (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 1 {S} Rainbow 2 (O)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 1 {S} Rainbow 3 (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 1 {S} Rainbow 4 (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 1 {S} Rainbow 5 (V)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane22-G2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane21-R1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane18-G2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane17-R1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane16-G4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane15-R3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane14-G2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane13-R1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane12-G4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane11-R3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane10-G2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane09-R1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane08-G4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane07-R3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane06-G2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane05-R1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane04-G4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane03-R3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane02-G2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes {L} (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath 6 Leaves (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath 5 Berries (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath 4 Leaves (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath 3 Leaves (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath 2 Berries (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath 1 Leaves (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Menorah (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Yule Log (O)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Festivus Pole Flood (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="HappyHolidays">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Deer 2">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Countdown Timer (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Presents (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Deer 1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Lasers- Street (RG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Disco Balls {R} (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Disco Balls {L} (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Oak (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs 3 {R}{R} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs 3 {R}{L} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs 1 {L}{R} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs 1 {L}{L} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs 2 {CT}{R} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs 2 {CT}{L} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 4.2 {D} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 2.1 {L} (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tinsel 2 {R} (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Small {L} (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tinsel 1 {L} (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes 2.2 {L} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B8.2 {R} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B7.2 (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B6.2 (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B5.2 {CR} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B4.2 {CL} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B3.2 (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B2.2 (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B8.1 {R} (V)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B7.1 (V)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B6.1 (V)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B5.1 {CR} (V)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B4.1 {CL} (V)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B3.1 (V)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B2.1 (V)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4.4 {CL} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4.3 {CL} (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4.2 {CL} (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4.1 {CL} (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B1.1 {L} (V)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato B1.2 {L} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8.4 {R} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7.4 (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6.4 (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5.4 {CR} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3.4 (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3.1 (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6.3 (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5.3 {CR} (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3.3 (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7.3 (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8.3 {R} (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3.2 (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5.2 {CR} (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6.2 (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7.2 (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8.2 {R} (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5.1 {CR} (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6.1 (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7.1 (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8.1 {R} (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane01-R1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1.1 (L} (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2.1 (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2.2 (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2.3 (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2.4 (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1.4 {L} (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1.3 (L} (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1.2 (L} (G)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes {R} (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Peace Sign (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Street (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Flying Spaghetti Monster (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Rainbow (ROYGBV)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xyz House Front">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="xyz Trees Origin Point">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 21 {RB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 20 {RF}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 19 {DRB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 18 {DC}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 14 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 13 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 12 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 11 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 10 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 09 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 08 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 07 {F}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 05 {LF}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 04 {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 03 {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 02 {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 01 {LB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags 06 {FL}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane19-R3">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="CandyCane20-G4">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Singing Male {R}">
+      <EffectLayer>
+        <Effect ref="0" name="Faces" startTime="20875" endTime="22175" palette="6"/>
+        <Effect ref="0" name="Faces" id="1" startTime="26225" endTime="28975" palette="7"/>
+        <Effect ref="0" name="Faces" id="2" startTime="47300" endTime="56025" palette="7"/>
+      </EffectLayer>
+      <SubModelEffectLayer name="Tree Outline">
+        <Effect ref="2" name="Color Wash" startTime="18025" endTime="22175" palette="2"/>
+        <Effect ref="2" name="On" id="1" startTime="22175" endTime="56025" palette="3"/>
+        <Effect ref="2" name="Color Wash" id="2" startTime="56025" endTime="57450" palette="8"/>
+        <Effect ref="2" name="Color Wash" id="3" startTime="61775" endTime="63250" palette="9"/>
+        <Effect ref="2" name="On" id="4" startTime="63250" endTime="95050" palette="10"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Mouth - L">
+        <Effect ref="2" name="Color Wash" startTime="42025" endTime="43000" palette="11"/>
+        <Effect ref="2" name="On" id="1" startTime="43000" endTime="47300" palette="12"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyes - Open">
+        <Effect ref="2" name="Color Wash" startTime="18650" endTime="20025" palette="6"/>
+        <Effect ref="2" name="On" id="1" startTime="20025" endTime="20875" palette="13"/>
+        <Effect ref="2" name="On" id="2" startTime="22175" endTime="26225" palette="13"/>
+        <Effect ref="2" name="On" id="3" startTime="29000" endTime="47300" palette="13"/>
+        <Effect ref="2" name="Color Wash" id="4" startTime="56025" endTime="57450" palette="14"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyes - Closed">
+        <Effect ref="2" name="Color Wash" startTime="18025" endTime="20025" palette="6"/>
+        <Effect ref="2" name="On" id="1" startTime="56025" endTime="56700" palette="14"/>
+        <Effect ref="2" name="Color Wash" id="2" startTime="56700" endTime="57450" palette="14"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Mouth - Frown">
+        <Effect ref="2" name="On" startTime="28975" endTime="42000" palette="12"/>
+        <Effect ref="2" name="Color Wash" id="1" startTime="42000" endTime="43000" palette="15"/>
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="timing" name="Toto">
+      <EffectLayer>
+        <Effect label="Yap" startTime="4300" endTime="4725"></Effect>
+        <Effect label="Yap, yap, yap!" startTime="6925" endTime="7300"></Effect>
+        <Effect label="Yap, Yap" startTime="50900" endTime="51475"></Effect>
+        <Effect label="(Panting)" startTime="56025" endTime="63250"></Effect>
+        <Effect label="Yap Yap" startTime="96750" endTime="97450"></Effect>
+        <Effect label="Grrr Grrr" startTime="97450" endTime="99350"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="Music + Sound Effects">
+      <EffectLayer>
+        <Effect label="Intro" startTime="825" endTime="3200"></Effect>
+        <Effect label="(Knocking)" startTime="18025" endTime="20875"></Effect>
+        <Effect label="Cadence March" startTime="28975" endTime="32525"></Effect>
+        <Effect label="Door creaking open" startTime="45950" endTime="47300"></Effect>
+        <Effect label="" startTime="174275" endTime="200025"></Effect>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

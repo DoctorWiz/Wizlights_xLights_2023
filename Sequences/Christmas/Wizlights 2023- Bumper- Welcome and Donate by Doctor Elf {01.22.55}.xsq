@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.22</version>
+    <version>2023.06</version>
     <author>Doctor Wizard aka Merlin Q. Potter</author>
     <author-email>wizard@wizlights.com</author-email>
     <author-website>https://facebook.com/wizlights; http://wizlights.com</author-website>
@@ -129,7 +129,6 @@
     <Element collapsed="0" type="model" name="Trees- Tomato Row A  B By Color" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies Spinny Group (M)" visible="1"/>
     <Element collapsed="0" type="model" name="Lasers Group" visible="1"/>
-    <Element collapsed="0" type="model" name="Pixels Eaves Group" visible="1"/>
     <Element collapsed="0" type="model" name="Candy Canes Seq Group (RGRG)" visible="1"/>
     <Element collapsed="0" type="model" name="xCtlr I- House Front and Roof" visible="1"/>
     <Element collapsed="0" type="model" name="xCtlr B- Tomato Trees Row B" visible="1"/>
@@ -195,10 +194,6 @@
     <Element collapsed="0" type="model" name="Menorah Bulb 0 (B) {C}" visible="1"/>
     <Element collapsed="0" type="model" name="Menorah Bulbs 5-8 (B) {L}" visible="1"/>
     <Element collapsed="0" type="model" name="Menorah Bulbs 1-4 (B) {R}" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflake Two-Prong" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflake Diamond" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflake Arrow" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflake Three-Prong" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags 16 {DFL}" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags 17 {DFL}" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags 15 {FR}" visible="1"/>
@@ -1655,9 +1650,6 @@
     <Element type="model" name="Lasers Group">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Pixels Eaves Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Candy Canes Seq Group (RGRG)">
       <EffectLayer/>
     </Element>
@@ -1920,18 +1912,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Menorah Bulbs 1-4 (B) {R}">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Two-Prong">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Diamond">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Arrow">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Three-Prong">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Fence Swags 16 {DFL}">

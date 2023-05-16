@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.22</version>
+    <version>2023.06</version>
     <author>Doctor Wizard aka Merlin Q. Potter</author>
     <author-email>wizard@wizlights.com</author-email>
     <author-website>https://wizlights.com; https://facebook.com/wizlights</author-website>
@@ -24,14 +24,16 @@
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,AC Lights in Logical Order,Singing,Basics,By Controller,Pixel Props,AC Lights in DMX Order,All Timings" active="1"/>
+    <Element collapsed="0" type="timing" name="Dialog- Buddy" visible="1" views="Master View,AC Lights in Logical Order,Singing,Basics,By Controller,Pixel Props,AC Lights in DMX Order,All Timings" active="1"/>
+    <Element collapsed="0" type="timing" name="Dialog- Reporter" visible="1" views="Pixel Props" active="1"/>
+    <Element collapsed="0" type="timing" name="Dialog- Crowd" visible="1" views="Pixel Props" active="1"/>
+    <Element collapsed="0" type="timing" name="Dialog- Nerds" visible="1" views="Pixel Props" active="1"/>
+    <Element collapsed="0" type="timing" name="Dialog- Steve" visible="1" views="Pixel Props" active="1"/>
     <Element collapsed="0" type="model" name="Eave Pixels- All" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags- All 01-21" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags- Odd 1357..." visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags- Even 2468..." visible="1"/>
-    <Element collapsed="0" type="model" name="Major Award (158)" visible="1"/>
     <Element collapsed="0" type="model" name="Star of Bethlehem" visible="1"/>
-    <Element collapsed="0" type="model" name="Sorcerers Apprentice (150)" visible="1"/>
     <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
     <Element collapsed="0" type="model" name="Snowflakes Group" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Big Pixel 1 Left Center" visible="1"/>
@@ -45,9 +47,25 @@
     <Element collapsed="0" type="model" name="xCtlr G- 12 Volts Chinese" visible="1"/>
     <Element collapsed="0" type="model" name="xCtlr I- House Front and Roof" visible="1"/>
     <Element collapsed="0" type="model" name="xCtlr J- Right Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels- ALL" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels House Front" visible="1"/>
+    <Element collapsed="0" type="model" name="Major Award" visible="1"/>
+    <Element collapsed="0" type="model" name="Sorcerers Apprentice" visible="1"/>
   </DisplayElements>
   <ElementEffects>
-    <Element type="timing" name="New Timing">
+    <Element type="timing" name="Dialog- Buddy">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="Dialog- Reporter">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="Dialog- Crowd">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="Dialog- Nerds">
+      <EffectLayer/>
+    </Element>
+    <Element type="timing" name="Dialog- Steve">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Eave Pixels- All">
@@ -62,13 +80,7 @@
     <Element type="model" name="Fence Swags- Even 2468...">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Major Award (158)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Star of Bethlehem">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Sorcerers Apprentice (150)">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Wheel of Dharma">
@@ -108,6 +120,18 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="xCtlr J- Right Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels- ALL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels House Front">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Major Award">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Sorcerers Apprentice">
       <EffectLayer/>
     </Element>
   </ElementEffects>
