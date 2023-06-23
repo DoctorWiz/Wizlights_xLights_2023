@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valuecurve 
+data="Active=TRUE|Id=ID_VALUECURVE_XVC|Type=Custom|Min=0.00|Max=100.00|Values=0.00:0.67;0.17:0.83;0.25:0.67;0.25:0.33;0.37:0.16;0.50:0.33;0.50:0.67;0.69:0.43;0.75:0.67;0.75:0.33;0.93:0.59;1.00:0.33|" SourceVersion="2023.08"  >
+</valuecurve>
