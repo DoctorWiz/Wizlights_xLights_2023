@@ -35,4 +35,16 @@
     </PlayListStep>
     <Schedule Name="Fourth of July" DOW="MonTueWedThuFriSatSun" StartDate="2023-06-23" EndDate="2099-07-04" StartTime="sunset" EndTime="23:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" GracefullyInterrupt="TRUE"/>
   </PlayList>
+  <PlayList Name="Memorial Day">
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Patriotic.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+    </PlayListStep>
+    <Schedule Name="Memorial Day" DOW="MonTueWedThuFriSatSun" StartDate="2023-05-15" EndDate="2099-05-29" StartTime="sunset" EndTime="23:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" EveryYear="TRUE" GracefullyInterrupt="TRUE"/>
+  </PlayList>
+  <PlayList Name="Gay Pride">
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Rainbow.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name="" Priority="1"/>
+    </PlayListStep>
+    <Schedule Name="Gay Pride" DOW="MonTueWedThuFriSatSun" StartDate="2023-06-01" EndDate="2099-06-30" StartTime="sunset" EndTime="23:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" EveryYear="TRUE"/>
+  </PlayList>
 </xSchedule>
