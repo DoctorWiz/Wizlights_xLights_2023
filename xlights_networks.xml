@@ -1,381 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Networks computer="ROTHARIN" GlobalFPPProxy="" GlobalForceLocalIP="">
   <suppressframes frames="20"/>
-  <Controller Id="-1" Name="Falcon F16v3 Serial Port 2" Description="House and Right Yard (128 ch)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="2" NetworkType="E131" MaxChannels="128"/>
+  <Controller Id="4" Name="Falcon F16v3" Description="Eaves Left Horizontal (216 nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.12" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.12" BaudRate="4" NetworkType="DDP" MaxChannels="24368"/>
   </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Serial Port 3" Description="House &amp; Right Yard DMX/AC-DC (128 ch)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="1" NetworkType="E131" MaxChannels="128"/>
+  <Controller Id="200" Name="WLED Eth01 #1 (Matrix- Mega Triangle &amp; Star Wreath Topper)" Description="Mega Triangle Col 1-4 (4 X 96 Nodes = 384)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.31" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.31" BaudRate="200" NetworkType="DDP" MaxChannels="6075"/>
   </Controller>
-  <Controller Id="-1" Name="Falcon F16v3 Output 01" Description="Eaves Left Horizontal (216 nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="4" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="5" NetworkType="E131" MaxChannels="138"/>
+  <Controller Id="216" Name="WLED Eth01 #2 (Matrix- Text- Big)" Description="Big Text Matrix Rows  (16 X 72 Nodes = 288)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.32" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.32" BaudRate="216" NetworkType="DDP" MaxChannels="3456"/>
   </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 02" Description="Eaves Left Diagonal (188 nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="6" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="7" NetworkType="E131" MaxChannels="54"/>
+  <Controller Id="232" Name="WLED Wemos #1 (Wheel of Dharma)" Description="Wheel of Dharma (136 Nodes)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.41" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.41" BaudRate="232" NetworkType="DDP" MaxChannels="408"/>
   </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 03" Description="Eaves Right Diagonal (184 nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="8" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="9" NetworkType="E131" MaxChannels="42"/>
+  <Controller Id="236" Name="WLED Wemos #2 (Star of Bethlehem)" Description="Star of Bethelehem (106 nodes)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.42" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.42" BaudRate="236" NetworkType="DDP" MaxChannels="318"/>
   </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 04" Description="Eaves Right Horizontal (250 nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="10" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="11" NetworkType="E131" MaxChannels="240"/>
+  <Controller Id="240" Name="WLED Wemos #3 (Matrix- Small- Text- Donations)" Description="Small Text Matrix Donations Sign (2 X 8 X 32 Nodes = 512)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.43" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.43" BaudRate="240" NetworkType="DDP" MaxChannels="1536"/>
   </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 05" Description="Fence Swags (336 Nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="12" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="13" NetworkType="E131" MaxChannels="498"/>
+  <Controller Id="260" Name="WLED Wemos #4 (Ships Wheel)" Description="Ships Wheel" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.44" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.44" BaudRate="260" NetworkType="DDP" MaxChannels="360"/>
   </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 06" Description="Snowflakes (451 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="14" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="15" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="16" NetworkType="E131" MaxChannels="333"/>
+  <Controller Id="264" Name="WLED Wemos #5 (Dreidel)" Description="Dreidel" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.45" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.45" BaudRate="264" NetworkType="DDP" MaxChannels="486"/>
   </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 07" Description="Bells and Tri-Stars (508 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="17" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="18" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="19" NetworkType="E131" MaxChannels="504"/>
+  <Controller Id="300" Name="ColorLight #1 Matrix P4 #1 Left" Description="P4 Matrix #1 128 X 128" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="10.3.12.2" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.2" BaudRate="300" NetworkType="DDP" MaxChannels="49152"/>
   </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 08" Description="Elf Singer and Major Award (381 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="20" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="21" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="22" NetworkType="E131" MaxChannels="123"/>
+  <Controller Id="-1" Name="ColorLight #2 Matrix P4 #2 Right" Description="P4 Matrix #2 128 X 128" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network BaudRate="400" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="401" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="402" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="403" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="404" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="405" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="406" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="407" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="408" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="409" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="410" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="411" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="412" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="413" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="414" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="415" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="416" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="417" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="418" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="419" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="420" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="421" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="422" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="423" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="424" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="425" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="426" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="427" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="428" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="429" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="430" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="431" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="432" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="433" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="434" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="435" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="436" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="437" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="438" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="439" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="440" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="441" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="442" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="443" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="444" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="445" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="446" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="447" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="448" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="449" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="450" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="451" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="452" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="453" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="454" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="455" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="456" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="457" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="458" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="459" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="460" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="461" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="462" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="463" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="464" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="465" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="466" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="467" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="468" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="469" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="470" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="471" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="472" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="473" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="474" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="475" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="476" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="477" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="478" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="479" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="480" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="481" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="482" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="483" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="484" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="485" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="486" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="487" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="488" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="489" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="490" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="491" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="492" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="493" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="494" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="495" NetworkType="E131" MaxChannels="510"/>
+    <network BaudRate="496" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Output 09" Description="Stars of David and Dreidel (356 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="23" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="24" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="25" NetworkType="E131" MaxChannels="48"/>
+  <Controller Id="500" Name="ColorLight #3 Tune-To Sign" Description="P5 Matrix Tune To Freq. 64 X 32" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="MULTICAST" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="MULTICAST" BaudRate="500" NetworkType="DDP" MaxChannels="6144"/>
   </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Output 10" Description="Rainbow Arch (300 Nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="26" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="27" NetworkType="E131" MaxChannels="390"/>
+  <Controller Id="5" Name="WLED Wemos #6" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.74" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.74" BaudRate="5" NetworkType="DDP" MaxChannels="384"/>
   </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 11" Description="Ornament Star and Ship's Wheel (239 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="28" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="29" NetworkType="E131" MaxChannels="207"/>
-  </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 12" Description="Spinners Mint 01-04 (22in Big) Left Roof (4 X 85 nodes = 340)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="30" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="31" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="32" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="33" NetworkType="E131" MaxChannels="222"/>
-  </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 13" Description="Spinners Mint 05-08 (22in Big) Right Roof (4 X 85 nodes = 340)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="34" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="35" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="36" NetworkType="E131" MaxChannels="180"/>
-  </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 14" Description="Roof Left Edge Neon Rope (4 X 50 nodes = 200)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="37" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 15" Description="Roof Left Edge Neon Rope (4 X 50 nodes = 200)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="43" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Output 16" Description="Rosa Wreath (696 Nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="38" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="39" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="40" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="41" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="42" NetworkType="E131" MaxChannels="48"/>
-  </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Remote 1 Output 17" Description="Sorcerer's Apprentice and Grinch (377 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="44" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="45" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="46" NetworkType="E131" MaxChannels="246"/>
-  </Controller>
-  <Controller Id="2" Name="Falcon F16v3 Remote 1 Output 18" Description="Singing Trees (2 X 254 Nodes each = 508)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="47" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="48" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="49" NetworkType="E131" MaxChannels="504"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 1 Output 19" Description="Tree- Big Pixel Front-Center with Star (309 Nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" DefaultBrightnessUnderFullControl="10" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="50" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="51" NetworkType="E131" MaxChannels="417"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 1 Output 20" Description="Unassigned" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="52" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 2 Output 21" Description="Trees- Mini Pixel 1 &amp; 2 (288 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="53" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="54" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="55" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="56" NetworkType="E131" MaxChannels="198"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 2 Output 22" Description="Trees- Mini Pixel 3 &amp; 4 (288 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="57" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="58" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="59" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="60" NetworkType="E131" MaxChannels="198"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 2 Output 23" Description="Trees- Mini Pixel 5 &amp; 6 (288 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="61" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 2 Output 24" Description="Trees- Mini Pixel 7 &amp; 8 (288 Nodes total)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="62" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 3 Output 25" Description="(Spare)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="63" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 3 Output 26" Description="(Spare)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="64" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 3 Output 27" Description="(Spare)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="65" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 3 Output 28" Description="(Spare)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="66" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 4 Output 29" Description="Tree- Big Pixel 2 Right with Star (309 Nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="67" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="68" NetworkType="E131" MaxChannels="417"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 4 Output 30" Description="Spinners Mint Big 5-8 (4 X 85 Nodes each = 340)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="69" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="70" NetworkType="E131" MaxChannels="510"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 4 Output 31" Description="Unassigned" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="71" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="3" Name="Falcon F16v3 Remote 4 Output 32" Description="Calvin (300 Nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.12" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.12" BaudRate="72" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.12" BaudRate="73" NetworkType="E131" MaxChannels="390"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth01 #1 Output 1" Description="Mega Triangle Col 1-4 (4 X 96 Nodes = 384)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.74" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.74" BaudRate="74" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="75" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="76" NetworkType="E131" MaxChannels="132"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth01 #1 Output 2" Description="Mega Triangle Col 5-8 (4 X 96 Nodes = 384)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.74" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.74" BaudRate="77" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="78" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="79" NetworkType="E131" MaxChannels="132"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth01 #1 Output 3" Description="Mega Triangle Col 9-12 (4 X 96 Nodes = 384)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.74" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.74" BaudRate="80" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="81" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="82" NetworkType="E131" MaxChannels="132"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth01 #1 Output 4" Description="Mega Triangle Col 13-16 (4 X 96 Nodes = 384)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.74" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.74" BaudRate="83" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="84" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="85" NetworkType="E131" MaxChannels="132"/>
-  </Controller>
-  <Controller Id="31" Name="WLED Eth01 #1 Output 5" Description="Mega Triangle Col 17-20" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.74" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.74" BaudRate="86" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="87" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.74" BaudRate="88" NetworkType="E131" MaxChannels="132"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth01 #1 Output 6" Description="Star Wreath (at top of Mega Triangle) (105 Nodes)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.74" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.74" BaudRate="89" NetworkType="E131" MaxChannels="315"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth01 #2 Output 1" Description="Big Text Matrix Rows 1-4 (Top) (4 X 72 Nodes = 288)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.90" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.90" BaudRate="90" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.90" BaudRate="91" NetworkType="E131" MaxChannels="354"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth01 #2 Output 2" Description="Big Text Matrix Rows 5-8 (4 X 72 Nodes = 288)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.90" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.90" BaudRate="92" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.90" BaudRate="93" NetworkType="E131" MaxChannels="354"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth01 #2 Output 3" Description="Big Text Matrix Rows 9-12 (4 X 72 Nodes = 288)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.90" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.90" BaudRate="94" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.90" BaudRate="95" NetworkType="E131" MaxChannels="354"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth02 #2 Output 4" Description="Big Text Matrix Rows 13-16 (Bottom) (4 X 72 Nodes = 288)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.90" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.90" BaudRate="96" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.90" BaudRate="97" NetworkType="E131" MaxChannels="354"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Wemos #1 Output 1" Description="Wheel of Dharma (136 Nodes)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.98" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.98" BaudRate="98" NetworkType="E131" MaxChannels="408"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Wemos #2 Output 1" Description="Star of Bethelehem (106 nodes)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.99" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.99" BaudRate="99" NetworkType="E131" MaxChannels="318"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Wemos #3 Output 1" Description="Small Text Matrix Donations Left Half (8 X 32 Nodes = 256)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.100" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.100" BaudRate="100" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.100" BaudRate="101" NetworkType="E131" MaxChannels="258"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Wemos #3 Output 2" Description="Small Text Matrix Donations Right Half (8 X 32 Nodes = 256)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.101" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.101" BaudRate="102" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.101" BaudRate="103" NetworkType="E131" MaxChannels="258"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Wemos #4 Output 1" Description="Really Big Lights and Pixel Stars (140 Nodes total)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.104" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.104" BaudRate="104" NetworkType="E131" MaxChannels="420"/>
-  </Controller>
-  <Controller Id="-1" Name="ColorLight #1 Matrix P4 #1 Left" Description="P4 Matrix 128 X 96" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="0" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.105" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.105" BaudRate="105" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="106" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="107" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="108" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="109" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="110" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="111" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="112" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="113" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="114" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="115" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="116" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="117" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="118" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="119" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="120" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="121" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="122" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="123" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="124" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="125" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="126" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="127" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="128" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="129" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="130" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="131" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="132" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="133" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="134" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="135" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="136" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="137" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="138" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="139" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="140" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="141" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="142" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="143" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="144" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="145" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="146" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="147" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="148" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="149" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="150" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="151" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="152" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="153" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="154" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="155" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="156" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="157" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="158" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="159" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="160" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="161" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="162" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="163" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="164" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="165" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="166" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="167" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="168" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="169" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="170" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="171" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="172" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="173" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="174" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="175" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="176" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.105" BaudRate="177" NetworkType="E131" MaxChannels="510"/>
-  </Controller>
-  <Controller Id="-1" Name="ColorLight #2 Matrix P4 #2 Right" Description="P4 Matrix 96 X 128" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.178" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.178" BaudRate="178" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="179" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="180" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="181" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="182" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="183" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="184" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="185" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="186" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="187" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="188" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="189" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="190" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="191" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="192" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="193" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="194" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="195" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="196" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="197" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="198" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="199" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="200" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="201" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="202" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="203" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="204" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="205" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="206" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="207" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="208" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="209" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="210" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="211" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="212" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="213" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="214" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="215" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="216" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="217" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="218" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="219" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="220" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="221" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="222" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="223" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="224" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="225" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="226" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="227" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="228" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="229" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="230" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="231" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="232" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="233" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="234" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="235" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="236" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="237" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="238" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="239" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="240" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="241" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="242" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="243" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="244" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="245" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="246" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="247" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="248" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="249" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.178" BaudRate="250" NetworkType="E131" MaxChannels="510"/>
-  </Controller>
-  <Controller Id="-1" Name="ColorLight #3 Tune-To Sign" Description="P5 Matrix 64 X 32" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.251" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.251" BaudRate="251" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="252" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="253" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="254" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="255" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="256" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="257" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="258" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="259" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="260" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="261" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="262" NetworkType="E131" MaxChannels="510"/>
-    <network ComPort="10.3.12.251" BaudRate="263" NetworkType="E131" MaxChannels="510"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Wemos #X Output 1" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.14" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.14" BaudRate="264" NetworkType="E131" MaxChannels="384"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Wemos #6 Output 1" Description="(Spare)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.17" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.17" BaudRate="265" NetworkType="E131" MaxChannels="3"/>
-    <network ComPort="10.3.12.17" BaudRate="266" NetworkType="E131" MaxChannels="3"/>
-  </Controller>
-  <Controller Id="3" Name="WLED Eth01 #2 Output 6" Description="" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.21" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network ComPort="10.3.12.21" BaudRate="267" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="256" Name="WLED Eth01 #3" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.49" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.49" BaudRate="256" NetworkType="DDP" MaxChannels="420"/>
   </Controller>
   <Controller Id="3" Name="zNull or Retired Placeholder" Description="Placeholders for Null or Retired Props" Type="Ethernet" Vendor="" Model="" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.253" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
     <network ComPort="10.3.12.253" BaudRate="9999" NetworkType="E131" MaxChannels="20"/>
