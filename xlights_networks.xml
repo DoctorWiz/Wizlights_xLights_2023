@@ -2,7 +2,7 @@
 <Networks computer="ROTHARIN" GlobalFPPProxy="" GlobalForceLocalIP="">
   <suppressframes frames="20"/>
   <Controller Id="4" Name="Falcon F16v3" Description="Eaves Left Horizontal (216 nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.12" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.12" BaudRate="4" NetworkType="DDP" MaxChannels="24368"/>
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.12" BaudRate="4" NetworkType="DDP" MaxChannels="24086"/>
   </Controller>
   <Controller Id="200" Name="WLED Eth01 #1 (Matrix- Mega Triangle &amp; Star Wreath Topper)" Description="Mega Triangle Col 1-4 (4 X 96 Nodes = 384)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.31" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.31" BaudRate="200" NetworkType="DDP" MaxChannels="6075"/>
@@ -16,7 +16,7 @@
   <Controller Id="236" Name="WLED Wemos #2 (Star of Bethlehem)" Description="Star of Bethelehem (106 nodes)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.42" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.42" BaudRate="236" NetworkType="DDP" MaxChannels="318"/>
   </Controller>
-  <Controller Id="240" Name="WLED Wemos #3 (Matrix- Small- Text- Donations)" Description="Small Text Matrix Donations Sign (2 X 8 X 32 Nodes = 512)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.43" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+  <Controller Id="240" Name="WLED Wemos #3 (Matrix- Text- Small- Donations)" Description="Small Text Matrix Donations Sign (2 X (32 X 8) Nodes = 512)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.43" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.43" BaudRate="240" NetworkType="DDP" MaxChannels="1536"/>
   </Controller>
   <Controller Id="260" Name="WLED Wemos #4 (Ships Wheel)" Description="Ships Wheel" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.44" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
@@ -25,110 +25,218 @@
   <Controller Id="264" Name="WLED Wemos #5 (Dreidel)" Description="Dreidel" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.45" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.45" BaudRate="264" NetworkType="DDP" MaxChannels="486"/>
   </Controller>
-  <Controller Id="300" Name="ColorLight #1 Matrix P4 #1 Left" Description="P4 Matrix #1 128 X 128" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="10.3.12.2" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.2" BaudRate="300" NetworkType="DDP" MaxChannels="49152"/>
+  <Controller Id="-1" Name="ColorLight #1 Matrix P4 #1 Left" Description="P4 Matrix #1 128 X 128" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="MULTICAST" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ComPort="MULTICAST" BaudRate="300" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="301" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="302" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="303" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="304" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="305" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="306" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="307" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="308" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="309" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="310" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="311" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="312" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="313" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="314" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="315" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="316" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="317" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="318" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="319" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="320" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="321" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="322" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="323" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="324" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="325" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="326" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="327" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="328" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="329" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="330" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="331" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="332" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="333" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="334" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="335" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="336" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="337" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="338" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="339" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="340" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="341" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="342" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="343" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="344" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="345" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="346" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="347" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="348" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="349" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="350" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="351" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="352" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="353" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="354" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="355" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="356" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="357" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="358" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="359" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="360" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="361" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="362" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="363" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="364" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="365" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="366" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="367" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="368" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="369" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="370" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="371" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="372" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="373" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="374" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="375" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="376" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="377" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="378" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="379" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="380" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="381" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="382" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="383" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="384" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="385" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="386" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="387" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="388" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="389" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="390" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="391" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="392" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="393" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="394" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="395" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="396" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="-1" Name="ColorLight #2 Matrix P4 #2 Right" Description="P4 Matrix #2 128 X 128" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network BaudRate="400" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="401" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="402" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="403" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="404" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="405" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="406" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="407" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="408" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="409" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="410" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="411" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="412" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="413" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="414" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="415" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="416" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="417" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="418" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="419" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="420" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="421" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="422" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="423" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="424" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="425" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="426" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="427" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="428" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="429" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="430" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="431" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="432" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="433" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="434" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="435" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="436" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="437" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="438" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="439" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="440" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="441" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="442" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="443" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="444" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="445" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="446" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="447" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="448" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="449" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="450" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="451" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="452" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="453" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="454" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="455" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="456" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="457" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="458" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="459" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="460" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="461" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="462" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="463" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="464" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="465" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="466" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="467" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="468" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="469" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="470" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="471" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="472" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="473" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="474" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="475" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="476" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="477" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="478" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="479" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="480" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="481" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="482" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="483" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="484" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="485" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="486" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="487" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="488" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="489" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="490" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="491" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="492" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="493" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="494" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="495" NetworkType="E131" MaxChannels="510"/>
-    <network BaudRate="496" NetworkType="E131" MaxChannels="510"/>
+  <Controller Id="-1" Name="ColorLight #2 Matrix P4 #2 Right" Description="P4 Matrix #2 128 X 128" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="MULTICAST" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ComPort="MULTICAST" BaudRate="400" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="401" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="402" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="403" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="404" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="405" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="406" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="407" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="408" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="409" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="410" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="411" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="412" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="413" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="414" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="415" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="416" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="417" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="418" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="419" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="420" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="421" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="422" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="423" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="424" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="425" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="426" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="427" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="428" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="429" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="430" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="431" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="432" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="433" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="434" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="435" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="436" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="437" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="438" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="439" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="440" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="441" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="442" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="443" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="444" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="445" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="446" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="447" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="448" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="449" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="450" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="451" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="452" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="453" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="454" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="455" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="456" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="457" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="458" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="459" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="460" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="461" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="462" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="463" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="464" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="465" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="466" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="467" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="468" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="469" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="470" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="471" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="472" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="473" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="474" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="475" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="476" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="477" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="478" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="479" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="480" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="481" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="482" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="483" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="484" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="485" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="486" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="487" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="488" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="489" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="490" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="491" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="492" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="493" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="494" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="495" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="496" NetworkType="E131" MaxChannels="510"/>
   </Controller>
-  <Controller Id="500" Name="ColorLight #3 Tune-To Sign" Description="P5 Matrix Tune To Freq. 64 X 32" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="MULTICAST" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="MULTICAST" BaudRate="500" NetworkType="DDP" MaxChannels="6144"/>
+  <Controller Id="-1" Name="ColorLight #3 Tune-To Sign" Description="P5 Matrix Tune To Freq. 64 X 32" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="MULTICAST" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ComPort="MULTICAST" BaudRate="500" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="501" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="502" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="503" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="504" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="505" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="506" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="507" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="508" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="509" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="510" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="511" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="512" NetworkType="E131" MaxChannels="510"/>
   </Controller>
   <Controller Id="5" Name="WLED Wemos #6" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.74" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.74" BaudRate="5" NetworkType="DDP" MaxChannels="384"/>
@@ -136,8 +244,14 @@
   <Controller Id="256" Name="WLED Eth01 #3" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.49" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.49" BaudRate="256" NetworkType="DDP" MaxChannels="420"/>
   </Controller>
-  <Controller Id="3" Name="zNull or Retired Placeholder" Description="Placeholders for Null or Retired Props" Type="Ethernet" Vendor="" Model="" Variant="" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.253" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+  <Controller Id="3" Name="zNull or Retired Placeholder" Description="Placeholders for Null or Retired Props" Type="Ethernet" Vendor="" Model="" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.253" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
     <network ComPort="10.3.12.253" BaudRate="9999" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10000" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10001" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10002" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10003" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10004" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10005" NetworkType="E131" MaxChannels="20"/>
   </Controller>
   <testpreset name="LOR AND RGB DUMB">
     <channelr start="1" end="528"/>
