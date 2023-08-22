@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.06</version>
+    <version>2023.10</version>
     <author>Doctor Wizard</author>
     <author-email>wizard@wizlights.com</author-email>
     <author-website>https://wizlights.com; https://facebook.com/wizlights</author-website>
@@ -247,7 +247,7 @@
     <Element collapsed="0" type="model" name="CandyCane03-R3" visible="1"/>
     <Element collapsed="0" type="model" name="CandyCane02-G2" visible="1"/>
     <Element collapsed="0" type="model" name="Snowfall Projectors (WB)" visible="1"/>
-    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="1"/>
+    <Element collapsed="0" type="model" name="Star- of Bethlehem" visible="1"/>
     <Element collapsed="0" type="model" name="Festivus Pole Flood (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Deer 2" visible="1"/>
     <Element collapsed="0" type="model" name="Countdown Timer (B)" visible="1"/>
@@ -315,7 +315,7 @@
     <Element collapsed="0" type="model" name="Bushes 5.6 {R} (M)" visible="1"/>
     <Element collapsed="0" type="model" name="Amplifier 12V" visible="1"/>
     <Element collapsed="0" type="model" name="Snowman (W)" visible="1"/>
-    <Element collapsed="0" type="model" name="aGround" visible="0"/>
+    <Element collapsed="0" type="model" name="z BAD TRIAC D09-U1.73" visible="0"/>
     <Element collapsed="0" type="model" name="Swirlies- Manger Stars" visible="0"/>
     <Element collapsed="0" type="model" name="Menorah (B)" visible="0"/>
     <Element collapsed="0" type="model" name="Yule Log (O)" visible="0"/>
@@ -361,8 +361,8 @@
     <Element collapsed="0" type="model" name="UFOs 1 {L} (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="UFOs 2 {CT} (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="UFOs 3 {R} (RGB)" visible="0"/>
-    <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Female [Gwen] {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Male [Blake] {R}" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes" visible="1"/>
     <Element collapsed="0" type="model" name="Trees" visible="1"/>
     <Element collapsed="0" type="model" name="Candy Canes Seq Group (RGRG)" visible="1"/>
@@ -400,7 +400,6 @@
     <Element collapsed="0" type="model" name="On The Air (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Major Award" visible="1"/>
     <Element collapsed="0" type="model" name="Sorcerers Apprentice" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflakes Group" visible="1"/>
     <Element collapsed="0" type="model" name="Work Together Sign (RWB)" visible="1"/>
     <Element collapsed="0" type="model" name="UFOs (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="House Front and the Roof" visible="1"/>
@@ -411,16 +410,15 @@
     <Element collapsed="0" type="model" name="Snowmen Lamp Inflatable" visible="0"/>
     <Element collapsed="0" type="model" name="Mailbox- Real (O)" visible="0"/>
     <Element collapsed="0" type="model" name="Mailbox- MiniWicker (W)" visible="0"/>
-    <Element collapsed="0" type="model" name="Mailbox- Graphic" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Jesus Joseph Mary" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Shephards" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Wisemen" visible="0"/>
     <Element collapsed="0" type="model" name="Rotating Beacons 3 {R} {BGO}" visible="0"/>
     <Element collapsed="0" type="model" name="Work Together 4- Swirly Stars (RWB)" visible="0"/>
-    <Element collapsed="0" type="model" name="Even Bigger Nick Inside (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Big Nick Inside (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Willow and Palm (GW)" visible="0"/>
     <Element collapsed="0" type="model" name="Swiriles- Candy Canes (RG)" visible="0"/>
-    <Element collapsed="0" type="model" name="zYellow Snow (Y)" visible="0"/>
+    <Element collapsed="0" type="model" name="z Yellow Snow (Y)" visible="0"/>
     <Element collapsed="0" type="model" name="Big Festive Wreath (RG)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Others Group" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Tomato Row A By Tree (RGBW)" visible="0"/>
@@ -4195,7 +4193,7 @@
         <Effect ref="7" name="On" id="2" startTime="50900" endTime="51250" palette="10"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Star of Bethlehem">
+    <Element type="model" name="Star- of Bethlehem">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="750" endTime="125000" palette="10"/>
         <Effect ref="0" name="On" id="1" startTime="900" endTime="2700" palette="10"/>
@@ -7386,7 +7384,7 @@
         <Effect ref="7" name="On" id="50" startTime="123050" endTime="125450" palette="10"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="aGround">
+    <Element type="model" name="z BAD TRIAC D09-U1.73">
       <EffectLayer>
         <Effect ref="10" name="On" startTime="550" endTime="2000" palette="10"/>
         <Effect ref="0" name="On" id="1" startTime="700" endTime="125000" palette="10"/>
@@ -10265,7 +10263,7 @@
         <Effect ref="7" name="On" id="48" startTime="102025" endTime="102225" palette="10"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Tree- Singing Female {L}">
+    <Element type="model" name="Tree- Singing Female [Gwen] {L}">
       <EffectLayer>
         <Effect ref="77" name="Faces" startTime="0" endTime="125950" palette="79"/>
       </EffectLayer>
@@ -10273,7 +10271,7 @@
         <Effect ref="78" name="Bars" startTime="0" endTime="125950" palette="80"/>
       </SubModelEffectLayer>
     </Element>
-    <Element type="model" name="Tree- Singing Male {R}">
+    <Element type="model" name="Tree- Singing Male [Blake] {R}">
       <EffectLayer>
         <Effect ref="79" name="Faces" startTime="0" endTime="125950" palette="81"/>
       </EffectLayer>
@@ -12644,9 +12642,6 @@
         <Effect ref="0" name="Color Wash" id="13" startTime="121675" endTime="125500" palette="9"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Snowflakes Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Work Together Sign (RWB)">
       <EffectLayer/>
     </Element>
@@ -12697,9 +12692,6 @@
     <Element type="model" name="Mailbox- MiniWicker (W)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Mailbox- Graphic">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Nativity Jesus Joseph Mary">
       <EffectLayer>
         <Effect ref="10" name="On" startTime="100" endTime="400" palette="10"/>
@@ -12735,7 +12727,7 @@
         <Effect ref="0" name="On" startTime="850" endTime="123600" palette="10"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Even Bigger Nick Inside (W)">
+    <Element type="model" name="Big Nick Inside (W)">
       <EffectLayer>
         <Effect ref="10" name="On" startTime="6300" endTime="6650" palette="10"/>
         <Effect ref="0" name="On" id="1" startTime="6650" endTime="11550" palette="10"/>
@@ -12777,7 +12769,7 @@
         <Effect ref="0" name="On" id="8" startTime="98925" endTime="124975" palette="10"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="zYellow Snow (Y)">
+    <Element type="model" name="z Yellow Snow (Y)">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="4500" endTime="5000" palette="10"/>
       </EffectLayer>

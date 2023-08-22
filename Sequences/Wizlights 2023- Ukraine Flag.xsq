@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.06</version>
+    <version>2023.10</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -108,7 +108,6 @@
     <Element collapsed="0" type="model" name="Strobes- C9- Roof Bushes Trees {R} (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies Projectors" visible="1"/>
     <Element collapsed="0" type="model" name="Rotating Beacons {All} (RGBO)" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflakes Group" visible="1"/>
     <Element collapsed="0" type="model" name="Pixels- ALL" visible="1"/>
     <Element collapsed="0" type="model" name="Menorah Bulbs" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags- All 01-21" visible="1"/>
@@ -139,7 +138,6 @@
     <Element collapsed="0" type="model" name="Work Together 3 (B)" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Candy Canes {R} (RG)" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Candy Canes {L} (RG)" visible="1"/>
-    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="1"/>
     <Element collapsed="0" type="model" name="Rotating Beacon 11 {Donations} (B)" visible="1"/>
     <Element collapsed="0" type="model" name="Strobes- C9- Roof" visible="1"/>
     <Element collapsed="0" type="model" name="Strobes- C9- Tree- Big Pixel {FC} (W)" visible="1"/>
@@ -150,30 +148,22 @@
     <Element collapsed="0" type="model" name="Coexist Flag (MRGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Strobes- C9- Bushes {L} (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Rainbow 1 {T} (R)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Palm Trunk (G)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Palm Top (G)" visible="1"/>
     <Element collapsed="0" type="model" name="Yule Log Candles (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Menorah Bulb 0 (B) {C}" visible="1"/>
     <Element collapsed="0" type="model" name="Menorah Bulbs 5-8 (B) {L}" visible="1"/>
     <Element collapsed="0" type="model" name="Menorah Bulbs 1-4 (B) {R}" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflake Two-Prong" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflake Diamond" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflake Arrow" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflake Three-Prong" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags 16 {DFL}" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags 17 {DFL}" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags 15 {FR}" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="1"/>
     <Element collapsed="0" type="model" name="Strobes- 5mm- Bushes {C} (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
-    <Element collapsed="0" type="model" name="aGround" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Driveway (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Pine (GO)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 2.3 {L} Low (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Mailbox- Real (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Lamp Posts (Y)" visible="1"/>
     <Element collapsed="0" type="model" name="Mailbox- MiniWicker (W)" visible="1"/>
-    <Element collapsed="0" type="model" name="Mailbox- Graphic" visible="1"/>
     <Element collapsed="0" type="model" name="Lasers- Driveway (RG)" visible="1"/>
     <Element collapsed="0" type="model" name="Santa in the Window" visible="1"/>
     <Element collapsed="0" type="model" name="Laser- Streetlight (R)" visible="1"/>
@@ -313,14 +303,11 @@
     <Element collapsed="0" type="model" name="Bushes 5.2 {R} (G)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 5.4 {R} (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Peace Sign (RGB)" visible="1"/>
-    <Element collapsed="0" type="model" name="zYellow Snow (Y)" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Street (M)" visible="1"/>
     <Element collapsed="0" type="model" name="Flying Spaghetti Monster (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Lasers- House Front (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Willow (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Big Nick Fire (RO)" visible="1"/>
-    <Element collapsed="0" type="model" name="xyz House Front" visible="1"/>
-    <Element collapsed="0" type="model" name="xyz Trees Origin Point" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags 21 {RB}" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags 20 {RF}" visible="1"/>
     <Element collapsed="0" type="model" name="Fence Swags 19 {DRB}" visible="1"/>
@@ -342,8 +329,6 @@
     <Element collapsed="0" type="model" name="CandyCane19-R3" visible="1"/>
     <Element collapsed="0" type="model" name="CandyCane20-G4" visible="1"/>
     <Element collapsed="0" type="model" name="Strobes- 5mm- Bushes {L} (W)" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="1"/>
-    <Element collapsed="0" type="model" name="zTree- Big AC 2 (M)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Rainbow 2 (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Rainbow 3 (Y)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Rainbow 4 (G)" visible="1"/>
@@ -371,6 +356,12 @@
     <Element collapsed="0" type="model" name="Tree Star 1- Big Pixel 1 Outside" visible="1"/>
     <Element collapsed="0" type="model" name="Tree Star 1- Big Pixel 1 Tree Star Center" visible="1"/>
     <Element collapsed="0" type="model" name="Sorcerers Apprentice" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflakes Small (4)" visible="1"/>
+    <Element collapsed="0" type="model" name="Star- of Bethlehem" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflake 1 Arrow" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake 4 Diamond" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake 3 Three-Prong" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowflake 2 Two-Prong" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="New Timing">
@@ -607,9 +598,6 @@
     <Element type="model" name="Rotating Beacons {All} (RGBO)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Snowflakes Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Pixels- ALL">
       <EffectLayer/>
     </Element>
@@ -700,9 +688,6 @@
     <Element type="model" name="Swirlies- Candy Canes {L} (RG)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Star of Bethlehem">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Rotating Beacon 11 {Donations} (B)">
       <EffectLayer/>
     </Element>
@@ -733,9 +718,6 @@
     <Element type="model" name="Trees- Rainbow 1 {T} (R)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Trees- Palm Trunk (G)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Trees- Palm Top (G)">
       <EffectLayer/>
     </Element>
@@ -751,18 +733,6 @@
     <Element type="model" name="Menorah Bulbs 1-4 (B) {R}">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Snowflake Two-Prong">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Diamond">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Arrow">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Three-Prong">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Fence Swags 16 {DFL}">
       <EffectLayer/>
     </Element>
@@ -772,16 +742,10 @@
     <Element type="model" name="Fence Swags 15 {FR}">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Tree- Singing Female {L}">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Strobes- 5mm- Bushes {C} (W)">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Wheel of Dharma">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="aGround">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Swirlies- Driveway (RGB)">
@@ -800,9 +764,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Mailbox- MiniWicker (W)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Mailbox- Graphic">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Lasers- Driveway (RG)">
@@ -1181,7 +1142,7 @@
     </Element>
     <Element type="model" name="Eave Pixels 2 {L} Diag (188)">
       <EffectLayer>
-        <Effect ref="0" name="Bars" selected="1" startTime="0" endTime="30000" palette="1"/>
+        <Effect ref="0" name="Bars" startTime="0" endTime="30000" palette="1"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Eave Pixels 3 {R} Diag (184)">
@@ -1230,9 +1191,6 @@
     <Element type="model" name="Peace Sign (RGB)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="zYellow Snow (Y)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Swirlies- Street (M)">
       <EffectLayer/>
     </Element>
@@ -1246,12 +1204,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Swirlies- Big Nick Fire (RO)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="xyz House Front">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="xyz Trees Origin Point">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Fence Swags 21 {RB}">
@@ -1315,12 +1267,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Strobes- 5mm- Bushes {L} (W)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Tree- Singing Male {R}">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="zTree- Big AC 2 (M)">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Trees- Rainbow 2 (O)">
@@ -1402,6 +1348,24 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Sorcerers Apprentice">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflakes Small (4)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star- of Bethlehem">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake 1 Arrow">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake 4 Diamond">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake 3 Three-Prong">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake 2 Two-Prong">
       <EffectLayer/>
     </Element>
   </ElementEffects>

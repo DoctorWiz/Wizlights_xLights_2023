@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.22</version>
+    <version>2023.10</version>
     <author>Doctor Wizard aka Merlin Q. Potter</author>
     <author-email>wizard@wizlights.com</author-email>
     <author-website>https://wizlights.com; https://facebook.com/wizlights</author-website>
@@ -187,7 +187,6 @@
     <Effect>B_CHOICE_BufferTransform=Rotate CW 90,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=30.0</Effect>
     <Effect>E_TEXTCTRL_Eff_On_Start=25</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=25</Effect>
-    <Effect>E_TEXTCTRL_Eff_On_Start=95</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=20</Effect>
   </EffectDB>
   <DataLayers>
@@ -232,7 +231,7 @@
     <Element collapsed="0" type="model" name="Bushes 5.5 {R} (V)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 3.1 {C} (R)" visible="1"/>
     <Element collapsed="0" type="model" name="Snowfall Projectors (WB)" visible="1"/>
-    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="1"/>
+    <Element collapsed="0" type="model" name="Star- of Bethlehem" visible="1"/>
     <Element collapsed="0" type="model" name="Menorah (B)" visible="1"/>
     <Element collapsed="0" type="model" name="Yule Log (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Festivus Pole Flood (RGB)" visible="1"/>
@@ -365,10 +364,6 @@
     <Element collapsed="0" type="model" name="Fence Swags 20 {RF}" visible="0"/>
     <Element collapsed="0" type="model" name="Fence Swags 21 {RB}" visible="0"/>
     <Element collapsed="0" type="model" name="Sorcerers Apprentice" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflake Arrow" visible="0"/>
-    <Element collapsed="0" type="model" name="Snowflake Diamond" visible="0"/>
-    <Element collapsed="0" type="model" name="Snowflake Three-Prong" visible="0"/>
-    <Element collapsed="0" type="model" name="Snowflake Two-Prong" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Big AC 1 (M)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Willow (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Rainbow Inflatible" visible="0"/>
@@ -418,7 +413,6 @@
     <Element collapsed="0" type="model" name="Strobes" visible="0"/>
     <Element collapsed="0" type="model" name="Work Together Sign (RWB)" visible="0"/>
     <Element collapsed="0" type="model" name="Rotating Beacons 3 {R} {BGO}" visible="0"/>
-    <Element collapsed="0" type="model" name="Snowflakes Group" visible="1"/>
     <Element collapsed="0" type="model" name="xCtlr A Tomato Trees Row A" visible="1"/>
     <Element collapsed="0" type="model" name="xCtlr B- Tomato Trees Row B" visible="1"/>
     <Element collapsed="0" type="model" name="xCtlr C- Other Trees" visible="1"/>
@@ -438,10 +432,10 @@
     <Element collapsed="0" type="model" name="Nativity Shephards" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Wisemen" visible="0"/>
     <Element collapsed="0" type="model" name="Work Together 4- Swirly Stars (RWB)" visible="0"/>
-    <Element collapsed="0" type="model" name="Even Bigger Nick Inside (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Big Nick Inside (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Willow and Palm (GW)" visible="0"/>
     <Element collapsed="0" type="model" name="Swiriles- Candy Canes (RG)" visible="0"/>
-    <Element collapsed="0" type="model" name="zYellow Snow (Y)" visible="0"/>
+    <Element collapsed="0" type="model" name="z Yellow Snow (Y)" visible="0"/>
     <Element collapsed="1" type="timing" name="1 Full Beats (Quarter notes)" visible="1" views="" active="0"/>
     <Element collapsed="1" type="timing" name="2 Half Beats (Eighth notes)" visible="1" views="" active="0"/>
     <Element collapsed="1" type="timing" name="4 Quarter Beats (Sixteenth notes)" visible="1" views="" active="0"/>
@@ -6492,7 +6486,7 @@
         <Effect ref="24" name="On" id="5" startTime="181375" endTime="182500" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Star of Bethlehem">
+    <Element type="model" name="Star- of Bethlehem">
       <EffectLayer>
         <Effect ref="1" name="On" startTime="250" endTime="181750" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="250" endTime="181750" palette="0"/>
@@ -14858,18 +14852,6 @@
         <Effect ref="44" name="Bars" id="3" startTime="127975" endTime="182375" palette="117"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Snowflake Arrow">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Diamond">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Three-Prong">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Two-Prong">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Tree- Big AC 1 (M)">
       <EffectLayer>
         <Effect ref="1" name="On" startTime="31075" endTime="31300" palette="0"/>
@@ -15683,51 +15665,50 @@
         <Effect ref="2" name="On" id="2" startTime="30950" endTime="31450" palette="0"/>
         <Effect ref="10" name="On" id="3" startTime="31950" endTime="32050" palette="0"/>
         <Effect ref="1" name="On" id="4" startTime="32050" endTime="32450" palette="0"/>
-        <Effect ref="47" name="On" id="5" startTime="32450" endTime="32450" palette="0"/>
-        <Effect ref="1" name="On" id="6" startTime="32450" endTime="32475" palette="0"/>
-        <Effect ref="2" name="On" id="7" startTime="32475" endTime="32600" palette="0"/>
-        <Effect ref="10" name="On" id="8" startTime="32600" endTime="32700" palette="0"/>
-        <Effect ref="1" name="On" id="9" startTime="32700" endTime="33125" palette="0"/>
-        <Effect ref="2" name="On" id="10" startTime="33125" endTime="33300" palette="0"/>
-        <Effect ref="10" name="On" id="11" startTime="33300" endTime="33375" palette="0"/>
-        <Effect ref="1" name="On" id="12" startTime="33375" endTime="33675" palette="0"/>
-        <Effect ref="2" name="On" id="13" startTime="33675" endTime="33900" palette="0"/>
-        <Effect ref="10" name="On" id="14" startTime="33900" endTime="33975" palette="0"/>
-        <Effect ref="1" name="On" id="15" startTime="33975" endTime="34350" palette="0"/>
-        <Effect ref="2" name="On" id="16" startTime="34350" endTime="34550" palette="0"/>
-        <Effect ref="10" name="On" id="17" startTime="64625" endTime="64750" palette="0"/>
-        <Effect ref="1" name="On" id="18" startTime="64750" endTime="72175" palette="0"/>
-        <Effect ref="2" name="On" id="19" startTime="72175" endTime="74050" palette="0"/>
-        <Effect ref="10" name="On" id="20" startTime="82875" endTime="82950" palette="0"/>
-        <Effect ref="1" name="On" id="21" startTime="82950" endTime="83075" palette="0"/>
-        <Effect ref="2" name="On" id="22" startTime="83075" endTime="83325" palette="0"/>
-        <Effect ref="10" name="On" id="23" startTime="83450" endTime="83550" palette="0"/>
-        <Effect ref="1" name="On" id="24" startTime="83550" endTime="83650" palette="0"/>
-        <Effect ref="2" name="On" id="25" startTime="83650" endTime="83850" palette="0"/>
-        <Effect ref="10" name="On" id="26" startTime="84125" endTime="84200" palette="0"/>
-        <Effect ref="1" name="On" id="27" startTime="84200" endTime="84700" palette="0"/>
-        <Effect ref="2" name="On" id="28" startTime="84700" endTime="84875" palette="0"/>
-        <Effect ref="10" name="On" id="29" startTime="84875" endTime="84950" palette="0"/>
-        <Effect ref="1" name="On" id="30" startTime="84950" endTime="87700" palette="0"/>
-        <Effect ref="2" name="On" id="31" startTime="87700" endTime="87900" palette="0"/>
-        <Effect ref="10" name="On" id="32" startTime="87950" endTime="88025" palette="0"/>
-        <Effect ref="1" name="On" id="33" startTime="88025" endTime="88950" palette="0"/>
-        <Effect ref="2" name="On" id="34" startTime="88950" endTime="89125" palette="0"/>
-        <Effect ref="10" name="On" id="35" startTime="89150" endTime="89250" palette="0"/>
-        <Effect ref="1" name="On" id="36" startTime="89250" endTime="91825" palette="0"/>
-        <Effect ref="2" name="On" id="37" startTime="91825" endTime="92750" palette="0"/>
-        <Effect ref="10" name="On" id="38" startTime="92875" endTime="92950" palette="0"/>
-        <Effect ref="1" name="On" id="39" startTime="92950" endTime="93300" palette="0"/>
-        <Effect ref="2" name="On" id="40" startTime="93300" endTime="93450" palette="0"/>
-        <Effect ref="10" name="On" id="41" startTime="93525" endTime="93600" palette="0"/>
-        <Effect ref="1" name="On" id="42" startTime="93600" endTime="93950" palette="0"/>
-        <Effect ref="2" name="On" id="43" startTime="93950" endTime="94100" palette="0"/>
-        <Effect ref="10" name="On" id="44" startTime="94150" endTime="94225" palette="0"/>
-        <Effect ref="1" name="On" id="45" startTime="94225" endTime="94575" palette="0"/>
-        <Effect ref="2" name="On" id="46" startTime="94575" endTime="94725" palette="0"/>
-        <Effect ref="10" name="On" id="47" startTime="94750" endTime="94850" palette="0"/>
-        <Effect ref="1" name="On" id="48" startTime="94850" endTime="102025" palette="0"/>
-        <Effect ref="2" name="On" id="49" startTime="102025" endTime="102225" palette="0"/>
+        <Effect ref="1" name="On" id="5" startTime="32450" endTime="32475" palette="0"/>
+        <Effect ref="2" name="On" id="6" startTime="32475" endTime="32600" palette="0"/>
+        <Effect ref="10" name="On" id="7" startTime="32600" endTime="32700" palette="0"/>
+        <Effect ref="1" name="On" id="8" startTime="32700" endTime="33125" palette="0"/>
+        <Effect ref="2" name="On" id="9" startTime="33125" endTime="33300" palette="0"/>
+        <Effect ref="10" name="On" id="10" startTime="33300" endTime="33375" palette="0"/>
+        <Effect ref="1" name="On" id="11" startTime="33375" endTime="33675" palette="0"/>
+        <Effect ref="2" name="On" id="12" startTime="33675" endTime="33900" palette="0"/>
+        <Effect ref="10" name="On" id="13" startTime="33900" endTime="33975" palette="0"/>
+        <Effect ref="1" name="On" id="14" startTime="33975" endTime="34350" palette="0"/>
+        <Effect ref="2" name="On" id="15" startTime="34350" endTime="34550" palette="0"/>
+        <Effect ref="10" name="On" id="16" startTime="64625" endTime="64750" palette="0"/>
+        <Effect ref="1" name="On" id="17" startTime="64750" endTime="72175" palette="0"/>
+        <Effect ref="2" name="On" id="18" startTime="72175" endTime="74050" palette="0"/>
+        <Effect ref="10" name="On" id="19" startTime="82875" endTime="82950" palette="0"/>
+        <Effect ref="1" name="On" id="20" startTime="82950" endTime="83075" palette="0"/>
+        <Effect ref="2" name="On" id="21" startTime="83075" endTime="83325" palette="0"/>
+        <Effect ref="10" name="On" id="22" startTime="83450" endTime="83550" palette="0"/>
+        <Effect ref="1" name="On" id="23" startTime="83550" endTime="83650" palette="0"/>
+        <Effect ref="2" name="On" id="24" startTime="83650" endTime="83850" palette="0"/>
+        <Effect ref="10" name="On" id="25" startTime="84125" endTime="84200" palette="0"/>
+        <Effect ref="1" name="On" id="26" startTime="84200" endTime="84700" palette="0"/>
+        <Effect ref="2" name="On" id="27" startTime="84700" endTime="84875" palette="0"/>
+        <Effect ref="10" name="On" id="28" startTime="84875" endTime="84950" palette="0"/>
+        <Effect ref="1" name="On" id="29" startTime="84950" endTime="87700" palette="0"/>
+        <Effect ref="2" name="On" id="30" startTime="87700" endTime="87900" palette="0"/>
+        <Effect ref="10" name="On" id="31" startTime="87950" endTime="88025" palette="0"/>
+        <Effect ref="1" name="On" id="32" startTime="88025" endTime="88950" palette="0"/>
+        <Effect ref="2" name="On" id="33" startTime="88950" endTime="89125" palette="0"/>
+        <Effect ref="10" name="On" id="34" startTime="89150" endTime="89250" palette="0"/>
+        <Effect ref="1" name="On" id="35" startTime="89250" endTime="91825" palette="0"/>
+        <Effect ref="2" name="On" id="36" startTime="91825" endTime="92750" palette="0"/>
+        <Effect ref="10" name="On" id="37" startTime="92875" endTime="92950" palette="0"/>
+        <Effect ref="1" name="On" id="38" startTime="92950" endTime="93300" palette="0"/>
+        <Effect ref="2" name="On" id="39" startTime="93300" endTime="93450" palette="0"/>
+        <Effect ref="10" name="On" id="40" startTime="93525" endTime="93600" palette="0"/>
+        <Effect ref="1" name="On" id="41" startTime="93600" endTime="93950" palette="0"/>
+        <Effect ref="2" name="On" id="42" startTime="93950" endTime="94100" palette="0"/>
+        <Effect ref="10" name="On" id="43" startTime="94150" endTime="94225" palette="0"/>
+        <Effect ref="1" name="On" id="44" startTime="94225" endTime="94575" palette="0"/>
+        <Effect ref="2" name="On" id="45" startTime="94575" endTime="94725" palette="0"/>
+        <Effect ref="10" name="On" id="46" startTime="94750" endTime="94850" palette="0"/>
+        <Effect ref="1" name="On" id="47" startTime="94850" endTime="102025" palette="0"/>
+        <Effect ref="2" name="On" id="48" startTime="102025" endTime="102225" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Rotating Beacons 1 {LF} (RGBO)">
@@ -15759,7 +15740,7 @@
         <Effect ref="2" name="On" id="5" startTime="7700" endTime="7900" palette="0"/>
         <Effect ref="10" name="On" id="6" startTime="8500" endTime="8700" palette="0"/>
         <Effect ref="1" name="On" id="7" startTime="8700" endTime="10250" palette="0"/>
-        <Effect ref="48" name="On" id="8" startTime="10250" endTime="10375" palette="0"/>
+        <Effect ref="47" name="On" id="8" startTime="10250" endTime="10375" palette="0"/>
         <Effect ref="10" name="On" id="9" startTime="11050" endTime="11250" palette="0"/>
         <Effect ref="1" name="On" id="10" startTime="11250" endTime="12800" palette="0"/>
         <Effect ref="2" name="On" id="11" startTime="12800" endTime="13000" palette="0"/>
@@ -16910,9 +16891,6 @@
         <Effect ref="1" name="On" id="6" startTime="139850" endTime="142100" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Snowflakes Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="xCtlr A Tomato Trees Row A">
       <EffectLayer/>
     </Element>
@@ -16980,7 +16958,7 @@
         <Effect ref="1" name="On" startTime="200" endTime="152550" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Even Bigger Nick Inside (W)">
+    <Element type="model" name="Big Nick Inside (W)">
       <EffectLayer>
         <Effect ref="10" name="On" startTime="200" endTime="400" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="400" endTime="181500" palette="0"/>
@@ -17017,7 +16995,7 @@
         <Effect ref="1" name="On" id="11" startTime="149125" endTime="171700" palette="0"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="zYellow Snow (Y)">
+    <Element type="model" name="z Yellow Snow (Y)">
       <EffectLayer>
         <Effect ref="1" name="On" startTime="4500" endTime="5000" palette="0"/>
       </EffectLayer>

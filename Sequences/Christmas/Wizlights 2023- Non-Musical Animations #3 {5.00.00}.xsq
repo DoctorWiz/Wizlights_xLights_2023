@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.22</version>
+    <version>2023.10</version>
     <author>Doctor Wizard</author>
     <author-email>wizard@wizlights.com</author-email>
     <author-website>http://wizlights.com</author-website>
@@ -123,18 +123,15 @@
     <Element collapsed="0" type="model" name="Trees- Others Group" visible="1"/>
     <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
     <Element collapsed="0" type="model" name="Lasers Group" visible="1"/>
-    <Element collapsed="0" type="model" name="Pixels Eaves Group" visible="1"/>
     <Element collapsed="0" type="model" name="Candy Canes Seq Group (RGRG)" visible="1"/>
     <Element collapsed="0" type="model" name="Snow Lake with Deer (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
-    <Element collapsed="0" type="model" name="aGround" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Driveway (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Pine (GO)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 2.3 {L} Low (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Mailbox- Real (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Lamp Posts (Y)" visible="1"/>
     <Element collapsed="0" type="model" name="Mailbox- MiniWicker (W)" visible="1"/>
-    <Element collapsed="0" type="model" name="Mailbox- Graphic" visible="1"/>
     <Element collapsed="0" type="model" name="Lasers- Street (RG)" visible="1"/>
     <Element collapsed="0" type="model" name="Santa in the Window" visible="1"/>
     <Element collapsed="0" type="model" name="Laser- Streetlight (R)" visible="1"/>
@@ -169,7 +166,7 @@
     <Element collapsed="0" type="model" name="CandyCane02-G2" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Snowflakes {L} (WB)" visible="1"/>
     <Element collapsed="0" type="model" name="Snowfall Projectors (WB)" visible="1"/>
-    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="1"/>
+    <Element collapsed="0" type="model" name="Star- of Bethlehem" visible="1"/>
     <Element collapsed="0" type="model" name="Wreath 6 Leaves (G)" visible="1"/>
     <Element collapsed="0" type="model" name="Wreath 5 Berries (R)" visible="1"/>
     <Element collapsed="0" type="model" name="Wreath 4 Leaves (G)" visible="1"/>
@@ -1746,9 +1743,6 @@
     <Element type="model" name="Lasers Group">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Pixels Eaves Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Candy Canes Seq Group (RGRG)">
       <EffectLayer/>
     </Element>
@@ -1758,9 +1752,6 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Wheel of Dharma">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="aGround">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Swirlies- Driveway (RGB)">
@@ -1781,9 +1772,6 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Mailbox- MiniWicker (W)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Mailbox- Graphic">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Lasers- Street (RG)">
@@ -2247,7 +2235,7 @@
         <Effect ref="6" name="On" startTime="0" endTime="300000" palette="4"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Star of Bethlehem">
+    <Element type="model" name="Star- of Bethlehem">
       <EffectLayer>
         <Effect ref="6" name="On" startTime="0" endTime="280000" palette="4"/>
         <Effect ref="14" name="On" id="1" startTime="280000" endTime="298000" palette="4"/>

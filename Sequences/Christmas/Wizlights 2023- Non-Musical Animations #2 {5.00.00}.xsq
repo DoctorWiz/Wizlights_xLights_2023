@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.22</version>
+    <version>2023.10</version>
     <author>Doctor Wizard</author>
     <author-email>wizard@wizlights.com</author-email>
     <author-website>http://wizlights.com</author-website>
@@ -94,18 +94,15 @@
     <Element collapsed="0" type="model" name="Trees- Others Group" visible="1"/>
     <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
     <Element collapsed="0" type="model" name="Lasers Group" visible="1"/>
-    <Element collapsed="0" type="model" name="Pixels Eaves Group" visible="1"/>
     <Element collapsed="0" type="model" name="Candy Canes Seq Group (RGRG)" visible="1"/>
     <Element collapsed="0" type="model" name="Snow Lake with Deer (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
-    <Element collapsed="0" type="model" name="aGround" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Driveway (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Pine (GO)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 2.3 {L} Low (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Mailbox- Real (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Lamp Posts (Y)" visible="1"/>
     <Element collapsed="0" type="model" name="Mailbox- MiniWicker (W)" visible="1"/>
-    <Element collapsed="0" type="model" name="Mailbox- Graphic" visible="1"/>
     <Element collapsed="0" type="model" name="Lasers- Street (RG)" visible="1"/>
     <Element collapsed="0" type="model" name="Santa in the Window" visible="1"/>
     <Element collapsed="0" type="model" name="Transmitter 12V" visible="1"/>
@@ -265,7 +262,7 @@
     <Element collapsed="0" type="model" name="Bushes 5.1 {R} (R)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 5.3 {R} (B)" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies- Street (M)" visible="1"/>
-    <Element collapsed="0" type="model" name="Even Bigger Nick Inside (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Big Nick Inside (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Strobes- C9- Bushes {R} (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Nativity Jesus Joseph Mary" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes" visible="1"/>
@@ -280,7 +277,6 @@
     <Element collapsed="0" type="model" name="Big Festive Wreath (RG)" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Shephards" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Wisemen" visible="0"/>
-    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Floods {LR} (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Rotating Beacons {All} (RGBO)" visible="0"/>
     <Element collapsed="0" type="model" name="Strobes" visible="0"/>
@@ -1189,9 +1185,6 @@
     <Element type="model" name="Lasers Group">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Pixels Eaves Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Candy Canes Seq Group (RGRG)">
       <EffectLayer/>
     </Element>
@@ -1201,9 +1194,6 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Wheel of Dharma">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="aGround">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Swirlies- Driveway (RGB)">
@@ -1224,9 +1214,6 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Mailbox- MiniWicker (W)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Mailbox- Graphic">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Lasers- Street (RG)">
@@ -8467,7 +8454,7 @@
     <Element type="model" name="Swirlies- Street (M)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Even Bigger Nick Inside (W)">
+    <Element type="model" name="Big Nick Inside (W)">
       <EffectLayer>
         <Effect ref="12" name="On" startTime="2000" endTime="16000" palette="0"/>
         <Effect ref="0" name="On" id="1" startTime="16000" endTime="110000" palette="5"/>
@@ -8534,9 +8521,6 @@
         <Effect ref="0" name="On" id="3" startTime="214000" endTime="293000" palette="5"/>
         <Effect ref="13" name="On" id="4" startTime="293000" endTime="299000" palette="0"/>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="Star of Bethlehem">
-      <EffectLayer/>
     </Element>
     <Element type="model" name="Nativity Floods {LR} (RGB)">
       <EffectLayer/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.06</version>
+    <version>2023.10</version>
     <author>Doctor Wizard aka Merlin Q. Potter</author>
     <author-email>wizard@wizlights.com</author-email>
     <author-website>https://wizlights.com; https://facebook.com/wizlights</author-website>
@@ -437,9 +437,9 @@
     <Element collapsed="0" type="model" name="Trees- Rainbow (ROYGBV)" visible="0"/>
     <Element collapsed="0" type="model" name="On The Air (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Willow and Palm (GW)" visible="0"/>
-    <Element collapsed="0" type="model" name="Even Bigger Nick Inside (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Big Nick Inside (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Swiriles- Candy Canes (RG)" visible="0"/>
-    <Element collapsed="0" type="model" name="zYellow Snow (Y)" visible="0"/>
+    <Element collapsed="0" type="model" name="z Yellow Snow (Y)" visible="0"/>
     <Element collapsed="1" type="timing" name="LORbeats" visible="1" views="" active="0"/>
     <Element collapsed="1" type="timing" name="0 Bars (Whole notes&amp;#44; (4 Quarter notes))" visible="1" views="AC Lights in Logical Order" active="0"/>
     <Element collapsed="1" type="timing" name="1 Full Beats (Quarter notes)" visible="1" views="AC Lights in Logical Order" active="0"/>
@@ -462,7 +462,6 @@
     <Element collapsed="0" type="model" name="House Front and the Roof" visible="1"/>
     <Element collapsed="0" type="model" name="Nativity Group" visible="0"/>
     <Element collapsed="0" type="model" name="Big Festive Wreath (RG)" visible="0"/>
-    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Floods {LR} (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Tomato All Groups Group (RGBWVW)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Spiral Group (WWWG)" visible="0"/>
@@ -473,8 +472,6 @@
     <Element collapsed="0" type="model" name="Tree- Purple- Light (V)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato Stubby {L} (BG)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato Stubby {R} (BG)" visible="0"/>
-    <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="Bars (Whole notes, (4 Quarter notes))">
@@ -21885,7 +21882,7 @@
         <Effect ref="4" name="On" id="9" startTime="136100" endTime="137800" palette="1"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Even Bigger Nick Inside (W)">
+    <Element type="model" name="Big Nick Inside (W)">
       <EffectLayer>
         <Effect ref="3" name="On" startTime="200" endTime="400" palette="1"/>
       </EffectLayer>
@@ -21905,7 +21902,7 @@
         <Effect ref="4" name="On" id="10" startTime="137800" endTime="142150" palette="1"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="zYellow Snow (Y)">
+    <Element type="model" name="z Yellow Snow (Y)">
       <EffectLayer>
         <Effect ref="4" name="On" startTime="4500" endTime="5000" palette="1"/>
       </EffectLayer>
@@ -27301,9 +27298,6 @@
     <Element type="model" name="Big Festive Wreath (RG)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Star of Bethlehem">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Nativity Floods {LR} (RGB)">
       <EffectLayer/>
     </Element>
@@ -28431,12 +28425,6 @@
         <Effect ref="5" name="On" id="264" startTime="141050" endTime="141350" palette="1"/>
         <Effect ref="37" name="On" id="265" startTime="141850" endTime="142200" palette="1"/>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="Tree- Singing Female {L}">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Tree- Singing Male {R}">
-      <EffectLayer/>
     </Element>
   </ElementEffects>
   <lastView>1</lastView>
