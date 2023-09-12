@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2022.22</version>
+    <version>2023.10</version>
     <author>xLights Around the World 2021</author>
     <author-email>russell@palmettotechnical.com</author-email>
     <author-website>http://www.xlightsaroundtheworld.com/2021-project.html</author-website>
@@ -173,10 +173,10 @@
     <Element collapsed="0" type="timing" name="Blake" visible="1" views="Conventional in Logical Order,Singing,AC Lights in Logical Order,Pixel Props" active="0"/>
     <Element collapsed="0" type="timing" name="Gwen" visible="1" views="Conventional in Logical Order,Singing,AC Lights in Logical Order,Pixel Props" active="0"/>
     <Element collapsed="0" type="timing" name="Backups" visible="1" views="Singing" active="1"/>
-    <Element collapsed="0" type="model" name="Tree- Singing Male {R}" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree- Singing Female {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Male [Blake] {R}" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Female [Gwen] {L}" visible="1"/>
     <Element collapsed="0" type="model" name="Eave Pixels- All" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflakes Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflakes Small (4)" visible="1"/>
     <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Tomato Row A By Tree (RGBW)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A1 Group (RGBW)" visible="0"/>
@@ -194,7 +194,7 @@
     <Element collapsed="0" type="model" name="Lasers- House Front (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Roof Ridgeline (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Disco Balls (M)" visible="0"/>
-    <Element collapsed="0" type="model" name="Even Bigger Nick Inside (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Big Nick Inside (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Swirlies- Big Nick Fire (RO)" visible="0"/>
     <Element collapsed="0" type="model" name="Santa in the Window" visible="0"/>
     <Element collapsed="0" type="model" name="UFOs (RGB)" visible="0"/>
@@ -218,7 +218,7 @@
     <Element collapsed="0" type="model" name="Big Festive Wreath (RG)" visible="0"/>
     <Element collapsed="0" type="model" name="Swiriles- Candy Canes (RG)" visible="0"/>
     <Element collapsed="1" type="model" name="Tree Star 1- Big Pixel 1 Outside" visible="1"/>
-    <Element collapsed="0" type="model" name="Star of Bethlehem" visible="1"/>
+    <Element collapsed="0" type="model" name="Star- of Bethlehem" visible="1"/>
     <Element collapsed="0" type="model" name="Pine Tree {R} Group" visible="0"/>
     <Element collapsed="0" type="model" name="Swirlies- Oak (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Rotating Beacons 2 {LB} (RGBO)" visible="0"/>
@@ -424,15 +424,12 @@
     <Element collapsed="0" type="model" name="Fence Swags 19 {DRB}" visible="0"/>
     <Element collapsed="0" type="model" name="Fence Swags 20 {RF}" visible="0"/>
     <Element collapsed="0" type="model" name="Fence Swags 21 {RB}" visible="0"/>
-    <Element collapsed="0" type="model" name="Snowflake Arrow" visible="0"/>
-    <Element collapsed="0" type="model" name="Snowflake Diamond" visible="0"/>
-    <Element collapsed="0" type="model" name="Snowflake Three-Prong" visible="0"/>
-    <Element collapsed="0" type="model" name="Snowflake Two-Prong" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Shephards" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Wisemen" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Willow and Palm (GW)" visible="0"/>
-    <Element collapsed="0" type="model" name="zYellow Snow (Y)" visible="0"/>
     <Element collapsed="1" type="timing" name="5 Chords-1" visible="1" views="" active="0"/>
+    <Element collapsed="0" type="model" name="Elf Singer" visible="1"/>
+    <Element collapsed="0" type="model" name="Grinch" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="model" name="Pixels- ALL">
@@ -663,7 +660,6 @@
         <Effect label="E" startTime="51700" endTime="51950"></Effect>
         <Effect label="FV" startTime="51950" endTime="52100"></Effect>
         <Effect label="etc" startTime="52100" endTime="52150"></Effect>
-        <Effect label="AI" startTime="52150" endTime="52150"></Effect>
         <Effect label="etc" startTime="52150" endTime="52300"></Effect>
         <Effect label="etc" startTime="52300" endTime="52350"></Effect>
         <Effect label="AI" startTime="52350" endTime="52600"></Effect>
@@ -726,7 +722,6 @@
         <Effect label="etc" startTime="59250" endTime="59300"></Effect>
         <Effect label="etc" startTime="59300" endTime="59350"></Effect>
         <Effect label="WQ" startTime="59350" endTime="59400"></Effect>
-        <Effect label="U" startTime="59400" endTime="59400"></Effect>
         <Effect label="AI" startTime="59400" endTime="59850"></Effect>
         <Effect label="etc" startTime="59850" endTime="59900"></Effect>
         <Effect label="AI" startTime="59900" endTime="59950"></Effect>
@@ -750,12 +745,10 @@
         <Effect label="E" startTime="62100" endTime="62250"></Effect>
         <Effect label="etc" startTime="62250" endTime="62400"></Effect>
         <Effect label="U" startTime="62400" endTime="62500"></Effect>
-        <Effect label="etc" startTime="62400" endTime="62400"></Effect>
         <Effect label="WQ" startTime="62500" endTime="62550"></Effect>
         <Effect label="rest" startTime="62550" endTime="62600"></Effect>
         <Effect label="MBP" startTime="62600" endTime="62650"></Effect>
         <Effect label="AI" startTime="62650" endTime="62850"></Effect>
-        <Effect label="E" startTime="62650" endTime="62650"></Effect>
         <Effect label="E" startTime="62850" endTime="63050"></Effect>
         <Effect label="MBP" startTime="63050" endTime="63100"></Effect>
         <Effect label="E" startTime="63100" endTime="63150"></Effect>
@@ -846,7 +839,6 @@
         <Effect label="L" startTime="97900" endTime="98000"></Effect>
         <Effect label="E" startTime="98000" endTime="98250"></Effect>
         <Effect label="FV" startTime="98250" endTime="98400"></Effect>
-        <Effect label="etc" startTime="98450" endTime="98450"></Effect>
         <Effect label="AI" startTime="98450" endTime="98500"></Effect>
         <Effect label="etc" startTime="98500" endTime="98600"></Effect>
         <Effect label="etc" startTime="98600" endTime="98700"></Effect>
@@ -874,7 +866,6 @@
         <Effect label="E" startTime="101200" endTime="101600"></Effect>
         <Effect label="etc" startTime="101600" endTime="101650"></Effect>
         <Effect label="FV" startTime="101650" endTime="101700"></Effect>
-        <Effect label="WQ" startTime="101700" endTime="101700"></Effect>
         <Effect label="AI" startTime="101700" endTime="101800"></Effect>
         <Effect label="MBP" startTime="101800" endTime="101850"></Effect>
         <Effect label="etc" startTime="101850" endTime="101900"></Effect>
@@ -906,11 +897,9 @@
         <Effect label="AI" startTime="105150" endTime="105350"></Effect>
         <Effect label="U" startTime="105350" endTime="105450"></Effect>
         <Effect label="etc" startTime="105450" endTime="105550"></Effect>
-        <Effect label="AI" startTime="105550" endTime="105550"></Effect>
         <Effect label="etc" startTime="105550" endTime="105600"></Effect>
         <Effect label="etc" startTime="105600" endTime="105700"></Effect>
         <Effect label="U" startTime="105700" endTime="105750"></Effect>
-        <Effect label="WQ" startTime="105700" endTime="105700"></Effect>
         <Effect label="AI" startTime="105750" endTime="106200"></Effect>
         <Effect label="etc" startTime="106200" endTime="106250"></Effect>
         <Effect label="AI" startTime="106250" endTime="106300"></Effect>
@@ -938,7 +927,6 @@
         <Effect label="WQ" startTime="108800" endTime="108900"></Effect>
         <Effect label="rest" startTime="108900" endTime="108950"></Effect>
         <Effect label="E" startTime="108950" endTime="109000"></Effect>
-        <Effect label="MBP" startTime="108950" endTime="108950"></Effect>
         <Effect label="AI" startTime="109000" endTime="109150"></Effect>
         <Effect label="E" startTime="109150" endTime="109350"></Effect>
         <Effect label="MBP" startTime="109350" endTime="109450"></Effect>
@@ -966,7 +954,6 @@
         <Effect label="E" startTime="113150" endTime="113250"></Effect>
         <Effect label="etc" startTime="113250" endTime="113300"></Effect>
         <Effect label="etc" startTime="113350" endTime="113450"></Effect>
-        <Effect label="U" startTime="113450" endTime="113450"></Effect>
         <Effect label="WQ" startTime="113450" endTime="113500"></Effect>
         <Effect label="etc" startTime="113500" endTime="113550"></Effect>
         <Effect label="E" startTime="113550" endTime="113700"></Effect>
@@ -988,12 +975,10 @@
         <Effect label="E" startTime="140800" endTime="140950"></Effect>
         <Effect label="etc" startTime="140950" endTime="141100"></Effect>
         <Effect label="U" startTime="141100" endTime="141200"></Effect>
-        <Effect label="etc" startTime="141100" endTime="141100"></Effect>
         <Effect label="WQ" startTime="141200" endTime="141250"></Effect>
         <Effect label="rest" startTime="141250" endTime="141300"></Effect>
         <Effect label="MBP" startTime="141300" endTime="141350"></Effect>
         <Effect label="AI" startTime="141350" endTime="141550"></Effect>
-        <Effect label="E" startTime="141350" endTime="141350"></Effect>
         <Effect label="E" startTime="141550" endTime="141650"></Effect>
         <Effect label="MBP" startTime="141650" endTime="141750"></Effect>
         <Effect label="E" startTime="141750" endTime="141800"></Effect>
@@ -1013,7 +998,6 @@
         <Effect label="AI" startTime="144050" endTime="144350"></Effect>
         <Effect label="etc" startTime="144350" endTime="144400"></Effect>
         <Effect label="WQ" startTime="144500" endTime="144550"></Effect>
-        <Effect label="U" startTime="144500" endTime="144500"></Effect>
         <Effect label="etc" startTime="144550" endTime="144600"></Effect>
         <Effect label="E" startTime="144600" endTime="144750"></Effect>
         <Effect label="etc" startTime="144750" endTime="144900"></Effect>
@@ -1254,7 +1238,6 @@
         <Effect label="E" startTime="6650" endTime="6750"></Effect>
         <Effect label="etc" startTime="6750" endTime="6850"></Effect>
         <Effect label="L" startTime="6900" endTime="6950"></Effect>
-        <Effect label="etc" startTime="6950" endTime="6950"></Effect>
         <Effect label="AI" startTime="6950" endTime="7000"></Effect>
         <Effect label="E" startTime="7000" endTime="7050"></Effect>
         <Effect label="etc" startTime="7050" endTime="7150"></Effect>
@@ -1289,9 +1272,7 @@
         <Effect label="etc" startTime="11100" endTime="11150"></Effect>
         <Effect label="U" startTime="11150" endTime="11250"></Effect>
         <Effect label="WQ" startTime="11250" endTime="11450"></Effect>
-        <Effect label="rest" startTime="11450" endTime="11450"></Effect>
         <Effect label="etc" startTime="11450" endTime="11500"></Effect>
-        <Effect label="L" startTime="11500" endTime="11500"></Effect>
         <Effect label="AI" startTime="11500" endTime="11550"></Effect>
         <Effect label="etc" startTime="11550" endTime="11700"></Effect>
         <Effect label="O" startTime="11700" endTime="11800"></Effect>
@@ -1320,7 +1301,6 @@
         <Effect label="rest" startTime="15150" endTime="15850"></Effect>
         <Effect label="MBP" startTime="15850" endTime="15900"></Effect>
         <Effect label="etc" startTime="15900" endTime="15950"></Effect>
-        <Effect label="AI" startTime="15900" endTime="15900"></Effect>
         <Effect label="AI" startTime="15950" endTime="16100"></Effect>
         <Effect label="E" startTime="16100" endTime="16250"></Effect>
         <Effect label="WQ" startTime="16250" endTime="16300"></Effect>
@@ -1333,15 +1313,12 @@
         <Effect label="AI" startTime="16850" endTime="16950"></Effect>
         <Effect label="E" startTime="16950" endTime="17100"></Effect>
         <Effect label="etc" startTime="17100" endTime="17250"></Effect>
-        <Effect label="etc" startTime="17250" endTime="17250"></Effect>
         <Effect label="U" startTime="17250" endTime="17350"></Effect>
         <Effect label="WQ" startTime="17350" endTime="17400"></Effect>
         <Effect label="rest" startTime="17400" endTime="17450"></Effect>
         <Effect label="MBP" startTime="17450" endTime="17500"></Effect>
-        <Effect label="E" startTime="17500" endTime="17500"></Effect>
         <Effect label="AI" startTime="17500" endTime="17700"></Effect>
         <Effect label="E" startTime="17700" endTime="17900"></Effect>
-        <Effect label="MBP" startTime="17900" endTime="17900"></Effect>
         <Effect label="E" startTime="17900" endTime="17950"></Effect>
         <Effect label="AI" startTime="17950" endTime="18050"></Effect>
         <Effect label="E" startTime="18050" endTime="18300"></Effect>
@@ -1366,7 +1343,6 @@
         <Effect label="AI" startTime="20250" endTime="20450"></Effect>
         <Effect label="E" startTime="20450" endTime="20500"></Effect>
         <Effect label="etc" startTime="20500" endTime="20600"></Effect>
-        <Effect label="U" startTime="20650" endTime="20650"></Effect>
         <Effect label="WQ" startTime="20650" endTime="20700"></Effect>
         <Effect label="etc" startTime="20700" endTime="20750"></Effect>
         <Effect label="E" startTime="20750" endTime="20900"></Effect>
@@ -1430,7 +1406,6 @@
         <Effect label="E" startTime="51700" endTime="51950"></Effect>
         <Effect label="FV" startTime="51950" endTime="52100"></Effect>
         <Effect label="etc" startTime="52100" endTime="52150"></Effect>
-        <Effect label="AI" startTime="52150" endTime="52150"></Effect>
         <Effect label="etc" startTime="52300" endTime="52350"></Effect>
         <Effect label="AI" startTime="52350" endTime="52600"></Effect>
         <Effect label="etc" startTime="52600" endTime="52750"></Effect>
@@ -1493,7 +1468,6 @@
         <Effect label="etc" startTime="59250" endTime="59300"></Effect>
         <Effect label="etc" startTime="59300" endTime="59350"></Effect>
         <Effect label="WQ" startTime="59350" endTime="59400"></Effect>
-        <Effect label="U" startTime="59400" endTime="59400"></Effect>
         <Effect label="etc" startTime="59850" endTime="59900"></Effect>
         <Effect label="AI" startTime="59900" endTime="59950"></Effect>
         <Effect label="etc" startTime="59950" endTime="60000"></Effect>
@@ -1515,13 +1489,11 @@
         <Effect label="AI" startTime="62000" endTime="62100"></Effect>
         <Effect label="E" startTime="62100" endTime="62250"></Effect>
         <Effect label="etc" startTime="62250" endTime="62400"></Effect>
-        <Effect label="etc" startTime="62400" endTime="62400"></Effect>
         <Effect label="U" startTime="62400" endTime="62500"></Effect>
         <Effect label="WQ" startTime="62500" endTime="62550"></Effect>
         <Effect label="rest" startTime="62550" endTime="62600"></Effect>
         <Effect label="MBP" startTime="62600" endTime="62650"></Effect>
         <Effect label="AI" startTime="62650" endTime="62850"></Effect>
-        <Effect label="E" startTime="62650" endTime="62650"></Effect>
         <Effect label="E" startTime="62850" endTime="63050"></Effect>
         <Effect label="MBP" startTime="63050" endTime="63100"></Effect>
         <Effect label="E" startTime="63100" endTime="63150"></Effect>
@@ -1588,7 +1560,6 @@
         <Effect label="etc" startTime="76950" endTime="77000"></Effect>
         <Effect label="" startTime="77000" endTime="77800"></Effect>
         <Effect label="AI" startTime="77800" endTime="77850"></Effect>
-        <Effect label="MBP" startTime="77800" endTime="77800"></Effect>
         <Effect label="etc" startTime="77850" endTime="77900"></Effect>
         <Effect label="etc" startTime="77900" endTime="77950"></Effect>
         <Effect label="U" startTime="77950" endTime="78100"></Effect>
@@ -1637,7 +1608,6 @@
         <Effect label="U" startTime="84400" endTime="84450"></Effect>
         <Effect label="WQ" startTime="84450" endTime="84550"></Effect>
         <Effect label="rest" startTime="84550" endTime="84600"></Effect>
-        <Effect label="MBP" startTime="84600" endTime="84600"></Effect>
         <Effect label="E" startTime="84600" endTime="84650"></Effect>
         <Effect label="AI" startTime="84650" endTime="84800"></Effect>
         <Effect label="E" startTime="84800" endTime="84950"></Effect>
@@ -1655,7 +1625,6 @@
         <Effect label="E" startTime="86000" endTime="86200"></Effect>
         <Effect label="etc" startTime="86200" endTime="86300"></Effect>
         <Effect label="AI" startTime="86350" endTime="86450"></Effect>
-        <Effect label="etc" startTime="86450" endTime="86450"></Effect>
         <Effect label="FV" startTime="86500" endTime="86650"></Effect>
         <Effect label="E" startTime="86650" endTime="86950"></Effect>
         <Effect label="L" startTime="86950" endTime="87200"></Effect>
@@ -1725,7 +1694,6 @@
         <Effect label="L" startTime="97900" endTime="98000"></Effect>
         <Effect label="E" startTime="98000" endTime="98250"></Effect>
         <Effect label="FV" startTime="98250" endTime="98400"></Effect>
-        <Effect label="etc" startTime="98450" endTime="98450"></Effect>
         <Effect label="etc" startTime="98500" endTime="98600"></Effect>
         <Effect label="etc" startTime="98600" endTime="98700"></Effect>
         <Effect label="AI" startTime="98700" endTime="98900"></Effect>
@@ -1752,7 +1720,6 @@
         <Effect label="E" startTime="101200" endTime="101600"></Effect>
         <Effect label="etc" startTime="101600" endTime="101650"></Effect>
         <Effect label="FV" startTime="101650" endTime="101700"></Effect>
-        <Effect label="WQ" startTime="101700" endTime="101700"></Effect>
         <Effect label="MBP" startTime="101800" endTime="101850"></Effect>
         <Effect label="etc" startTime="101850" endTime="101900"></Effect>
         <Effect label="AI" startTime="101900" endTime="102150"></Effect>
@@ -1783,10 +1750,8 @@
         <Effect label="AI" startTime="105150" endTime="105350"></Effect>
         <Effect label="U" startTime="105350" endTime="105450"></Effect>
         <Effect label="etc" startTime="105450" endTime="105550"></Effect>
-        <Effect label="AI" startTime="105550" endTime="105550"></Effect>
         <Effect label="etc" startTime="105600" endTime="105700"></Effect>
         <Effect label="U" startTime="105700" endTime="105750"></Effect>
-        <Effect label="WQ" startTime="105700" endTime="105700"></Effect>
         <Effect label="AI" startTime="105750" endTime="106200"></Effect>
         <Effect label="etc" startTime="106200" endTime="106250"></Effect>
         <Effect label="AI" startTime="106250" endTime="106300"></Effect>
@@ -1814,7 +1779,6 @@
         <Effect label="WQ" startTime="108800" endTime="108900"></Effect>
         <Effect label="rest" startTime="108900" endTime="108950"></Effect>
         <Effect label="E" startTime="108950" endTime="109000"></Effect>
-        <Effect label="MBP" startTime="108950" endTime="108950"></Effect>
         <Effect label="AI" startTime="109000" endTime="109150"></Effect>
         <Effect label="E" startTime="109150" endTime="109350"></Effect>
         <Effect label="MBP" startTime="109350" endTime="109450"></Effect>
@@ -1842,7 +1806,6 @@
         <Effect label="E" startTime="113150" endTime="113250"></Effect>
         <Effect label="etc" startTime="113250" endTime="113300"></Effect>
         <Effect label="etc" startTime="113350" endTime="113450"></Effect>
-        <Effect label="U" startTime="113450" endTime="113450"></Effect>
         <Effect label="etc" startTime="113500" endTime="113550"></Effect>
         <Effect label="E" startTime="113550" endTime="113700"></Effect>
         <Effect label="etc" startTime="113700" endTime="113850"></Effect>
@@ -1863,12 +1826,10 @@
         <Effect label="E" startTime="140800" endTime="140950"></Effect>
         <Effect label="etc" startTime="140950" endTime="141100"></Effect>
         <Effect label="U" startTime="141100" endTime="141200"></Effect>
-        <Effect label="etc" startTime="141100" endTime="141100"></Effect>
         <Effect label="WQ" startTime="141200" endTime="141250"></Effect>
         <Effect label="rest" startTime="141250" endTime="141300"></Effect>
         <Effect label="MBP" startTime="141300" endTime="141350"></Effect>
         <Effect label="AI" startTime="141350" endTime="141550"></Effect>
-        <Effect label="E" startTime="141350" endTime="141350"></Effect>
         <Effect label="E" startTime="141550" endTime="141650"></Effect>
         <Effect label="MBP" startTime="141650" endTime="141750"></Effect>
         <Effect label="E" startTime="141750" endTime="141800"></Effect>
@@ -1888,7 +1849,6 @@
         <Effect label="AI" startTime="144050" endTime="144350"></Effect>
         <Effect label="etc" startTime="144350" endTime="144400"></Effect>
         <Effect label="WQ" startTime="144500" endTime="144550"></Effect>
-        <Effect label="U" startTime="144500" endTime="144500"></Effect>
         <Effect label="etc" startTime="144550" endTime="144600"></Effect>
         <Effect label="E" startTime="144600" endTime="144750"></Effect>
         <Effect label="etc" startTime="144750" endTime="144900"></Effect>
@@ -2104,7 +2064,6 @@
         <Effect label="rest" startTime="0" endTime="26300"></Effect>
         <Effect label="AI" startTime="26300" endTime="26450"></Effect>
         <Effect label="etc" startTime="26450" endTime="26600"></Effect>
-        <Effect label="rest" startTime="26600" endTime="26600"></Effect>
         <Effect label="MBP" startTime="26600" endTime="26650"></Effect>
         <Effect label="E" startTime="26650" endTime="26750"></Effect>
         <Effect label="etc" startTime="26750" endTime="26850"></Effect>
@@ -2190,7 +2149,6 @@
         <Effect label="L" startTime="40700" endTime="40800"></Effect>
         <Effect label="AI" startTime="40800" endTime="41300"></Effect>
         <Effect label="etc" startTime="41300" endTime="41350"></Effect>
-        <Effect label="U" startTime="41350" endTime="41350"></Effect>
         <Effect label="WQ" startTime="41350" endTime="41400"></Effect>
         <Effect label="etc" startTime="41400" endTime="41450"></Effect>
         <Effect label="E" startTime="41450" endTime="41600"></Effect>
@@ -2254,7 +2212,6 @@
         <Effect label="E" startTime="51700" endTime="51950"></Effect>
         <Effect label="FV" startTime="51950" endTime="52100"></Effect>
         <Effect label="etc" startTime="52100" endTime="52150"></Effect>
-        <Effect label="AI" startTime="52150" endTime="52150"></Effect>
         <Effect label="etc" startTime="52300" endTime="52350"></Effect>
         <Effect label="AI" startTime="52350" endTime="52600"></Effect>
         <Effect label="etc" startTime="52600" endTime="52750"></Effect>
@@ -2317,7 +2274,6 @@
         <Effect label="etc" startTime="59250" endTime="59300"></Effect>
         <Effect label="etc" startTime="59300" endTime="59350"></Effect>
         <Effect label="WQ" startTime="59350" endTime="59400"></Effect>
-        <Effect label="U" startTime="59400" endTime="59400"></Effect>
         <Effect label="etc" startTime="59850" endTime="59900"></Effect>
         <Effect label="AI" startTime="59900" endTime="59950"></Effect>
         <Effect label="etc" startTime="59950" endTime="60000"></Effect>
@@ -2340,12 +2296,10 @@
         <Effect label="E" startTime="62100" endTime="62250"></Effect>
         <Effect label="etc" startTime="62250" endTime="62400"></Effect>
         <Effect label="U" startTime="62400" endTime="62500"></Effect>
-        <Effect label="etc" startTime="62400" endTime="62400"></Effect>
         <Effect label="WQ" startTime="62500" endTime="62550"></Effect>
         <Effect label="rest" startTime="62550" endTime="62600"></Effect>
         <Effect label="MBP" startTime="62600" endTime="62650"></Effect>
         <Effect label="AI" startTime="62650" endTime="62850"></Effect>
-        <Effect label="E" startTime="62650" endTime="62650"></Effect>
         <Effect label="E" startTime="62850" endTime="63050"></Effect>
         <Effect label="MBP" startTime="63050" endTime="63100"></Effect>
         <Effect label="E" startTime="63100" endTime="63150"></Effect>
@@ -2436,7 +2390,6 @@
         <Effect label="L" startTime="97900" endTime="98000"></Effect>
         <Effect label="E" startTime="98000" endTime="98250"></Effect>
         <Effect label="FV" startTime="98250" endTime="98400"></Effect>
-        <Effect label="etc" startTime="98450" endTime="98450"></Effect>
         <Effect label="etc" startTime="98500" endTime="98600"></Effect>
         <Effect label="etc" startTime="98600" endTime="98700"></Effect>
         <Effect label="AI" startTime="98700" endTime="98900"></Effect>
@@ -2463,7 +2416,6 @@
         <Effect label="E" startTime="101200" endTime="101600"></Effect>
         <Effect label="etc" startTime="101600" endTime="101650"></Effect>
         <Effect label="FV" startTime="101650" endTime="101700"></Effect>
-        <Effect label="WQ" startTime="101700" endTime="101700"></Effect>
         <Effect label="MBP" startTime="101800" endTime="101850"></Effect>
         <Effect label="etc" startTime="101850" endTime="101900"></Effect>
         <Effect label="AI" startTime="101900" endTime="102150"></Effect>
@@ -2494,10 +2446,8 @@
         <Effect label="AI" startTime="105150" endTime="105350"></Effect>
         <Effect label="U" startTime="105350" endTime="105450"></Effect>
         <Effect label="etc" startTime="105450" endTime="105550"></Effect>
-        <Effect label="AI" startTime="105550" endTime="105550"></Effect>
         <Effect label="etc" startTime="105600" endTime="105700"></Effect>
         <Effect label="U" startTime="105700" endTime="105750"></Effect>
-        <Effect label="WQ" startTime="105700" endTime="105700"></Effect>
         <Effect label="AI" startTime="105750" endTime="106200"></Effect>
         <Effect label="etc" startTime="106200" endTime="106250"></Effect>
         <Effect label="AI" startTime="106250" endTime="106300"></Effect>
@@ -2524,7 +2474,6 @@
         <Effect label="U" startTime="108750" endTime="108800"></Effect>
         <Effect label="WQ" startTime="108800" endTime="108900"></Effect>
         <Effect label="rest" startTime="108900" endTime="108950"></Effect>
-        <Effect label="MBP" startTime="108950" endTime="108950"></Effect>
         <Effect label="E" startTime="108950" endTime="109000"></Effect>
         <Effect label="AI" startTime="109000" endTime="109150"></Effect>
         <Effect label="E" startTime="109150" endTime="109350"></Effect>
@@ -2553,7 +2502,6 @@
         <Effect label="E" startTime="113150" endTime="113250"></Effect>
         <Effect label="etc" startTime="113250" endTime="113300"></Effect>
         <Effect label="etc" startTime="113350" endTime="113450"></Effect>
-        <Effect label="U" startTime="113450" endTime="113450"></Effect>
         <Effect label="etc" startTime="113500" endTime="113550"></Effect>
         <Effect label="E" startTime="113550" endTime="113700"></Effect>
         <Effect label="etc" startTime="113700" endTime="113850"></Effect>
@@ -2587,16 +2535,13 @@
         <Effect label="AI" startTime="122750" endTime="123400"></Effect>
         <Effect label="etc" startTime="123400" endTime="123850"></Effect>
         <Effect label="AI" startTime="124250" endTime="124300"></Effect>
-        <Effect label="MBP" startTime="124250" endTime="124250"></Effect>
         <Effect label="etc" startTime="124300" endTime="124350"></Effect>
-        <Effect label="rest" startTime="124350" endTime="124350"></Effect>
         <Effect label="etc" startTime="124350" endTime="124400"></Effect>
         <Effect label="AI" startTime="124400" endTime="124550"></Effect>
         <Effect label="FV" startTime="124550" endTime="124700"></Effect>
         <Effect label="O" startTime="124700" endTime="124800"></Effect>
         <Effect label="WQ" startTime="124800" endTime="124950"></Effect>
         <Effect label="etc" startTime="124950" endTime="125000"></Effect>
-        <Effect label="rest" startTime="125000" endTime="125000"></Effect>
         <Effect label="FV" startTime="125000" endTime="125100"></Effect>
         <Effect label="O" startTime="125100" endTime="125250"></Effect>
         <Effect label="E" startTime="125250" endTime="125400"></Effect>
@@ -2619,7 +2564,6 @@
         <Effect label="O" startTime="127350" endTime="127550"></Effect>
         <Effect label="etc" startTime="127550" endTime="127850"></Effect>
         <Effect label="etc" startTime="127850" endTime="127900"></Effect>
-        <Effect label="rest" startTime="127850" endTime="127850"></Effect>
         <Effect label="AI" startTime="127900" endTime="128600"></Effect>
         <Effect label="etc" startTime="128600" endTime="129000"></Effect>
         <Effect label="AI" startTime="129400" endTime="129550"></Effect>
@@ -2637,7 +2581,6 @@
         <Effect label="etc" startTime="130850" endTime="130900"></Effect>
         <Effect label="U" startTime="130900" endTime="130950"></Effect>
         <Effect label="WQ" startTime="130950" endTime="131000"></Effect>
-        <Effect label="rest" startTime="131000" endTime="131000"></Effect>
         <Effect label="MBP" startTime="131000" endTime="131050"></Effect>
         <Effect label="E" startTime="131050" endTime="131100"></Effect>
         <Effect label="AI" startTime="131100" endTime="131350"></Effect>
@@ -2667,7 +2610,6 @@
         <Effect label="etc" startTime="134100" endTime="134150"></Effect>
         <Effect label="etc" startTime="134200" endTime="134300"></Effect>
         <Effect label="WQ" startTime="134300" endTime="134350"></Effect>
-        <Effect label="U" startTime="134300" endTime="134300"></Effect>
         <Effect label="etc" startTime="134350" endTime="134400"></Effect>
         <Effect label="E" startTime="134400" endTime="134550"></Effect>
         <Effect label="etc" startTime="134550" endTime="134700"></Effect>
@@ -2691,12 +2633,10 @@
         <Effect label="E" startTime="140800" endTime="140950"></Effect>
         <Effect label="etc" startTime="140950" endTime="141100"></Effect>
         <Effect label="U" startTime="141100" endTime="141200"></Effect>
-        <Effect label="etc" startTime="141100" endTime="141100"></Effect>
         <Effect label="WQ" startTime="141200" endTime="141250"></Effect>
         <Effect label="rest" startTime="141250" endTime="141300"></Effect>
         <Effect label="MBP" startTime="141300" endTime="141350"></Effect>
         <Effect label="AI" startTime="141350" endTime="141550"></Effect>
-        <Effect label="E" startTime="141350" endTime="141350"></Effect>
         <Effect label="E" startTime="141550" endTime="141650"></Effect>
         <Effect label="MBP" startTime="141650" endTime="141750"></Effect>
         <Effect label="E" startTime="141750" endTime="141800"></Effect>
@@ -2716,7 +2656,6 @@
         <Effect label="AI" startTime="144050" endTime="144350"></Effect>
         <Effect label="etc" startTime="144350" endTime="144400"></Effect>
         <Effect label="WQ" startTime="144500" endTime="144550"></Effect>
-        <Effect label="U" startTime="144500" endTime="144500"></Effect>
         <Effect label="etc" startTime="144550" endTime="144600"></Effect>
         <Effect label="E" startTime="144600" endTime="144750"></Effect>
         <Effect label="etc" startTime="144750" endTime="144900"></Effect>
@@ -2878,7 +2817,6 @@
         <Effect label="L" startTime="40700" endTime="40800"></Effect>
         <Effect label="AI" startTime="40800" endTime="41300"></Effect>
         <Effect label="etc" startTime="41300" endTime="41350"></Effect>
-        <Effect label="U" startTime="41350" endTime="41350"></Effect>
         <Effect label="WQ" startTime="41350" endTime="41400"></Effect>
         <Effect label="etc" startTime="41400" endTime="41450"></Effect>
         <Effect label="E" startTime="41450" endTime="41600"></Effect>
@@ -2904,12 +2842,10 @@
         <Effect label="AI" startTime="62000" endTime="62100"></Effect>
         <Effect label="E" startTime="62100" endTime="62250"></Effect>
         <Effect label="etc" startTime="62250" endTime="62400"></Effect>
-        <Effect label="etc" startTime="62400" endTime="62400"></Effect>
         <Effect label="U" startTime="62400" endTime="62500"></Effect>
         <Effect label="WQ" startTime="62500" endTime="62550"></Effect>
         <Effect label="rest" startTime="62550" endTime="62600"></Effect>
         <Effect label="MBP" startTime="62600" endTime="62650"></Effect>
-        <Effect label="E" startTime="62650" endTime="62650"></Effect>
         <Effect label="AI" startTime="62650" endTime="62850"></Effect>
         <Effect label="E" startTime="62850" endTime="63050"></Effect>
         <Effect label="MBP" startTime="63050" endTime="63100"></Effect>
@@ -2995,7 +2931,6 @@
         <Effect label="L" startTime="89800" endTime="89900"></Effect>
         <Effect label="AI" startTime="89900" endTime="90200"></Effect>
         <Effect label="etc" startTime="90200" endTime="90250"></Effect>
-        <Effect label="U" startTime="90350" endTime="90350"></Effect>
         <Effect label="WQ" startTime="90350" endTime="90400"></Effect>
         <Effect label="etc" startTime="90400" endTime="90450"></Effect>
         <Effect label="E" startTime="90450" endTime="90600"></Effect>
@@ -3024,7 +2959,6 @@
         <Effect label="U" startTime="108750" endTime="108800"></Effect>
         <Effect label="WQ" startTime="108800" endTime="108900"></Effect>
         <Effect label="rest" startTime="108900" endTime="108950"></Effect>
-        <Effect label="MBP" startTime="108950" endTime="108950"></Effect>
         <Effect label="E" startTime="108950" endTime="109000"></Effect>
         <Effect label="AI" startTime="109000" endTime="109150"></Effect>
         <Effect label="E" startTime="109150" endTime="109350"></Effect>
@@ -3053,7 +2987,6 @@
         <Effect label="E" startTime="113150" endTime="113250"></Effect>
         <Effect label="etc" startTime="113250" endTime="113300"></Effect>
         <Effect label="etc" startTime="113350" endTime="113450"></Effect>
-        <Effect label="U" startTime="113450" endTime="113450"></Effect>
         <Effect label="WQ" startTime="113450" endTime="113500"></Effect>
         <Effect label="etc" startTime="113500" endTime="113550"></Effect>
         <Effect label="E" startTime="113550" endTime="113700"></Effect>
@@ -3111,12 +3044,12 @@
         <Effect label="U" startTime="142350" endTime="142550"></Effect>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Tree- Singing Male {R}">
+    <Element type="model" name="Tree- Singing Male [Blake] {R}">
       <EffectLayer>
         <Effect ref="12" name="Faces" startTime="75" endTime="156425" palette="8"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Tree- Singing Female {L}">
+    <Element type="model" name="Tree- Singing Female [Gwen] {L}">
       <EffectLayer>
         <Effect ref="13" name="Faces" startTime="0" endTime="156350" palette="9"/>
       </EffectLayer>
@@ -3251,7 +3184,7 @@
         <Effect ref="6" name="Off" id="8" startTime="148250" endTime="156200" palette="5"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Snowflakes Group">
+    <Element type="model" name="Snowflakes Small (4)">
       <EffectLayer>
         <Effect ref="24" name="On" startTime="45650" endTime="46950" palette="18"/>
         <Effect ref="25" name="Fan" id="1" startTime="46950" endTime="48250" palette="19"/>
@@ -4207,7 +4140,7 @@
         <Effect ref="48" name="On" id="6" startTime="139850" endTime="142100" palette="26"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Even Bigger Nick Inside (W)">
+    <Element type="model" name="Big Nick Inside (W)">
       <EffectLayer>
         <Effect ref="40" name="On" startTime="0" endTime="800" palette="26"/>
         <Effect ref="48" name="On" id="1" startTime="800" endTime="149400" palette="26"/>
@@ -4518,7 +4451,7 @@
         <Effect ref="34" name="VU Meter" id="39" startTime="141150" endTime="149650" palette="7"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Star of Bethlehem">
+    <Element type="model" name="Star- of Bethlehem">
       <EffectLayer>
         <Effect ref="64" name="Shockwave" startTime="26300" endTime="26950" palette="19"/>
         <Effect ref="64" name="Shockwave" id="1" startTime="31450" endTime="32100" palette="19"/>
@@ -13288,18 +13221,6 @@
     <Element type="model" name="Fence Swags 21 {RB}">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Snowflake Arrow">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Diamond">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Three-Prong">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snowflake Two-Prong">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Nativity Shephards">
       <EffectLayer>
         <Effect ref="40" name="On" startTime="1000" endTime="1800" palette="26"/>
@@ -13324,9 +13245,6 @@
         <Effect ref="48" name="On" id="5" startTime="132100" endTime="135950" palette="26"/>
         <Effect ref="48" name="On" id="6" startTime="142400" endTime="146300" palette="26"/>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="zYellow Snow (Y)">
-      <EffectLayer/>
     </Element>
     <Element type="timing" name="5 Chords-1">
       <EffectLayer>
@@ -13380,6 +13298,12 @@
         <Effect label="" startTime="139500" endTime="142300"></Effect>
         <Effect label="" startTime="142300" endTime="144400"></Effect>
       </EffectLayer>
+    </Element>
+    <Element type="model" name="Elf Singer">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Grinch">
+      <EffectLayer/>
     </Element>
   </ElementEffects>
   <lastView>2</lastView>

@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Networks computer="ROTHARIN" GlobalFPPProxy="" GlobalForceLocalIP="">
+  <suppressframes frames="20"/>
+  <Controller Id="4" Name="Falcon F16v3" Description="Eaves Left Horizontal (216 nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.12" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.12" BaudRate="4" NetworkType="DDP" MaxChannels="24086"/>
+  </Controller>
+  <Controller Id="200" Name="WLED Eth01 #1 (Matrix- Mega Triangle &amp; Star Wreath Topper)" Description="Mega Triangle Col 1-4 (4 X 96 Nodes = 384)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.31" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.31" BaudRate="200" NetworkType="DDP" MaxChannels="6075"/>
+  </Controller>
+  <Controller Id="216" Name="WLED Eth01 #2 (Matrix- Text- Big)" Description="Big Text Matrix Rows  (16 X 72 Nodes = 288)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.32" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.32" BaudRate="216" NetworkType="DDP" MaxChannels="3456"/>
+  </Controller>
+  <Controller Id="232" Name="WLED Wemos #1 (Wheel of Dharma)" Description="Wheel of Dharma (136 Nodes)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.41" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.41" BaudRate="232" NetworkType="DDP" MaxChannels="408"/>
+  </Controller>
+  <Controller Id="236" Name="WLED Wemos #2 (Star of Bethlehem)" Description="Star of Bethelehem (106 nodes)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.42" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.42" BaudRate="236" NetworkType="DDP" MaxChannels="318"/>
+  </Controller>
+  <Controller Id="240" Name="WLED Wemos #3 (Matrix- Text- Small- Donations)" Description="Small Text Matrix Donations Sign (2 X (32 X 8) Nodes = 512)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.43" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.43" BaudRate="240" NetworkType="DDP" MaxChannels="1536"/>
+  </Controller>
+  <Controller Id="260" Name="WLED Wemos #4 (Ships Wheel)" Description="Ships Wheel" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.44" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.44" BaudRate="260" NetworkType="DDP" MaxChannels="360"/>
+  </Controller>
+  <Controller Id="264" Name="WLED Wemos #5 (Dreidel)" Description="Dreidel" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.45" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.45" BaudRate="264" NetworkType="DDP" MaxChannels="486"/>
+  </Controller>
+  <Controller Id="-1" Name="ColorLight #1 Matrix P4 #1 Left" Description="P4 Matrix #1 128 X 128" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="MULTICAST" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ComPort="MULTICAST" BaudRate="300" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="301" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="302" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="303" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="304" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="305" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="306" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="307" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="308" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="309" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="310" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="311" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="312" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="313" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="314" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="315" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="316" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="317" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="318" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="319" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="320" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="321" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="322" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="323" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="324" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="325" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="326" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="327" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="328" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="329" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="330" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="331" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="332" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="333" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="334" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="335" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="336" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="337" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="338" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="339" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="340" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="341" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="342" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="343" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="344" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="345" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="346" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="347" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="348" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="349" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="350" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="351" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="352" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="353" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="354" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="355" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="356" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="357" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="358" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="359" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="360" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="361" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="362" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="363" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="364" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="365" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="366" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="367" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="368" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="369" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="370" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="371" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="372" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="373" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="374" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="375" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="376" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="377" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="378" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="379" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="380" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="381" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="382" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="383" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="384" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="385" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="386" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="387" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="388" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="389" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="390" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="391" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="392" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="393" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="394" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="395" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="396" NetworkType="E131" MaxChannels="510"/>
+  </Controller>
+  <Controller Id="-1" Name="ColorLight #2 Matrix P4 #2 Right" Description="P4 Matrix #2 128 X 128" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="MULTICAST" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ComPort="MULTICAST" BaudRate="400" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="401" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="402" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="403" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="404" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="405" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="406" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="407" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="408" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="409" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="410" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="411" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="412" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="413" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="414" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="415" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="416" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="417" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="418" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="419" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="420" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="421" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="422" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="423" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="424" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="425" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="426" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="427" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="428" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="429" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="430" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="431" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="432" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="433" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="434" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="435" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="436" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="437" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="438" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="439" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="440" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="441" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="442" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="443" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="444" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="445" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="446" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="447" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="448" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="449" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="450" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="451" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="452" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="453" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="454" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="455" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="456" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="457" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="458" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="459" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="460" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="461" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="462" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="463" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="464" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="465" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="466" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="467" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="468" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="469" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="470" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="471" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="472" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="473" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="474" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="475" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="476" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="477" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="478" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="479" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="480" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="481" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="482" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="483" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="484" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="485" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="486" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="487" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="488" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="489" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="490" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="491" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="492" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="493" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="494" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="495" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="496" NetworkType="E131" MaxChannels="510"/>
+  </Controller>
+  <Controller Id="-1" Name="ColorLight #3 Tune-To Sign" Description="P5 Matrix Tune To Freq. 64 X 32" Type="Ethernet" Vendor="FPP" Model="LED Panels" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="xLights Only" AutoLayout="1" AutoUpload="1" SuppressDuplicates="1" IP="MULTICAST" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="FALSE" UPS="FALSE" ForceLocalIP="">
+    <network ComPort="MULTICAST" BaudRate="500" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="501" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="502" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="503" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="504" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="505" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="506" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="507" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="508" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="509" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="510" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="511" NetworkType="E131" MaxChannels="510"/>
+    <network ComPort="MULTICAST" BaudRate="512" NetworkType="E131" MaxChannels="510"/>
+  </Controller>
+  <Controller Id="5" Name="WLED Wemos #6" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.74" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.74" BaudRate="5" NetworkType="DDP" MaxChannels="384"/>
+  </Controller>
+  <Controller Id="256" Name="WLED Eth01 #3" Description="" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP8266" AutoSize="0" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="0" AutoUpload="0" SuppressDuplicates="0" IP="10.3.12.49" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.49" BaudRate="256" NetworkType="DDP" MaxChannels="420"/>
+  </Controller>
+  <Controller Id="3" Name="zNull or Retired Placeholder" Description="Placeholders for Null or Retired Props" Type="Ethernet" Vendor="" Model="" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Inactive" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.253" Protocol="E131" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
+    <network ComPort="10.3.12.253" BaudRate="9999" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10000" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10001" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10002" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10003" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10004" NetworkType="E131" MaxChannels="20"/>
+    <network ComPort="10.3.12.253" BaudRate="10005" NetworkType="E131" MaxChannels="20"/>
+  </Controller>
+  <testpreset name="LOR AND RGB DUMB">
+    <channelr start="1" end="528"/>
+  </testpreset>
+  <testpreset name="test all">
+    <channelr start="0" end="10090"/>
+  </testpreset>
+  <testpreset name="test">
+    <channelr start="0" end="10090"/>
+  </testpreset>
+  <testpreset name="test2"/>
+  <testpreset name="Test Tree1">
+    <channelr start="2550" end="2849"/>
+  </testpreset>
+  <testpreset name="Testall">
+    <channelr start="0" end="14279"/>
+  </testpreset>
+  <testpreset name="TestTree1">
+    <channelr start="2838" end="3737"/>
+  </testpreset>
+  <testpreset name="Tree1&amp;amp;2">
+    <channelr start="2838" end="3737"/>
+    <channelr start="3750" end="4937"/>
+  </testpreset>
+  <testpreset name="SingTree123">
+    <channelr start="2838" end="3737"/>
+    <channelr start="3750" end="4937"/>
+    <channelr start="4950" end="6137"/>
+  </testpreset>
+  <testpreset name="SingTree1Test">
+    <channelr start="2550" end="3737"/>
+  </testpreset>
+  <testpreset name="Tree8Test">
+    <channelr start="10950" end="12137"/>
+  </testpreset>
+  <testpreset name="Tree7">
+    <channelr start="9750" end="10937"/>
+  </testpreset>
+  <testpreset name="Tree6">
+    <channelr start="8550" end="9737"/>
+  </testpreset>
+  <testpreset name="Tree5">
+    <channelr start="7350" end="8537"/>
+  </testpreset>
+  <testpreset name="Tree4">
+    <channelr start="6150" end="7337"/>
+  </testpreset>
+  <testpreset name="Tree9">
+    <channelr start="12150" end="13337"/>
+  </testpreset>
+  <testpreset name="test97113">
+    <channelr start="48739" end="48741"/>
+    <channelr start="48787" end="48789"/>
+  </testpreset>
+  <testpreset name="props">
+    <channelr start="349" end="510"/>
+    <channelr start="6001" end="6576"/>
+    <channelr start="11731" end="12030"/>
+    <channelr start="12243" end="12542"/>
+  </testpreset>
+  <testpreset name="AlphaPix 16">
+    <channelr start="1" end="2400"/>
+  </testpreset>
+  <testpreset name="spiral tree">
+    <channel id="35"/>
+    <channelr start="40" end="47"/>
+  </testpreset>
+  <testpreset name="Christmas2015"/>
+  <testpreset name="2015 house"/>
+  <testpreset name="Tree 1">
+    <channelr start="0" end="5399"/>
+  </testpreset>
+  <testpreset name="lor tree">
+    <channelr start="10800" end="14399"/>
+  </testpreset>
+  <testpreset name="LOR units">
+    <channelr start="459" end="500"/>
+    <channelr start="507" end="521"/>
+  </testpreset>
+  <testpreset name="Mega Tree 1600">
+    <channelr start="4656" end="9455"/>
+  </testpreset>
+  <testpreset name="Snowman Line">
+    <channelr start="429" end="443"/>
+  </testpreset>
+  <testpreset name="Mega Arch">
+    <channelr start="393" end="428"/>
+  </testpreset>
+  <testpreset name="Pixel radio sign">
+    <channelr start="3360" end="3491"/>
+  </testpreset>
+  <testpreset name="pixel tree">
+    <channelr start="1530" end="1829"/>
+  </testpreset>
+  <testpreset name="candy canes">
+    <channelr start="1020" end="1109"/>
+  </testpreset>
+  <testpreset name="Pixel star">
+    <channelr start="510" end="689"/>
+    <channelr start="1020" end="1109"/>
+  </testpreset>
+  <testpreset name="Arches">
+    <channelr start="0" end="59"/>
+  </testpreset>
+  <testpreset name="Arch good">
+    <channelr start="0" end="59"/>
+  </testpreset>
+  <testpreset name="Star Good">
+    <channelr start="510" end="689"/>
+  </testpreset>
+  <testpreset name="RGB TEST">
+    <channelr start="1" end="16320"/>
+  </testpreset>
+  <testpreset name="TEST">
+    <channelr start="1" end="16320"/>
+  </testpreset>
+  <testpreset name="EVERYTHING">
+    <channelr start="1" end="307200"/>
+  </testpreset>
+  <testpreset name="aaaa">
+    <channelr start="1" end="3072"/>
+  </testpreset>
+  <testpreset name="Taylors Right Window">
+    <channelr start="1" end="1536"/>
+  </testpreset>
+  <testpreset name="Taylors Left Window">
+    <channelr start="1537" end="3072"/>
+  </testpreset>
+  <testpreset name="Balcony Left Window">
+    <channelr start="6145" end="9216"/>
+  </testpreset>
+  <testpreset name="Balcony Right Window">
+    <channelr start="3073" end="6144"/>
+  </testpreset>
+  <testpreset name="Garage Left Windows">
+    <channelr start="13313" end="16384"/>
+  </testpreset>
+  <testpreset name="Garage Right Window">
+    <channelr start="10241" end="13312"/>
+  </testpreset>
+  <testpreset name="Braden Left Window">
+    <channelr start="19457" end="22528"/>
+  </testpreset>
+  <testpreset name="Braden Right Window">
+    <channelr start="16385" end="19456"/>
+  </testpreset>
+  <testpreset name="Pixel Matrix">
+    <channelr start="22529" end="28672"/>
+  </testpreset>
+  <testpreset name="Left Arches">
+    <channelr start="30721" end="32768"/>
+  </testpreset>
+  <testpreset name="Right Arches">
+    <channelr start="28673" end="30720"/>
+  </testpreset>
+  <testpreset name="LEFT WINDOW Matrix full on test 1">
+    <channelr start="5029" end="6864"/>
+  </testpreset>
+  <testpreset name="LEFT WINDOWN (6) STRING TWIN 50">
+    <channelr start="5029" end="7068"/>
+  </testpreset>
+  <testpreset name="LEFT WINDOW MATRIX FULL WHITE (6) TEST">
+    <channelr start="5029" end="7068"/>
+  </testpreset>
+  <testpreset name="WHITE TEST ON CENTER WINDOW MATRIX">
+    <channelr start="4429" end="9108"/>
+  </testpreset>
+  <testpreset name="All Channels On!!!! July 2016">
+    <channelr start="1" end="14208"/>
+  </testpreset>
+  <testpreset name="2 pink">
+    <channelr start="1" end="14208"/>
+  </testpreset>
+  <testpreset name="CENTER/LEFT WINDOW MATRIX EVEN TEST">
+    <channelr start="4081" end="4590"/>
+    <channelr start="5101" end="5610"/>
+    <channelr start="6121" end="6630"/>
+    <channelr start="7141" end="7650"/>
+    <channelr start="8161" end="8670"/>
+    <channelr start="9181" end="9690"/>
+    <channelr start="12241" end="12750"/>
+    <channelr start="13261" end="13770"/>
+  </testpreset>
+  <testpreset name="CENTER/LEFT WINDOW MATRIX ODD TEST">
+    <channelr start="3571" end="4080"/>
+    <channelr start="4591" end="5100"/>
+    <channelr start="5611" end="6120"/>
+    <channelr start="6631" end="7140"/>
+    <channelr start="7651" end="8160"/>
+    <channelr start="8671" end="9180"/>
+    <channelr start="11731" end="12240"/>
+    <channelr start="12751" end="13260"/>
+  </testpreset>
+  <testpreset name="L-Ring all">
+    <channelr start="31663" end="31677"/>
+  </testpreset>
+  <testpreset name="Test RGB Columns-Arches">
+    <channelr start="49" end="1038"/>
+  </testpreset>
+  <testpreset name="All Chase - Red/White">
+    <channelr start="1" end="10128"/>
+  </testpreset>
+  <testpreset name="strips test">
+    <channelr start="1" end="3675"/>
+  </testpreset>
+  <testpreset name="test1">
+    <channelr start="1" end="8192"/>
+  </testpreset>
+  <testpreset name="Singing Bulb Outline">
+    <channelr start="4097" end="4297"/>
+  </testpreset>
+  <testpreset name="Singing Bulb Right Eye">
+    <channelr start="4361" end="4399"/>
+  </testpreset>
+  <testpreset name="OK Test">
+    <channelr start="1" end="300"/>
+  </testpreset>
+  <testpreset name="A">
+    <channelr start="1" end="512"/>
+  </testpreset>
+  <testpreset name="middle pumpkin"/>
+  <testpreset name="pumpkin left"/>
+  <testpreset name="pumpkins right"/>
+  <testpreset name="middle"/>
+  <testpreset name="right">
+    <channelr start="320" end="327"/>
+    <channelr start="329" end="333"/>
+  </testpreset>
+  <testpreset name="new">
+    <channelr start="1" end="16"/>
+  </testpreset>
+  <testpreset name="test 1">
+    <channelr start="1" end="16"/>
+  </testpreset>
+  <testpreset name="Column-left">
+    <channelr start="8394" end="8896"/>
+  </testpreset>
+  <testpreset name="Column-right">
+    <channelr start="8394" end="8896"/>
+    <channelr start="10730" end="11224"/>
+  </testpreset>
+  <testpreset name="Bethlehem star">
+    <channelr start="10367" end="10720"/>
+  </testpreset>
+  <testpreset name="Matrix Controller Test">
+    <channelr start="1201" end="4656"/>
+  </testpreset>
+  <testpreset name="aefbsdfb">
+    <channel id="10390"/>
+    <channelr start="10737" end="10752"/>
+  </testpreset>
+  <testpreset name="adsgbsdfb">
+    <channel id="10390"/>
+    <channelr start="10737" end="10752"/>
+  </testpreset>
+  <testpreset name="adsfbasdfbad">
+    <channel id="10390"/>
+    <channelr start="10737" end="10752"/>
+  </testpreset>
+  <testpreset name="everything">
+    <channelr start="1" end="48120"/>
+  </testpreset>
+  <testpreset name="tree">
+    <channelr start="1" end="9600"/>
+  </testpreset>
+  <testpreset name="StringTest">
+    <channelr start="1200" end="1249"/>
+  </testpreset>
+  <testpreset name="GE MALTESE">
+    <channelr start="5155" end="5604"/>
+  </testpreset>
+  <testpreset name="chase">
+    <channelr start="1" end="3072"/>
+  </testpreset>
+  <testpreset name="test mini tree">
+    <channelr start="1" end="512"/>
+  </testpreset>
+  <testpreset name="window 1">
+    <channelr start="1" end="972"/>
+  </testpreset>
+  <testpreset name="Testing"/>
+  <testpreset name="testba"/>
+  <testpreset name="Roof Left">
+    <channelr start="1" end="552"/>
+  </testpreset>
+  <testpreset name="tutorial">
+    <channelr start="1" end="1530"/>
+  </testpreset>
+  <testpreset name="5444">
+    <channelr start="5129" end="5132"/>
+    <channel id="5134"/>
+    <channelr start="5136" end="5140"/>
+    <channelr start="5142" end="5143"/>
+    <channelr start="5145" end="5151"/>
+    <channelr start="5153" end="5158"/>
+    <channelr start="5160" end="5164"/>
+    <channelr start="5166" end="5173"/>
+    <channelr start="5175" end="5186"/>
+    <channelr start="5188" end="5240"/>
+    <channelr start="5242" end="5258"/>
+    <channelr start="5260" end="5285"/>
+    <channelr start="5287" end="5297"/>
+    <channelr start="5299" end="5321"/>
+    <channelr start="5323" end="5330"/>
+    <channelr start="5332" end="5342"/>
+    <channelr start="5344" end="5353"/>
+    <channelr start="5356" end="5372"/>
+    <channelr start="5376" end="5378"/>
+    <channelr start="5382" end="5390"/>
+    <channel id="5394"/>
+    <channelr start="5397" end="5429"/>
+    <channel id="5432"/>
+    <channelr start="5435" end="5622"/>
+  </testpreset>
+  <testpreset name="mytest">
+    <channelr start="1023" end="3572"/>
+    <channelr start="4093" end="8176"/>
+  </testpreset>
+  <testpreset name="pixeltest">
+    <channel id="2021"/>
+    <channel id="2246"/>
+    <channel id="2468"/>
+    <channelr start="2471" end="2472"/>
+  </testpreset>
+  <testpreset name="multi-test">
+    <channelr start="1" end="510"/>
+    <channelr start="3061" end="5610"/>
+    <channelr start="6121" end="7650"/>
+    <channelr start="9181" end="9690"/>
+    <channelr start="12241" end="12750"/>
+  </testpreset>
+  <testpreset name="x">
+    <channelr start="1" end="1020"/>
+  </testpreset>
+  <testpreset name="elimination">
+    <channelr start="1" end="2550"/>
+    <channelr start="4591" end="9180"/>
+  </testpreset>
+  <testpreset name="mega tree">
+    <channelr start="1" end="510"/>
+  </testpreset>
+  <testpreset name="fdg">
+    <channelr start="1" end="20784"/>
+  </testpreset>
+  <testpreset name="All Trees">
+    <channelr start="0" end="31"/>
+  </testpreset>
+  <testpreset name="Tree 2">
+    <channelr start="8" end="15"/>
+  </testpreset>
+  <testpreset name="Tree 3">
+    <channelr start="16" end="23"/>
+  </testpreset>
+  <testpreset name="Tree 4">
+    <channelr start="23" end="31"/>
+  </testpreset>
+  <testpreset name="Blue Trees">
+    <channel id="0"/>
+    <channel id="4"/>
+    <channel id="8"/>
+    <channel id="12"/>
+    <channel id="16"/>
+    <channel id="20"/>
+    <channel id="24"/>
+    <channel id="28"/>
+  </testpreset>
+  <testpreset name="Red Trees">
+    <channel id="1"/>
+    <channel id="5"/>
+    <channel id="9"/>
+    <channel id="13"/>
+    <channel id="17"/>
+    <channel id="21"/>
+    <channel id="25"/>
+    <channel id="29"/>
+  </testpreset>
+  <testpreset name="Green Trees">
+    <channel id="2"/>
+    <channel id="6"/>
+    <channel id="10"/>
+    <channel id="14"/>
+    <channel id="18"/>
+    <channel id="22"/>
+    <channel id="26"/>
+    <channel id="30"/>
+  </testpreset>
+  <testpreset name="White Trees">
+    <channel id="3"/>
+    <channel id="7"/>
+    <channel id="11"/>
+    <channel id="15"/>
+    <channel id="19"/>
+    <channel id="23"/>
+    <channel id="27"/>
+    <channel id="31"/>
+  </testpreset>
+  <testpreset name="Family Red">
+    <channel id="512"/>
+    <channel id="515"/>
+    <channel id="518"/>
+    <channel id="521"/>
+    <channel id="524"/>
+    <channel id="527"/>
+    <channel id="530"/>
+    <channel id="533"/>
+    <channel id="536"/>
+    <channel id="539"/>
+    <channel id="542"/>
+    <channel id="545"/>
+    <channel id="548"/>
+    <channel id="551"/>
+    <channel id="554"/>
+    <channel id="557"/>
+    <channel id="560"/>
+    <channel id="563"/>
+    <channel id="566"/>
+    <channel id="569"/>
+  </testpreset>
+  <testpreset name="Windows Red">
+    <channel id="512"/>
+    <channel id="515"/>
+    <channel id="518"/>
+    <channel id="521"/>
+    <channel id="524"/>
+    <channel id="527"/>
+    <channel id="530"/>
+    <channel id="533"/>
+    <channel id="536"/>
+    <channel id="539"/>
+    <channel id="542"/>
+    <channel id="545"/>
+    <channel id="548"/>
+    <channel id="551"/>
+    <channel id="554"/>
+    <channel id="557"/>
+    <channel id="560"/>
+    <channel id="563"/>
+    <channel id="566"/>
+    <channel id="569"/>
+    <channel id="632"/>
+    <channel id="635"/>
+    <channel id="638"/>
+    <channel id="641"/>
+    <channel id="656"/>
+    <channel id="659"/>
+    <channel id="662"/>
+    <channel id="665"/>
+  </testpreset>
+  <testpreset name="color cycle">
+    <channelr start="0" end="4095"/>
+  </testpreset>
+  <testpreset name="RGB Cycle">
+    <channelr start="35" end="4095"/>
+  </testpreset>
+  <testpreset name="3panel">
+    <channelr start="0" end="4607"/>
+  </testpreset>
+  <testpreset name="bulbs test 1">
+    <channelr start="1" end="510"/>
+  </testpreset>
+  <testpreset name="test171819">
+    <channelr start="8161" end="9690"/>
+  </testpreset>
+  <testpreset name="2015list">
+    <channelr start="0" end="10199"/>
+  </testpreset>
+  <testpreset name="all star lit">
+    <channelr start="0" end="11223"/>
+  </testpreset>
+  <testpreset name="3 trees">
+    <channelr start="1" end="24480"/>
+  </testpreset>
+</Networks>

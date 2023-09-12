@@ -2912,7 +2912,7 @@
   </effects>
   <views>
     <view name="AC Lights in Logical Order" models="Bushes,Trees,Candy Canes Seq Group (RGRG),Religious Group,Swirlies Spinny Group (M),Snow Group,Dumb RGB Items Group,Oddballs Group,Power Items,Work Together Sign (RWB),UFOs (RGB),House Front and the Roof"/>
-    <view name="Singing and Sound Effects" models="Elf Singer,Grinch,Tree- Singing Female [Gwen] {L},Tree- Singing Male [Blake] {R}"/>
+    <view name="Singing" models="Elf Singer,Grinch,Tree- Singing Female [Gwen] {L},Tree- Singing Male [Blake] {R}"/>
     <view name="Basics" models="Eave Pixels- All,Fence Swags- All 01-21,Eaves Chase (RGBW),Festivus Pole Flood (RGB),Tree- Big Pixel 1 Left Center,Tree- Singing Female [Gwen] {L},Tree- Singing Male [Blake] {R}"/>
     <view name="By Controller" models="xCtlr A Tomato Trees Row A,xCtlr B- Tomato Trees Row B,xCtlr C- Other Trees,xCtlr D- Left Bushes,xCtlr E- Center Bushes,xCtlr G- 12 Volts Chinese,xCtlr I- House Front and Roof,xCtlr J- Right Bushes"/>
     <view name="Pixel Props" models="Pixels- ALL,Pixels House Front,Eave Pixels- All,Tree- Big Pixel 1 Left Center,Tree Star 1- Big Pixel 1 Outside,Tree Star 1- Big Pixel 1 Tree Star Center,Sorcerers Apprentice,Fence Swags- All 01-21,Fence Swags- Odd 1357...,Fence Swags- Even 2468...,Snowflakes Small (4),Wheel of Dharma OLD,Major Award (Mfr Model),Star- of Bethlehem"/>
