@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.10</version>
+    <version>2023.13</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -20,17 +20,17 @@
   <Jukebox/>
   <ColorPalettes>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#0000FF,C_BUTTON_Palette7=#0000FF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#0000FF,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#0000FF,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=Left,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=0.0</Effect>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=1.0</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="New Timing" visible="1" views="Master View,AC Lights in Logical Order,Singing,Basics,By Controller,Pixel Props,AC Lights in DMX Order" active="1"/>
     <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="Pixel Props" active="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A1 Group (RGBW)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Tomato A 1 Red Group (R)" visible="1"/>
@@ -362,11 +362,15 @@
     <Element collapsed="0" type="model" name="Snowflake 4 Diamond" visible="0"/>
     <Element collapsed="0" type="model" name="Snowflake 3 Three-Prong" visible="0"/>
     <Element collapsed="0" type="model" name="Snowflake 2 Two-Prong" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof Edges Neon Rope Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof Edges Neon Rope Right" visible="1"/>
+    <Element collapsed="0" type="model" name="Bells 2 {R}" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowflake 6 Big" visible="1"/>
+    <Element collapsed="0" type="model" name="Spinner Mint 04 (22in Big)" visible="1"/>
+    <Element collapsed="0" type="model" name="Spinner Mint 05 (22in Big)" visible="1"/>
+    <Element collapsed="0" type="model" name="Wreath Rosa" visible="1"/>
   </DisplayElements>
   <ElementEffects>
-    <Element type="timing" name="New Timing">
-      <EffectLayer/>
-    </Element>
     <Element type="timing" name="1000ms Metronome" fixed="1000">
       <EffectLayer/>
     </Element>
@@ -1141,14 +1145,34 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Eave Pixels 2 {L} Diag (188)">
-      <EffectLayer>
-        <Effect ref="0" name="Bars" startTime="0" endTime="30000" palette="1"/>
-      </EffectLayer>
+      <EffectLayer/>
+      <SubModelEffectLayer name="Quarters Highest">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Quarters Mid-Upper">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Quarters Mid-Lower">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Quarters Lowest">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="0"/>
+      </SubModelEffectLayer>
     </Element>
     <Element type="model" name="Eave Pixels 3 {R} Diag (184)">
-      <EffectLayer>
-        <Effect ref="0" name="Bars" startTime="0" endTime="30000" palette="2"/>
-      </EffectLayer>
+      <EffectLayer/>
+      <SubModelEffectLayer name="Quarters Highest">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Quarters Mid-Upper">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Quarters Mid-Lower">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Quarters Lowest">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="2"/>
+      </SubModelEffectLayer>
     </Element>
     <Element type="model" name="Eave Pixels 4 {R} Horiz (250)">
       <EffectLayer>
@@ -1368,8 +1392,29 @@
     <Element type="model" name="Snowflake 2 Two-Prong">
       <EffectLayer/>
     </Element>
+    <Element type="model" name="Roof Edges Neon Rope Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof Edges Neon Rope Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bells 2 {R}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowflake 6 Big">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Spinner Mint 04 (22in Big)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Spinner Mint 05 (22in Big)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath Rosa">
+      <EffectLayer/>
+    </Element>
   </ElementEffects>
-  <lastView>5</lastView>
+  <lastView>9</lastView>
   <TimingTags>
     <Tag number="0" position="-1"/>
     <Tag number="1" position="-1"/>
