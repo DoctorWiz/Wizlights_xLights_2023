@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.13</version>
+    <version>2023.14</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -21,7 +21,6 @@
   <ColorPalettes>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1</ColorPalette>
   </ColorPalettes>
   <EffectDB>
     <Effect>B_CHOICE_BufferStyle=Per Preview,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=Left,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=0.0</Effect>
@@ -31,7 +30,7 @@
     <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="Pixel Props" active="1"/>
+    <Element collapsed="0" type="timing" name="1000ms Metronome" visible="1" views="Pixel Props,FalconPropsTest" active="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A1 Group (RGBW)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Tomato A 1 Red Group (R)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Tomato A 2 Grn Group (G)" visible="1"/>
@@ -369,6 +368,9 @@
     <Element collapsed="0" type="model" name="Spinner Mint 04 (22in Big)" visible="1"/>
     <Element collapsed="0" type="model" name="Spinner Mint 05 (22in Big)" visible="1"/>
     <Element collapsed="0" type="model" name="Wreath Rosa" visible="1"/>
+    <Element collapsed="0" type="model" name="Nativity Jesus Joseph Mary" visible="1"/>
+    <Element collapsed="0" type="model" name="Nativity Wisemen" visible="1"/>
+    <Element collapsed="0" type="model" name="Nativity Shephards" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="1000ms Metronome" fixed="1000">
@@ -1141,37 +1143,37 @@
     </Element>
     <Element type="model" name="Eave Pixels 1 {L} Horiz (216)">
       <EffectLayer>
-        <Effect ref="0" name="Bars" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="0" name="Bars" selected="1" startTime="0" endTime="30000" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Eave Pixels 2 {L} Diag (188)">
       <EffectLayer/>
-      <SubModelEffectLayer name="Quarters Highest">
-        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
-      </SubModelEffectLayer>
-      <SubModelEffectLayer name="Quarters Mid-Upper">
-        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
-      </SubModelEffectLayer>
-      <SubModelEffectLayer name="Quarters Mid-Lower">
-        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
-      </SubModelEffectLayer>
-      <SubModelEffectLayer name="Quarters Lowest">
+      <SubModelEffectLayer name="Quarters-01-Bottom">
         <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Quarters-02-BotMid">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Quarters-03-TopMid">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Quarters-04-Top">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
       </SubModelEffectLayer>
     </Element>
     <Element type="model" name="Eave Pixels 3 {R} Diag (184)">
       <EffectLayer/>
-      <SubModelEffectLayer name="Quarters Highest">
+      <SubModelEffectLayer name="Quarters-01-Top">
         <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
       </SubModelEffectLayer>
-      <SubModelEffectLayer name="Quarters Mid-Upper">
+      <SubModelEffectLayer name="Quarters-02-TopMid">
         <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
       </SubModelEffectLayer>
-      <SubModelEffectLayer name="Quarters Mid-Lower">
+      <SubModelEffectLayer name="Quarters-03-BotMid">
         <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="1"/>
       </SubModelEffectLayer>
-      <SubModelEffectLayer name="Quarters Lowest">
-        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="2"/>
+      <SubModelEffectLayer name="Quarters-04-Bottom">
+        <Effect ref="1" name="Bars" startTime="0" endTime="30000" palette="0"/>
       </SubModelEffectLayer>
     </Element>
     <Element type="model" name="Eave Pixels 4 {R} Horiz (250)">
@@ -1411,6 +1413,15 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Wreath Rosa">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Nativity Jesus Joseph Mary">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Nativity Wisemen">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Nativity Shephards">
       <EffectLayer/>
     </Element>
   </ElementEffects>

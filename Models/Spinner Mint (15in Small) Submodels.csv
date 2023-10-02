@@ -1,0 +1,35 @@
+Name,Type,Vertical Buffer,Buffer Style,Rows Name,Node Ranges
+Spoke 1,Node Ranges,false,Default,,
+,,,Bottom,"55,25-28"
+Spoke 2,Node Ranges,false,Default,,
+,,,Bottom,"55,24-21"
+Spoke 3,Node Ranges,false,Default,,
+,,,Bottom,"55,15-18"
+Spoke 4 ,Node Ranges,false,Default,,
+,,,Bottom,"55,14-11"
+Spoke 5,Node Ranges,false,Default,,
+,,,Bottom,"55,5-8"
+Spoke 6,Node Ranges,false,Default,,
+,,,Bottom,"55,4-1"
+Spoke 7,Node Ranges,false,Default,,
+,,,Bottom,"55,56-59"
+Spoke 8,Node Ranges,false,Default,,
+,,,Bottom,"55,54-51"
+Spoke 9,Node Ranges,false,Default,,
+,,,Bottom,"55,45-48"
+Spoke 10,Node Ranges,false,Default,,
+,,,Bottom,"55,44-41"
+Spoke 11,Node Ranges,false,Default,,
+,,,Bottom,"55,35-38"
+Spoke 12,Node Ranges,false,Default,,
+,,,Bottom,"55,34-31"
+Ring 1 (center),Node Ranges,false,Default,,
+,,,Bottom,"55"
+Ring 2,Node Ranges,false,Default,,
+,,,Bottom,"25,24,15,14,5,4,56,54,45,44,35,34"
+Ring 3,Node Ranges,false,Default,,
+,,,Bottom,"26,23,16,13,6,3,57,53,46,43,36,33"
+Ring 4,Node Ranges,false,Default,,
+,,,Bottom,"27,22,17,12,7,2,58,52,47,42,37,32"
+Ring 5 (outer),Node Ranges,false,Default,,
+,,,Bottom,"30,28,29,21,20,18,19,11,10,8,9,1,61,59,60,51,50,48,49,41,40,38,39,31"

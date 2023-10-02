@@ -2,10 +2,10 @@
 <Networks computer="ROTHARIN" GlobalFPPProxy="" GlobalForceLocalIP="">
   <suppressframes frames="20"/>
   <Controller Id="4" Name="Falcon F16v3" Description="Eaves Left Horizontal (216 nodes)" Type="Ethernet" Vendor="Falcon" Model="F16V3" Variant="One Expansion Board" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.12" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.12" BaudRate="4" NetworkType="DDP" MaxChannels="24086"/>
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.12" BaudRate="4" NetworkType="DDP" MaxChannels="24085"/>
   </Controller>
   <Controller Id="200" Name="WLED Eth01 #1 (Matrix- Mega Triangle &amp; Star Wreath Topper)" Description="Mega Triangle Col 1-4 (4 X 96 Nodes = 384)" Type="Ethernet" Vendor="WLED" Model="WLED" Variant="Generic ESP32" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.31" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
-    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.31" BaudRate="200" NetworkType="DDP" MaxChannels="6315"/>
+    <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.31" BaudRate="200" NetworkType="DDP" MaxChannels="6075"/>
   </Controller>
   <Controller Id="216" Name="WLED Eth01 #2 (Matrix- Text- Big)" Description="Big Text Matrix Rows  (16 X 72 Nodes = 288)" Type="Ethernet" Vendor="WLED" Model="QuinLED-Dig-Octa" Variant="" AutoSize="1" FullxLightsControl="TRUE" DefaultBrightnessUnderFullControl="100" DefaultGammaUnderFullControl="1" ActiveState="Active" AutoLayout="1" AutoUpload="0" SuppressDuplicates="1" IP="10.3.12.32" Protocol="DDP" FPPProxy="" Priority="100" Version="1" Expanded="TRUE" UPS="FALSE" ForceLocalIP="">
     <network ChannelsPerPacket="1440" KeepChannelNumbers="1" ComPort="10.3.12.32" BaudRate="216" NetworkType="DDP" MaxChannels="3456"/>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2023.14</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>300</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FF0000,C_BUTTON_Palette2=#FFFF00,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#00FFFF,C_BUTTON_Palette5=#0000FF,C_BUTTON_Palette6=#FF00FF,C_BUTTON_Palette7=#FFFFFF,C_BUTTON_Palette8=#400040,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=0,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=6,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=100,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=1,E_NOTEBOOK_Fan=Position,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=0,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=80,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=0,E_SLIDER_Fan_Num_Blades=1,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=180,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=2500</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=1,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=0,E_SLIDER_Spirals_Thickness=100,E_TEXTCTRL_Spirals_Movement=1.0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Galaxy_Blend_Edges=1,E_CHECKBOX_Galaxy_Inward=0,E_CHECKBOX_Galaxy_Reverse=1,E_NOTEBOOK_Galaxy=Start,E_SLIDER_Galaxy_Accel=0,E_SLIDER_Galaxy_CenterX=50,E_SLIDER_Galaxy_CenterY=50,E_SLIDER_Galaxy_Duration=20,E_SLIDER_Galaxy_End_Radius=79,E_SLIDER_Galaxy_End_Width=255,E_SLIDER_Galaxy_Revolutions=1440,E_SLIDER_Galaxy_Start_Angle=0,E_SLIDER_Galaxy_Start_Radius=184,E_SLIDER_Galaxy_Start_Width=51</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Morph_AutoRepeat=0,E_CHECKBOX_Morph_End_Link=0,E_CHECKBOX_Morph_Start_Link=0,E_CHECKBOX_ShowHeadAtStart=0,E_NOTEBOOK_Morph=Start,E_SLIDER_MorphAccel=0,E_SLIDER_MorphDuration=20,E_SLIDER_MorphEndLength=1,E_SLIDER_MorphStartLength=1,E_SLIDER_Morph_End_X1=0,E_SLIDER_Morph_End_X2=100,E_SLIDER_Morph_End_Y1=100,E_SLIDER_Morph_End_Y2=100,E_SLIDER_Morph_Repeat_Count=0,E_SLIDER_Morph_Repeat_Skip=1,E_SLIDER_Morph_Stagger=0,E_SLIDER_Morph_Start_X1=0,E_SLIDER_Morph_Start_X2=100,E_SLIDER_Morph_Start_Y1=0,E_SLIDER_Morph_Start_Y2=0,T_CHECKBOX_Canvas=1</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Pinwheel_Rotation=0,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=100,E_SLIDER_Pinwheel_Arms=6,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=3,E_SLIDER_Pinwheel_Thickness=100,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=1,E_CHECKBOX_Bars_Highlight=0,E_CHOICE_Bars_Direction=Right,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=1.0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Fan_Blend_Edges=1,E_CHECKBOX_Fan_Reverse=1,E_NOTEBOOK_Fan=Options,E_SLIDER_Fan_Accel=0,E_SLIDER_Fan_Blade_Angle=0,E_SLIDER_Fan_Blade_Width=100,E_SLIDER_Fan_CenterX=50,E_SLIDER_Fan_CenterY=50,E_SLIDER_Fan_Duration=100,E_SLIDER_Fan_Element_Width=100,E_SLIDER_Fan_End_Radius=0,E_SLIDER_Fan_Num_Blades=1,E_SLIDER_Fan_Num_Elements=1,E_SLIDER_Fan_Revolutions=180,E_SLIDER_Fan_Start_Angle=0,E_SLIDER_Fan_Start_Radius=2500</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_BufferTransform=Flip Vertical,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Spirals_3D=1,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=0,E_SLIDER_Spirals_Thickness=100,E_TEXTCTRL_Spirals_Movement=1</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=1,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=6,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=1,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=100</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Fill_Color_Time=1,E_CHECKBOX_Fill_Offset_In_Pixels=0,E_CHECKBOX_Fill_Wrap=1,E_CHOICE_Fill_Direction=Up,E_SLIDER_Fill_Band_Size=0,E_SLIDER_Fill_Offset=0,E_SLIDER_Fill_Position=100,E_SLIDER_Fill_Skip_Size=0</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Preview,B_CHOICE_PerPreviewCamera=Top View of Tomato Trees,E_CHECKBOX_Chase_3dFade1=1,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=Candy,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=100,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=0,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Offset=-500.0,E_TEXTCTRL_Chase_Rotations=1.0,T_CHECKBOX_Canvas=1</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Metronome 5 Seconds" visible="1" views="AC Lights in Logical Order" active="1"/>
+    <Element collapsed="0" type="model" name="Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes Seq Group (RGRG)" visible="1"/>
+    <Element collapsed="0" type="model" name="Religious Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies Spinny Group (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Snow Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Dumb RGB Items Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Power Items" visible="1"/>
+    <Element collapsed="0" type="model" name="Work Together Sign (RWB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="House Front and the Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix- P4-1 Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato All Groups Group (RGBWVW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Spiral Group (WWWG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tinsel Group (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Others Group" visible="0"/>
+    <Element collapsed="0" type="model" name="Presents (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato Row A By Tree (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato Row B By Tree (VW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato Row A  B By Color" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1 Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2 Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3 Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4 Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5 Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6 Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7 Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8 Group (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato Row A By Tree (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato Row A As String (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1 Group (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2 Group (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3 Group (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4 Group (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5 Group (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6 Group (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7 Group (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8 Group (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A1.0 {L} (RGB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A2.0 (RGB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A3.0 (RGB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A4.0 {CL} (RGB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A5.0 {CR} (RGB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A6.0 (RGB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A7.0 (RGB}" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Tomato A8.0 {R} (RGB}" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Metronome 5 Seconds">
+      <EffectLayer>
+        <Effect label="1" startTime="0" endTime="5000"></Effect>
+        <Effect label="2" startTime="5000" endTime="10000"></Effect>
+        <Effect label="3" startTime="10000" endTime="15000"></Effect>
+        <Effect label="4" startTime="15000" endTime="20000"></Effect>
+        <Effect label="5" startTime="20000" endTime="25000"></Effect>
+        <Effect label="6" startTime="25000" endTime="30000"></Effect>
+        <Effect label="7" startTime="30000" endTime="35000"></Effect>
+        <Effect label="8" startTime="35000" endTime="40000"></Effect>
+        <Effect label="9" startTime="40000" endTime="45000"></Effect>
+        <Effect label="10" startTime="45000" endTime="50000"></Effect>
+        <Effect label="11" startTime="50000" endTime="55000"></Effect>
+        <Effect label="12" startTime="55000" endTime="60000"></Effect>
+        <Effect label="13" startTime="60000" endTime="65000"></Effect>
+        <Effect label="14" startTime="65000" endTime="70000"></Effect>
+        <Effect label="15" startTime="70000" endTime="75000"></Effect>
+        <Effect label="16" startTime="75000" endTime="80000"></Effect>
+        <Effect label="17" startTime="80000" endTime="85000"></Effect>
+        <Effect label="18" startTime="85000" endTime="90000"></Effect>
+        <Effect label="19" startTime="90000" endTime="95000"></Effect>
+        <Effect label="20" startTime="95000" endTime="100000"></Effect>
+        <Effect label="21" startTime="100000" endTime="105000"></Effect>
+        <Effect label="22" startTime="105000" endTime="110000"></Effect>
+        <Effect label="23" startTime="110000" endTime="115000"></Effect>
+        <Effect label="24" startTime="115000" endTime="120000"></Effect>
+        <Effect label="25" startTime="120000" endTime="125000"></Effect>
+        <Effect label="26" startTime="125000" endTime="130000"></Effect>
+        <Effect label="27" startTime="130000" endTime="135000"></Effect>
+        <Effect label="28" startTime="135000" endTime="140000"></Effect>
+        <Effect label="29" startTime="140000" endTime="145000"></Effect>
+        <Effect label="30" startTime="145000" endTime="150000"></Effect>
+        <Effect label="31" startTime="150000" endTime="155000"></Effect>
+        <Effect label="32" startTime="155000" endTime="160000"></Effect>
+        <Effect label="33" startTime="160000" endTime="165000"></Effect>
+        <Effect label="34" startTime="165000" endTime="170000"></Effect>
+        <Effect label="35" startTime="170000" endTime="175000"></Effect>
+        <Effect label="36" startTime="175000" endTime="180000"></Effect>
+        <Effect label="37" startTime="180000" endTime="185000"></Effect>
+        <Effect label="38" startTime="185000" endTime="190000"></Effect>
+        <Effect label="39" startTime="190000" endTime="195000"></Effect>
+        <Effect label="40" startTime="195000" endTime="200000"></Effect>
+        <Effect label="41" startTime="200000" endTime="205000"></Effect>
+        <Effect label="42" startTime="205000" endTime="210000"></Effect>
+        <Effect label="43" startTime="210000" endTime="215000"></Effect>
+        <Effect label="44" startTime="215000" endTime="220000"></Effect>
+        <Effect label="45" startTime="220000" endTime="225000"></Effect>
+        <Effect label="46" startTime="225000" endTime="230000"></Effect>
+        <Effect label="47" startTime="230000" endTime="235000"></Effect>
+        <Effect label="48" startTime="235000" endTime="240000"></Effect>
+        <Effect label="49" startTime="240000" endTime="245000"></Effect>
+        <Effect label="50" startTime="245000" endTime="250000"></Effect>
+        <Effect label="51" startTime="250000" endTime="255000"></Effect>
+        <Effect label="52" startTime="255000" endTime="260000"></Effect>
+        <Effect label="53" startTime="260000" endTime="265000"></Effect>
+        <Effect label="54" startTime="265000" endTime="270000"></Effect>
+        <Effect label="55" startTime="270000" endTime="275000"></Effect>
+        <Effect label="56" startTime="275000" endTime="280000"></Effect>
+        <Effect label="57" startTime="280000" endTime="285000"></Effect>
+        <Effect label="58" startTime="285000" endTime="290000"></Effect>
+        <Effect label="59" startTime="290000" endTime="295000"></Effect>
+        <Effect label="60" startTime="295000" endTime="300000"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes Seq Group (RGRG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Religious Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies Spinny Group (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snow Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Dumb RGB Items Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Oddballs Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Power Items">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Work Together Sign (RWB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="House Front and the Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix- P4-1 Left">
+      <EffectLayer>
+        <Effect ref="0" name="Pinwheel" startTime="0" endTime="5000" palette="0"/>
+        <Effect ref="1" name="Fan" id="1" startTime="60000" endTime="65000" palette="0"/>
+        <Effect ref="2" name="Spirals" id="2" startTime="95000" endTime="100000" palette="0"/>
+        <Effect ref="3" name="Galaxy" id="3" startTime="139975" endTime="144975" palette="0"/>
+        <Effect ref="4" name="Morph" id="4" startTime="145000" endTime="150000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Trees- Tomato All Groups Group (RGBWVW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Spiral Group (WWWG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tinsel Group (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Others Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Presents (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato Row A By Tree (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato Row B By Tree (VW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato Row A  B By Color">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8 Group (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato Row A By Tree (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Tomato Row A As String (RGB)">
+      <EffectLayer>
+        <Effect ref="5" name="Pinwheel" startTime="0" endTime="30000" palette="0"/>
+        <Effect ref="6" name="Bars" id="1" startTime="30000" endTime="35000" palette="0"/>
+        <Effect ref="6" name="Bars" id="2" startTime="35000" endTime="40000" palette="0"/>
+        <Effect ref="6" name="Bars" id="3" startTime="40000" endTime="45000" palette="0"/>
+        <Effect ref="6" name="Bars" id="4" startTime="45000" endTime="50000" palette="0"/>
+        <Effect ref="6" name="Bars" id="5" startTime="50000" endTime="55000" palette="0"/>
+        <Effect ref="6" name="Bars" id="6" startTime="55000" endTime="60000" palette="0"/>
+        <Effect ref="7" name="Fan" id="7" startTime="60000" endTime="70000" palette="0"/>
+        <Effect ref="7" name="Fan" id="8" startTime="70000" endTime="80000" palette="0"/>
+        <Effect ref="7" name="Fan" id="9" startTime="80000" endTime="90000" palette="0"/>
+        <Effect ref="8" name="Spirals" id="10" startTime="90100" endTime="95000" palette="0"/>
+        <Effect ref="8" name="Spirals" id="11" startTime="95000" endTime="100000" palette="0"/>
+        <Effect ref="8" name="Spirals" id="12" startTime="100000" endTime="105000" palette="0"/>
+        <Effect ref="8" name="Spirals" id="13" startTime="105000" endTime="110000" palette="0"/>
+        <Effect ref="8" name="Spirals" id="14" startTime="110000" endTime="115000" palette="0"/>
+        <Effect ref="8" name="Spirals" id="15" startTime="115000" endTime="120000" palette="0"/>
+        <Effect ref="9" name="Marquee" id="16" startTime="120000" endTime="125000" palette="0"/>
+        <Effect ref="10" name="Color Wash" id="17" startTime="125000" endTime="130000" palette="0"/>
+        <Effect ref="11" name="Fill" id="18" startTime="130000" endTime="140000" palette="0"/>
+        <Effect ref="12" name="SingleStrand" id="19" startTime="140000" endTime="145000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1 Group (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2 Group (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3 Group (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4 Group (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5 Group (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6 Group (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7 Group (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8 Group (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A1.0 {L} (RGB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A2.0 (RGB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A3.0 (RGB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A4.0 {CL} (RGB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A5.0 {CR} (RGB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A6.0 (RGB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A7.0 (RGB}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Tomato A8.0 {R} (RGB}">
+      <EffectLayer/>
+    </Element>
+  </ElementEffects>
+  <lastView>1</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
