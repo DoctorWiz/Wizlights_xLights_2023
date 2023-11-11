@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.10</version>
+    <version>2023.13</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -113,7 +113,7 @@
     </Element>
     <Element type="model" name="Eave Pixels 4 {R} Horiz (250)">
       <EffectLayer>
-        <Effect ref="0" name="Bars" startTime="0" endTime="30025" palette="0"/>
+        <Effect ref="0" name="Bars" selected="1" startTime="0" endTime="30025" palette="0"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="xCtlr A Tomato Trees Row A">

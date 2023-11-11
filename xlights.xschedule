@@ -19,7 +19,7 @@
   </PlayList>
   <PlayList Name="Free Ukraine">
     <PlayListStep Name="">
-      <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Ukraine Flag.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name=""/>
+      <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Ukraine Flag.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name="" Priority="1"/>
     </PlayListStep>
     <Schedule Name="Free Ukraine" DOW="MonTueWedThuFriSatSun" StartDate="2023-01-07" EndDate="2023-11-30" StartTime="sunset" EndTime="23:59:00" Priority="3" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" EveryYear="TRUE"/>
   </PlayList>
