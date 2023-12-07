@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Chords" SourceVersion="2022.1">
+   <EffectLayer>
+      <Effect label="Bass_C; Bass_C; Treble_B; Treble_C; Middle_E; Treble_G" starttime="4000" endtime="5000" />
+      <Effect label="Bass_B; Bass_B; Treble_A#-Bb; Treble_B; Middle_D#-Eb; Treble_F#-Gb" starttime="5000" endtime="5500" />
+      <Effect label="Bass_C; Bass_C; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_G" starttime="5500" endtime="5975" />
+      <Effect label="Bass_A; Bass_A; Treble_A; Treble_C#-Db; Middle_E; Treble_G#-Ab; Bass_C; Treble_C; Treble_D; Middle_F; Treble_G#-Ab" starttime="5975" endtime="6475" />
+      <Effect label="Bass_F#-Gb; Bass_F#-Gb; Treble_A#-Bb; Treble_C#-Db; Treble_F#-Gb; Middle_G; Treble_B; Treble_D; Middle_F; Treble_G" starttime="6975" endtime="7450" />
+      <Effect label="Bass_C; Bass_C; Treble_A; Treble_C; Middle_D#-Eb; Treble_G" starttime="7950" endtime="8925" />
+      <Effect label="Bass_B; Bass_B; Treble_A#-Bb; Treble_B; Middle_D#-Eb; Treble_F#-Gb" starttime="8925" endtime="9425" />
+      <Effect label="Bass_A; Bass_A; Treble_A; Treble_C; Middle_D#-Eb; Treble_G; Treble_C; Middle_F; Treble_G#-Ab" starttime="9425" endtime="10375" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Treble_F#-Gb; Treble_G" starttime="10875" endtime="11375" />
+      <Effect label="Bass_C; Bass_C; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_G" starttime="11375" endtime="13875" />
+      <Effect label="Bass_A; Bass_A; Treble_A; Treble_C#-Db; Middle_E; Treble_G#-Ab" starttime="13875" endtime="14325" />
+      <Effect label="Middle_G#-Ab; Middle_G#-Ab; Treble_C; Middle_D#-Eb; Treble_G; Treble_G#-Ab" starttime="14325" endtime="14800" />
+      <Effect label="Middle_G; Treble_B; Treble_D; Treble_G" starttime="14800" endtime="16300" />
+      <Effect label="Bass_C; Bass_C; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_G" starttime="16300" endtime="17800" />
+      <Effect label="Bass_D; Bass_D; Treble_C; Treble_D; Middle_F; Treble_G#-Ab" starttime="17800" endtime="18925" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Treble_G; Bass_C; Treble_C; Middle_D#-Eb; Treble_G" starttime="18925" endtime="19500" />
+      <Effect label="Bass_D; Bass_D; Treble_A; Treble_C; Treble_D; Middle_F" starttime="20625" endtime="21825" />
+      <Effect label="Middle_G#-Ab; Middle_G#-Ab; Treble_C; Middle_D#-Eb; Treble_G; Treble_G#-Ab" starttime="21825" endtime="23025" />
+      <Effect label="Bass_C#-Db; Bass_C#-Db; Treble_C; Treble_C#-Db; Middle_F; Treble_G#-Ab" starttime="23025" endtime="24275" />
+      <Effect label="Middle_G#-Ab; Middle_G#-Ab; Treble_C; Middle_D#-Eb; Middle_F; Treble_G#-Ab" starttime="24275" endtime="26450" />
+      <Effect label="Bass_C; Bass_C; Treble_A; Treble_C; Middle_D#-Eb; Treble_G" starttime="26450" endtime="29600" />
+      <Effect label="Middle_G#-Ab; Middle_G#-Ab; Treble_C; Middle_D#-Eb; Middle_F; Treble_G#-Ab" starttime="29600" endtime="30625" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Middle_F; Treble_G" starttime="30625" endtime="31650" />
+      <Effect label="Bass_C; Bass_C; Treble_B; Treble_C; Middle_E; Treble_G" starttime="31650" endtime="33600" />
+      <Effect label="Middle_G#-Ab; Treble_C; Middle_D#-Eb; Treble_G#-Ab" starttime="33600" endtime="34225" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Middle_F; Treble_G" starttime="34225" endtime="34825" />
+      <Effect label="Bass_C; Bass_C; Treble_A; Treble_C; Middle_D#-Eb; Treble_G" starttime="34825" endtime="35975" />
+      <Effect label="Bass_D; Bass_D; Treble_A; Treble_C; Treble_D; Middle_F" starttime="35975" endtime="37150" />
+      <Effect label="Bass_C; Bass_C; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_G" starttime="40800" endtime="43200" />
+      <Effect label="Bass_C; Treble_C; Middle_E; Treble_G" starttime="43725" endtime="45650" />
+      <Effect label="Middle_G#-Ab; Middle_G#-Ab; Treble_C; Middle_D#-Eb; Treble_G; Treble_G#-Ab" starttime="45650" endtime="47125" />
+      <Effect label="Bass_C; Bass_C; Treble_B; Treble_C; Middle_E; Treble_G" starttime="47125" endtime="49075" />
+      <Effect label="Bass_F; Treble_C; Middle_F; Treble_G#-Ab" starttime="49075" endtime="50525" />
+      <Effect label="Middle_G; Middle_G; Treble_A#-Bb; Treble_C#-Db; Middle_F; Treble_G" starttime="51000" endtime="51950" />
+      <Effect label="Bass_C; Bass_C; Treble_A#-Bb; Treble_C; Middle_E; Treble_G" starttime="51950" endtime="52925" />
+      <Effect label="Bass_F; Treble_C; Middle_F; Treble_G#-Ab" starttime="52925" endtime="54375" />
+      <Effect label="Bass_D#-Eb; Bass_D#-Eb; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_F#-Gb" starttime="54375" endtime="54875" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Treble_F#-Gb; Treble_G" starttime="54875" endtime="57325" />
+      <Effect label="Bass_D#-Eb; Bass_D#-Eb; Treble_A#-Bb; Treble_D; Middle_D#-Eb; Treble_G" starttime="57325" endtime="59750" />
+      <Effect label="Bass_B; Bass_B; Treble_A#-Bb; Treble_B; Middle_D#-Eb; Treble_F#-Gb" starttime="59750" endtime="60225" />
+      <Effect label="Bass_A; Bass_A; Treble_A; Treble_C; Middle_D#-Eb; Treble_G" starttime="60225" endtime="60725" />
+      <Effect label="Middle_G#-Ab; Middle_G#-Ab; Treble_C; Middle_D#-Eb; Middle_F; Treble_G#-Ab" starttime="60725" endtime="61700" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Treble_F#-Gb; Treble_G" starttime="61700" endtime="62650" />
+      <Effect label="Bass_C; Bass_C; Treble_B; Treble_C; Middle_E; Treble_G" starttime="62650" endtime="64125" />
+      <Effect label="Middle_G#-Ab; Middle_G#-Ab; Treble_C; Middle_D#-Eb; Treble_G; Treble_G#-Ab" starttime="64125" endtime="65525" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Middle_F; Treble_G" starttime="65525" endtime="66350" />
+      <Effect label="Bass_C; Bass_C; Treble_A; Treble_C; Middle_D#-Eb; Treble_G" starttime="66350" endtime="67550" />
+      <Effect label="Bass_D; Bass_D; Treble_A; Treble_C; Treble_D; Middle_F" starttime="67550" endtime="68475" />
+      <Effect label="Bass_D#-Eb; Bass_D#-Eb; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_G" starttime="68475" endtime="69450" />
+      <Effect label="Bass_F; Treble_A#-Bb; Treble_C#-Db; Middle_F; Treble_G; Treble_A#-Bb; Middle_D#-Eb; Treble_F#-Gb" starttime="69450" endtime="71300" />
+      <Effect label="Bass_A#-Bb; Bass_A#-Bb; Treble_A#-Bb; Treble_C#-Db; Middle_F; Treble_G" starttime="72250" endtime="73225" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Middle_F; Treble_G" starttime="73225" endtime="73725" />
+      <Effect label="Bass_C; Treble_C; Middle_D#-Eb; Treble_G" starttime="73725" endtime="74700" />
+      <Effect label="Middle_G; Treble_B; Treble_D; Treble_G" starttime="74700" endtime="75175" />
+      <Effect label="Bass_C; Bass_C; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_G" starttime="75175" endtime="76175" />
+      <Effect label="Middle_G#-Ab; Middle_G#-Ab; Treble_C; Middle_D#-Eb; Middle_F; Treble_G#-Ab" starttime="76175" endtime="77175" />
+      <Effect label="Bass_C; Treble_C; Treble_D; Middle_F; Treble_G#-Ab" starttime="77175" endtime="78125" />
+      <Effect label="Bass_C; Treble_C; Middle_D#-Eb; Treble_G" starttime="78125" endtime="80075" />
+      <Effect label="Bass_C; Treble_C; Treble_D; Middle_F; Treble_G#-Ab" starttime="80075" endtime="81525" />
+      <Effect label="Middle_G#-Ab; Middle_G#-Ab; Treble_C; Middle_D#-Eb; Treble_G; Treble_G#-Ab" starttime="81525" endtime="82975" />
+      <Effect label="Bass_D; Bass_D; Treble_A#-Bb; Treble_D; Treble_F#-Gb" starttime="82975" endtime="83925" />
+      <Effect label="Bass_D#-Eb; Bass_D#-Eb; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_F#-Gb" starttime="83925" endtime="84400" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Middle_F; Treble_G" starttime="86800" endtime="89725" />
+      <Effect label="Bass_C; Bass_C; Treble_A; Treble_C; Middle_D#-Eb; Treble_G" starttime="89725" endtime="90700" />
+      <Effect label="Bass_C; Bass_C; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_G" starttime="90700" endtime="92700" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Middle_F; Treble_G" starttime="92700" endtime="93700" />
+      <Effect label="Bass_C; Treble_C; Middle_D#-Eb; Treble_G" starttime="93700" endtime="95675" />
+      <Effect label="Bass_D; Bass_D; Treble_C; Treble_D; Middle_F; Treble_G#-Ab" starttime="95675" endtime="96650" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Middle_F; Treble_G" starttime="96650" endtime="97100" />
+      <Effect label="Bass_C; Bass_C; Treble_C; Middle_D#-Eb; Treble_G" starttime="97100" endtime="98450" />
+      <Effect label="Bass_D; Bass_D; Treble_A; Treble_C#-Db; Treble_D; Treble_F#-Gb" starttime="98450" endtime="99725" />
+      <Effect label="Bass_D#-Eb; Bass_D#-Eb; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_F#-Gb" starttime="99725" endtime="100625" />
+      <Effect label="Bass_C#-Db; Bass_C#-Db; Treble_C; Treble_C#-Db; Middle_F; Treble_G#-Ab" starttime="100625" endtime="101550" />
+      <Effect label="Bass_A#-Bb; Bass_A#-Bb; Treble_A#-Bb; Treble_C#-Db; Middle_E; Treble_G#-Ab" starttime="101550" endtime="102500" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Middle_F; Treble_G" starttime="102500" endtime="103000" />
+      <Effect label="Bass_C; Treble_C; Middle_D#-Eb; Treble_G" starttime="103000" endtime="104950" />
+      <Effect label="Bass_B; Treble_B; Treble_D; Middle_F; Treble_G; Treble_C; Middle_E; Treble_G" starttime="104950" endtime="105900" />
+      <Effect label="Bass_F; Treble_C; Middle_F; Treble_G#-Ab" starttime="107350" endtime="109275" />
+      <Effect label="Bass_C; Bass_C; Treble_A#-Bb; Treble_C; Middle_E; Treble_G" starttime="109275" endtime="111225" />
+      <Effect label="Bass_F; Treble_C; Middle_F; Treble_G#-Ab" starttime="111225" endtime="113175" />
+      <Effect label="Bass_A#-Bb; Bass_A#-Bb; Treble_A#-Bb; Treble_C#-Db; Middle_F; Treble_G#-Ab; Bass_C; Treble_A#-Bb; Treble_C; Middle_E; Treble_G" starttime="113175" endtime="114625" />
+      <Effect label="Bass_F; Treble_C; Middle_F; Treble_G#-Ab" starttime="115125" endtime="116575" />
+      <Effect label="Bass_C; Treble_C; Middle_D#-Eb; Treble_F#-Gb; Treble_G#-Ab" starttime="116575" endtime="117075" />
+      <Effect label="Bass_D; Treble_B; Treble_D; Treble_G" starttime="117075" endtime="117550" />
+      <Effect label="Bass_C; Treble_C; Middle_E; Treble_G" starttime="117550" endtime="119000" />
+      <Effect label="Bass_A#-Bb; Treble_A#-Bb; Treble_C#-Db; Middle_E; Treble_F#-Gb" starttime="119000" endtime="119950" />
+      <Effect label="Bass_C; Bass_C; Treble_B; Treble_C; Middle_E; Treble_G" starttime="119950" endtime="121825" />
+      <Effect label="Bass_D; Bass_D; Treble_A; Treble_C#-Db; Treble_D; Treble_F#-Gb" starttime="121825" endtime="122775" />
+      <Effect label="Bass_C#-Db; Treble_C#-Db; Middle_F; Treble_G#-Ab" starttime="122775" endtime="123725" />
+      <Effect label="Middle_G; Treble_B; Treble_D; Treble_G" starttime="123725" endtime="124675" />
+      <Effect label="Bass_C; Bass_C; Treble_A#-Bb; Treble_C; Middle_D#-Eb; Treble_G" starttime="124675" endtime="126600" />
+      <Effect label="Bass_D; Bass_D; Treble_C; Treble_D; Middle_F; Treble_G#-Ab" starttime="126600" endtime="127550" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Treble_G" starttime="127550" endtime="128025" />
+      <Effect label="Bass_D; Bass_D; Treble_A; Treble_C; Treble_D; Middle_F" starttime="128025" endtime="130500" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Treble_G; Bass_A#-Bb; Treble_A#-Bb; Treble_C#-Db; Middle_F; Treble_G" starttime="132625" endtime="134650" />
+      <Effect label="Middle_G; Treble_B; Treble_D; Treble_G" starttime="135150" endtime="135650" />
+      <Effect label="Bass_C; Treble_C; Middle_D#-Eb; Treble_G" starttime="136125" endtime="138100" />
+      <Effect label="Bass_F; Treble_C; Middle_F; Treble_G#-Ab" starttime="138100" endtime="139100" />
+      <Effect label="Bass_F#-Gb; Treble_A; Treble_C; Treble_D; Treble_F#-Gb" starttime="139100" endtime="140625" />
+      <Effect label="Middle_G; Treble_B; Treble_D; Treble_G" starttime="140625" endtime="142125" />
+      <Effect label="Bass_F; Treble_C; Middle_F; Treble_G#-Ab" starttime="143625" endtime="144600" />
+      <Effect label="Bass_C; Bass_C; Treble_B; Treble_C; Middle_E; Treble_G; Bass_D; Treble_A; Treble_C; Treble_D; Treble_F#-Gb" starttime="144600" endtime="146025" />
+      <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Treble_F#-Gb; Treble_G" starttime="147025" endtime="148525" />
+      <Effect label="Bass_C; Bass_C; Treble_C; Middle_D#-Eb; Treble_G" starttime="150000" endtime="151975" />
+      <Effect label="Bass_C#-Db; Bass_C#-Db; Treble_B; Treble_C#-Db; Middle_F; Treble_G#-Ab" starttime="151975" endtime="152825" />
+      <Effect label="Bass_C; Bass_C; Treble_C; Middle_D#-Eb; Treble_G" starttime="152825" endtime="153275" />
+   </EffectLayer>
+</timing>

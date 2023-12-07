@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.18</version>
+    <version>2023.19</version>
     <author>Doctor Wizard aka Merlin Q. Potter</author>
     <author-email>wizard@wizlights.com</author-email>
     <author-website>https://wizlights.com; https://facebook.com/wizlights</author-website>
@@ -12,8 +12,8 @@
     <comment>Doctor Wizard&amp;apos;s Giant Musical Holiday Light Show</comment>
     <sequenceTiming>25 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>X:\2022\xLights\Wizlights\Audio\'Zat You, Santa Claus by Louis Arnstrong {2.49.35}.mp3</mediaFile>
-    <sequenceDuration>169.266</sequenceDuration>
+    <mediaFile>X:\2023\xLights\Wizlights\Audio\'Zat You, Santa Claus by Louis Armstrong {2.40.67}.mp3</mediaFile>
+    <sequenceDuration>160.667</sequenceDuration>
     <imageDir/>
   </head>
   <nextid>1</nextid>
@@ -36,7 +36,6 @@
     <Element collapsed="0" type="timing" name="Wind Noise" visible="1" views="All Timings" active="0"/>
     <Element collapsed="0" type="timing" name="Trumpet Solo" visible="1" views="All Timings" active="0"/>
     <Element collapsed="0" type="timing" name="Wheeee!" visible="1" views="All Timings" active="0"/>
-    <Element collapsed="0" type="model" name="Trees- Spiral Group (WWWG)" visible="1"/>
     <Element collapsed="0" type="timing" name="Bars (Whole notes, (4 Quarter notes))" visible="1" views="All Timings" active="0"/>
     <Element collapsed="0" type="timing" name="Chords" visible="1" views="All Timings" active="0"/>
     <Element collapsed="0" type="timing" name="Full Beats (Quarter notes)" visible="1" views="All Timings" active="0"/>
@@ -49,7 +48,6 @@
     <Element collapsed="0" type="timing" name="Tenth Second 100ms" visible="1" views="All Timings" active="0"/>
     <Element collapsed="0" type="timing" name="Seconds" visible="1" views="All Timings" active="1"/>
     <Element collapsed="0" type="timing" name="Frames 40FPS 25ms" visible="1" views="All Timings" active="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tinsel Group (R)" visible="1"/>
     <Element collapsed="0" type="model" name="Wreath Leaves (G)" visible="1"/>
     <Element collapsed="0" type="model" name="Wreath Berries (R)" visible="1"/>
     <Element collapsed="0" type="model" name="Rainbow Arch Group (RYOGBV)" visible="1"/>
@@ -123,7 +121,6 @@
     <Element collapsed="0" type="model" name="Menorah (B)" visible="1"/>
     <Element collapsed="0" type="model" name="Yule Log (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Festivus Pole Flood (RGB)" visible="1"/>
-    <Element collapsed="0" type="model" name="HappyHolidays" visible="1"/>
     <Element collapsed="0" type="model" name="Deer 2" visible="1"/>
     <Element collapsed="0" type="model" name="Countdown Timer (B)" visible="1"/>
     <Element collapsed="0" type="model" name="Presents (M)" visible="1"/>
@@ -230,9 +227,6 @@
     <Element collapsed="0" type="model" name="Tree- Tomato B7.2 (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato B8.1 {R} (V)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato B8.2 {R} (W)" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree- Spiral 1 {L} (WR)" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree- Spiral 2 {F} (WG)" visible="1"/>
-    <Element collapsed="0" type="model" name="Tree- Spiral 3 {R} (WB)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Spiral 4 {B} (WV)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Big AC 1 (M)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Willow (W)" visible="1"/>
@@ -244,7 +238,6 @@
     <Element collapsed="0" type="model" name="Lamp Post Directions (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Laser- Streetlight (R)" visible="1"/>
     <Element collapsed="0" type="model" name="Penguins" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowman (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 3.2 {C} (G)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 3.3 {C} (B)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 3.4 {C} (W)" visible="1"/>
@@ -254,8 +247,6 @@
     <Element collapsed="0" type="model" name="Work Together 2 (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Work Together 3 (B)" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Rainbow 1 {T} (R)" visible="1"/>
-    <Element collapsed="0" type="model" name="Roof Ridgeline 1 {L} (RGB)" visible="1"/>
-    <Element collapsed="0" type="model" name="Roof Ridgeline 2 {R} (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Rotating Beacon 01 {F} (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Rotating Beacon 05 {B} (O)" visible="1"/>
     <Element collapsed="0" type="model" name="Rotating Beacon 08 {R} (B)" visible="1"/>
@@ -281,6 +272,12 @@
     <Element collapsed="0" type="model" name="Nativity Flood 2 {R} (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 3.1 {C} (R)" visible="1"/>
     <Element collapsed="0" type="model" name="Big Nick Inside (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="Snowmen (W)" visible="1"/>
+    <Element collapsed="0" type="model" name="z Roof Ridgeline 2 {R} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="z Roof Ridgeline 1 {L} (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 1 {B} (WR)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 2 {R} (WG)" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 3 {F} (WB)" visible="1"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="timing" name="Drums Knocking">
@@ -459,9 +456,6 @@
       <EffectLayer>
         <Effect label="Wheee! Slide Whistle" startTime="8550" endTime="9625"></Effect>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="Trees- Spiral Group (WWWG)">
-      <EffectLayer/>
     </Element>
     <Element type="timing" name="Bars (Whole notes, (4 Quarter notes))">
       <EffectLayer>
@@ -12407,9 +12401,6 @@
         <Effect label="6771" startTime="169250" endTime="169275"></Effect>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Trees- Tinsel Group (R)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Wreath Leaves (G)">
       <EffectLayer/>
     </Element>
@@ -12635,9 +12626,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Festivus Pole Flood (RGB)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="HappyHolidays">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Deer 2">
@@ -13892,15 +13880,6 @@
     <Element type="model" name="Tree- Tomato B8.2 {R} (W)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Tree- Spiral 1 {L} (WR)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Tree- Spiral 2 {F} (WG)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Tree- Spiral 3 {R} (WB)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Tree- Spiral 4 {B} (WV)">
       <EffectLayer/>
     </Element>
@@ -13934,9 +13913,6 @@
     <Element type="model" name="Penguins">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Snowman (W)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Bushes 3.2 {C} (G)">
       <EffectLayer/>
     </Element>
@@ -13962,12 +13938,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Trees- Rainbow 1 {T} (R)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Roof Ridgeline 1 {L} (RGB)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Roof Ridgeline 2 {R} (RGB)">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Rotating Beacon 01 {F} (O)">
@@ -14043,6 +14013,24 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Big Nick Inside (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowmen (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="z Roof Ridgeline 2 {R} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="z Roof Ridgeline 1 {L} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Spiral 1 {B} (WR)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Spiral 2 {R} (WG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Spiral 3 {F} (WB)">
       <EffectLayer/>
     </Element>
   </ElementEffects>

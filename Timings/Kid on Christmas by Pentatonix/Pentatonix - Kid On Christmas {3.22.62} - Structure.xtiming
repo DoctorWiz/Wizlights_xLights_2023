@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timing name="Structure" SourceVersion="2023.19">
+   <EffectLayer>
+      <Effect label="" starttime="0" endtime="250" />
+      <Effect label="" starttime="250" endtime="29475" />
+      <Effect label="" starttime="29475" endtime="51050" />
+      <Effect label="" starttime="51050" endtime="72575" />
+      <Effect label="" starttime="72575" endtime="83325" />
+      <Effect label="" starttime="83325" endtime="104900" />
+      <Effect label="" starttime="104900" endtime="138750" />
+      <Effect label="" starttime="138750" endtime="166500" />
+      <Effect label="" starttime="166500" endtime="200400" />
+   </EffectLayer>
+</timing>

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2023.19</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>8.000</sequenceDuration>
+    <imageDir/>
+  </head>
+  <nextid>1</nextid>
+  <Jukebox/>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#FF8000,C_BUTTON_Palette4=#FFFF00,C_BUTTON_Palette5=#00FF00,C_BUTTON_Palette6=#0000FF,C_BUTTON_Palette7=#8000FF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect></Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="6684718" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Seconds" visible="1" views="Pixel Props,AC Lights in Logical Order" active="1"/>
+    <Element collapsed="0" type="model" name="Pixels- ALL" visible="1"/>
+    <Element collapsed="0" type="model" name="Pixels House Front" visible="1"/>
+    <Element collapsed="0" type="model" name="Eave Pixels- All" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags- All 01-21" visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags- Odd 1357..." visible="1"/>
+    <Element collapsed="0" type="model" name="Fence Swags- Even 2468..." visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix- Mega Triangle" visible="1"/>
+    <Element collapsed="0" type="model" name="Star- Wreath Mega Triangle Topper" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof Edges Neon Rope Left" visible="1"/>
+    <Element collapsed="0" type="model" name="Roof Edges Neon Rope Right" visible="1"/>
+    <Element collapsed="0" type="model" name="Spinners and Snowflakes" visible="1"/>
+    <Element collapsed="0" type="model" name="GE Rosa Wreath GRP" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees- Mini Pixel" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Big Pixel 1 Left Center" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Star 1- Big Pixel 1 Outside" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Star 1- Big Pixel 1 Tree Star Center" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Big Pixel 2 Right Front" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Star 2- Big Pixel 2 Outside" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree Star 2- Big Pixel 2 Tree Star Center" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Female [Gwen] {L}" visible="1"/>
+    <Element collapsed="0" type="model" name="Tree- Singing Male [Blake] {R}" visible="1"/>
+    <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
+    <Element collapsed="0" type="model" name="Sorcerers Apprentice" visible="1"/>
+    <Element collapsed="0" type="model" name="Star- of Bethlehem" visible="1"/>
+    <Element collapsed="0" type="model" name="Bells" visible="1"/>
+    <Element collapsed="0" type="model" name="Elf Singer" visible="1"/>
+    <Element collapsed="0" type="model" name="Grinch" visible="1"/>
+    <Element collapsed="0" type="model" name="Calvin" visible="1"/>
+    <Element collapsed="0" type="model" name="Dreidel" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix- Dreidel" visible="1"/>
+    <Element collapsed="0" type="model" name="Major Award" visible="1"/>
+    <Element collapsed="0" type="model" name="Matrix- Major Award" visible="1"/>
+    <Element collapsed="0" type="model" name="Ornament- Star 1" visible="1"/>
+    <Element collapsed="0" type="model" name="Ships Wheel" visible="1"/>
+    <Element collapsed="0" type="model" name="Star- of David Coro" visible="1"/>
+    <Element collapsed="0" type="model" name="Star- of David Wooden" visible="1"/>
+    <Element collapsed="0" type="model" name="Tri-Stars" visible="1"/>
+    <Element collapsed="0" type="model" name="Whole House Pixels" visible="1"/>
+    <Element collapsed="0" type="model" name="Bushes" visible="1"/>
+    <Element collapsed="0" type="model" name="Trees" visible="1"/>
+    <Element collapsed="0" type="model" name="Candy Canes Seq Group (RGRG)" visible="1"/>
+    <Element collapsed="0" type="model" name="Religious Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Swirlies Spinny Group (M)" visible="1"/>
+    <Element collapsed="0" type="model" name="Snow Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Dumb RGB Items Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
+    <Element collapsed="0" type="model" name="Power Items" visible="1"/>
+    <Element collapsed="0" type="model" name="Work Together Sign (RWB)" visible="1"/>
+    <Element collapsed="0" type="model" name="UFOs (RGB)" visible="1"/>
+    <Element collapsed="0" type="model" name="House Front and the Roof" visible="1"/>
+    <Element collapsed="0" type="model" name="On The Air (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Amplifier 12V" visible="0"/>
+    <Element collapsed="0" type="model" name="Transmitter 12V" visible="0"/>
+    <Element collapsed="0" type="model" name="Laser- Streetlight (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Nativity Group" visible="0"/>
+    <Element collapsed="0" type="model" name="Menorah (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Yule Log (O)" visible="0"/>
+    <Element collapsed="0" type="model" name="Coexist Flag (MRGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Flying Spaghetti Monster (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Festivus Pole Flood (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Peace Sign (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Big Festive Wreath (RG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Nativity Jesus Joseph Mary" visible="0"/>
+    <Element collapsed="0" type="model" name="Nativity Shephards" visible="0"/>
+    <Element collapsed="0" type="model" name="Nativity Wisemen" visible="0"/>
+    <Element collapsed="0" type="model" name="Nativity Floods {LR} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Nativity Flood 1 {L} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Nativity Flood 2 {R} (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Candy Canes 1 (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Candy Canes 2 (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Candy Canes 3 (R)" visible="0"/>
+    <Element collapsed="0" type="model" name="Candy Canes 4 (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies Projectors" visible="0"/>
+    <Element collapsed="0" type="model" name="Lasers Group" visible="0"/>
+    <Element collapsed="0" type="model" name="Rotating Beacons {All} (RGBO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Disco Balls (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Lasers- Driveway (RG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Lasers- Street (RG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Lasers- House Front (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="HappyHolidays" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Big Nick Fire (RO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Driveway (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Oak (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Pine (GO)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes {L} (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes {R} (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Street (M)" visible="0"/>
+    <Element collapsed="0" type="model" name="Eaves Chase (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Roof Ridgeline (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Big Nick Inside (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowfall Projectors (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swirlies- Snowflakes (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Swiriles- Candy Canes (RG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Wreath Leaves (G)" visible="0"/>
+    <Element collapsed="0" type="model" name="Wreath Berries (R)" visible="0"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Seconds">
+      <EffectLayer>
+        <Effect label="1" startTime="0" endTime="1000"></Effect>
+        <Effect label="2" startTime="1000" endTime="2000"></Effect>
+        <Effect label="3" startTime="2000" endTime="3000"></Effect>
+        <Effect label="4" startTime="3000" endTime="4000"></Effect>
+        <Effect label="5" startTime="4000" endTime="5000"></Effect>
+        <Effect label="6" startTime="5000" endTime="6000"></Effect>
+        <Effect label="7" startTime="6000" endTime="7000"></Effect>
+        <Effect label="8" startTime="7000" endTime="8000"></Effect>
+        <Effect label="9" startTime="8000" endTime="9000"></Effect>
+        <Effect label="10" startTime="9000" endTime="10000"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Pixels- ALL">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Pixels House Front">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eave Pixels- All">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags- All 01-21">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags- Odd 1357...">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Fence Swags- Even 2468...">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix- Mega Triangle">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star- Wreath Mega Triangle Topper">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof Edges Neon Rope Left">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof Edges Neon Rope Right">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Spinners and Snowflakes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="GE Rosa Wreath GRP">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees- Mini Pixel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Big Pixel 1 Left Center">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Star 1- Big Pixel 1 Outside">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Star 1- Big Pixel 1 Tree Star Center">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Big Pixel 2 Right Front">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Star 2- Big Pixel 2 Outside">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree Star 2- Big Pixel 2 Tree Star Center">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Singing Female [Gwen] {L}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tree- Singing Male [Blake] {R}">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wheel of Dharma">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Sorcerers Apprentice">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star- of Bethlehem">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bells">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Elf Singer">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Grinch">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Calvin">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Dreidel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix- Dreidel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Major Award">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Matrix- Major Award">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Ornament- Star 1">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Ships Wheel">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star- of David Coro">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Star- of David Wooden">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tri-Stars">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Whole House Pixels">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Bushes">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Trees">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes Seq Group (RGRG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Religious Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies Spinny Group (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snow Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Dumb RGB Items Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Oddballs Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Power Items">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Work Together Sign (RWB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="UFOs (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="House Front and the Roof">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="On The Air (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="3000" endTime="5000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="6000" endTime="9000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Amplifier 12V">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="2000" endTime="4000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="7000" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="8000" endTime="10000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Transmitter 12V">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="1000" endTime="3000" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="6000" palette="0"/>
+        <Effect ref="0" name="On" id="2" startTime="7000" endTime="9000" palette="0"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Laser- Streetlight (R)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Nativity Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Menorah (B)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Yule Log (O)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Coexist Flag (MRGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Flying Spaghetti Monster (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Festivus Pole Flood (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Peace Sign (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Big Festive Wreath (RG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Nativity Jesus Joseph Mary">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Nativity Shephards">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Nativity Wisemen">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Nativity Floods {LR} (RGB)">
+      <EffectLayer>
+        <Effect ref="0" name="Color Wash" startTime="0" endTime="3000" palette="1"/>
+        <Effect ref="0" name="Color Wash" id="1" startTime="3000" endTime="7000" palette="1"/>
+        <Effect ref="0" name="Color Wash" id="2" startTime="7000" endTime="10000" palette="1"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Nativity Flood 1 {L} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Nativity Flood 2 {R} (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Candy Canes 1 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="1000" endTime="3000" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="5000" endTime="7000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Candy Canes 2 (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="2000" endTime="4000" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="6000" endTime="8000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Candy Canes 3 (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="3000" endTime="5000" palette="2"/>
+        <Effect ref="0" name="On" id="2" startTime="7000" endTime="8000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Candy Canes 4 (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="2000" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="4000" endTime="6000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Swirlies Projectors">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Lasers Group">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Rotating Beacons {All} (RGBO)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Disco Balls (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Lasers- Driveway (RG)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="6000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Lasers- Street (RG)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="1000" endTime="7000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Lasers- House Front (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="HappyHolidays">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Big Nick Fire (RO)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Driveway (RGB)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="2000" endTime="8000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Swirlies- Oak (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Pine (GO)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes {L} (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes {R} (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Street (M)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Eaves Chase (RGBW)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Roof Ridgeline (RGB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Big Nick Inside (W)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Snowfall Projectors (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swirlies- Snowflakes (WB)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Swiriles- Candy Canes (RG)">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Wreath Leaves (G)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="0" endTime="1000" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="2000" endTime="3000" palette="2"/>
+        <Effect ref="0" name="On" id="2" startTime="4000" endTime="5000" palette="2"/>
+        <Effect ref="0" name="On" id="3" startTime="6000" endTime="7000" palette="2"/>
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Wreath Berries (R)">
+      <EffectLayer>
+        <Effect ref="0" name="On" startTime="1000" endTime="2000" palette="2"/>
+        <Effect ref="0" name="On" id="1" startTime="3000" endTime="4000" palette="2"/>
+        <Effect ref="0" name="On" id="2" startTime="5000" endTime="6000" palette="2"/>
+        <Effect ref="0" name="On" id="3" startTime="7000" endTime="8000" palette="2"/>
+      </EffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>1</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>

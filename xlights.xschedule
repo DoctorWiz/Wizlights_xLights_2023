@@ -21,7 +21,7 @@
     <PlayListStep Name="">
       <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Ukraine Flag.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name="" Priority="1"/>
     </PlayListStep>
-    <Schedule Name="Free Ukraine" DOW="MonTueWedThuFriSatSun" StartDate="2023-01-07" EndDate="2023-11-30" StartTime="sunset" EndTime="23:59:00" Priority="3" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" EveryYear="TRUE"/>
+    <Schedule Name="Free Ukraine" DOW="MonTueWedThuFriSatSun" StartDate="2023-01-07" EndDate="2023-11-30" StartTime="sunset" EndTime="23:59:00" Priority="3" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" EveryYear="TRUE"/>
   </PlayList>
   <PlayList Name="Easter">
     <PlayListStep Name="">
@@ -46,5 +46,11 @@
       <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Rainbow.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name="" Priority="1"/>
     </PlayListStep>
     <Schedule Name="Gay Pride" DOW="MonTueWedThuFriSatSun" StartDate="2023-06-01" EndDate="2023-06-30" StartTime="sunset" EndTime="23:59:00" Priority="5" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" EveryYear="TRUE"/>
+  </PlayList>
+  <PlayList Name="Pre-Show">
+    <PlayListStep Name="">
+      <PLIFSEQ FSEQFile="X:\2023\xLights\WizLights\Fseq\Wizlights 2023- Non-Musical Animations #1 {5.00.00}.fseq" AudioDevice="" ApplyMethod="0" StartChannel="1" Channels="0" Delay="0" Name="" Priority="1"/>
+    </PlayListStep>
+    <Schedule Name="Pre-Show" DOW="MonTueWedThuFriSatSun" StartDate="2023-11-10" EndDate="2099-11-30" StartTime="sunset" EndTime="23:00:00" Priority="3" NthDay="1" NthDayOffset="0" OnOffsetMins="0" OffOffsetMins="0" FireFrequency="Fire once" Loop="TRUE" Loops="0" Enabled="TRUE" EveryYear="TRUE" GracefullyInterrupt="TRUE"/>
   </PlayList>
 </xSchedule>

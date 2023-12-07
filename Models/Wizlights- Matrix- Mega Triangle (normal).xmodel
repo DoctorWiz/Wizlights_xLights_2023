@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treemodel 
+AlternateNodes="false" StrandDir="Vertical" name="Matrix- Mega Triangle" parm1="5" parm2="400" parm3="4" DisplayAs="Tree Flat" StringType="RGB Nodes" Transparency="50" PixelSize="2" ModelBrightness="0" Antialias="1" StartSide="B" Dir="L" StrandNames="01 Leftmost,02,03,04,05,06,07,08,09 Center-Left,10 Center-Right,11,12,13,14,15,16,17,18,19,20 Rightmost" NodeNames="" TreeRotation="3" TreeBottomTopRatio="6.0" TreePerspective="0.2" TreeSpiralRotations="0.0" SourceVersion="2023.19"  >
+<subModel name="SubModel-1" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="0.00x00.00x100.00x12.50x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel-2" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="0.00x12.50x100.00x25.0x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel-3" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="0.00x25.00x100.00x37.50x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel-4" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="0.00x37.50x100.00x50.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel-5" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="0.00x50.00x100.00x62.50x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel-6" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="0.00x62.50x100.00x75.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel-7" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="0.00x75.00x100.00x87.500x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel-8" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="0.00x87.50x100.00x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel H-1" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="00.00x0.00x12.50x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel H-2" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="12.50x0.00x25.00x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel H-3" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="25.00x0.00x37.50x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel H-4" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="37.50x0.00x50.00x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel H-5" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="50.00x0.00x62.50x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel H-6" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="62.50x0.00x75.00x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel H-7" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="75.00x0.00x87.50x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="SubModel H-8" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="87.50x0.00x100.00x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Mega Tree Six String-1" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="0.00x0.00x16.67x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Mega Tree Six String-2" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="16.67x0.00x33.33x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Mega Tree Six String-3" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="33.33x0.00x50.00x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Mega Tree Six String-4" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="50.00x0.00x66.67x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Mega Tree Six String-5" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="66.67x0.00x83.33x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Mega Tree Six String-6" layout="horizontal" type="subbuffer" bufferstyle="Default" subBuffer="83.33x0.00x100.00x100.00x0.00x0.00">
+  <ControllerConnection/>
+</subModel>
+<modelGroup selected="0" name="Mega Triangle and Star Wreath" LayoutGroup="Default" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="Good Front View 2" layout="minimalGrid" TagColour="black" models="Matrix- Mega Triangle"/>
+
+<dimensions units="i" width="156.281143" height="167.075867" depth="82.091560"/></treemodel>

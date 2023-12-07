@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.18</version>
+    <version>2023.19</version>
     <author>xLights Around the World 2021</author>
     <author-email>russell@palmettotechnical.com</author-email>
     <author-website>http://www.xlightsaroundtheworld.com/2021-project.html</author-website>
@@ -189,7 +189,6 @@
   </DataLayers>
   <DisplayElements>
     <Element collapsed="1" type="model" name="Pixels- ALL" visible="1"/>
-    <Element collapsed="0" type="model" name="Bushes" visible="1"/>
     <Element collapsed="0" type="model" name="Trees" visible="1"/>
     <Element collapsed="0" type="model" name="Dumb RGB Items Group" visible="1"/>
     <Element collapsed="0" type="timing" name="Bars (Whole notes, (4 Quarter notes))" visible="1" views="All Timings" active="0"/>
@@ -210,7 +209,7 @@
     <Element collapsed="0" type="model" name="Eave Pixels- All" visible="1"/>
     <Element collapsed="0" type="model" name="Snowflakes Small (4)" visible="1"/>
     <Element collapsed="0" type="model" name="Wheel of Dharma" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Row A By Tree (RGBW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato Row B By Tree 1-8 (RGBW)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A1 Group (RGBW)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A2 Group (RGBW)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A3 Group (RGBW)" visible="0"/>
@@ -219,7 +218,7 @@
     <Element collapsed="0" type="model" name="Tree- Tomato A6 Group (RGBW)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A7 Group (RGBW)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A8 Group (RGBW)" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Row B By Tree (VW)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato Row C By Tree 1-8 (VW)" visible="0"/>
     <Element collapsed="0" type="model" name="Eaves Chase (RGBW)" visible="0"/>
     <Element collapsed="0" type="model" name="Snowfall Projectors (WB)" visible="0"/>
     <Element collapsed="0" type="model" name="Swirlies- Snowflakes (WB)" visible="0"/>
@@ -236,22 +235,17 @@
     <Element collapsed="0" type="model" name="CandyCane03-R3" visible="0"/>
     <Element collapsed="0" type="model" name="CandyCane04-G4" visible="0"/>
     <Element collapsed="0" type="model" name="Fence Swags- All 01-21" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Bll Groups Group (RGBWVW)" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Spiral Group (WWWG)" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tinsel Group (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Others Group" visible="0"/>
     <Element collapsed="0" type="model" name="Presents (M)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Big Pixel 1 Left Center" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Big AC 1 (M)" visible="0"/>
-    <Element collapsed="0" type="model" name="Tree- Small {L} (B)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Small Purple- Dark (V)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Willow (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Rainbow (ROYGBV)" visible="0"/>
-    <Element collapsed="0" type="model" name="House Front and the Roof" visible="1"/>
     <Element collapsed="0" type="model" name="Big Festive Wreath (RG)" visible="0"/>
     <Element collapsed="0" type="model" name="Swiriles- Candy Canes (RG)" visible="0"/>
     <Element collapsed="1" type="model" name="Tree Star 1- Big Pixel 1 Outside" visible="1"/>
     <Element collapsed="0" type="model" name="Star- of Bethlehem" visible="1"/>
-    <Element collapsed="0" type="model" name="Pine Tree {R} Group" visible="0"/>
     <Element collapsed="0" type="model" name="Swirlies- Oak (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Rotating Beacons 2 {LB} (RGBO)" visible="0"/>
     <Element collapsed="0" type="model" name="Menorah (B)" visible="0"/>
@@ -262,8 +256,6 @@
     <Element collapsed="0" type="model" name="Peace Sign (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Jesus Joseph Mary" visible="0"/>
     <Element collapsed="0" type="model" name="Religious Group" visible="1"/>
-    <Element collapsed="0" type="model" name="Swirlies Spinny Group (M)" visible="1"/>
-    <Element collapsed="0" type="model" name="Snow Group" visible="1"/>
     <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 3.1 {C} (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Bushes 3.2 {C} (G)" visible="0"/>
@@ -284,7 +276,7 @@
     <Element collapsed="0" type="model" name="Strobes- 5mm- Bushes {L} (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Strobes- C9- Bushes {L} (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Snow Lake (W)" visible="0"/>
-    <Element collapsed="0" type="model" name="Snowman (W)" visible="0"/>
+    <Element collapsed="0" type="model" name="Snowmen (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Penguins" visible="0"/>
     <Element collapsed="0" type="model" name="Bushes 1 {S} Rainbow 1 (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Bushes 2.1 {L} (M)" visible="0"/>
@@ -316,8 +308,6 @@
     <Element collapsed="0" type="model" name="Tree- Tinsel 1 {L} (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tinsel 2 {R} (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Rainbow 1 {T} (R)" visible="0"/>
-    <Element collapsed="0" type="model" name="Roof Ridgeline 1 {L} (RGB)" visible="0"/>
-    <Element collapsed="0" type="model" name="Roof Ridgeline 2 {R} (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="UFOs 1 {L} (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="UFOs 2 {CT} (RGB)" visible="0"/>
     <Element collapsed="0" type="model" name="UFOs 3 {R} (RGB)" visible="0"/>
@@ -370,9 +360,9 @@
     <Element collapsed="0" type="model" name="Tree- Tomato A8.3 {R} (B)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A8.4 {R} (W)" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Spiral 4 {B} (WV)" visible="0"/>
-    <Element collapsed="0" type="model" name="Tree- Spiral 2 {F} (WG)" visible="0"/>
-    <Element collapsed="0" type="model" name="Tree- Spiral 1 {L} (WR)" visible="0"/>
-    <Element collapsed="0" type="model" name="Tree- Spiral 3 {R} (WB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 2 {R} (WG)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 1 {B} (WR)" visible="0"/>
+    <Element collapsed="0" type="model" name="Tree- Spiral 3 {F} (WB)" visible="0"/>
     <Element collapsed="0" type="model" name="Power Items" visible="1"/>
     <Element collapsed="0" type="model" name="On The Air (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Amplifier 12V" visible="0"/>
@@ -393,14 +383,6 @@
     <Element collapsed="0" type="model" name="Candy Canes 2 (G)" visible="0"/>
     <Element collapsed="0" type="model" name="Candy Canes 3 (R)" visible="0"/>
     <Element collapsed="0" type="model" name="Candy Canes 4 (G)" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Row A  B By Color" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B 1 Red Group (R)" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B 2 Grn Group (G)" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B 3 Blu Group (B)" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B 4 Wht Group (W)" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato C Vio Group" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato C Wht Group" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B+B Wht Indiv Group" visible="0"/>
     <Element collapsed="0" type="model" name="Rotating Beacons {All} (RGBO)" visible="0"/>
     <Element collapsed="0" type="model" name="Rotating Beacons 3 {R} {BGO}" visible="0"/>
     <Element collapsed="0" type="model" name="Major Award" visible="1"/>
@@ -445,7 +427,7 @@
     <Element collapsed="0" type="model" name="Fence Swags 19 {DRB}" visible="0"/>
     <Element collapsed="0" type="model" name="Fence Swags 20 {RF}" visible="0"/>
     <Element collapsed="0" type="model" name="Fence Swags 21 {RB}" visible="0"/>
-    <Element collapsed="0" type="model" name="Nativity Shephards" visible="0"/>
+    <Element collapsed="0" type="model" name="Nativity Shepherds" visible="0"/>
     <Element collapsed="0" type="model" name="Nativity Wisemen" visible="0"/>
     <Element collapsed="0" type="model" name="Trees- Willow and Palm (GW)" visible="0"/>
     <Element collapsed="0" type="model" name="Elf Singer" visible="1"/>
@@ -472,7 +454,7 @@
     <Element collapsed="0" type="model" name="Tree- Mini Pixel 6" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Mini Pixel 7" visible="0"/>
     <Element collapsed="0" type="model" name="Tree- Mini Pixel 8 Right" visible="0"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Row A By Tree (RGB)" visible="0"/>
+    <Element collapsed="0" type="model" name="Trees- Tomato Row B By Tree 1-8 (RGB)" visible="0"/>
   </DisplayElements>
   <ElementEffects>
     <Element type="model" name="Pixels- ALL">
@@ -510,9 +492,6 @@
         <Effect ref="11" name="VU Meter" id="10" startTime="25700" endTime="30800" palette="6"/>
         <Effect ref="11" name="VU Meter" id="11" startTime="30800" endTime="45650" palette="7"/>
       </EffectLayer>
-    </Element>
-    <Element type="model" name="Bushes">
-      <EffectLayer/>
     </Element>
     <Element type="model" name="Trees">
       <EffectLayer/>
@@ -6273,7 +6252,7 @@
         <Effect ref="43" name="SingleStrand" id="7" startTime="131700" endTime="132500" palette="11"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Trees- Tomato Row A By Tree (RGBW)">
+    <Element type="model" name="Trees- Tomato Row B By Tree 1-8 (RGBW)">
       <EffectLayer>
         <Effect ref="44" name="SingleStrand" startTime="150" endTime="850" palette="21"/>
         <Effect ref="44" name="SingleStrand" id="1" startTime="850" endTime="1350" palette="21"/>
@@ -6796,7 +6775,7 @@
         <Effect ref="52" name="Morph" id="45" startTime="145650" endTime="146300" palette="4"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Trees- Tomato Row B By Tree (VW)">
+    <Element type="model" name="Trees- Tomato Row C By Tree 1-8 (VW)">
       <EffectLayer>
         <Effect ref="41" name="On" startTime="150" endTime="350" palette="21"/>
         <Effect ref="41" name="On" id="1" startTime="2450" endTime="2800" palette="21"/>
@@ -7046,15 +7025,6 @@
         <Effect ref="6" name="Off" id="20" startTime="148250" endTime="156200" palette="5"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Trees- Tomato Bll Groups Group (RGBWVW)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Spiral Group (WWWG)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tinsel Group (R)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Trees- Others Group">
       <EffectLayer/>
     </Element>
@@ -7152,7 +7122,7 @@
         <Effect ref="56" name="On" id="6" startTime="142400" endTime="146300" palette="25"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Tree- Small {L} (B)">
+    <Element type="model" name="Tree- Small Purple- Dark (V)">
       <EffectLayer>
         <Effect ref="56" name="On" startTime="18500" endTime="22350" palette="25"/>
         <Effect ref="56" name="On" id="1" startTime="39100" endTime="43050" palette="25"/>
@@ -7175,9 +7145,6 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Trees- Rainbow (ROYGBV)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="House Front and the Roof">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Big Festive Wreath (RG)">
@@ -7358,9 +7325,6 @@
         <Effect ref="55" name="VU Meter" id="39" startTime="141150" endTime="149650" palette="7"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Pine Tree {R} Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Swirlies- Oak (RGB)">
       <EffectLayer>
         <Effect ref="56" name="On" startTime="15850" endTime="18300" palette="25"/>
@@ -7451,12 +7415,6 @@
       </EffectLayer>
     </Element>
     <Element type="model" name="Religious Group">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Swirlies Spinny Group (M)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Snow Group">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Oddballs Group">
@@ -8644,7 +8602,7 @@
         <Effect ref="0" name="On" id="2" startTime="145700" endTime="153450" palette="25"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Snowman (W)">
+    <Element type="model" name="Snowmen (W)">
       <EffectLayer>
         <Effect ref="56" name="On" startTime="2350" endTime="2750" palette="25"/>
         <Effect ref="56" name="On" id="1" startTime="4950" endTime="5250" palette="25"/>
@@ -10241,12 +10199,6 @@
     <Element type="model" name="Trees- Rainbow 1 {T} (R)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Roof Ridgeline 1 {L} (RGB)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Roof Ridgeline 2 {R} (RGB)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="UFOs 1 {L} (RGB)">
       <EffectLayer>
         <Effect ref="56" name="On" startTime="15850" endTime="18300" palette="25"/>
@@ -10711,7 +10663,7 @@
         <Effect ref="0" name="On" id="47" startTime="137300" endTime="138600" palette="25"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Tree- Spiral 2 {F} (WG)">
+    <Element type="model" name="Tree- Spiral 2 {R} (WG)">
       <EffectLayer>
         <Effect ref="41" name="On" startTime="10850" endTime="11150" palette="25"/>
         <Effect ref="56" name="On" id="1" startTime="11150" endTime="11500" palette="25"/>
@@ -10733,7 +10685,7 @@
         <Effect ref="0" name="On" id="17" startTime="17950" endTime="18250" palette="25"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Tree- Spiral 1 {L} (WR)">
+    <Element type="model" name="Tree- Spiral 1 {B} (WR)">
       <EffectLayer>
         <Effect ref="56" name="On" startTime="18500" endTime="22350" palette="25"/>
         <Effect ref="56" name="On" id="1" startTime="39100" endTime="43050" palette="25"/>
@@ -10744,7 +10696,7 @@
         <Effect ref="56" name="On" id="6" startTime="142400" endTime="146300" palette="25"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Tree- Spiral 3 {R} (WB)">
+    <Element type="model" name="Tree- Spiral 3 {F} (WB)">
       <EffectLayer>
         <Effect ref="0" name="On" startTime="22450" endTime="23750" palette="25"/>
         <Effect ref="41" name="On" id="1" startTime="25050" endTime="26300" palette="25"/>
@@ -12089,30 +12041,6 @@
     <Element type="model" name="Candy Canes 4 (G)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Trees- Tomato Row A  B By Color">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato B 1 Red Group (R)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato B 2 Grn Group (G)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato B 3 Blu Group (B)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato B 4 Wht Group (W)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato C Vio Group">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato C Wht Group">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato B+B Wht Indiv Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Rotating Beacons {All} (RGBO)">
       <EffectLayer>
         <Effect ref="56" name="On" startTime="79250" endTime="82600" palette="25"/>
@@ -12386,7 +12314,7 @@
     <Element type="model" name="Fence Swags 21 {RB}">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Nativity Shephards">
+    <Element type="model" name="Nativity Shepherds">
       <EffectLayer>
         <Effect ref="41" name="On" startTime="1000" endTime="1800" palette="25"/>
         <Effect ref="56" name="On" id="1" startTime="1800" endTime="149800" palette="25"/>
@@ -13261,7 +13189,7 @@
         <Effect ref="52" name="Morph" id="45" startTime="145650" endTime="146300" palette="4"/>
       </EffectLayer>
     </Element>
-    <Element type="model" name="Trees- Tomato Row A By Tree (RGB)">
+    <Element type="model" name="Trees- Tomato Row B By Tree 1-8 (RGB)">
       <EffectLayer/>
       <EffectLayer>
         <Effect ref="44" name="SingleStrand" startTime="5350" endTime="6000" palette="21"/>

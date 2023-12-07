@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
-    <version>2023.18</version>
+    <version>2023.19</version>
     <author></author>
     <author-email></author-email>
     <author-website></author-website>
@@ -48,10 +48,6 @@
     <Element collapsed="0" type="timing" name="Segments" visible="1" views="Pixel Props" active="0"/>
     <Element collapsed="0" type="timing" name="Tempo Changes" visible="1" views="Pixel Props" active="0"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A1 Group (RGBW)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B 1 Red Group (R)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B 2 Grn Group (G)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B 3 Blu Group (B)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B 4 Wht Group (W)" visible="1"/>
     <Element collapsed="0" type="model" name="Eaves Chase (RGBW)" visible="1"/>
     <Element collapsed="0" type="model" name="Eave Pixels- All" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A2 Group (RGBW)" visible="1"/>
@@ -61,8 +57,6 @@
     <Element collapsed="0" type="model" name="Tree- Tomato A6 Group (RGBW)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A7 Group (RGBW)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A8 Group (RGBW)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato C Wht Group" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato C Vio Group" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato B1 Group (VW)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato B3 Group (VW)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato B4 Group (VW)" visible="1"/>
@@ -70,13 +64,7 @@
     <Element collapsed="0" type="model" name="Tree- Tomato B6 Group (VW)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato B7 Group (VW)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato B8 Group (VW)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato B+B Wht Indiv Group" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Row A By Tree (RGBW)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Row B By Tree (VW)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Bll Groups Group (RGBWVW)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato B2 Group (VW)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Spiral Group (WWWG)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tinsel Group (R)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 3 {C} (RGBW)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 2 {L} (MWO)" visible="1"/>
     <Element collapsed="0" type="model" name="Bushes 5 {R} (RGBWVM)" visible="1"/>
@@ -104,7 +92,6 @@
     <Element collapsed="0" type="model" name="Bushes" visible="1"/>
     <Element collapsed="0" type="model" name="Trees- Others Group" visible="1"/>
     <Element collapsed="0" type="model" name="Oddballs Group" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Row A  B By Color" visible="1"/>
     <Element collapsed="0" type="model" name="Swirlies Spinny Group (M)" visible="1"/>
     <Element collapsed="0" type="model" name="Lasers Group" visible="1"/>
     <Element collapsed="0" type="model" name="Candy Canes Seq Group (RGRG)" visible="1"/>
@@ -166,7 +153,6 @@
     <Element collapsed="0" type="model" name="Snowflake Arms" visible="1"/>
     <Element collapsed="0" type="model" name="Snowflake Rings" visible="1"/>
     <Element collapsed="0" type="model" name="Snowflake Tips" visible="1"/>
-    <Element collapsed="0" type="model" name="Snowflakes All (Small + Big)" visible="1"/>
     <Element collapsed="0" type="model" name="Grinch with Pic" visible="1"/>
     <Element collapsed="0" type="model" name="{Reference Indicators}" visible="1"/>
     <Element collapsed="0" type="model" name="Bells" visible="1"/>
@@ -188,8 +174,6 @@
     <Element collapsed="0" type="model" name="Tree- Tomato A6 Group (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A7 Group (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Tree- Tomato A8 Group (RGB)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Row A By Tree (RGB)" visible="1"/>
-    <Element collapsed="0" type="model" name="Trees- Tomato Row A As String (RGB)" visible="1"/>
     <Element collapsed="0" type="model" name="Flakes Arms GRP" visible="1"/>
     <Element collapsed="0" type="model" name="Spinners Mint 1-8 (22in Big) Outlines" visible="1"/>
     <Element collapsed="0" type="model" name="Spinners Mint 1-8 (22in Big) Rings" visible="1"/>
@@ -524,12 +508,8 @@
     <Element collapsed="0" type="model" name="Spinner Mint 06 (22in Big) Pic" visible="1"/>
     <Element collapsed="0" type="model" name="Spinner Mint 07 (22in Big) Pic" visible="1"/>
     <Element collapsed="0" type="model" name="Grinch" visible="1"/>
-    <Element collapsed="0" type="model" name="Star- Triple 1.3 Outer {L}" visible="1"/>
     <Element collapsed="0" type="model" name="Star- Triple 1.2 Middle {L}" visible="1"/>
-    <Element collapsed="0" type="model" name="Star- Triple 1.1 Inner {L}" visible="1"/>
-    <Element collapsed="0" type="model" name="Star- Triple 2.1 Inner {R}" visible="1"/>
     <Element collapsed="0" type="model" name="Star- Triple 2.2 Middle {R}" visible="1"/>
-    <Element collapsed="0" type="model" name="Star- Triple 2.3 Outer {R}" visible="1"/>
     <Element collapsed="0" type="model" name="Ornament- Star 1" visible="1"/>
     <Element collapsed="0" type="model" name="Ships Wheel" visible="1"/>
     <Element collapsed="0" type="model" name="Snowflake 5 Big" visible="1"/>
@@ -11078,7 +11058,6 @@
     </Element>
     <Element type="timing" name="Chords">
       <EffectLayer>
-        <Effect label="; Treble_A; Treble_C#-Db; Middle_E; Treble_G" startTime="0" endTime="0"></Effect>
         <Effect label="Middle_G; Middle_G; Treble_B; Treble_D; Treble_G" startTime="0" endTime="2375"></Effect>
         <Effect label="Bass_F#-Gb; Treble_A; Treble_D; Treble_F#-Gb" startTime="2375" endTime="4175"></Effect>
         <Effect label="Bass_F; Bass_F; Treble_A; Treble_C; Treble_D; Middle_F" startTime="4175" endTime="7675"></Effect>
@@ -12728,16 +12707,6 @@
     </Element>
     <Element type="timing" name="Note Onsets">
       <EffectLayer>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
         <Effect label="11" startTime="2375" endTime="2500"></Effect>
         <Effect label="16" startTime="4175" endTime="4300"></Effect>
         <Effect label="29" startTime="7675" endTime="7800"></Effect>
@@ -13696,14 +13665,6 @@
     </Element>
     <Element type="timing" name="Polyphonic Transcription">
       <EffectLayer>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
-        <Effect label="" startTime="0" endTime="0"></Effect>
         <Effect label="Low_F#-Gb" startTime="0" endTime="2375"></Effect>
         <Effect label="Middle_C#-Db" startTime="2375" endTime="4175"></Effect>
         <Effect label="Middle_B" startTime="7675" endTime="8100"></Effect>
@@ -16256,18 +16217,6 @@
     <Element type="model" name="Tree- Tomato A1 Group (RGBW)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Trees- Tomato B 1 Red Group (R)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato B 2 Grn Group (G)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato B 3 Blu Group (B)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato B 4 Wht Group (W)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Eaves Chase (RGBW)">
       <EffectLayer/>
     </Element>
@@ -16297,12 +16246,6 @@
     <Element type="model" name="Tree- Tomato A8 Group (RGBW)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Trees- Tomato C Wht Group">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato C Vio Group">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Tree- Tomato B1 Group (VW)">
       <EffectLayer/>
     </Element>
@@ -16324,25 +16267,7 @@
     <Element type="model" name="Tree- Tomato B8 Group (VW)">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Trees- Tomato B+B Wht Indiv Group">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato Row A By Tree (RGBW)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato Row B By Tree (VW)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato Bll Groups Group (RGBWVW)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Tree- Tomato B2 Group (VW)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Spiral Group (WWWG)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tinsel Group (R)">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Bushes 3 {C} (RGBW)">
@@ -16424,9 +16349,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Oddballs Group">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato Row A  B By Color">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Swirlies Spinny Group (M)">
@@ -16612,9 +16534,6 @@
     <Element type="model" name="Snowflake Tips">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Snowflakes All (Small + Big)">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Grinch with Pic">
       <EffectLayer/>
     </Element>
@@ -16676,12 +16595,6 @@
       <EffectLayer/>
     </Element>
     <Element type="model" name="Tree- Tomato A8 Group (RGB)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato Row A By Tree (RGB)">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Trees- Tomato Row A As String (RGB)">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Flakes Arms GRP">
@@ -17697,22 +17610,10 @@
     <Element type="model" name="Grinch">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Star- Triple 1.3 Outer {L}">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Star- Triple 1.2 Middle {L}">
       <EffectLayer/>
     </Element>
-    <Element type="model" name="Star- Triple 1.1 Inner {L}">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Star- Triple 2.1 Inner {R}">
-      <EffectLayer/>
-    </Element>
     <Element type="model" name="Star- Triple 2.2 Middle {R}">
-      <EffectLayer/>
-    </Element>
-    <Element type="model" name="Star- Triple 2.3 Outer {R}">
       <EffectLayer/>
     </Element>
     <Element type="model" name="Ornament- Star 1">
