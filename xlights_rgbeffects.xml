@@ -3445,7 +3445,7 @@
     <modelGroup selected="0" name="Snow Lake with Deer (W)" LayoutGroup="Default" models="Snow Lake (W),Deer 1,Deer 2" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="white">
       <ControllerConnection/>
     </modelGroup>
-    <modelGroup selected="0" GridSize="400" layout="minimalGrid" LayoutGroup="Default" name="Trees" models="Trees- Tomato All Groups Group (RGBWVW),Trees- Spiral 1-4 (WWWG),Trees- Tinsel 1 + 2 (R),Trees- Others Group,Presents (M)">
+    <modelGroup selected="0" LayoutGroup="Default" name="Trees" models="Trees- Tomato All Groups Group (RGBWVW),Trees- Pencil 1-16 (Multi),Trees- Spiral 1-4 (WWWG),Trees- Tinsel 1 + 2 (R),Trees- Others Group,Presents (M)" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black">
       <ControllerConnection/>
     </modelGroup>
     <modelGroup selected="0" name="Trees- Rainbow (ROYGBV)" layout="minimalGrid" GridSize="400" LayoutGroup="Default" models="Trees- Rainbow 1 {T} (R),Trees- Rainbow 2 (O),Trees- Rainbow 3 (Y),Trees- Rainbow 4 (G),Trees- Rainbow 5 (B),Trees- Rainbow 6 {B} (V)"/>
